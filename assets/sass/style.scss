@@ -1,6 +1,7 @@
 $break-large: 1080px;
 $break-xlarge: 1080px;
 $teal: #49696c;
+$steel: #626074;
 
 html, body {
   height: 100%;
@@ -20,6 +21,16 @@ body {
 
 .nav-item.active {
   display: none
+}
+
+span.arrow-down {
+  display: block;
+  border: solid $steel;
+  border-width: 0 8px 8px 0;
+  width: 0px;
+  padding: 8px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 #pg2 {
@@ -144,7 +155,7 @@ body {
 
         h3 {
           width: 100%;
-          color: #626074;
+          color: $steel;
           font-size: 200%;
         }
 
@@ -190,7 +201,7 @@ body {
             display: inline-block;
             max-width: 80%;
             color: #789;
-            font-size: 125%;
+            font-size: 200%;
           }
 
           img {

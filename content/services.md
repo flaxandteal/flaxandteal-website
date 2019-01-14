@@ -1,7 +1,7 @@
 ---
 title: "Services"
 date: 2018-12-26T10:41:23Z
-draft: true
+draft: false
 menu: "main"
 ---
 # Services
@@ -12,7 +12,12 @@ Flax & Teal is a consultancy focused on openly-licensed technologies, serving pu
 
 _Flax & Teal builds tools for private and public sector including publicly-shared, reusable parts - these are often web platforms providing behind-the-scenes analysis of open data, geography and physics._
 
-F&T is also part of a multidisciplinary consortium of small businesses in Northern Ireland: [Avata Industries](https://avata.industries), which together build openly-licensed products.
+F&T is also part of a multidisciplinary consortium of small businesses in Northern Ireland: [Avata Industries](https://avata.industries),
+which together build openly-licensed products.
+
+<hr/>
+
+<span class="arrow-down"></span>
 
 ## R&amp;D Software Development
 
