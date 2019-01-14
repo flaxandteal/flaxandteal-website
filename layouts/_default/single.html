@@ -3,8 +3,8 @@
   <head>
     <title>Flax &amp; Teal Limited</title>
      <meta charset="UTF-8"/>
-    <link rel='stylesheet' href='fonts/league-gothic/stylesheet.css' />
-    <link rel='stylesheet' href='fonts/league-spartan/stylesheet.css' />
+    <link rel='stylesheet' href='{{ .Site.BaseURL }}fonts/league-gothic/stylesheet.css' />
+    <link rel='stylesheet' href='{{ .Site.BaseURL }}fonts/league-spartan/stylesheet.css' />
     {{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
   </head>
@@ -13,7 +13,7 @@
       <div id='pg2-child'>
         <div id='pg2-menu'>
             <div id='pg2-logo'>
-                <img src='images/logo.png' />
+                <img src='{{ .Site.BaseURL }}images/logo.png' />
             </div>
             <div id='pg2-items'>
               <nav class="sidebar-nav">
@@ -26,8 +26,8 @@
                   <li><span>Science</span></li>
                   <li><span>Technology</span></li>
                   <li><span>International</span></li>
-                  <li><a href="https://twitter.com/flaxandteal"><img src='images/Twitter_Logo_Blue.png' /><span>[@flaxandteal]</span></a></li>
-                  <li><a href="https://github.com/flaxandteal"><img src='images/GitHub-Mark-64px.png' /><span>[github/flaxandteal]</span></a></li>
+                  <li><a href="https://twitter.com/flaxandteal"><img src='{{ .Site.BaseURL }}images/Twitter_Logo_Blue.png' /><span>[@flaxandteal]</span></a></li>
+                  <li><a href="https://github.com/flaxandteal"><img src='{{ .Site.BaseURL }}images/GitHub-Mark-64px.png' /><span>[github/flaxandteal]</span></a></li>
                 </ul>
               </nav>
             </div>

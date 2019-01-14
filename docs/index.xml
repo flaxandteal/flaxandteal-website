@@ -2,13 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flax &amp;amp; Teal</title>
-    <link>http://flaxandteal.co.uk/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Flax &amp;amp; Teal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 26 Dec 2018 10:41:23 +0000</lastBuildDate>
     
-	<atom:link href="http://flaxandteal.co.uk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Training</title>
+      <link>http://localhost:1313/training/</link>
+      <pubDate>Wed, 26 Dec 2018 10:41:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/training/</guid>
+      <description>test</description>
+    </item>
     
   </channel>
 </rss>

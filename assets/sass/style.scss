@@ -1,5 +1,6 @@
 $break-large: 1080px;
 $break-xlarge: 1080px;
+$teal: #49696c;
 
 html, body {
   height: 100%;
@@ -8,13 +9,13 @@ html, body {
 body {
   display: flex;
 
-  font-size: 35px;
   @media screen and (min-width: $break-large) {
     font-size: 14px;
   }
 }
 
 .nav-item {
+  display: none
 }
 
 .nav-item.active {
@@ -112,6 +113,9 @@ body {
       #pg2-title {
         position: relative;
         padding-top: 2%;
+        width: 50%;
+        min-width: 400px;
+        text-align: center;
         display: inline-block;
         font-family: "League Spartan";
         font-size: 70%;
@@ -128,6 +132,39 @@ body {
           .highlight {
             color: #a58f67;
           font-size: 70%;
+          }
+        }
+
+        h2 {
+          width: 100%;
+          padding-top: 10%;
+          color: #a58f67;
+          font-size: 300%;
+        }
+
+        h3 {
+          width: 100%;
+          color: #626074;
+          font-size: 200%;
+        }
+
+        a {
+          color: $teal;
+        }
+
+        p {
+          max-width: 70%;
+          display: inline-block;
+          text-align: left;
+          font-size: 150%;
+
+          em {
+            font-size: 120%;
+            color: $teal;
+          }
+
+          &.info {
+            text-align: center;
           }
         }
 
