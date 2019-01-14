@@ -44,7 +44,6 @@ span.arrow-down {
     background-size: 2000px;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 1300px;
 
     #pg2-menu {
       padding-top: 20px;
@@ -115,13 +114,15 @@ span.arrow-down {
     }
 
     #pg2-body {
-      padding-bottom: 100%;
+      padding-bottom: 0%;
       @media screen and (min-width: $break-large) {
-        padding-bottom: 42%;
+        padding-bottom: 0%;
       }
       text-align: center;
 
       #pg2-title {
+        background: white;
+        border-radius: 50px 50px;
         position: relative;
         padding-top: 2%;
         width: 50%;
@@ -138,7 +139,7 @@ span.arrow-down {
         h1 {
           width: 100%;
           color: #49696c;
-          font-size: 500%;
+          font-size: 800%;
 
           .highlight {
             color: #a58f67;
