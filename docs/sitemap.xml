@@ -3,23 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/training/</loc>
-    <lastmod>2018-12-26T10:41:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://flaxandteal.co.uk/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2018-12-26T10:41:23+00:00</lastmod>
+    <loc>https://flaxandteal.co.uk/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://flaxandteal.co.uk/tags/</loc>
     <priority>0</priority>
   </url>
   
