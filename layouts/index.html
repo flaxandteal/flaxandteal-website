@@ -16,22 +16,7 @@
                 <img src='images/logo.png' />
             </div>
             <div id='pg2-items'>
-              <nav class="sidebar-nav">
-                <ul>
-                  {{ $currentPage := . }}
-                  {{ range .Site.Menus.main }}
-                  <li><a class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a></li>
-                  {{ end }}
-
-                  <li><span>Science</span></li>
-                  <li><span>Technology</span></li>
-                  <li><span>International</span></li>
-                </ul>
-                <ul>
-                  <li><a href="https://twitter.com/flaxandteal"><span class="twitter">[@flaxandteal]</span></a></li>
-                  <li><a href="https://github.com/flaxandteal"><span class="github">[github/flaxandteal]</span></a></li>
-                </ul>
-              </nav>
+                {{ partial "nav.html" . }}
             </div>
         </div>
         <div id='pg2-body'>

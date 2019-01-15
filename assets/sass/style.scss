@@ -1,3 +1,4 @@
+$break-small: 620px;
 $break-large: 1080px;
 $break-xlarge: 1080px;
 $teal: #49696c;
@@ -151,8 +152,10 @@ span.github {
         position: relative;
         padding-top: 2%;
         padding-bottom: 2%;
-        width: 50%;
-        min-width: 600px;
+        @media screen and (min-width: $break-small) {
+          width: 50%;
+          min-width: 600px;
+        }
         text-align: center;
         display: inline-block;
         font-family: "League Spartan";
