@@ -33,6 +33,24 @@ span.arrow-down {
   -webkit-transform: rotate(45deg);
 }
 
+span.twitter {
+  padding-left: 30px;
+  background: black;
+  background: url('../images/Twitter_Logo_Blue.png');
+  background-size: 30px 30px;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+}
+
+span.github {
+  padding-left: 30px;
+  background: black;
+  background: url('../images/GitHub-Mark-64px.png');
+  background-size: 25px 25px;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+}
+
 #pg2 {
 
   width: 100%;
@@ -72,7 +90,7 @@ span.arrow-down {
         @media screen and (min-width: $break-large) {
           text-align: left;
         }
-        ul {
+        nav {
           display: inline-block;
           left: 0px;
           width: 100%;
@@ -82,6 +100,12 @@ span.arrow-down {
           color: #49696c;
           font-size: 150%;
           padding-left: 0px;
+
+          ul {
+            display: inline-block;
+            padding: 0px 0px 0px 0px;
+            margin-bottom: 0px;
+          }
 
           li {
             text-align: left;
@@ -126,8 +150,9 @@ span.arrow-down {
         border-radius: 50px 50px;
         position: relative;
         padding-top: 2%;
+        padding-bottom: 2%;
         width: 50%;
-        min-width: 400px;
+        min-width: 600px;
         text-align: center;
         display: inline-block;
         font-family: "League Spartan";
