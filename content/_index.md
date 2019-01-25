@@ -1,5 +1,5 @@
 ---
-title: "Flax & Teal Limited"
+title: "Home"
 date: 2018-12-21T14:10:03Z
 draft: false
 menu: "main"
