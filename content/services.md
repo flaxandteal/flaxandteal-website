@@ -15,6 +15,8 @@ _Flax & Teal builds tools for private and public sector including publicly-share
 F&T is also part of a multidisciplinary consortium of small businesses in Northern Ireland: [Avata Industries](https://avata.industries),
 which together build openly-licensed products.
 
+With our mix of industry and academic computing experience, we are well-placed to support complex R&amp;D subcontracts, including general and specialist development on **Horizon 2020** and **InnovateUK** projects.
+
 <hr/>
 
 <span class="arrow-down"></span>
@@ -31,7 +33,7 @@ Flax &amp; Teal has in-house experience supporting projects funded under EU and 
 
 We work with organizations in the UK, Ireland, continental EU and Australasia.
 
-_Sustainably Open: we contribute non-commercially sensitive code back to projects we build on top of, where relevant, and are keen to work with clients open to this principle._
+_Sustainably open: we contribute non-commercially sensitive code back to projects we build on top of, where relevant, and are keen to work with clients open to this principle._
 
 ## Cloud &amp; Infrastructure
 
