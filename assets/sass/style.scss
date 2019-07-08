@@ -141,9 +141,9 @@ span.github {
     }
 
     #pg2-body {
-      padding-bottom: 0%;
+      padding-bottom: 10px;
       @media screen and (min-width: $break-large) {
-        padding-bottom: 0%;
+        padding-bottom: 10px;
       }
       text-align: center;
 
@@ -241,6 +241,18 @@ span.github {
           }
         }
       }
+    }
+
+    #pg2-footer {
+      background: white;
+      color: $steel;
+      min-height: 40px;
+      font-size: 0.7em;
+      @media screen and (min-width: $break-small) {
+        font-size: 1.0em;
+      }
+      padding-top: 5px;
+      font-family: "League Spartan";
     }
   }
 }
