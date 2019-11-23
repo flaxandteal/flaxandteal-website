@@ -25,15 +25,17 @@ With our mix of industry and academic computing experience, we are well-placed t
 
 ### Web | Data | Engineering | Science
 
-<sub>Recommended project budget: £20,000 - £200,000 (ex VAT)</sub>
+<sub>Prototype builds starting from £20,000 (ex VAT)<br/>Solely or as a collaborative lead, F&amp;T regularly runs five and six figure new-tech, multidisciplinary projects.</sub>
 
-Flax &amp; Teal has coordinated and driven a number of complex client projects since 2013, and supported others. We can build complex applications ourselves or, for large projects, draw together a multidisciplinary team from across the Avata Industries group.
+Flax &amp; Teal has coordinated and driven a number of complex client projects across technologies since 2013, and supported others. We build intricate applications ourselves or, for large projects, draw together a multidisciplinary team from across the Avata Industries group.
 
 Flax &amp; Teal has in-house experience supporting projects funded under EU and InnovateUK R&amp;D frameworks; coordination of work packages involving training, software development, data analysis, focus groups and design.
 
+We have experience in health, enterprise, numerical simulation, engineering, journalism, public and education sectors, amongst others.
+
 We work with organizations in the UK, Ireland, continental EU and Australasia.
 
-_Sustainably open: we contribute non-commercially sensitive code back to projects we build on top of, where relevant, and are keen to work with clients open to this principle._
+_Sustainably open: we contribute non-commercially-sensitive code back to projects we build on top of, where relevant, and are keen to work with clients open to this principle._
 
 ## Cloud &amp; Infrastructure
 
