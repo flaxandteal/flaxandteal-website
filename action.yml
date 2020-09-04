@@ -1,0 +1,2 @@
+- name: Hugo Actions
+  uses: srt32/hugo-action@v0.0.3
