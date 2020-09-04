@@ -14,7 +14,7 @@ _Our full-scale projects involve designers, media &amp; communications specialis
 
 This is a selection of our **public** R&amp;D work. If you have specific questions about our private experience in a specific area, such as data gathering, IoT or training, please contact us directly at [info@flaxandteal.co.uk](mailto:info@flaxandteal.co.uk)
 
-For more information on larger, consortium-based projects, please contact us or visit [Avata Industries](avata.industries) to find out more about our open source collaborators.
+For more information on larger, consortium-based projects, please contact us or visit [Avata Industries](https://avata.industries/) to find out more about our open source collaborators.
 
 <hr/>
 
@@ -38,7 +38,7 @@ Explanatory material linking students to the physical reasons such events do not
 
 ### Open data validation
 
-Flax &amp; Teal is a key consortium member in the [Lintol](lintol.io) project, providing support for tendering, administrative needs, back-end development, infrastructure and data science.
+Flax &amp; Teal is a key consortium member in the [Lintol](https://lintol.io/) project, providing support for tendering, administrative needs, back-end development, infrastructure and data science.
 
 _Lintol is an open data validating tool, much like a grammar checker for open data (data which everyone can access, use or share)._
 
@@ -48,7 +48,7 @@ The Lintol project works with existing open data platforms, linking into existin
 
 ## The Data Times
 
-Flax &amp; Teal is the lead consortium member for [The Data Times](https://newsinitiative.withgoogle.com/dnifund/dni-projects/data-times/) in a joint [Avata Industries](avata.industries) / [VIEWdigital](viewdigital.org) project to build a data discovery tool for community journalists to help lower the bar to well-grounded data and accountability journalism.
+Flax &amp; Teal is the lead consortium member for [The Data Times](https://thedatatimes.com/) in a joint [Avata Industries](https://avata.industries/) / [VIEWdigital](viewdigital.org) project to build a data discovery tool for community journalists to help lower the bar to well-grounded data and accountability journalism.
 
 
 _The Data Times will be a simple, clean tool for journalists to started with data-driven journalism, discovering data focused to their area, guiding them through the first steps of a visually-engaging, data-grounded argument._
