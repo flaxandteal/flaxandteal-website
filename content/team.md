@@ -18,12 +18,13 @@ Sarah works with our clients and stakeholders to provide quality assurance and t
 Alana works as a junior data analyst within Flax &amp; Teal, along with carrying out a lot of our day-to-day duties as a company. Alana has a background in social science with quantative methods and empirical research.
 Alana also handles a lot of our social media contact!
 
-### Ronan Lewsley | Junior Developer
+### Ronan Lewsley | Developer Intern
 
 Ronan started as an intern on his placement year during university, and decided to stay at Flax &amp; Teal part-time during his studies! Ronan is currently studying a degree in computer science, and has worked with many software languages, such as Python,
 Java, HTML and more.
 
-### Kathleen Mallon | Junior Developer 
+### Kathleen Mallon | Developer Intern 
 
 Kathleen came to Flax &amp; Teal on a summer placement before starting back at university and also decided to stay with us during her degree! Kathleen is studying a computer science degree, and has experience in Kubernetes, Python and more.
 Kathleen is also a STEM ambassador, member of BLUG, and co-founder of the Computing Society at Ulster University. 
+
