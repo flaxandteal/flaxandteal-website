@@ -7,7 +7,7 @@ menu: "main"
 
 # Flax &amp; Teal
 
-## open technologies
+## open technologies / innovation / sustainability
 
 ### data science // cloud // numerics // engineering
 
