@@ -9,7 +9,9 @@ menu: "main"
 
 ## open technologies / innovation / sustainability
 
-### data science // cloud // numerics // engineering
+# What We Do
 
-find out more via the <a href='services'>Services page</a>,<br/>our social media links above, or from<br/>
+### data science // cloud // numerics // engineering &amp; more 
+
+find out more via the <a href='http://www.flaxandteal.co.uk/services/'>Services page</a>,<br/>our social media links above, or from<br/>
 <a href='mailto:info@flaxandteal.co.uk'>info@flaxandteal.co.uk</a></p>
