@@ -54,3 +54,7 @@ Flax &amp; Teal is the lead consortium member for [The Data Times](https://theda
 _The Data Times will be a simple, clean tool for journalists to started with data-driven journalism, discovering data focused to their area, guiding them through the first steps of a visually-engaging, data-grounded argument._
 
 This project is in prototype phase, and we are keen to engage with any potential stakeholders. Please do contact us if you have an interest in this or any of the other products above.
+
+## Testimonials 
+
+Flax & Teal partnered with Deloitte to build an enterprise-level data gathering Human Resources platform. The digital transformation project changed the way resources are managed by quantifying time allocated to various departments. This project involved an iterative Agile, full stack build and development of cloud infrastructure. The team deployed Kubernetes to ensure flexibility and resilience of service.
