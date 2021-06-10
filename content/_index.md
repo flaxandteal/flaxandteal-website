@@ -17,4 +17,4 @@ find out more via the <a href='http://www.flaxandteal.co.uk/services/'>Services 
 <a href='mailto:info@flaxandteal.co.uk'>info@flaxandteal.co.uk</a></br> <a href='http://www.flaxandteal.co.uk/team'>Meet the team!</a>
 
 ## Testimonials 
-Flax & Teal partnered with Deloitte to build an enterprise-level data gathering Human Resources platform. The digital transformation project changed the way resources are managed by quantifying time allocated to various departments. This project involved an iterative Agile, full stack build and development of cloud infrastructure. The team deployed Kubernetes to ensure flexibility and resilience of service.
+Flax & Teal partnered with Deloitte to build an enterprise-level data gathering Human Resources platform. The digital transformation project changed the way resources are managed by quantifying time allocated to various departments. This project involved an iterative Agile, full stack build and development of cloud infrastructure. The team deployed Kubernetes to ensure flexibility and resilience of service. Dog 
