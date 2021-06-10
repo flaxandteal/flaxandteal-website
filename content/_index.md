@@ -14,4 +14,4 @@ menu: "main"
 ### data science // cloud // numerics // engineering &amp; more 
 
 find out more via the <a href='http://www.flaxandteal.co.uk/services/'>Services page</a>,<br/>our social media links above, or from<br/>
-<a href='mailto:info@flaxandteal.co.uk'>info@flaxandteal.co.uk</a></p><p><a href='http://www.flaxandteal.co.uk./team/'>Meet the team!</a></p></br>
+<a href='mailto:info@flaxandteal.co.uk'>info@flaxandteal.co.uk</a></p> <p><a href='https://www.flaxandteal.co.uk/team'>Meet the team!</a></p>
