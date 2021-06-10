@@ -10,7 +10,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 ### Sarah Byrne | Product Manager 
 
-Sarah is product manager at Flax &amp; Teal Ltd., and has a background in recruitment and educational research. Sarah has an extensive educational and research background in philosophy of science, history, and empirical research.
+Sarah is product manager at Flax &amp; Teal Ltd., and has a background in recruitment and academia. Sarah has an extensive research background in philosophy of science, history, and educational research.
 Sarah works with our clients and stakeholders to provide quality assurance and to ensure things run smoothly. 
 
 ### Alana Murphy | Junior Data Analysis
