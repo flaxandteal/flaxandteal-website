@@ -28,7 +28,11 @@ Java, HTML and more.
 Kathleen came to Flax &amp; Teal on a summer placement before starting back at university and also decided to stay with us during her degree! Kathleen is studying a computer science degree, and has experience in Kubernetes, Python and more.
 Kathleen is also a STEM ambassador, member of BLUG, and co-founder of the Computing Society at Ulster University. 
 
-### Andrea Kyurchiev | Mid-Entry Developer 
+### Andrea Kyurchiev | Junior Developer 
 
 Andrea recently joined Flax &amp; Teal as a free-lance consultant, before coming to work with us full-time. He has experience working with PHP, Laravel, JavaScript, VueJS and more! 
+
+### Kanika Miglani | Junior Data Science 
+
+Kanika has recently joined us to add to our machine learning and data science analytics. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and has experience in Python and R!
 
