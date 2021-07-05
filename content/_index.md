@@ -20,7 +20,7 @@ find out more via the [Services](http://flaxandteal.co.uk/services) page,<br/>ou
 ## Testimonials 
 Flax & Teal partnered with Deloitte to build an enterprise-level data gathering Human Resources platform. The digital transformation project changed the way resources are managed by quantifying time allocated to various departments. This project involved an iterative Agile, full stack build and development of cloud infrastructure. The team deployed Kubernetes to ensure flexibility and resilience of service. 
 
-<br> [Boards123](http://boards123.com){:target="_blank" rel="noopener"} innovates Board Performance. We do this with our software, services and training products. 
+<br> [Boards123](http://boards123.com) innovates Board Performance. We do this with our software, services and training products. 
 
 We work with Flax and Teal as our technology partner, as they are experts in transforming complex data and management systems into easy-to-use, highly accessible and intelligent software solutions. 
 
