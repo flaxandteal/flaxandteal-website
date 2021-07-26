@@ -48,7 +48,7 @@ The Lintol project works with existing open data platforms, linking into existin
 
 ## The Data Times
 
-Flax &amp; Teal is the lead consortium member for [The Data Times](https://thedatatimes.com/) in a joint [Avata Industries](https://avata.industries/) / [VIEWdigital](viewdigital.org) project to build a data discovery tool for community journalists to help lower the bar to well-grounded data and accountability journalism.
+Flax &amp; Teal is the lead consortium member for [The Data Times](https://thedatatimes.com/) in a joint [Avata Industries](https://avata.industries/) / [VIEWdigital](viewdigital.org) project to build a data discovery tool for community journalists to help lower the bar to well-grounded data and accountability journalism. We have successfully delivered remote workshops to higher education institutions surrounding open data and using The Data Times for data-driven journalism.
 
 
 _The Data Times will be a simple, clean tool for journalists to started with data-driven journalism, discovering data focused to their area, guiding them through the first steps of a visually-engaging, data-grounded argument._
