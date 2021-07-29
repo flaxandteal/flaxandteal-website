@@ -1,6 +1,6 @@
 # Meet the team!
 
-We have steadily grown our team from 2013 until now, as we continue to expand from Belfast and beyond. We have clients from the UK, Europe and beyond, and our team base has grown to reflect this.
+We have steadily grown our team from 2013 until now, as we continue to expand from Belfast and beyond. We have clients from the UK, Europe and more, and our team base has grown to reflect this.
 
 ### Phil Weir | Founder
 
@@ -15,24 +15,24 @@ Sarah works with our clients and stakeholders to provide quality assurance and t
 
 ### Alana Murphy | Data Analysis
 
-Alana works as a junior data analyst within Flax &amp; Teal, along with carrying out a lot of our day-to-day duties as a company. Alana has a background in social science with quantitative methods and empirical research.
+Alana works as a data analyst within Flax &amp; Teal, along with carrying out a lot of our day-to-day duties as a company. Alana has a background in social science with quantitative methods and empirical research.
 Alana also handles a lot of our social media contact!
 
 ### Ronan Lewsley | Developer 
 
-Ronan joined us on his placement year during university, and decided to stay at Flax &amp; Teal during his studies! Ronan is currently studying a degree in computer science, and has worked with many software languages, such as Python,
-Java, HTML and more.
+Ronan joined us on his placement year during university, and decided to stay at Flax &amp; Teal during his studies. Ronan is currently studying a degree in computer science, and has worked with many software languages, such as Python, Kubernetes,
+Java, HTML/CSS and more.
 
 ### Kathleen Mallon | Developer
 
-Kathleen came to Flax &amp; Teal on a summer placement before starting back at university and also decided to stay with us during her degree! Kathleen is studying a computer science degree, and has experience in Kubernetes, Python and more.
+Kathleen came to Flax &amp; Teal on a summer placement before starting back at university and also decided to stay with us during her degree. Kathleen is studying a computer science degree, and has experience in Kubernetes, Python and more.
 Kathleen is also a STEM ambassador, member of BLUG, and co-founder of the Computing Society at Ulster University. 
 
 ### Andrea Kyurchiev | Developer 
 
-Andrea recently joined Flax &amp; Teal as a free-lance consultant, before coming to work with us full-time. He has experience working with PHP, Laravel, JavaScript, VueJS and more! 
+Andrea recently joined Flax &amp; Teal as a free-lance consultant, before coming to work with us full-time. He has experience working with PHP, Laravel, JavaScript, VueJS and more.
 
 ### Kanika Miglani | Data Science & Analysis
 
-Kanika has recently joined us to add to our machine learning and data science analytics. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and has an experienced background in Python and R!
+Kanika has recently joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and has an experienced background in Python and R.
 
