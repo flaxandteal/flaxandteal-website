@@ -7,11 +7,11 @@ menu: "main"
 
 # Flax &amp; Teal
 
-## open technologies / innovation / sustainability
+## open source / innovation / sustainability
 
 # What We Do
 
-### data science // cloud // numerics // engineering &amp; more 
+### data science // cloud services // numerics // software engineering
 
 find out more via the [Services](http://flaxandteal.co.uk/services) page,<br/>our social media links above, or from<br/>
 <a href='mailto:info@flaxandteal.co.uk'>info@flaxandteal.co.uk</a></br>  
