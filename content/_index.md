@@ -13,10 +13,9 @@ menu: "main"
 
 ### data science // cloud services // numerics // software engineering
 
-Flax & Teal are a Belfast-based consultancy focused on software development, infrastructure, data science and training. Focusing on open data and openly-licensed technologies, we serve public and private sector through web-based products and services. Find out more via the [Services](http://flaxandteal.co.uk/services) page, our social media links above, or from<br/>
-<a href='mailto:info@flaxandteal.co.uk'>info@flaxandteal.co.uk</a></br>  
+Flax & Teal are a Belfast-based consultancy focused on software development, infrastructure, data science and training. Focusing on open data and openly-licensed technologies, we serve public and private sector through web-based products and services. Find out more via the [Services](http://flaxandteal.co.uk/services) page, our social media links above, or from<br/><a href='mailto:info@flaxandteal.co.uk'>info@flaxandteal.co.uk</a></br>  
 
-<br> [Meet the team!](https://flaxandteal.co.uk/team/) </br>
+### <br>[Meet the team!](https://flaxandteal.co.uk/team/)</br>
 
 ## Testimonials 
 Flax & Teal partnered with Deloitte to build an enterprise-level data gathering Human Resources platform. The digital transformation project changed the way resources are managed by quantifying time allocated to various departments. This project involved an iterative Agile, full stack build and development of cloud infrastructure. The team deployed Kubernetes to ensure flexibility and resilience of service. 
