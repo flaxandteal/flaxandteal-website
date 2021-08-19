@@ -13,7 +13,7 @@ menu: "main"
 
 ### data science // cloud services // numerics // software engineering
 
-Flax & Teal are a Belfast-based consultancy, specialising in software development, data science and consultancy. We focus on open data and openly-licensed technologies, serving public and private sector through web-based products and services. Find out more via the [Services](http://flaxandteal.co.uk/services) page, our social media links above, or from<br/>
+Flax & Teal are a Belfast-based consultancy focused on software development, infrastructure, data science and training. Focusing on open data and openly-licensed technologies, we serve public and private sector through web-based products and services. Find out more via the [Services](http://flaxandteal.co.uk/services) page, our social media links above, or from<br/>
 <a href='mailto:info@flaxandteal.co.uk'>info@flaxandteal.co.uk</a></br>  
 
 <br> [Meet the team!](https://flaxandteal.co.uk/team/) </br>
