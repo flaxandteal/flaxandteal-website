@@ -47,6 +47,12 @@ _We have extensive experience working with Linux, Kubernetes and containerizatio
 
 We offer a range of service agreements to maintain, secure and upgrade software over its lifetime, rapidly incorporating security improvements and critical fixes from third-party components on your behalf.
 
+### G-Cloud Approved Supplier 
+
+Flax &amp; Teal are on the G-Cloud 12 framework, allowing us to deliver our services as a Crown Commercial Service supplier. Our position as a G-Cloud 12 supplier allows public sector organizations to benefit from our cloud support services and expertise.
+
+Being on the G-Cloud 12 portal allows organisations across the UK public sector including central government, local government, health, education, emergency services, and not-for-profit organisations reach us and our services.
+
 ## Training &amp; Consultancy
 
 ### Data | Python | Kubernetes
