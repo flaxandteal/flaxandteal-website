@@ -1,12 +1,12 @@
 ---
-title: "Services"
+title: "Our Services"
 date: 2018-12-26T10:41:23Z
 draft: false
 menu: "main"
 ---
 # Services
 
-### Development | Infrastructure | Training
+### [Coding](#rampd-software-development) | Cloud Architecture | Consulting
 
 Flax & Teal is a consultancy focused on openly-licensed technologies, serving public and private sector through web-based products and services in computational engineering, geospatial analysis and data science.
 
