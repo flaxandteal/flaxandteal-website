@@ -26,11 +26,6 @@ Alana also handles a lot of our social media contact!
 
 [Kanika](https://www.linkedin.com/in/kanika-miglani-538a06137/) has recently joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and has an experienced background in Python and R.
 
-### Kathleen Mallon | Developer
-
-[Kathleen](https://www.linkedin.com/in/kathleen-m-/) underwent placement with Flax &amp; Teal before starting back at university and also decided to stay with us during her degree. Kathleen is studying a computer science degree, and has experience in Kubernetes, Python and more.
-Kathleen is also a STEM ambassador, member of BLUG, and co-founder of the Computing Society at Ulster University. 
-
 ### Ronan Lewsley | Developer 
 
 [Ronan](https://www.linkedin.com/in/ronan-lewsley-9b1bbb199/) joined us on his placement year during university, and decided to stay at Flax &amp; Teal during his studies. Ronan is currently studying a degree in computer science, and has experience working with Python, Kubernetes,
