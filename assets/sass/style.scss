@@ -257,6 +257,7 @@ span.linkedin {
     #pg2-footer {
       background: white;
       color: $steel;
+      width:  100%;
       min-height: 40px;
       font-size: 0.7em;
       @media screen and (min-width: $break-small) {
@@ -273,4 +274,5 @@ span.linkedin {
 #pg2-footer {
   position: fixed;
   bottom: 0px;
+  width:  100%;
 }
