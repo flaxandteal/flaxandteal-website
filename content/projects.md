@@ -1,10 +1,10 @@
 ---
 title: "Our Products"
-date: 2018-12-26T10:41:23Z
+date: 2021-11-02T10:41:23Z
 draft: false
 menu: "main"
 ---
-# Product &amp;<br/>Project Work
+# Product &amp; <br/>Project Work
 
 ### Full Project | Lead Partner | Consortium Member
 
@@ -20,11 +20,12 @@ For more information on larger, consortium-based projects, please contact us or 
 
 <span class="arrow-down"></span>
 
-## OurRagingPlanet
+## [OurRagingPlanet](https://www.ourragingplanet.com/) (ORP)
 
 ### Geospatial Risk Simulation
 
-How would the flash-floods of South America, the earthquakes of New Zealand, the wildfires of California or volcanic activity of the Pacific Rim unfold?
+
+How would the business supply chain crises in UK, flash-floods in South America, the earthquakes of New Zealand, the wildfires of California or volcanic activity of the Pacific Rim unfold?
 
 _This project provides an adaptable platform for businesses, government and risk modellers to improve resilience and assess the implications of extreme events on their own services and surroundings._
 
