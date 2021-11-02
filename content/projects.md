@@ -22,15 +22,13 @@ For more information on larger, consortium-based projects, please contact us or 
 
 ## OurRagingPlanet
 
-### Natural Disaster Simulation for Education
+### Geospatial Risk Simulation
 
-How would the flash-floods of South America, the earthquakes of New Zealand, the wildfires of California or volcanic activity of the Pacific Rim affect Northern Ireland?
+How would the flash-floods of South America, the earthquakes of New Zealand, the wildfires of California or volcanic activity of the Pacific Rim unfold?
 
-_This project teaches students the need for resilience and the implications of natural disasters through their own services and surroundings._
+_This project provides an adaptable platform for businesses, government and risk modellers to improve resilience and assess the implications of extreme events on their own services and surroundings._
 
-It is a web application, with custom tools and interactive maps that allow students to apply basic simulations to their area in the region, using open data to estimate the impact on familiar local landmarks.
-
-Explanatory material linking students to the physical reasons such events do not happen in this region forms part of the workflow, including basic, accessible information tied to the syllabus content.
+It is a web application, with custom tools and interactive maps that allow users to apply basic simulations to their area in the region, using an extensible range of data to estimate the impact on familiar local landmarks.
 
 ![OurRagingPlanet screenshot](/images/ourragingplanet.jpg)
 
@@ -38,7 +36,7 @@ Explanatory material linking students to the physical reasons such events do not
 
 ### Open data validation
 
-Flax &amp; Teal is a key consortium member in the [Lintol](https://lintol.io/) project, providing support for tendering, administrative needs, back-end development, infrastructure and data science.
+Flax &amp; Teal is the lead of the [Lintol](https://lintol.io/) project, driving technical creation, tendering, administrative needs, back-end development, infrastructure and data science.
 
 _Lintol is an open data validating tool, much like a grammar checker for open data (data which everyone can access, use or share)._
 
