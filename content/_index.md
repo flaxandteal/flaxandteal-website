@@ -6,7 +6,6 @@ menu: "main"
 ---
 
 # Flax &amp; Teal
-
 ## open source / innovation / enterprise
 
 ### data science // cloud systems // training // software&nbsp;engineering
