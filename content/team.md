@@ -30,3 +30,7 @@ Alana also handles a lot of our social media contact!
 
 [Ronan](https://www.linkedin.com/in/ronan-lewsley-9b1bbb199/) joined us on his placement year during university, and decided to stay at Flax &amp; Teal during his studies. Ronan is currently studying a degree in computer science, and has experience working with Python, Kubernetes,
 Java, HTML/CSS and more.
+
+### Hristiyana Deliyska 
+
+[Hristiyana](https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/) has joined Flax & Teal as our Porject and Business Development Manger! Hristiyana has a background in economics and international relations. 
