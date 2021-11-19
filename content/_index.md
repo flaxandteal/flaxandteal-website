@@ -14,4 +14,4 @@ Flax & Teal are a Belfast-based firm focused on software development, infrastruc
 
 ### <br>[What We Do](https://flaxandteal.co.uk/video) | [Our Team](https://flaxandteal.co.uk/team/) | [Testimonials](https://flaxandteal.co.uk/testimonials/)</br>
 Flax & Teal are a certified Bronze Level Innovator 
-<img src="/static/images/- Bronze Innovator Stamp.png" width="100" height="100">
+<img src="/static/images/- Bronze Innovator Stamp.png" width="200">
