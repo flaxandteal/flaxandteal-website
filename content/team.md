@@ -33,4 +33,4 @@ Java, HTML/CSS and more.
 
 ### Hristiyana Deliyska 
 
-[Hristiyana](https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/) has joined Flax & Teal as our Porject and Business Development Manger! Hristiyana has a background in economics and international relations. 
+[Hristiyana](https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/) has joined Flax & Teal as our Project and Business Development Manger! Hristiyana has a background in economics and international relations. 
