@@ -4,8 +4,6 @@ date: 2018-12-21T14:10:03Z
 draft: false
 menu: "main"
 ---
-
-# Flax &amp; Teal
 ## open source / innovation / enterprise
 
 ### data science // cloud systems // training // software&nbsp;engineering
