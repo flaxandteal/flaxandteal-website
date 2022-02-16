@@ -15,12 +15,11 @@ Sarah works with our clients and stakeholders to provide quality assurance and t
 
 ### Alana Murphy | Data Analysis
 
-[Alana](https://www.linkedin.com/in/alana-murphy-4ab8891aa/) works as a data analyst within Flax &amp; Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a background in social science with quantitative methods and empirical research. Alana has worked with SPSS, Stata, HTML and Python.
-Alana also handles a lot of our social media contact!
+[Alana](https://www.linkedin.com/in/alana-murphy-4ab8891aa/) works as a data analyst within Flax &amp; Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a background in social science with quantitative methods and empirical research. Alana has worked with SPSS, Stata, HTML and Python. She also has experience with UX/UI testing. 
 
 ### Andrea Kyurchiev | Developer 
 
-[Andrea](https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/) recently joined Flax &amp; Teal as a free-lance consultant, before coming to work with us full-time as a full-stack developer. He has experience working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more.
+[Andrea](https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/) joined Flax &amp; Teal as a free-lance consultant, before coming to work with us full-time as a full-stack developer. He is an experienced developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more.
 
 ### Kanika Miglani | Data Science & Analysis
 
@@ -28,9 +27,12 @@ Alana also handles a lot of our social media contact!
 
 ### Ronan Lewsley | Developer 
 
-[Ronan](https://www.linkedin.com/in/ronan-lewsley-9b1bbb199/) joined us on his placement year during university, and decided to stay at Flax &amp; Teal during his studies. Ronan is currently studying a degree in computer science, and has experience working with Python, Kubernetes,
-Java, HTML/CSS and more.
+[Ronan](https://www.linkedin.com/in/ronan-lewsley-9b1bbb199/) joined us on his placement year during university, and decided to stay at Flax &amp; Teal during his studies. Ronan is currently studying a degree in computer science, and has experience working with Python, Kubernetes, Java, HTML/CSS and more.
 
-### Hristiyana Deliyska 
+### Hristiyana Deliyska | Project & Business Development Manager
 
 [Hristiyana](https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/) has joined Flax & Teal as our Project and Business Development Manger! Hristiyana has a background in economics and international relations. 
+
+### Kamen Dimitrov | Junior Developer
+
+[Kamen](https://www.linkedin.com/in/kamen-dimitrov-a26a2492/) is our newest member of the team, joining us in 2022! He is currently studying Software Engineering and has experience with Java, Python, Rust and Go programming languages. 
