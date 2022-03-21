@@ -25,9 +25,6 @@ Sarah works with our clients and stakeholders to provide quality assurance and t
 
 [Kanika](https://www.linkedin.com/in/kanika-miglani-538a06137/) has recently joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and has an experienced background in Python and R.
 
-### Ronan Lewsley | Developer 
-
-[Ronan](https://www.linkedin.com/in/ronan-lewsley-9b1bbb199/) joined us on his placement year during university, and decided to stay at Flax &amp; Teal during his studies. Ronan is currently studying a degree in computer science, and has experience working with Python, Kubernetes, Java, HTML/CSS and more.
 
 ### Hristiyana Deliyska | Project & Business Development Manager
 
