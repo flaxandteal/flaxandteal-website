@@ -8,10 +8,6 @@ Founder and director of Flax &amp; Teal Ltd., [Phil](https://www.linkedin.com/in
 Phil has successfully delivered Python and Kubernetes training, and also has experience working with geo-spatial data.
 He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 (scientific Python) on web-based simulations, and at the Open Data Science Conference 2017 in London on web-based, on-demand data analysis.
 
-### Sarah Byrne | Product Manager 
-
-[Sarah](https://www.linkedin.com/in/sarah-byrne-a7570684/) is product manager at Flax &amp; Teal Ltd., and has a background in recruitment and academia. Sarah has an extensive research background in philosophy of science, history, and educational research.
-Sarah works with our clients and stakeholders to provide quality assurance and to ensure things run smoothly from start to finish. 
 
 ### Alana Murphy | Data Analysis
 
