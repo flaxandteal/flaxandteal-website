@@ -15,7 +15,11 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 ### Andrea Kyurchiev | Developer 
 
-[Andrea](https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/) joined Flax &amp; Teal as a free-lance consultant, before coming to work with us full-time as a full-stack developer. He is an experienced developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more.
+[Andrea](https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/) joined Flax &amp; Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment.
+
+### Kamen Dimitrov | Junior Developer
+
+[Kamen](https://www.linkedin.com/in/kamen-dimitrov-a26a2492/) is our newest member of the team, joining us in 2022! He is currently studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages. 
 
 ### Kanika Miglani | Data Science & Analysis
 
@@ -24,8 +28,5 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 ### Hristiyana Deliyska | Project & Business Development Manager
 
-[Hristiyana](https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/) has joined Flax & Teal as our Project and Business Development Manger! Hristiyana has a background in economics and international relations. 
+[Hristiyana](https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/) has joined Flax & Teal as our Project and Business Development Manger! Hristiyana has a background in economics and international relations and experience with business development. 
 
-### Kamen Dimitrov | Junior Developer
-
-[Kamen](https://www.linkedin.com/in/kamen-dimitrov-a26a2492/) is our newest member of the team, joining us in 2022! He is currently studying Software Engineering and has experience with Java, Python, Rust and Go programming languages. 
