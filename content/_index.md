@@ -21,7 +21,7 @@ menu: "main"
 1. Bioinformatics
 1. Govt Statistics
 
----
+### <br>[What We Do](https://flaxandteal.co.uk/video) | [Our Team](https://flaxandteal.co.uk/team/) | [Testimonials](https://flaxandteal.co.uk/testimonials/)</br>
 
 * Web platforms
 * Open source
@@ -37,4 +37,5 @@ menu: "main"
 * Natural language
 * Azure/AWS/GCP
 
-### <br>[What We Do](https://flaxandteal.co.uk/video) | [Our Team](https://flaxandteal.co.uk/team/) | [Testimonials](https://flaxandteal.co.uk/testimonials/)</br>
+## {{< dash "open" >}} for business<br/>info@flaxandteal.co.uk
+

@@ -306,14 +306,14 @@ span.youtube {
       color: #fff;
       padding-top: 100px;
       margin-bottom: 0;
+    }
 
-      .dash {
-        text-decoration: underline $flax;
-      }
+    .dash {
+      text-decoration: underline $flax;
+    }
 
-      .dot {
-        color: $flax;
-      }
+    .dot {
+      color: $flax;
     }
     ul, ol {
       list-style: none;
@@ -326,27 +326,31 @@ span.youtube {
       }
 
       li {
-        padding: 0 0px;
+        padding: 0;
+        margin-right: 30px;
+        white-space: nowrap;
         flex-grow: 0;
-        flex-basis: auto;
+        flex-shrink: 0;
       }
     }
     ul {
+      background: $teal;
       position: relative;
-      top: 50px;
+      top: 20px;
+      justify-content: left;
+      padding: 30px;
       font-size: 220%;
-      color: $teal;
+      color: white;
       opacity: 0.5;
 
       li:after {
-        padding-left: 30px;
-        content: "//";
-        color: rgba(128, 128, 128, 0.3);
         padding-right: 30px;
+        content: ".";
+        color: $flax;
       }
     }
     ol {
-      font-size: 150%;
+      font-size: 200%;
       color: rgba(128, 128, 128, 0.4);
 
       li:after {
@@ -356,8 +360,18 @@ span.youtube {
         padding-right: 30px;
       }
     }
-    h3 {
+    h2 {
       position: absolute;
+      padding: 0;
+      color: $teal;
+      a {
+        font-size: 70%;
+      }
+    }
+    @media screen and (min-width: $break-large) {
+      ol {
+        font-size: 150%;
+      }
     }
   }
 }
