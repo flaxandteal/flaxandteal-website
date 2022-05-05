@@ -4,3 +4,7 @@ title = "Flax &amp; Teal"
 publishDir = "docs"
 sectionPagesMain = "main"
 relativeURLs = true
+
+[markup]
+  [markup.goldmark.renderer]
+       unsafe=true

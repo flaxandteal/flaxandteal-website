@@ -1,6 +1,7 @@
 $break-small: 620px;
 $break-large: 1080px;
 $break-xlarge: 1080px;
+$flax: #b59f77;
 $teal: #49696c;
 $steel: #626074;
 
@@ -87,6 +88,7 @@ span.youtube {
 
     #pg2-menu {
       padding-top: 20px;
+      background: rgba(255, 255, 255, 0.8);
       width: 100%;
       text-align: center;
 
@@ -170,6 +172,7 @@ span.youtube {
       #pg2-title {
         background: rgba(255, 255, 255, 0.92);
         border-radius: 50px 50px;
+        overflow: hidden;
         position: relative;
         padding-top: 2%;
         padding-bottom: 2%;
@@ -189,7 +192,7 @@ span.youtube {
         h1 {
           width: 100%;
           color: #49696c;
-          font-size: 800%;
+          font-size: 600%;
 
           .highlight {
             color: #a58f67;
@@ -284,4 +287,77 @@ span.youtube {
   position: fixed;
   bottom: 0px;
   width:  100%;
+}
+
+#pg2 #pg2-child #pg2-body #pg2-title {
+  margin-bottom: 100px;
+  @media screen and (min-width: $break-small) {
+    width: 80vw;
+    min-width: 600px;
+  }
+  .homepage {
+    position: relative;
+    top: -100px;
+    h1 {
+      text-align: left;
+      padding: 30px;
+      display: block;
+      background-color: $teal;
+      color: #fff;
+      padding-top: 100px;
+      margin-bottom: 0;
+
+      .dash {
+        text-decoration: underline $flax;
+      }
+
+      .dot {
+        color: $flax;
+      }
+    }
+    ul, ol {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      li:last-child:after {
+        content: "";
+      }
+
+      li {
+        padding: 0 0px;
+        flex-grow: 0;
+        flex-basis: auto;
+      }
+    }
+    ul {
+      position: relative;
+      top: 50px;
+      font-size: 220%;
+      color: $teal;
+      opacity: 0.5;
+
+      li:after {
+        padding-left: 30px;
+        content: "//";
+        color: rgba(128, 128, 128, 0.3);
+        padding-right: 30px;
+      }
+    }
+    ol {
+      font-size: 150%;
+      color: rgba(128, 128, 128, 0.4);
+
+      li:after {
+        padding-left: 30px;
+        content: "-";
+        color: rgba(128, 128, 128, 0.4);
+        padding-right: 30px;
+      }
+    }
+    h3 {
+      position: absolute;
+    }
+  }
 }

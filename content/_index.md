@@ -4,13 +4,37 @@ date: 2018-12-21T14:10:03Z
 draft: false
 menu: "main"
 ---
-## open source / innovation / enterprise
 
-### data science // cloud systems // training // software&nbsp;engineering
+# Solving {{< dash "scientific" >}} and {{< dash "data" >}} challenges {{< dash "together" >}}{{< dot "." >}}
 
-Flax & Teal are a Belfast-based firm focused on software development, infrastructure, data science and training, with products. Focusing on open data and openly-licensed technologies, we serve public and private sector through web-based products and services. Find out more via the [Services](http://flaxandteal.co.uk/services) page, our social media links above, or from<br/> <a href='mailto:info@flaxandteal.co.uk'>info@flaxandteal.co.uk</a></br>  
+1. Natural disasters
+1. Heritage
+1. Optical physics
+1. Geospatial
+1. Automotive
+1. HR
+1. Customs
+1. Social work
+1. Open data
+1. Social media
+1. Health
+1. Bioinformatics
+1. Govt Statistics
+
+---
+
+* Web platforms
+* Open source
+* Scientific computing
+* Kubernetes
+* IoT
+* VR
+* Privacy
+* Blockchain
+* Telemetry
+* Planning
+* Machine learning
+* Natural language
+* Azure/AWS/GCP
 
 ### <br>[What We Do](https://flaxandteal.co.uk/video) | [Our Team](https://flaxandteal.co.uk/team/) | [Testimonials](https://flaxandteal.co.uk/testimonials/)</br>
-Flax & Teal are a certified Bronze Level Innovator<br>
-![bronzelevel.png](/images/bronzelevel.png)
-
