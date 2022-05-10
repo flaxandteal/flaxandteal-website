@@ -17,6 +17,10 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Andrea](https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/) joined Flax &amp; Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment.
 
+### Aoife Watson | Project Management 
+
+[Aoife](https://www.linkedin.com/in/aoife-watson/) has also recently joined our team in 2022! Aoife takes over our project management side with a background in clinical research and agile methodologies. 
+
 ### Hristiyana Deliyska | Project & Business Development Manager
 
 [Hristiyana](https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/) has joined Flax & Teal as our Project and Business Development Manger! Hristiyana has a background in economics and international relations and experience with business development. 
