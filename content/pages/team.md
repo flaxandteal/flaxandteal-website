@@ -13,7 +13,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Alana](https://www.linkedin.com/in/alana-murphy-4ab8891aa/) works as a data analyst within Flax &amp; Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a background in social science with quantitative methods and empirical research. Alana has worked with SPSS, Stata, HTML and Python. She also has experience with UX/UI testing. 
 
-### Andrea Kyurchiev | Developer 
+### Andrea Kyurchiev | Full-Stack Developer 
 
 [Andrea](https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/) joined Flax &amp; Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment.
 
@@ -33,7 +33,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Kanika](https://www.linkedin.com/in/kanika-miglani-538a06137/) joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data analyst with a background in Python and R.
 
-### Sharon Ingram
+### Sharon Ingram | Cloud Architect
 
 [Sharon](https://www.linkedin.com/in/sharoningram/) joins our team as an experienced cloud engineer and certified Azure Solutions Architect and DevOps Expert. She has over 10 years experience within this role and adds to our cloud engineering and computational skill-sets! 
 
