@@ -27,8 +27,12 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 ### Kamen Dimitrov | Junior Developer
 
-[Kamen](https://www.linkedin.com/in/kamen-dimitrov-a26a2492/) is our newest member of the team, joining us in 2022! He is currently studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages. 
+[Kamen](https://www.linkedin.com/in/kamen-dimitrov-a26a2492/) is a recent addition to the team, joining us in 2022! He is currently studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages. 
 
 ### Kanika Miglani | Data Science & Analysis
 
-[Kanika](https://www.linkedin.com/in/kanika-miglani-538a06137/) has recently joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and has an experienced background in Python and R.
+[Kanika](https://www.linkedin.com/in/kanika-miglani-538a06137/) joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data analyst with a background in Python and R.
+
+### Vishak Pillai | Data Engineer 
+
+[Vishak](https://www.linkedin.com/in/vishakhp/) joined our team in 2022 as a experienced mathematician, statistician and data engineer! Vishak has a background in statistical modelling and machine learning, and experience with Python and C++. 
