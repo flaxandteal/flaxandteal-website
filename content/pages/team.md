@@ -33,6 +33,10 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Kanika](https://www.linkedin.com/in/kanika-miglani-538a06137/) joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data analyst with a background in Python and R.
 
+### Sharon Ingram
+
+[Sharon](https://www.linkedin.com/in/sharoningram/) joins our team as an experienced cloud engineer and certified Azure Solutions Architect and DevOps Expert. She has over 10 years experience within this role and adds to our cloud engineering and computational skill-sets! 
+
 ### Vishak Pillai | Data Engineer 
 
 [Vishak](https://www.linkedin.com/in/vishakhp/) joined our team in 2022 as a experienced mathematician, statistician and data engineer! Vishak has a background in statistical modelling and machine learning, and experience with Python and C++. 
