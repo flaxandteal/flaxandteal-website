@@ -27,7 +27,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 ### Kamen Dimitrov | Junior Developer
 
-[Kamen](https://www.linkedin.com/in/kamen-dimitrov-a26a2492/) is a recent addition to the team, joining us in 2022! He is currently studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages. 
+[Kamen](https://www.linkedin.com/in/kamen-dimitrov-a26a2492/) is a recent addition to the team, joining us in 2022! He completed studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development. 
 
 ### Kanika Miglani | Data Science & Analysis
 
