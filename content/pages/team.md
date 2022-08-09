@@ -17,7 +17,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Andrea](https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/) joined Flax &amp; Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment.
 
-### Aoife Watson | Project Management 
+### Aoife Watson | Project Manager 
 
 [Aoife](https://www.linkedin.com/in/aoife-watson/) has also recently joined our team in 2022! Aoife takes over our project management side with a PhD in clinical research and agile methodologies. 
 
@@ -37,7 +37,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Sharon](https://www.linkedin.com/in/sharoningram/) joins our team as an experienced cloud engineer and certified Azure Solutions Architecture and DevOps Expert. She has over 10 years experience within this role and adds to our cloud engineering and computational skill-sets! Sharon also has experience with Kubernetes, .NET, Oracle, Javascript and C-Sharp.  
 
-### Viktoria Boncheva 
+### Viktoria Boncheva | Junior Product Manager
 
 [Viktoria](https://www.linkedin.com/in/viktoria-boncheva-725498168/) has recently joined us a a junior product manager! Viktoria is based in our Sofia office and has experience working in business development and international trade. 
 
