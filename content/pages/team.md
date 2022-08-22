@@ -11,7 +11,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 ### Alana Murphy | Data Analysis
 
-[Alana](https://www.linkedin.com/in/alana-murphy-4ab8891aa/) works as a data analyst within Flax &amp; Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a background in social science with quantitative methods and empirical research. Alana has worked with SPSS, Stata, HTML and Python. She also has experience with UX/UI testing. 
+[Alana](https://www.linkedin.com/in/alana-murphy-4ab8891aa/) works as a data analyst within Flax &amp; Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen's University. Alana has worked with SPSS, Stata, HTML and Python toolings. She also has experience with UX/UI testing. 
 
 ### Andrea Kyurchiev | Full-Stack Developer 
 
@@ -19,11 +19,15 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 ### Aoife Watson | Project Manager 
 
-[Aoife](https://www.linkedin.com/in/aoife-watson/) has also recently joined our team in 2022! Aoife takes over our project management side with a PhD in clinical research and agile methodologies. 
+[Aoife](https://www.linkedin.com/in/aoife-watson/) has also recently joined our team in 2022! Aoife takes over our project management side with a PhD from Ulster University in clinical research and agile methodologies. 
+
+### Ellery Ames | Scientific Software Engineer
+
+[Ellery](https://www.linkedin.com/in/ellery-ames-b6b3a975/) joins our team in 2022 as an experienced Scientific Software Engineer. He has a background in physics and mathematics, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes! 
 
 ### Hristiyana Deliyska | Project & Business Development Manager
 
-[Hristiyana](https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/) has joined Flax & Teal as our Project and Business Development Manger! Hristiyana has a background in economics and international relations and experience with business development. 
+[Hristiyana](https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/) is our Project and Business Development Manger! Hristiyana has a background in economics and international relations and experience with international business development. 
 
 ### Kamen Dimitrov | Junior Developer
 
@@ -43,4 +47,4 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 ### Vishak Pillai | Data Engineer 
 
-[Vishak](https://www.linkedin.com/in/vishakhp/) joined our team in 2022 as a experienced mathematician, statistician and data engineer! Vishak has a background in statistical modelling and machine learning, and experience with Python and C++. 
+[Vishak](https://www.linkedin.com/in/vishakhp/) joined our team in 2022 as a experienced mathematician, statistician and data engineer! Vishak has a background in statistical modelling and machine learning, and experience with Python and C++. He holds a Masters in Mathematics and Statistics from the Indian Institute of Technology.
