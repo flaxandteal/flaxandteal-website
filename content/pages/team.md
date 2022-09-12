@@ -39,7 +39,11 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 ### Sharon Ingram | Cloud Architect
 
-[Sharon](https://www.linkedin.com/in/sharoningram/) joins our team as an experienced cloud engineer and certified Azure Solutions Architecture and DevOps Expert. She has over 10 years experience within this role and adds to our cloud engineering and computational skill-sets! Sharon also has experience with Kubernetes, .NET, Oracle, Javascript and C-Sharp.  
+[Sharon](https://www.linkedin.com/in/sharoningram/) joins our team as an experienced cloud engineer and certified Azure Solutions Architecture and DevOps Expert. She has over 10 years experience within this role and adds to our cloud engineering and computational skill-sets! Sharon also has experience with Kubernetes, .NET, Oracle, Javascript and C-Sharp. 
+
+### Shauna Fitzsimons | Data Support Technician 
+
+[Shauna](https://www.linkedin.com/in/shauna-f-030798aa/) adds to our team in our data analysis and support tasks! Shauna is currently studying at UCD in Politics, International Relations & Sociology, and has experience working with R and Github.
 
 ### Viktoria Boncheva | Junior Product Manager
 
