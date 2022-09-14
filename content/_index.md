@@ -37,5 +37,6 @@ menu: "main"
 * Natural language
 * Azure/AWS/GCP
 </centre>
-## {{< dash "open" >}} for business<br/>info@flaxandteal.co.uk
+<br>
+## {{< dash "open" >}} for business<br/>info@flaxandteal.co.uk </br>
 
