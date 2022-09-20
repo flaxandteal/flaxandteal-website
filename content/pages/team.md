@@ -29,6 +29,10 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Hristiyana](https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/) is our Project and Business Development Manger! Hristiyana has a background in economics and international relations and experience with international business development. 
 
+### Jim Fitzsimons | Business Development Specialist 
+
+[Jim](linkedin.com/in/jimmfitzsimons/) is a contract Business Development Specialist who works with us and specifically focuses on our work in the Republic of Ireland. 
+
 ### Kamen Dimitrov | Junior Developer
 
 [Kamen](https://www.linkedin.com/in/kamen-dimitrov-a26a2492/) is a recent addition to the team, joining us in 2022! He completed studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development. 
