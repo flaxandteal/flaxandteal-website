@@ -1,7 +1,5 @@
 # Testimonials 
 
-Flax & Teal is proud to be an approved supplier with our partner [Keitaro](keitaro.com) of Sweden to the Irish Government’s Open Data Frameworks launched by the Minister of State at the Department of Public Expenditure and Reform with responsibility for Public Procurement and eGovernment, Ossian Smyth, TD, on February 23rd, 2022. Our founder, Dr Phil Weir, welcomed the launch of the two new Open Data Framework Agreements by the Office of Government Procurement (OGP) and the Department of Public Expenditure and Reform’s Open Data unit. The two frameworks, the Technical Services Framework for Open Data and Data Management, and the National Open Data Training Framework, support public sector bodies (PSBs) in fulfilling their Open Data obligations.
-
 ### Deloitte
 Flax & Teal partnered with Deloitte to build an enterprise-level data gathering Human Resources platform. The digital transformation project changed the way resources are managed by quantifying time allocated to various departments. This project involved an iterative Agile, full stack build and development of cloud infrastructure. The team deployed Kubernetes to ensure flexibility and resilience of service. 
 
