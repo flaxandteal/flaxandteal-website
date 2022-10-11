@@ -47,11 +47,17 @@ _We have extensive experience working with Linux, Kubernetes and containerizatio
 
 We offer a range of service agreements to maintain, secure and upgrade software over its lifetime, rapidly incorporating security improvements and critical fixes from third-party components on your behalf.
 
+## Approved Suppliers
+
 ### G-Cloud Approved Supplier 
 
 Flax &amp; Teal are on the G-Cloud 12 framework, allowing us to deliver our services as a Crown Commercial Service supplier. Our position as a G-Cloud 12 supplier allows public sector organizations to benefit from our cloud support services and expertise.
 
 Being on the G-Cloud 12 portal allows organisations across the UK public sector including central government, local government, health, education, emergency services, and not-for-profit organisations reach us and our services.
+
+### Open Data 
+
+Flax & Teal is proud to be an approved supplier with our partner [Keitaro](keitaro.com) of Sweden to the Irish Government’s Open Data Frameworks launched by the Minister of State at the Department of Public Expenditure and Reform with responsibility for Public Procurement and eGovernment, Ossian Smyth, TD, on February 23rd, 2022. Our founder, Dr Phil Weir, welcomed the launch of the two new Open Data Framework Agreements by the Office of Government Procurement (OGP) and the Department of Public Expenditure and Reform’s Open Data unit. The two frameworks, the Technical Services Framework for Open Data and Data Management, and the National Open Data Training Framework, support public sector bodies (PSBs) in fulfilling their Open Data obligations.
 
 ## Training &amp; Consultancy
 
