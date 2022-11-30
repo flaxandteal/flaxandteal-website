@@ -51,17 +51,19 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 ### Sharon Ingram | Cloud Architect (/images/Sharon.png)</br>
 
-[Sharon](https://www.linkedin.com/in/sharoningram/) joins our team as an experienced cloud engineer and certified Azure Solutions Architecture and DevOps Expert. She has over 10 years experience within this role and adds to our cloud engineering and computational skill-sets! Sharon also has experience with Kubernetes, .NET, Oracle, Javascript and C-Sharp. 
+[Sharon](https://www.linkedin.com/in/sharoningram/) joins our team as an experienced cloud engineer and certified Azure Solutions Architecture and DevOps Expert. She has over 10 years experience within this role and adds to our cloud engineering and computational skill-sets. Sharon also has experience with Kubernetes, .NET, Oracle, Javascript and C-Sharp. 
 
 ### Shauna Fitzsimons | Data Support Technician (/images/shauna.png)</br>
 
-[Shauna](https://www.linkedin.com/in/shauna-f-030798aa/) adds to our team in our data analysis and support tasks! Shauna is currently studying at UCD in Politics, International Relations & Sociology, and has experience working with R and Github.
+[Shauna](https://www.linkedin.com/in/shauna-f-030798aa/) adds to our team in our data analysis and support tasks. Shauna works on licensing and compliance to ensure the highest standards are met.
 
 ### Viktoria Boncheva | Junior Product Manager  (/images/Viktoria.png)</br>
 
 
-[Viktoria](https://www.linkedin.com/in/viktoria-boncheva-725498168/) has recently joined us a a junior product manager! Viktoria is based in our Sofia office and has experience working in business development and international trade. 
+[Viktoria](https://www.linkedin.com/in/viktoria-boncheva-725498168/) has joined us a a junior product manager. Viktoria is based in our Sofia office and has experience working in business development and international trade. 
+ 
 
 ### Vishak Pillai | Data Engineer (/images/Vishak.png)</br>
 
-[Vishak](https://www.linkedin.com/in/vishakhp/) joined our team in 2022 as a experienced mathematician, statistician and data engineer! Vishak has a background in statistical modelling and machine learning, and experience with Python and C++. He holds a Masters in Mathematics and Statistics from the Indian Institute of Technology.
+[Vishak](https://www.linkedin.com/in/vishakhp/) joined our team as a experienced mathematician, statistician and data engineer. Vishak has a background in statistical modelling and machine learning, and experience with Python and C++. He holds a Masters in Mathematics and Statistics from the Indian Institute of Technology.
+
