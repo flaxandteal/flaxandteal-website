@@ -8,7 +8,7 @@ With customers across Ireland, the UK , Europe and Northern America the team spa
 
 
 ### Phil Weir | Founder  
-![Phil.png](/images/Phil.png)</br>
+![Phil.png](/images/Phil.png)
 
 Founder and director of Flax &amp; Teal Ltd., [Phil](https://www.linkedin.com/in/phil-weir-033b5a62/) is also lead architect on our projects and services, as an experienced scientist and web developer. Phil has a PhD in Python-based mathematical simulation, and is one of Northern Ireland's qualified Kubernetes trainer.<br>
 Phil has successfully delivered Python and Kubernetes training, and also has experience working with geo-spatial data.
@@ -16,19 +16,19 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 
 ### Alana Murphy | Data Analysis 
-<center> ![Alana.png](/images/Alana.png)
+![Alana.png](/images/Alana.png)
 [Alana](https://www.linkedin.com/in/alana-murphy-4ab8891aa/) works as a data analyst within Flax &amp; Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen's University. Alana has worked with SPSS, Stata, HTML and Python toolings. She also has experience with UX/UI testing. </center>
 
 ### Andrea Kyurchiev | Full-Stack Developer  
-<center> ![Andrea.png](/images/Andrea.png)
+![Andrea.png](/images/Andrea.png)
 [Andrea](https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/) joined Flax &amp; Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment. </center>
 
 ### Aoife Watson | Project Manager 
-<center> ![Aoife.png](/images/Aoife.png)
+![Aoife.png](/images/Aoife.png)
 [Aoife](https://www.linkedin.com/in/aoife-watson/) Aoife takes over our project management side with a PhD from Ulster University in clinical research and agile methodologies. </center>
 
 ### Ellery Ames | Scientific Software Engineer 
-<center> ![Ellery.png](/images/Ellery.png)
+![Ellery.png](/images/Ellery.png)
 [Ellery](https://www.linkedin.com/in/ellery-ames-b6b3a975/) joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes! </center>
 
 ### Hristiyana Deliyska | Project & Business Development Manager 
