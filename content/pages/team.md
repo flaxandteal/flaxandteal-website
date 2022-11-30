@@ -1,21 +1,20 @@
-# Meet the team
+<center> # Meet the team
 
 From an initial team of one in Belfast in 2013, Flax and Teal has expanded significantly since, adding people in new locations and expanding our capabilities to meet growing customer needs. 
 
 Now spread across 4 locations, Northern Ireland, Bulgaria, Scotland, India and California, the Flax and Teal team currently exceeds 15 people and continues to grow. 
 
-With customers across Ireland, the UK , Europe and Northern America the team spans across several timezones.  Expertise is enhanced across the teams through establishing technical competency groups led by experienced leaders, charged with ensuring best practice and efficient learning across all the organisation.
+With customers across Ireland, the UK , Europe and Northern America the team spans across several timezones.  Expertise is enhanced across the teams through establishing technical competency groups led by experienced leaders, charged with ensuring best practice and efficient learning across all the organisation. </center> 
 
 
-### Phil Weir | Founder  (/images/Phil.png)</br>
+### Phil Weir | Founder  ![Phil.png](/images/Phil.png)]</br>
 
 Founder and director of Flax &amp; Teal Ltd., [Phil](https://www.linkedin.com/in/phil-weir-033b5a62/) is also lead architect on our projects and services, as an experienced scientist and web developer. Phil has a PhD in Python-based mathematical simulation, and is one of Northern Ireland's qualified Kubernetes trainer.<br>
 Phil has successfully delivered Python and Kubernetes training, and also has experience working with geo-spatial data.
 He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 (scientific Python) on web-based simulations, and at the Open Data Science Conference 2017 in London on web-based, on-demand data analysis.
 
 
-
-### Alana Murphy | Data Analysis (/images/Alana.png)</br>
+### Alana Murphy | Data Analysis ![Alana.png](/images/Alana.png)</br>
 
 [Alana](https://www.linkedin.com/in/alana-murphy-4ab8891aa/) works as a data analyst within Flax &amp; Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen's University. Alana has worked with SPSS, Stata, HTML and Python toolings. She also has experience with UX/UI testing. 
 
