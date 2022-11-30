@@ -14,22 +14,21 @@ Founder and director of Flax &amp; Teal Ltd., [Phil](https://www.linkedin.com/in
 Phil has successfully delivered Python and Kubernetes training, and also has experience working with geo-spatial data.
 He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 (scientific Python) on web-based simulations, and at the Open Data Science Conference 2017 in London on web-based, on-demand data analysis.
 
-
 ### Alana Murphy | Data Analysis 
 ![Alana.png](/images/Alana.png)
-[Alana](https://www.linkedin.com/in/alana-murphy-4ab8891aa/) works as a data analyst within Flax &amp; Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen's University. Alana has worked with SPSS, Stata, HTML and Python toolings. She also has experience with UX/UI testing. </center>
+[Alana](https://www.linkedin.com/in/alana-murphy-4ab8891aa/) works as a data analyst within Flax &amp; Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen's University. Alana has worked with SPSS, Stata, HTML and Python toolings. She also has experience with UX/UI testing. </br>
 
 ### Andrea Kyurchiev | Full-Stack Developer  
 ![Andrea.png](/images/Andrea.png)
-[Andrea](https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/) joined Flax &amp; Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment. </center>
+[Andrea](https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/) joined Flax &amp; Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment. </br>
 
 ### Aoife Watson | Project Manager 
 ![Aoife.png](/images/Aoife.png)
-[Aoife](https://www.linkedin.com/in/aoife-watson/) Aoife takes over our project management side with a PhD from Ulster University in clinical research and agile methodologies. </center>
+[Aoife](https://www.linkedin.com/in/aoife-watson/) Aoife takes over our project management side with a PhD from Ulster University in clinical research and agile methodologies. </br>
 
 ### Ellery Ames | Scientific Software Engineer 
 ![Ellery.png](/images/Ellery.png)
-[Ellery](https://www.linkedin.com/in/ellery-ames-b6b3a975/) joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes! </center>
+[Ellery](https://www.linkedin.com/in/ellery-ames-b6b3a975/) joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes! </br>
 
 ### Hristiyana Deliyska | Project & Business Development Manager 
 ![Hristiyana.png](/images/Hristiyana.png)</br> 
@@ -64,9 +63,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 ### Viktoria Boncheva | Junior Product Manager  
 ![Viktoria.png](/images/Viktoria.png)</br>
 
-
 [Viktoria](https://www.linkedin.com/in/viktoria-boncheva-725498168/) has joined us a a junior product manager. Viktoria is based in our Sofia office and has experience working in business development and international trade. 
- 
 
 ### Vishak Pillai | Data Engineer 
 ![Vishak.png](/images/Vishak.png)</br>
