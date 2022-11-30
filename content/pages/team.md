@@ -35,7 +35,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 ![Ellery.png](/images/Ellery.png)</br>
 
 
-[Ellery](https://www.linkedin.com/in/ellery-ames-b6b3a975/) joins our team in 2022 as an experienced Scientific Software Engineer. He has a background in physics and mathematics, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes! 
+[Ellery](https://www.linkedin.com/in/ellery-ames-b6b3a975/) joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes! 
 
 ### Hristiyana Deliyska | Project & Business Development Manager 
 ![Hristiyana.png](/images/Hristiyana.png)</br> 
