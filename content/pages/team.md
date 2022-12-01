@@ -14,7 +14,7 @@ Phil has successfully delivered Python and Kubernetes training, and also has exp
 He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 (scientific Python) on web-based simulations, and at the Open Data Science Conference 2017 in London on web-based, on-demand data analysis. </br>
 
 ### Alana Murphy | Data Analysis 
-![Alana.png](/images/Alana.png| width=250)
+![Alana.png](/images/Alana.png | width=250)
 [Alana](https://www.linkedin.com/in/alana-murphy-4ab8891aa/) works as a data analyst within Flax &amp; Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen's University. Alana has worked with SPSS, Stata, HTML and Python toolings. She also has experience with UX/UI testing.
 
 ### Andrea Kyurchiev | Full-Stack Developer  
