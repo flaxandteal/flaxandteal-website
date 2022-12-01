@@ -35,22 +35,27 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 ### Hristiyana Deliyska | Project & Business Development Manager 
 ![Hristiyana.png](/images/Hristiyana.png)</br> 
+
 [Hristiyana](https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/) is our Project and Business Development Manger! Hristiyana has a background in economics and international relations and experience with international business development. 
 
 ### Jim Fitzsimons | Business Development Specialist 
 ![Jim.png](/images/Jim.png)</br>
+
 [Jim](linkedin.com/in/jimmfitzsimons/) is a contract Business Development Specialist who works with us and specifically focuses on our work in the Republic of Ireland. 
 
 ### Kamen Dimitrov | Junior Developer 
 ![Kamen.png](/images/Kamen.png)</br>
+
 [Kamen](https://www.linkedin.com/in/kamen-dimitrov-a26a2492/) is a recent addition to the team, joining us in 2022! He completed studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development. 
 
 ### Kanika Miglani | Data Science & Analysis 
 ![Kanika.png](/images/Kanika.png)</br>
+
 [Kanika](https://www.linkedin.com/in/kanika-miglani-538a06137/) joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data analyst with a background in Python and R.
 
 ### Sharon Ingram | Cloud Architect 
 ![Sharon.png](/images/Sharon.png) </br>
+
 [Sharon](https://www.linkedin.com/in/sharoningram/) joins our team as an experienced cloud engineer and certified Azure Solutions Architecture and DevOps Expert. She has over 10 years experience within this role and adds to our cloud engineering and computational skill-sets. Sharon also has experience with Kubernetes, .NET, Oracle, Javascript and C-Sharp. 
 
 ### Shauna Fitzsimons | Data Support Technician 
