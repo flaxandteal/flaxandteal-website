@@ -38,6 +38,10 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Hristiyana](https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/) is our Project and Business Development Manger! Hristiyana has a background in economics and international relations and experience with international business development. 
 
+### Jana Lorencova | Information Scientist
+
+[Jana](https://www.linkedin.com/in/jana-lorencova-1822433b/) has joined our team as an Information Scientist, specialising in data cataloguing, adminstration and has an MA in International Relations and Politics from the University of Aberdeen. 
+
 ### Jim Fitzsimons | Business Development Specialist 
 ![Jim.png](/images/Jim.png)</br>
 
