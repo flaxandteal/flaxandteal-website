@@ -8,7 +8,7 @@ With customers across Ireland, the UK , Europe and Northern America the team spa
 
 ### Phil Weir | Founder  
 
-![Phil.png](/images/Phil.png)
+![Phil.png](/images/Phil.png) </br>
 Founder and director of Flax &amp; Teal Ltd., [Phil](https://www.linkedin.com/in/phil-weir-033b5a62/) is also lead architect on our projects and services, as an experienced scientist and web developer. Phil has a PhD in Python-based mathematical simulation, and is one of Northern Ireland's qualified Kubernetes trainer.<br>
 Phil has successfully delivered Python and Kubernetes training, and also has experience working with geo-spatial data.
 He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 (scientific Python) on web-based simulations, and at the Open Data Science Conference 2017 in London on web-based, on-demand data analysis. </br>
