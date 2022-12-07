@@ -7,7 +7,7 @@ Now spread across 4 locations, Northern Ireland, Bulgaria, Scotland, India and C
 With customers across Ireland, the UK , Europe and Northern America the team spans across several timezones.  Expertise is enhanced across the teams through establishing technical competency groups led by experienced leaders, charged with ensuring best practice and efficient learning across all the organisation.
 
 ### Phil Weir | Founder  
-![Phil.png](/images/Phil.png)
+![Phil.png](/images/Phil.png) </br>
 
 Founder and director of Flax &amp; Teal Ltd., [Phil](https://www.linkedin.com/in/phil-weir-033b5a62/) is also lead architect on our projects and services, as an experienced scientist and web developer. Phil has a PhD in Python-based mathematical simulation, and is one of Northern Ireland's qualified Kubernetes trainer.<br>
 Phil has successfully delivered Python and Kubernetes training, and also has experience working with geo-spatial data.
