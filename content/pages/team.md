@@ -16,7 +16,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 ### Alana Murphy | Data Analysis 
 ![Alana.png](/images/Alana.png) </br>
 
-[Alana](https://www.linkedin.com/in/alana-murphy-4ab8891aa/) works as a data analyst within Flax &amp; Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen's University. Alana has worked with SPSS, Stata, HTML and Python toolings. She also has experience with UX/UI testing.
+[Alana](https://www.linkedin.com/in/alana-murphy-4ab8891aa/) works as an operations analyst within Flax &amp; Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen's University. Alana has worked with SPSS, Stata, HTML and Python toolings in data analysis. She also has experience with UX/UI testing.
 
 ### Andrea Kyurchiev | Full-Stack Developer  
 ![Andrea.png](/images/Andrea.png) </br>
@@ -26,7 +26,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 ### Aoife Watson | Project Manager 
 ![Aoife.png](/images/Aoife.png) </br>
 
-[Aoife](https://www.linkedin.com/in/aoife-watson/) Aoife takes over our project management side with a PhD from Ulster University in clinical research and agile methodologies. 
+[Aoife](https://www.linkedin.com/in/aoife-watson/) takes over our project management side with a PhD from Ulster University in clinical research and agile methodologies. Aoife has experience with SPSS and R and has provided mentoring to companies surrounding Digital Transformation.
 
 ### Ellery Ames | Scientific Software Engineer 
 ![Ellery.png](/images/Ellery.png) </br>
@@ -51,12 +51,12 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 ### Kamen Dimitrov | Junior Developer 
 ![Kamen.png](/images/Kamen.png)</br>
 
-[Kamen](https://www.linkedin.com/in/kamen-dimitrov-a26a2492/) is a recent addition to the team, joining us in 2022! He completed studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development. 
+[Kamen](https://www.linkedin.com/in/kamen-dimitrov-a26a2492/) is our junior software developer. He completed studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development. 
 
 ### Kanika Miglani | Data Science & Analysis 
 ![Kanika.png](/images/Kanika.png)</br>
 
-[Kanika](https://www.linkedin.com/in/kanika-miglani-538a06137/) joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data analyst with a background in Python and R.
+[Kanika](https://www.linkedin.com/in/kanika-miglani-538a06137/) joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data scientist with a background in Python, ML and R.
 
 ### Sharon Ingram | Cloud Architect 
 ![Sharon.png](/images/Sharon.png) </br>
