@@ -56,7 +56,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 ### Kanika Miglani | Data Science & Analysis 
 ![Kanika.png](/images/Kanika.png)</br>
 
-[Kanika](https://www.linkedin.com/in/kanika-miglani-538a06137/) joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data scientist with a background in Python, ML and R.
+[Kanika](https://www.linkedin.com/in/kanika-miglani-538a06137/) joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data scientist with a background in Python, ML and R. Kanika has experience mentoring companies to enhance digital transformation and innovation, with client's stating: "Kanika has been a great help and mentor to Genysys Engine. Thanks to Kanika's knowledge and guidance we have been able to analyze, learn & expand our Deep Learning models."
 
 ### Sharon Ingram | Cloud Architect 
 ![Sharon.png](/images/Sharon.png) </br>
