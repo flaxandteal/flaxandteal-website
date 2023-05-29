@@ -73,7 +73,3 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Viktoria](https://www.linkedin.com/in/viktoria-boncheva-725498168/) has joined us a a junior product manager. Viktoria is based in our Sofia office and has experience working in business development and international trade. 
 
-### Vishak Pillai | Data Engineer 
-![Vishak.png](/images/Vishak.png)</br>
-
-[Vishak](https://www.linkedin.com/in/vishakhp/) joined our team as a experienced mathematician, statistician and data engineer. Vishak has a background in statistical modelling and machine learning, and experience with Python and C++. He holds a Masters in Mathematics and Statistics from the Indian Institute of Technology.
