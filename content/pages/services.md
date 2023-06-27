@@ -69,6 +69,6 @@ Flax & Teal is proud to be an approved supplier with our partner [Keitaro](keita
 
 Flax &amp; Teal has established introductory courses on Kubernetes (infrastructure), Data Science and Python, covering topics such as Data Analysis, Engineering, Machine Learning, Visualization, Geospatial and Fluid Dynamics.
 
-_Phil Weir has run costed conference and on-site research-level workshops in NI &amp; Scotland, with exceptional feedback and repeat requests._
+_Phil Weir has run costed conference and on-site research-level workshops in NI, England &amp; Scotland, with exceptional feedback and repeat requests._
 
 All training materials we produce are openly available and shareable, with our recurring engagements driven entirely by the quality and expertise of our delivery.
