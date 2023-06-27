@@ -17,5 +17,5 @@ Flax and Teal are also dedicated to sustainable software development, which is e
 
 ### <br>OpenDataNI </br>
 Flax & Teal have successfully been winners of OpenDataNI Innovation & Outreach Fund 2020 & 2021, for our work surrounding [Our Raging Planet](https://ourragingplanet.com) and our work surrounding open data and Covid-19. <br> <centre>
-![OpenDataNI Screenshot](/images/odniorpaward.jfif)</br>
+![OpenDataNI Screenshot](/images/odniorpaward.jfif)</centre></br>
 
