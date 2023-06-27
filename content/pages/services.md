@@ -55,6 +55,10 @@ Flax &amp; Teal are on the G-Cloud 12 framework, allowing us to deliver our serv
 
 Being on the G-Cloud 12 portal allows organisations across the UK public sector including central government, local government, health, education, emergency services, and not-for-profit organisations reach us and our services.
 
+### Arches Suppliers
+
+Flax &amp; Teal are certified [Arches](https://www.archesproject.org/) suppliers, with experience of deploying multiple Arches instances for consumer needs. Our in-house expertise allows us to transform and customise Arches to your needs, whether that is within heritage, research, science and more. Serving public and private sector alike through open source cultural heritage. 
+
 ### Open Data 
 
 Flax & Teal is proud to be an approved supplier with our partner [Keitaro](keitaro.com) of Sweden to the Irish Government’s Open Data Frameworks launched by the Minister of State at the Department of Public Expenditure and Reform with responsibility for Public Procurement and eGovernment, Ossian Smyth, TD, on February 23rd, 2022. Our founder, Dr Phil Weir, welcomed the launch of the two new Open Data Framework Agreements by the Office of Government Procurement (OGP) and the Department of Public Expenditure and Reform’s Open Data unit. The two frameworks, the Technical Services Framework for Open Data and Data Management, and the National Open Data Training Framework, support public sector bodies (PSBs) in fulfilling their Open Data obligations.
