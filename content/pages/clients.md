@@ -20,4 +20,5 @@ Flax & Teal have successfully been winners of OpenDataNI Innovation & Outreach F
 ![OpenDataNI Screenshot](/images/odniorpaward.jfif) </br>
 
 ### Global Market <br>
+Our client-base reflects our international team as we have clients based in NI, ROI, UK and beyond, from America to New Zealand!
 ![map2.png](/images/map2.png) </br>
