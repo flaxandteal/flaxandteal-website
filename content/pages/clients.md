@@ -20,4 +20,4 @@ Flax & Teal have successfully been winners of OpenDataNI Innovation & Outreach F
 ![OpenDataNI Screenshot](/images/odniorpaward.jfif) </br>
 
 ### Global Market
-![map.html](/images/map.html)
+![map.html](/images/map2.png)
