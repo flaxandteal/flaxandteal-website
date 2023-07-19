@@ -15,7 +15,7 @@ _Flax & Teal builds tools for private and public sector including publicly-share
 F&T is also part of a multidisciplinary consortium of small businesses in Northern Ireland: [Avata Industries](https://avata.industries),
 which together build openly-licensed products.
 
-With our mix of industry and academic computing experience, we are well-placed to support complex R&amp;D subcontracts, including general and specialist development on **Horizon 2020** and **InnovateUK** projects. We are also certifed [Arches](https://www.archesproject.org/) providers, an open source cultural heritage management platform. 
+With our mix of industry and academic computing experience, we are well-placed to support complex R&amp;D subcontracts, including general and specialist development on **Horizon 2020** and **InnovateUK** projects. We are also certified [Arches](https://www.archesproject.org/) providers, an open source cultural heritage management platform. 
 
 <hr/>
 
