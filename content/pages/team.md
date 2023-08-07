@@ -23,11 +23,6 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Andrea](https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/) joined Flax &amp; Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment.
 
-### Aoife Watson | Project Manager 
-![Aoife.png](/images/Aoife.png) </br>
-
-[Aoife](https://www.linkedin.com/in/aoife-watson/) takes over our project management side with a PhD from Ulster University in clinical research and agile methodologies. Aoife has experience with SPSS and R and has provided mentoring to companies surrounding Digital Transformation.
-
 ### Ellery Ames | Scientific Software Engineer 
 ![Ellery.png](/images/Ellery.png) </br>
 
@@ -66,10 +61,4 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 ### Shauna Fitzsimons | Data Support Technician 
 ![Shauna.png](/images/Shauna.png)</br>
 
-[Shauna](https://www.linkedin.com/in/shauna-f-030798aa/) adds to our team in our data analysis and support tasks. Shauna works on licensing and compliance to ensure the highest standards are met.
-
-### Viktoria Boncheva | Junior Product Manager  
-![Viktoria.png](/images/Viktoria.png)</br>
-
-[Viktoria](https://www.linkedin.com/in/viktoria-boncheva-725498168/) has joined us a a junior product manager. Viktoria is based in our Sofia office and has experience working in business development and international trade. 
-
+[Shauna](https://www.linkedin.com/in/shauna-f-030798aa/) adds to our team in our data analysis and supporting project management tasks. Shauna works on licensing and compliance to ensure the highest standards are met.
