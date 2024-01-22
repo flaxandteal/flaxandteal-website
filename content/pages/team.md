@@ -2,7 +2,7 @@
 
 From an initial team of one in Belfast in 2013, Flax and Teal has expanded significantly since, adding people in new locations and expanding our capabilities to meet growing customer needs. 
 
-Now spread across 4 locations, Northern Ireland, Bulgaria, Scotland, India and California, the Flax and Teal team currently exceeds 15 people and continues to grow. 
+Now spread across 4 locations, Northern Ireland, Bulgaria, India and California, the Flax and Teal team currently consists of 13 people and continues to grow. 
 
 With customers across Ireland, the UK , Europe and Northern America the team spans across several timezones.  Expertise is enhanced across the teams through establishing technical competency groups led by experienced leaders, charged with ensuring best practice and efficient learning across all the organisation.
 
