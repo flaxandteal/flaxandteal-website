@@ -43,7 +43,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Jim](linkedin.com/in/jimmfitzsimons/) is a contract Business Development Specialist who works with us and specifically focuses on our work in the Republic of Ireland. 
 
-### Kamen Dimitrov | Junior Developer 
+### Kamen Dimitrov | Developer 
 ![Kamen.png](/images/Kamen.png)</br>
 
 [Kamen](https://www.linkedin.com/in/kamen-dimitrov-a26a2492/) is our junior software developer. He completed studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development. 
