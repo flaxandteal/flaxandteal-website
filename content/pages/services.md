@@ -8,7 +8,7 @@ menu: "main"
 
 ### [Coding](#rampd-software-development) | Cloud Architecture | Consulting
 
-Flax & Teal is a consultancy focused on openly-licensed technologies, serving public and private sector through web-based products and services in computational engineering, geospatial analysis and data science.
+Flax & Teal is a consultancy focused on openly-licensed technologies, serving public and private sector through web-based products and services in computational engineering, geospatial analysis and data science (machine learning and AI). 
 
 _Flax & Teal builds tools for private and public sector including publicly-shared, reusable parts - these are often web platforms providing behind-the-scenes analysis of open data, geography and physics._
 
@@ -29,7 +29,7 @@ With our mix of industry and academic computing experience, we are well-placed t
 
 Flax &amp; Teal has coordinated and driven a number of complex client projects across technologies since 2013, and supported others. We build intricate applications ourselves or, for large projects, draw together a multidisciplinary team from across the Avata Industries group.
 
-Flax &amp; Teal has in-house experience supporting projects funded under EU and InnovateUK R&amp;D frameworks; coordination of work packages involving training, software development, data analysis, focus groups and design.
+Flax &amp; Teal has in-house experience supporting projects funded under EU and InnovateUK R&amp;D frameworks; coordination of work packages involving training, software development, data analysis, machine learning, focus groups and design.
 
 We have experience in health, enterprise, numerical simulation, engineering, journalism, public and education sectors, amongst others.
 
