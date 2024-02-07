@@ -23,6 +23,7 @@ menu: "main"
 
 ### <br>[What We Do](https://flaxandteal.co.uk/pages/video) | [Our Team](https://flaxandteal.co.uk/pages/team/) | [Testimonials](https://flaxandteal.co.uk/pages/testimonials/)</br>
 
+<center>
 * Web platforms
 * Open source
 * Scientific computing
@@ -36,6 +37,7 @@ menu: "main"
 * Machine learning
 * Natural language
 * Azure/AWS/GCP
+</center>
 
 ## {{< dash "open" >}} for business<br/>info@flaxandteal.co.uk 
 
