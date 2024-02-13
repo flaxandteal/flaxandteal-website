@@ -1,6 +1,7 @@
 # About Us
 ## Where it all began
 Our name, _Flax & Teal_ has an interesting back story, which broadly summarises our company's philosophy. Our Director, Phil Weir, spent over 3 years completing his PhD in New Zealand, a whopping 11,468 miles from his roots in Northern Ireland. Turns out, Northern Ireland and New Zealand have more in common than one would think.
+
 <br>
 _Flax_ is a flowering plant which grows natively both in NI and NZ, whereas _Teal_ is a species of duck (no, really), which is also natively found in both regions. Our name broadly summarises our viewpoint as a company; looking both at home and away.
 </br>
