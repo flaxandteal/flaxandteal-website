@@ -13,6 +13,11 @@ Founder and director of Flax &amp; Teal Ltd., [Phil](https://www.linkedin.com/in
 Phil has successfully delivered Python and Kubernetes training, and also has experience working with geo-spatial data.
 He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 (scientific Python) on web-based simulations, and at the Open Data Science Conference 2017 in London on web-based, on-demand data analysis. </br>
 
+### Adam Kelly | Front-end Developer
+![Adam.jpeg](/images/Adam.jpeg) </br>
+
+[Adam](https://www.linkedin.com/in/adam-kelly-4525b2160/) joins our team as a front-end developer with experience in Javascript, Software Testing Life Cycle and UI / front-end build. He holds a degree in Computer Science from Ulster Univeristy and a foundation degree in Computing. </br>
+
 ### Alana Murphy | Data Analysis 
 ![Alana.png](/images/Alana.png) </br>
 
