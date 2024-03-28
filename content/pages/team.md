@@ -18,7 +18,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Adam](https://www.linkedin.com/in/adam-kelly-4525b2160/) joins our team as a front-end developer with experience in Javascript, Software Testing Life Cycle and UI / front-end build. He holds a degree in Computer Science from Ulster Univeristy and a foundation degree in Computing. </br>
 
-### Alana Murphy | Data Analysis 
+### Alana Murphy | Operations Lead 
 ![Alana.png](/images/Alana.png) </br>
 
 [Alana](https://www.linkedin.com/in/alana-murphy-4ab8891aa/) works as an operations analyst within Flax &amp; Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen's University. Alana has worked with SPSS, Stata, HTML and Python toolings in data analysis. She also has experience with UX/UI testing.
