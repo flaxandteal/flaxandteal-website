@@ -67,3 +67,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 ![Shauna.png](/images/Shauna.png)</br>
 
 [Shauna](https://www.linkedin.com/in/shauna-f-030798aa/) adds to our team in our data analysis and supporting project management tasks. Shauna works on licensing and compliance to ensure the highest standards are met.
+
+### Stuart Marshall | Progressing Developer
+
+
