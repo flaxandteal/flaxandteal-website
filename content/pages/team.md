@@ -14,7 +14,7 @@ Phil has successfully delivered Python and Kubernetes training, and also has exp
 He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 (scientific Python) on web-based simulations, and at the Open Data Science Conference 2017 in London on web-based, on-demand data analysis. </br>
 
 ### Adam Kelly | Front-end Developer
-![Adam.png](/images/Adam.png) 
+![adam.png](/images/adam.png) 
 
 [Adam](https://www.linkedin.com/in/adam-kelly-4525b2160/) joins our team as a front-end developer with experience in Javascript, Software Testing Life Cycle and UI / front-end build. He holds a degree in Computer Science from Ulster Univeristy and a foundation degree in Computing. </br>
 
