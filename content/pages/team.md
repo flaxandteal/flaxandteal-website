@@ -58,6 +58,11 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Kanika](https://www.linkedin.com/in/kanika-miglani-538a06137/) joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data scientist with a background in Python, ML and R. Kanika has experience mentoring companies to enhance digital transformation and innovation, with client's stating: "Kanika has been a great help and mentor to Genysys Engine. Thanks to Kanika's knowledge and guidance we have been able to analyze, learn & expand our Deep Learning models."
 
+### May Cheung | Operations Manager / Co-Ordinator
+![May.png](/images/May.png)</br>
+
+[May](https://www.linkedin.com/in/maycheungni/) adds to our operations team with over 15 years experience working within the tech sector. May helps co-ordinate our in-house strategy and operations, and is currently CFO for OpenUK, highlighting her passion and dedication to open source. She is also the Director and a key organiser of the Northern Ireland Development Conference (NIDC) since it was founded in 2019.
+
 ### Sharon Ingram | Cloud Architect 
 ![Sharon.png](/images/Sharon.png) </br>
 
@@ -69,5 +74,6 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 [Shauna](https://www.linkedin.com/in/shauna-f-030798aa/) adds to our team in our data analysis and supporting project management tasks. Shauna works on licensing and compliance to ensure the highest standards are met.
 
 ### Stuart Marshall | Progressing Developer
+![Stuart.png](/images/Stuart.png) </br>
 
-
+[Stuart](https://www.linkedin.com/in/stuartcmarshall/) joins our team as a Progressing Software Developer with an extensive background in 3D design, architecture and additive manufacturing. He has experience working in the front-end and backend, including; VR technologies such as Blender, CSS, JavaScript, HMTL, C# and .NET, with expertise in Vue and React. 
