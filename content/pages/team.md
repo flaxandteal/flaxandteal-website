@@ -74,6 +74,6 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 [Shauna](https://www.linkedin.com/in/shauna-f-030798aa/) adds to our team in our data analysis and supporting project management tasks. Shauna works on licensing and compliance to ensure the highest standards are met.
 
 ### Stuart Marshall | Progressing Developer
-![Stuart.png](/images/Stuart.png) 
+![Stuart.png](/images/Stuart.png) <br>
 
 [Stuart](https://www.linkedin.com/in/stuartcmarshall/) joins our team as a Progressing Software Developer with an extensive background in 3D design, architecture and additive manufacturing. He has experience working in the front-end and backend, including; VR technologies such as Blender, CSS, JavaScript, HMTL, C# and .NET, with expertise in Vue and React. 
