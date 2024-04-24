@@ -4,7 +4,7 @@ From an initial team of one in Belfast in 2013, Flax and Teal has expanded signi
 
 Now spread across 4 locations, Northern Ireland, Bulgaria, India and California, the Flax and Teal team currently consists of 13 people and continues to grow. 
 
-With customers across Ireland, the UK , Europe and Northern America the team spans across several timezones.  Expertise is enhanced across the teams through establishing technical competency groups led by experienced leaders, charged with ensuring best practice and efficient learning across all the organisation.
+With customers across Ireland, the UK, Europe and Northern America the team spans across several timezones.  Expertise is enhanced across the teams through establishing technical competency groups led by experienced leaders, charged with ensuring best practice and efficient learning across all the organisation.
 
 ### Phil Weir | Founder  
 ![Phil.png](/images/Phil.png) </br>
