@@ -12,6 +12,12 @@ Dive into the past with an innovative way to explore historical images, videos, 
 
 How it Works
 
+
+
+Dive into the past with an innovative way to explore historical images, videos, audio clips, and captivating stories from heritage archives. Our project uses 3D/VR technology to bring history to life right at your fingertips.
+
+How it Works:
+
 Scan & Discover: Find one of our 6 strategically placed QR code plaques, scan it with your smartphone, and step into a snapshot of history. 
 
 Step Into the Past: There are 6 Rooms, each with a unique QR code located along the Maritime Mile. Navigate through these 6 uniquely themed 3D/VR rooms created and hosted in Mozilla Hub. Whether you’re a history buff or a curious explorer, each room offers a distinct journey through time:
