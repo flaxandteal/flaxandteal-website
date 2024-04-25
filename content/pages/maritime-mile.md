@@ -1,3 +1,9 @@
+---
+title: "Maritime Mile"
+date: 2024-04-24T10:41:23Z
+draft: false
+---
+
 # Explore Belfast’s Maritime Mile History Like Never Before
 
 ### Welcome to the Virtual Heritage Experience!
