@@ -8,7 +8,7 @@ draft: false
 
 ### Welcome to the Virtual Heritage Experience!
 
-Dive into the past with an innovative way to explore historical images, videos, audio clips, and captivating stories from heritage archives. Our project uses 3D/VR technology to bring history to life right at your fingertips.<br>
+<p>Dive into the past with an innovative way to explore historical images, videos, audio clips, and captivating stories from heritage archives. Our project uses 3D/VR technology to bring history to life right at your fingertips.</p>
 
 How it Works:
 
