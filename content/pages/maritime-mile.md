@@ -6,13 +6,7 @@ draft: false
 
 # Explore Belfast’s Maritime Mile History Like Never Before
 
-### Welcome to the Virtual Heritage Experience!
-
-Dive into the past with an innovative way to explore historical images, videos, audio clips, and captivating stories from heritage archives. Our project uses 3D/VR technology to bring history to life right at your fingertips.
-
-How it Works
-
-
+### Welcome to the Virtual Heritage Experience
 
 Dive into the past with an innovative way to explore historical images, videos, audio clips, and captivating stories from heritage archives. Our project uses 3D/VR technology to bring history to life right at your fingertips.
 
