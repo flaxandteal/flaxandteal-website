@@ -8,11 +8,12 @@ draft: false
 
 ### Welcome to the Virtual Heritage Experience
 
-<div style="display:flex; flex-direction=column;">
+<div style="display:flex; flex-direction:column; padding:0 10%;">
 Dive into the past with an innovative way to explore historical images, videos, audio clips, and captivating stories from heritage archives. Our project uses 3D/VR technology to bring history to life right at your fingertips.
 
 How it Works:
 
+<div style="text-aligned:left">
 - Scan & Discover: Find one of our 6 strategically placed QR code plaques, scan it with your smartphone, and step into a snapshot of history. 
 - Step Into the Past: There are 6 Rooms, each with a unique QR code located along the Maritime Mile. Navigate through these 6 uniquely themed 3D/VR rooms created and hosted in Mozilla Hub. Whether you’re a history buff or a curious explorer, each room offers a distinct journey through time:
   - People & Community: Experience the life and evolution of local communities.
@@ -21,6 +22,7 @@ How it Works:
   - Art & Culture: A snapshot of the city’s artistic and cultural heritage.
   - Archives: Documents and photographs, each with a story to tell.
   - Titanic: Relive the stories of the legendary Titanic.
+</div>
 
 Connect with History:
 Our project not only preserves but revitalises our shared heritage. By engaging with our digital archive, you contribute to the ongoing story of our past, ensuring it remains alive for future generations.
