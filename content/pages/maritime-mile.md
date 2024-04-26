@@ -13,16 +13,18 @@ Dive into the past with an innovative way to explore historical images, videos, 
 
 How it Works:
 
-<div style="text-aligned:left">
-- Scan & Discover: Find one of our 6 strategically placed QR code plaques, scan it with your smartphone, and step into a snapshot of history. 
-- Step Into the Past: There are 6 Rooms, each with a unique QR code located along the Maritime Mile. Navigate through these 6 uniquely themed 3D/VR rooms created and hosted in Mozilla Hub. Whether you’re a history buff or a curious explorer, each room offers a distinct journey through time:
-  - People & Community: Experience the life and evolution of local communities.
-  - Industry: Explore Belfast’s industrial past.
-  - Shipbuilding: Witness the craftsmanship and legacy of historical shipyards.
-  - Art & Culture: A snapshot of the city’s artistic and cultural heritage.
-  - Archives: Documents and photographs, each with a story to tell.
-  - Titanic: Relive the stories of the legendary Titanic.
-</div>
+<ul style="text-align:left">
+<li> Scan & Discover: Find one of our 6 strategically placed QR code plaques, scan it with your smartphone, and step into a snapshot of history. </li>
+<li> Step Into the Past: There are 6 Rooms, each with a unique QR code located along the Maritime Mile. Navigate through these 6 uniquely themed 3D/VR rooms created and hosted in Mozilla Hub. Whether you’re a history buff or a curious explorer, each room offers a distinct journey through time: </li>
+  <ul>
+    <li> People & Community: Experience the life and evolution of local communities. </li>
+    <li> Industry: Explore Belfast’s industrial past. </li>
+    <li> Shipbuilding: Witness the craftsmanship and legacy of historical shipyards. </li>
+    <li> Art & Culture: A snapshot of the city’s artistic and cultural heritage. </li>
+    <li> Archives: Documents and photographs, each with a story to tell. </li>
+    <li> Titanic: Relive the stories of the legendary Titanic. </li>
+  </ul>
+</ul>
 
 Connect with History:
 Our project not only preserves but revitalises our shared heritage. By engaging with our digital archive, you contribute to the ongoing story of our past, ensuring it remains alive for future generations.
