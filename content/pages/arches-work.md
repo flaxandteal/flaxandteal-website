@@ -22,5 +22,4 @@ capabilities.
 
 <p align="center" width="100%">
   <img alt="Arches F&T" src="/static/images/ftarches.png" style="width:25%;">
-
-
+</p>
