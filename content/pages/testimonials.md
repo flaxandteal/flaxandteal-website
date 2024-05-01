@@ -1,4 +1,6 @@
-# Testimonials 
+# Case Studies 
+
+We've been fortunate enough to work with a wide range of clients across various sectors, ensuring project completion and client satisfaction along the way. 
 
 ### Deloitte
 Flax & Teal partnered with Deloitte to build an enterprise-level data gathering Human Resources platform. The digital transformation project changed the way resources are managed by quantifying time allocated to various departments. This project involved an iterative Agile, full stack build and development of cloud infrastructure. The team deployed Kubernetes to ensure flexibility and resilience of service. 
@@ -12,8 +14,7 @@ Flax and Teal are also dedicated to sustainable software development, which is e
 
 ### [Big Motive](https://www.bigmotive.com/) 
 
-“We, at Big Motive, have worked with Flax & Teal on multiple technical projects and have benefited significantly from their ability to provide agile planning and delivery of technical work. From the early stages of the projects, Flax and Teal worked extremely well with all stakeholders, including the design and client teams to fully understand the project and co-create requirements. Always ensuring realistic, achievable and technical expectations. They are an extremely responsive team and always willing to help during challenging parts of the project, including unforeseen requirement changes and bugs/development issues. Phil's Kubernetes, data and architecture expertise has allowed us to deliver a much needed health product to time and to spec within a supportive and collaborative environment. Phil's team allowed us to scale our acceptability and feasibility trial for this product by
-effectively scaling for a larger base of second phase users, with responsive support. We look forward to our continued work with Flax & Teal, particularly as we bring the health product mentioned through to a larger trial.”
+“We, at Big Motive, have worked with Flax & Teal on multiple technical projects and have benefited significantly from their ability to provide agile planning and delivery of technical work. From the early stages of the projects, Flax and Teal worked extremely well with all stakeholders, including the design and client teams to fully understand the project and co-create requirements. Always ensuring realistic, achievable and technical expectations. They are an extremely responsive team and always willing to help during challenging parts of the project, including unforeseen requirement changes and bugs/development issues. Phil's Kubernetes, data and architecture expertise has allowed us to deliver a much needed health product to time and to spec within a supportive and collaborative environment. Phil's team allowed us to scale our acceptability and feasibility trial for this product by effectively scaling for a larger base of second phase users, with responsive support. We look forward to our continued work with Flax & Teal, particularly as we bring the health product mentioned through to a larger trial.”
 
 ### OpenDataNI
 Flax & Teal have successfully been winners of OpenDataNI Innovation & Outreach Fund 2020 & 2021, for our work surrounding [Our Raging Planet](https://ourragingplanet.com) and our work surrounding open data and Covid-19. <centre>
