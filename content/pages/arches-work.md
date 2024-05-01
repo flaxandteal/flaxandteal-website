@@ -12,4 +12,6 @@ Arches is an open source data management platform which makes it possible for me
 
 [Arches Platform](https://www.archesproject.org/) | [Arches for Science](/pages/arches-science) | [Arches for Cultural Heritage](/pages/arches-heritage) 
 
-<center>![Arches logo](/images/ftarches.png)</center>
+<center>
+![Arches logo](/images/ftarches.png)
+</center>
