@@ -21,7 +21,7 @@ menu: "main"
 1. Bioinformatics
 1. Govt Statistics
 
-### <br>[What We Do](https://flaxandteal.co.uk/pages/video) | [Our Team](https://flaxandteal.co.uk/pages/team/) | [Testimonials](https://flaxandteal.co.uk/pages/testimonials/)</br>
+### <br>[What We Do](https://flaxandteal.co.uk/pages/video) | [Our Team](https://flaxandteal.co.uk/pages/team/)</br>
 
 <center>
 * Web platforms
