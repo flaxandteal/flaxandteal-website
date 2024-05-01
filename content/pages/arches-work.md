@@ -19,4 +19,4 @@ capabilities.
 
 [Arches Platform](https://www.archesproject.org/) | [Arches for Science](/pages/arches-science) | [Arches for Cultural Heritage](/pages/arches-heritage) 
 
-<img alt="Arches F&T" src="/static/images/ftarches.png" style="width:25%;"></img>
+<img alt="Arches F&T" src="/static/images/ftarches.png" style="width:25%;"> </img>
