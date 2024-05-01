@@ -8,7 +8,8 @@ menu: "main"
 We've been fortunate enough to work with a wide range of clients across various sectors, ensuring project completion and client satisfaction along the way. 
 
 ### [Arches](/pages/arches-work)
-A selection of our commercial Arches work, an open source data management solution.
+A selection of our commercial Arches work, an open source data management solution. We are recognized Arches providers, an open source cultural heritage management
+platform, with GIS capability and suitable for movable and immovable heritage assets. We have used NI cultural heritage data in an education setting, to educate school children on the risks of imagined natural hazards to, for example, Areas of Significant Archaeological Interest and sites on the Industrial Heritage Record.
 
 ### [Big Motive](https://www.bigmotive.com/) 
 
