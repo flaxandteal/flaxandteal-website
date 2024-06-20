@@ -1,0 +1,18 @@
+<nav class="container mx-auto nav-new gap-1 flex-between flex py-1">
+  <div class="left">
+    <div class="logo">
+      <a href="/"><img width="150" src="{{site.Params.logo_main}}" alt="Flax Teal Logo"></a>
+    </div>
+  </div>
+  <div class="right">
+    <ul class="flex gap-2">
+      {{ range site.Menus.main}}
+      {{ if in .URL "contact"}}
+      <li><a class="btn btn-primary text-light" href="{{.URL}}">{{.Name}}</a></li>
+      {{ else }}
+      <li><a class="text-dark" href="{{.URL}}">{{.Name}}</a></li>
+      {{ end }}
+      {{ end }}      
+    </ul>
+  </div>
+</nav>

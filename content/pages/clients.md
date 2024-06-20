@@ -2,7 +2,7 @@
 title: "Our Clients"
 date: 2021-07-01T10:41:23Z
 draft: false
-menu: "main"
+# menu: "main"
 ---
 # Clients & Case Studies
 We've been fortunate enough to work with a wide range of clients across various sectors, ensuring project completion and client satisfaction along the way. 

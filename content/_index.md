@@ -2,42 +2,16 @@
 title: "Home"
 date: 2018-12-21T14:10:03Z
 draft: false
-menu: "main"
+# menu: "main"
+sections:
+  - type: hero
+    bg_img: '/images/index/header-bg.webp'
+    heading: 'Solving scientific <br> and data challenges <br> together'
+    text: 'We build innovative web platforms and solutions to tackle complex data and scientific challenges across diverse domains. Leveraging open source technologies, cloud infrastructure, and cutting-edge approaches like machine learning and scientific computing, we collaborate with clients to develop tailored solutions that drive progress and create value.'
+    cta: 'Watch video'
+    cta_link: '#'
+  # - type: main
+  #   heading: 'main tesc'
+  #   subheading: 'submain tesc'
 ---
-
-# Solving {{< dash "scientific" >}} and {{< dash "data" >}} challenges {{< dash "together" >}}{{< dot "." >}}
-
-1. Natural disasters
-1. Heritage
-1. Optical physics
-1. Geospatial
-1. Automotive
-1. HR
-1. Customs
-1. Social work
-1. Open data
-1. Social media
-1. Health
-1. Bioinformatics
-1. Govt Statistics
-
-### <br>[What We Do](https://flaxandteal.co.uk/pages/video) | [Our Team](https://flaxandteal.co.uk/pages/team/)</br>
-
-<center>
-* Web platforms
-* Open source
-* Scientific computing
-* Kubernetes
-* IoT
-* VR
-* Privacy
-* Blockchain
-* Telemetry
-* Planning
-* Machine learning
-* Natural language
-* Azure/AWS/GCP
-</center>
-
-## {{< dash "open" >}} for business<br/>info@flaxandteal.co.uk 
 

@@ -5,6 +5,48 @@ publishDir = "docs"
 sectionPagesMain = "main"
 relativeURLs = true
 
+[menus]
+  [[menus.main]]
+    name = 'About Us'
+    pageRef = '/about-us'
+    weight = 10
+  [[menus.main]]
+    name = 'Services'
+    pageRef = '/services'
+    weight = 20
+  [[menus.main]]
+    name = 'Products'
+    pageRef = '/products'
+    weight = 30
+  [[menus.main]]
+    name = 'Contact Us'
+    pageRef = '/contact'
+    weight = 40
+  
+  [[menus.footer]]
+    name = 'About Us'
+    pageRef = '/about-us'
+    weight = 10
+  [[menus.footer]]
+    name = 'Technology'
+    pageRef = '/technology'
+    weight = 20
+  [[menus.footer]]
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 30
+  [[menus.footer]]
+    name = 'Privacy Policy'
+    pageRef = '/privacy-policy'
+    weight = 40
+  [[menus.footer]]
+    name = 'Terms & Conditions'
+    pageRef = '/terms-and-condition'
+    weight = 50
+
+[params]
+  logo_main = '/images/index/flax-teal-logo.webp'
+
 [markup]
   [markup.goldmark.renderer]
        unsafe=true

@@ -1,0 +1,14 @@
+<footer class="footer-new">
+  <div class="left">
+    <div class="logo">
+      <img width="200" src="{{site.Params.logo_main}}" alt="Flax Teal Logo">
+    </div>
+  </div>
+  <div class="right">
+    <ul>
+      {{ range site.Menus.footer}}
+      <li><a href="{{.URL}}">{{.Name}}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+</footer>
