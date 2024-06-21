@@ -1,4 +1,5 @@
-baseURL = "https://flaxandteal.co.uk/"
+baseURL = "/"
+# baseURL = "https://flaxandteal.co.uk/"
 languageCode = "en-us"
 title = "Flax &amp; Teal"
 publishDir = "docs"
