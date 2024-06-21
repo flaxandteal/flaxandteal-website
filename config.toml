@@ -4,6 +4,7 @@ title = "Flax &amp; Teal"
 publishDir = "docs"
 sectionPagesMain = "main"
 relativeURLs = true
+copyright = '© 2024 Flax & Teal Limited.'
 
 [menus]
   [[menus.main]]
@@ -45,7 +46,22 @@ relativeURLs = true
     weight = 50
 
 [params]
+  footer_note = 'Flax & Teal Limited is a limited company registered in Northern Ireland with registration number NI617545, VAT number GB283-7116-92, EORI number GB283711692000, and ICO registration ZA243895.'
+  address = 'Farset Labs Weavers Court <br> Linfield Road <br> Belfast BT12 5GH'
   logo_main = '/images/index/flax-teal-logo.webp'
+  logo_white = '/images/index/flax-teal-logo-white.webp'
+  [[params.socials]]
+    icon = 'Youtube'
+    icon_src =  'images/icons/yt-logo.webp'
+    link =  'https://youtube.com/channel/UCbF1nWNmlZ7e9AlKqijw5HA'
+  [[params.socials]]
+    icon = 'Linkedin'
+    icon_src =  'images/icons/lin-logo.webp'
+    link =  'https://linkedin.com/company/flax-&-teal-limited'
+  [[params.socials]]
+    icon = 'Twitter - X'
+    icon_src =  'images/icons/twitter-x-logo.webp'
+    link =  'https://twitter.com/flaxandteal'
 
 [markup]
   [markup.goldmark.renderer]

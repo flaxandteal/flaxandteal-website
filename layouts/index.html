@@ -1,9 +1,11 @@
 {{ define "main" }}
 {{ partial "nav-new.html" . }}
 
-{{ range .Params.sections }}
-{{ partial (printf "%s.html" .type) . }}
-{{ end }}
+<main class="home">
+  {{ range .Params.sections }}
+  {{ partial (printf "%s.html" .type) . }}
+  {{ end }}
+</main>
 
 {{ partial "footer-new.html" . }}
 {{ end }}
