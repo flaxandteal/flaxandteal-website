@@ -6,7 +6,7 @@ draft: false
 sections:
   - type: hero
     bg_img: '/images/index/header-bg.webp'
-    heading: 'Solving scientific <br> and data challenges <br> together'
+    heading: 'Solving scientific and data challenges together'
     text: 'We build innovative web platforms and solutions to tackle complex data and scientific challenges across diverse domains. Leveraging open source technologies, cloud infrastructure, and cutting-edge approaches like machine learning and scientific computing, we collaborate with clients to develop tailored solutions that drive progress and create value.'
     cta: 'Watch video'
     cta_link: '#'

@@ -1,0 +1,9 @@
+nav{
+  &.nav-new{
+    .right{
+      @media (max-width:690px) {
+        display: none;
+      }
+    }
+  }  
+}
