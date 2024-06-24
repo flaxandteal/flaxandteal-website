@@ -377,6 +377,8 @@ span.youtube {
   }
 }
 
+
+
 // utility classes
 
 /* reset */
@@ -482,6 +484,9 @@ span.youtube {
 .mt-2{
   margin-top: 2rem;
 }
+.mt-3{
+  margin-top: 3rem;
+}
 .mb-1{
   margin-bottom: 1rem;
 }
@@ -577,9 +582,10 @@ span.youtube {
 
 .text-light{ color: #fff; }
 .text-dark{ color: #000; }
-
+.text-center{ text-align: center; }
 // bg
 .bg-light{ background-color: #fff; }
+.bg-dark{ background-color: #292929; }
 .bg-primary{ background-color: #334B4E; }
 .bg-gold{ background-color: #D9C78E; }
 
@@ -613,6 +619,56 @@ span.youtube {
 
 .btn-light{
   @extend .bg-light
+}
+
+.our-products{
+  padding: 2rem 0;
+  .text{
+    max-width: 690px;
+  }
+  .cards{
+    display: flex;
+    gap: 2rem;
+    padding: 0 2rem;
+    @media screen and (max-width: 900px) {
+      display: block;
+      padding: 2rem;
+    }
+    // flex-wrap: wrap;
+    .card{
+      max-width: 410px;
+      width: 50%;
+      p{
+        @media screen and (max-width: 900px) {
+          font-size: 1.2rem;
+        }
+      }
+      @media screen and (max-width: 900px) {
+        width: 100%;
+        max-width: 700px;
+        margin-bottom: 3rem;
+      }
+      .card-img-wrapper{
+        img{
+          width: 100%;
+          object-fit: cover;
+          border-radius: 8px;
+        }
+      }
+
+      .card-meta{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        max-height: 215px;
+        a{
+          display: block !important;
+          width: max-content;
+        }
+      }
+    }
+  }
 }
 
 .nav-new{
@@ -651,6 +707,12 @@ main{
 .header-hero{
   position: relative;
   min-height: 740px;
+  @media screen and (max-width: 900px) {
+    overflow: hidden;
+  } 
+  .content{
+    padding: 2rem;
+  }
   .content-wrapper{
     z-index: 3;
     h1{
@@ -664,8 +726,14 @@ main{
   }
   .text{
     max-width: 467px;
+    @media screen and (max-width: 900px) {
+      max-width: 800px;
+    } 
   }
   img{
+    @media screen and (max-width: 900px) {
+      filter: opacity(0.1);
+    }
     &.left{
       object-fit: contain;
       position: absolute;
@@ -676,6 +744,9 @@ main{
       z-index: 2;
       filter: brightness(0.3);
       height: 80%;
+      @media screen and (max-width: 900px) {
+        height: unset;
+      }
     }
     &.right{
       object-fit: contain;
@@ -685,7 +756,6 @@ main{
       bottom: 0;
       margin: auto;
       z-index: 1;
-      // width: 50%;
       height: 100%;
     }
   }
