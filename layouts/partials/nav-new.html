@@ -4,15 +4,49 @@
       <a href="/"><img width="150" src="{{site.Params.logo_main}}" alt="Flax Teal Logo"></a>
     </div>
   </div>
+
   <div class="right">
     <ul class="flex gap-2">
       {{ range site.Menus.main}}
-      {{ if in .URL "contact"}}
+        {{ if in .URL "contact"}} 
+          <li><a class="btn btn-primary text-light" href="{{.URL}}">{{.Name}}</a></li>
+          {{ else }}
+          <li><a class="text-dark" href="{{.URL}}">{{.Name}}</a></li>
+        {{ end }}
+      {{ end }}      
+    </ul>
+  </div>
+
+  <div class="menu-mobile">
+    <button class="menu-btn_close">
+      <div class="bg-primary menu-bar-close"></div>
+      <div class="bg-primary menu-bar-close"></div>
+    </button>
+    <ul>
+      {{ range site.Menus.main}}
+      {{ if in .URL "contact"}} 
       <li><a class="btn btn-primary text-light" href="{{.URL}}">{{.Name}}</a></li>
       {{ else }}
       <li><a class="text-dark" href="{{.URL}}">{{.Name}}</a></li>
       {{ end }}
-      {{ end }}      
+      {{ end }}  
     </ul>
   </div>
+
+  <button aria-label="menu" class="menu-btn">
+    <div class="bg-primary menu-bar"></div>
+    <div class="bg-primary menu-bar"></div>
+  </button>
 </nav>
+
+<script>
+  const menuMobile = document.querySelector('.menu-mobile')
+  const menuBtn = document.querySelector('.menu-btn')
+  const menuClose = document.querySelector('.menu-btn_close')
+  menuClose.addEventListener('click', function(){
+    menuMobile.classList.toggle('active')
+  })
+  menuBtn.addEventListener('click', function(){
+    menuMobile.classList.toggle('active')
+  })
+</script>

@@ -1,0 +1,100 @@
+section{
+  &.contact{
+    .contact-wrapper{
+      margin: auto;
+      display: flex;
+      gap: 2rem;
+      padding-top: 3rem;
+      @media screen and (max-width:600px) {
+        flex-direction: column;
+        gap: unset;
+      }
+      .left{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        p{
+          font-size: 24px;
+          @media screen and (max-width:920px) {
+            font-size: 18px;
+          }
+        }
+        @media screen and (max-width:600px) {
+          margin-left: unset;
+          margin-right: unset;
+          width: 100%;
+        }
+        @media screen and (max-width:1280px) {
+          padding-left: 2rem;
+        }
+      }
+      form{
+        padding: 3rem 2rem;
+        &.right{
+          .form-control{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 1.3rem;
+            @media screen and (max-width:600px) {
+              display: block;
+            }
+            .form-input-wrapper{
+              width: 50%;
+              &:nth-child(1){
+                margin-bottom: 1rem;
+              }
+              @media screen and (max-width:600px) {
+                width: 100%;
+              }
+            }            
+            input{
+              background-color: transparent;
+              border: 1px solid #000;
+              border-radius: 8px;
+              height: 44px;
+              width: 100%;
+            }
+          }
+          .contact-form_sign-up_prompt{
+            position: relative;
+            label{
+              cursor: pointer;
+            }
+            input{
+              cursor: pointer;
+              appearance: none;
+              border: 1px solid #000;
+              background-color: transparent;
+              width: 18px;
+              height: 18px;
+              margin-right: 10px;
+              border-radius: 3px;
+              &:checked ~ ::after {
+                content: "\2713";
+                position: absolute;
+                left: 7px;
+                top: -1px;
+
+              }
+            }
+          }
+          textarea{
+            width: 100%;
+            background-color: transparent;
+            border: 1px solid #000;
+            border-radius: 8px;
+            height: 150px;
+          }
+          button{
+            &#contact-form_btn-submit{
+              border: 0;
+              color: #fff;
+              border-radius: 50px;
+              padding: 1rem 2.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
