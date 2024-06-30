@@ -1,6 +1,6 @@
 <footer class="footer-new flex flex-1">
   <div class="left">
-    <img src="images/index/flax-and-teal-field-image.webp" alt="Flax Teal Field">
+    <img src="/images/index/flax-and-teal-field-image.webp" alt="Flax Teal Field">
   </div>
 
   <div class="right bg-primary p-3">
@@ -11,9 +11,9 @@
       <div class="text-light address">
         {{site.Params.address | markdownify}}
         <div class="flex gap-0-5 mt-1">
-          {{range site.Params.socials}}
-          <a href="{{.link}}">
-            <img src="{{.icon_src}}" alt="{{.icon}} logo">
+          {{range .Site.Params.socials}}
+          <a href="{{.link | relURL}}">
+            <img src="{{.icon_src | relURL}}" alt="{{.icon}} logo">
           </a>
           {{end}}
         </div>

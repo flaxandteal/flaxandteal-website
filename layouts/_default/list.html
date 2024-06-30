@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ partial "nav-new.html" . }}
+
+<main class="{{.RelPermalink | humanize | urlize}}">
+  {{ range .Params.sections }}
+  {{ partial (printf "%s.html" .type) . }}
+  {{ end }}
+</main>
+
+{{ partial "footer-new.html" . }}
+{{ end }}

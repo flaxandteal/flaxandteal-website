@@ -10,7 +10,7 @@ sections:
     text: 'We build innovative web platforms and solutions to tackle complex data and scientific challenges across diverse domains. Leveraging open source technologies, cloud infrastructure, and cutting-edge approaches like machine learning and scientific computing, we collaborate with clients to develop tailored solutions that drive progress and create value.'
     cta: 'Watch video'
     cta_link: '#'
-  - type: home-services
+  - type: our-services_home
     heading: 'Our services'
     text: 'Flax & Teal is a consultancy focused on open technologies, serving public and private sectors through web-based solutions in computational engineering, geospatial analysis, and data science. <br> Part of the Avata Industries consortium, we build openly-licensed products and tools, often web platforms analyzing open data, geography, and physics. With industry and academic expertise, we support R&D projects, including Horizon 2020 and InnovateUK, and are certified Arches providers for cultural heritage management.'
     cta: 'Explore our services'
@@ -28,7 +28,7 @@ sections:
       - title: 'Cloud Infrastructure & DevOps'
         text: 'Robust, scalable solutions on AWS, GCP, Azure using containers, Kubernetes, cloud-native architectures.'
         icon: "/images/icons/cloud-infrastructure-devops.webp"
-  - type: about-us
+  - type: about-us-home
     heading: 'About us'
     text: 'Our multidisciplinary team of experts combines deep technical knowledge with domain expertise to deliver innovative, tailored solutions. We pride ourselves on our commitment to open source collaboration, sustainable development practices, and cutting-edge research and development.'
     cta: 'Meet our team'
