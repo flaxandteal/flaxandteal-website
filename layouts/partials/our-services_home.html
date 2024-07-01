@@ -1,18 +1,25 @@
-<section class="our-services_home flex">
-  <div style="height: 100%;" class="left m-auto">
-    <h3 class="text-light">{{.heading}}</h3>
-    <p class="mb-2 text-light">{{.text | markdownify}}</p>
-    <a class=" btn btn-primary-trans" href="{{.cta_link}}">{{.cta}}</a>
-  </div>
-  <div class="right">
-    <div class="cards">
-      {{ range .cards }}
-        <div class="card">
-          <img width="64" height="64" src="{{.icon}}" alt="an icon representing {{.title}}">
-          <h3>{{.title}}</h3>
-          <p>{{.text}}</p>
-        </div>
-      {{ end }}
+<section class="our-services_home">
+  <div class="os_home_container container mx-auto">
+
+    {{/*  style="height: 100%;"  */}}
+    <div class="left py-3">
+      <h3 class="m-0 text-light">{{.heading}}</h3>
+      <p class="mb-2 text-light">{{.text | markdownify}}</p>
+      <a class=" btn btn-primary-trans" href="{{.cta_link}}">{{.cta}}</a>
+    </div>
+
+    <div class="right">
+      <div class="cards">
+        {{ range .cards }}
+          <div {{ with .bg_color }} {{ printf "style='background-color:%s;'" . | safeHTMLAttr }} {{end}} class="card-outer">
+            <div class="card">
+              <img width="64" height="64" src="{{.icon}}" alt="an icon representing {{.title}}">
+              <h3>{{.title}}</h3>
+              <p>{{.text}}</p>
+            </div>
+          </div>
+        {{ end }}
+      </div>
     </div>
   </div>
 </section>

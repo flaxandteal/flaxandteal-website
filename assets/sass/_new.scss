@@ -281,7 +281,10 @@ body{
 }
 
 .our-products{
-  padding: 2rem 0;
+  padding: 2rem 0 4rem 0;
+  @media screen and (max-width: 900px) {
+    padding: 2rem;
+  }
   .text{
     max-width: 690px;
   }
@@ -507,68 +510,6 @@ main{
   }
 }
 
-.our-services_home{
-  @media screen and (max-width: 920px) {
-    flex-direction: column;
-  }
-  background-color: #5A6D70;
-  .left{
-    width: 50%;
-    padding: 0 4rem;
-    margin: auto auto auto 3rem;
-    @media screen and (max-width: 1100px) {
-      margin: auto;
-    }
-    @media screen and (max-width: 920px) {
-      padding: 4rem 3rem;
-      width: 100%;
-    }
-  }
-  .right{
-    flex: 1;
-    .cards{
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(calc(100vw/5), 1fr));
-      grid-auto-rows: 1fr;
-      @media screen and (max-width: 970px) {
-        display: unset;
-      }
-      .card{
-        max-width: 400px;
-        max-height: 400px;
-        @media screen and (max-width: 1400px) {
-          max-width: unset;
-          max-height: unset;
-          padding: 2rem;
-        }
-        padding: 4rem;
-        background-color: #F1F7F5;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        &:nth-child(2){
-          background-color: #CFE6E1;
-        }
-        &:nth-child(3){
-          @media screen and (max-width: 970px) {
-            order: 1;
-          }
-          background-color: #CFE6E1;
-        }
-        &:nth-child(3){
-          @media screen and (max-width: 970px) {
-            order: 2;
-          }
-          @media screen and (max-width: 790px) {
-            order: 1;
-          }
-        }
-      }
-    }
-  }
-}
-
 .about-us-home{
   background-color: #F1F7F5;
   justify-content: space-between;
@@ -577,8 +518,7 @@ main{
   }
   .left{
     width: 50%;
-    padding: 0 4rem;
-    margin: auto auto auto 3rem;
+    margin: auto;
     @media screen and (max-width: 1100px) {
       margin: auto;
     }

@@ -1,10 +1,12 @@
-<section class="about-us-home flex">
-  <div style="height: 100%;" class="left m-auto">
-    <h3 class="text-dark">{{.heading}}</h3>
-    <p class="mb-2 text-dark">{{.text | markdownify}}</p>
-    <a class=" btn btn-dark" href="{{.cta_link}}">{{.cta}}</a>
-  </div>
-  <div class="right my-auto">
-    <img src="/images/index/about-us-image.webp" alt="about us image">
+<section class="about-us-home px-2">
+  <div class="container flex justify-between mx-auto">
+    <div style="height: 100%;" class="left my-auto">
+      <h3 class="text-dark">{{.heading}}</h3>
+      <p class="mb-2 text-dark">{{.text | markdownify}}</p>
+      <a class=" btn btn-dark" href="{{.cta_link}}">{{.cta}}</a>
+    </div>
+    <div class="right my-auto">
+      <img src="/images/index/about-us-image.webp" alt="about us image">
+    </div>
   </div>
 </section>

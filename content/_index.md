@@ -19,15 +19,19 @@ sections:
       - title: 'Innovative Web Platforms'
         text: 'Cutting-edge web solutions harnessing open source, cloud, and advanced analytics.'
         icon: "/images/icons/innovative-web-platforms.webp"
+        bg_color: '#F1F7F5'
       - title: 'Scientific Computing & Simulation'
         text: 'HPC applications, VR visualizations, complex phenomenon modeling using custom algorithms.'
         icon: "/images/icons/scientific-computing-simulation.webp"
+        bg_color: '#CFE6E1'
       - title: 'Data Analytics & Machine Learning'
         text: 'Predictive modeling, NLP, computer vision, data pipelines for insights and decision-making.'
         icon: "/images/icons/data-analytics-machine-learning.webp"
+        bg_color: '#CFE6E1'
       - title: 'Cloud Infrastructure & DevOps'
         text: 'Robust, scalable solutions on AWS, GCP, Azure using containers, Kubernetes, cloud-native architectures.'
         icon: "/images/icons/cloud-infrastructure-devops.webp"
+        bg_color: '#F1F7F5'
   - type: about-us-home
     heading: 'About us'
     text: 'Our multidisciplinary team of experts combines deep technical knowledge with domain expertise to deliver innovative, tailored solutions. We pride ourselves on our commitment to open source collaboration, sustainable development practices, and cutting-edge research and development.'
