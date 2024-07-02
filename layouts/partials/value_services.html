@@ -1,0 +1,14 @@
+<section {{with .ctx.bg_color}} {{printf "style='background-color:%s;'" . | safeHTMLAttr}} {{end}} class="value_services">
+  <div class="container mx-auto">
+    <div class="card-outer">
+      {{ range .ctx.values }}
+      <div {{ with .bg_color }} {{ printf "style='background-color:%s;'" . | safeHTMLAttr }} {{end}} class="card">
+        <img width="64" height="64" src="{{.icon}}" alt="an icon representing {{.title}}">
+        <h3>{{ .title | markdownify }}</h3>
+        <p class="text mx-auto">{{ .text | markdownify }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+

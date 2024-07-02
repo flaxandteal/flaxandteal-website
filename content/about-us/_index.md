@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "About Us"
 date: 2018-12-21T14:10:03Z
 draft: false
 # menu: "main"

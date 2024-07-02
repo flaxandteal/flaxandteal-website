@@ -56,8 +56,6 @@ sections:
        cta_link: '#'
   - type: contact
     heading: 'Let’s work together'
-    text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo ' 
-    form:
-      - name: Name (required)
+    text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo'
 ---
 

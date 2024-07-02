@@ -1,0 +1,15 @@
+<header class="bg-primary header-hero flex">
+  <img class="left" src="/images/index/header-bg.webp" alt="Flax Teal Watermark background">
+  <div class="my-auto content-wrapper container">
+    <div class="content">
+      <h1 class="text-light">{{.ctx.heading | markdownify}}</h1>
+      <p class="text-p text-light">{{.ctx.text | markdownify}}</p>
+      {{ with .ctx.cta }}
+      <a class="btn btn-primary-trans in-block min-w-fit mt-2" href="{{.cta_link}}">{{.cta}}</a>
+      {{ end }}
+    </div>
+  </div>
+  <div class="right-container">
+    {{/*  <img class="right" src="/images/index/waterfall.webp" alt="Flax Teal Field">  */}}
+  </div>
+</header>
