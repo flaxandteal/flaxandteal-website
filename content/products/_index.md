@@ -7,21 +7,30 @@ sections:
     heading: Products
     text: 'Our full-scale projects involve multidisciplinary teams of designers, media specialists, developers, app and mobile experts, infrastructure engineers, analysts and data scientists assembled as needed. Explore a few of our recent projects:'
   - type: product
+    img: '/images/products/our-raging-planet.webp'
+    order: 1
     heading: Our Raging Planet (ORP)
     subheading: Geospatial Risk Simulation
     cta: 'ourragingplanet.com'
     cta_link: 'https://ourragingplanet.com'
+    bg_color: '#292929'
   - type: product
+    img: '/images/products/project-lintol-laptop.webp'
+    order: 2
     heading: 'Project Lintol'
     subheading: 'Open data validation'
     cta: 'lintol.io'
     cta_link: 'https://lintol.io'
+    bg_color: '#334B4E'
     reverse: true
   - type: product
+    img: '/images/products/the-data-times.webp'
+    order: 3
     heading: The Data Times
     subheading: Data discovery tool
     cta: 'datatimes.com'
     cta_link: 'https://datatimes.com'
+    bg_color: '#292929'
   - type: contact-ctx
     heading: 'Let’s work together'
     text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo'

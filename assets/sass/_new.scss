@@ -111,6 +111,14 @@ body{
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+.py-4{
+  padding-top: 4em;
+  padding-bottom: 4rem;
+}
+.py-5{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 
 .p-auto{
   padding: auto;
@@ -249,6 +257,18 @@ body{
   border-radius: 500px;
   padding: 0.5rem 2rem;
   text-decoration: none;
+  @media screen and (max-width:400px) {
+    font-size: 14px;
+  }
+}
+
+.btn-underlined{
+  color: #B9DCD5;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #B9DCD5;
+  padding-bottom: 0.7rem;
+  font-size: 18px;
   @media screen and (max-width:400px) {
     font-size: 14px;
   }

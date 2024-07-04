@@ -4,9 +4,10 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
-    padding: 6rem 2rem 3rem 2rem;
+    padding: 6rem 0 3rem 0;
     @media screen and (max-width:1000px) {
       display: block;
+      padding: 1rem 1rem 1rem 1rem;
     }
     .card{
       text-align: center;
@@ -32,6 +33,7 @@
 }
 
 .value-details{
+  padding: 4rem 2rem;
   @media screen and (max-width:1450px) {
     padding: 4rem 2rem;
   }
@@ -51,6 +53,9 @@
       flex: 1;
       max-width: 500px;
       margin: auto;
+      @media screen and (max-width:900px) {
+        margin: 4rem 0 0 0;
+      }
       img{
         object-fit: cover;
         width: 100%;

@@ -4,13 +4,12 @@
   <meta charset="UTF-8">
   <title>Flax &amp; Teal - Software Development | Data Science | Consultancy - Open Source in Business</title>
   <meta charset="UTF-8"/>
-  {{/*  <link rel='stylesheet' href='/fonts/league-gothic/stylesheet.css' type='text/css' />
-  <link rel='stylesheet' href='/fonts/league-spartan/stylesheet.css' type='text/css' />  */}}
+  
   {{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
-  {{/*  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">  */}}
+  
+  {{$script := resources.Get "/js/main.js"}}
+  <script defer src="{{$script.RelPermalink}}"></script>
 </head>
 <body style="display: block">
   {{ block "main" . }}{{ end }}
