@@ -12,6 +12,7 @@
   .product-wrapper{
     display: flex;
     margin: auto;
+    gap: 1.8rem;
     @media screen and (max-width:960px) {
       display: block; 
       padding: 3rem 2rem;
