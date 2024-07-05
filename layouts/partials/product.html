@@ -1,4 +1,4 @@
-<section class="py-4 product_products text-light" {{with .ctx.bg_color}} {{printf "style='background-color:%s;'" . | safeHTMLAttr}} {{end}}>
+<section class="product_products text-light" {{with .ctx.bg_color}} {{printf "style='background-color:%s;'" . | safeHTMLAttr}} {{end}}>
   <div class="container mx-auto">
     <div style="{{if .ctx.reverse}}flex-direction: row-reverse;{{end}}" class="product-wrapper">
       <div class="left">
