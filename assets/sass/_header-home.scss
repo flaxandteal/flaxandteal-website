@@ -1,0 +1,17 @@
+.header-hero{
+  position: relative;
+  z-index: 0;
+  background-image: linear-gradient(to left, rgba(245, 246, 252, 0.173), rgb(51, 75, 78)), url(/images/index/waterfall.webp);
+  background-size: 400px 100%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.right-container{
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 35%;
+  color: white;
+}
