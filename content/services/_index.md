@@ -2,12 +2,14 @@
 title: "Services"
 date: 2018-12-21T14:10:03Z
 draft: false
-# menu: "main"
 sections:
-  - type: header_services
+  - type: hero-alt
+    text_color: 'light'
+    ctx: true
+    bg_image: '/images/services/services-hero.webp'
+    bg_color: '#4B7A81'
     heading: 'Services'
     text: '<strong>Flax & Teal is a consultancy specializing in openly-licensed technologies, serving both public and private sectors through web-based products and services in computational engineering, geospatial analysis, and data science (machine learning and AI).</strong> <br><br> The company builds tools for various sectors, including publicly-shared, reusable components – often web platforms that provide behind-the-scenes analysis of open data, geography, and physics.'
-    bg_color: '#F6F4EB'
   - type: value_services
     bg_color: '#B9DCD5'
     values:

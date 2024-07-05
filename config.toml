@@ -10,7 +10,7 @@ copyright = '© 2024 Flax & Teal Limited.'
 [menus]
   [[menus.main]]
     name = 'About Us'
-    pageRef = '/about-us'
+    pageRef = '/about'
     weight = 10
   [[menus.main]]
     name = 'Services'
@@ -27,7 +27,7 @@ copyright = '© 2024 Flax & Teal Limited.'
   
   [[menus.footer]]
     name = 'About Us'
-    pageRef = '/about-us'
+    pageRef = '/about'
     weight = 10
   [[menus.footer]]
     name = 'Technology'

@@ -1,0 +1,25 @@
+{{ if .ctx}}
+<header {{if .ctx.bg_image}} style="background-color:{{.ctx.bg_color}}; background-image: linear-gradient(to left, rgba(245, 246, 252, 0.173), {{.ctx.bg_color}}), url({{.ctx.bg_image}});"{{end}} class="{{with .ctx.text_color}}text-{{ . | default "dark"}}{{end}} hero-alt flex">
+  <div class="my-auto contents-wrapper container">
+    <div class="contents">
+      <h1 class="">{{.ctx.heading | markdownify}}</h1>
+      <p class="text-p">{{.ctx.text | markdownify}}</p>
+      {{ if .ctx.cta}}
+      <a class="btn btn-primary-trans in-block min-w-fit mt-2" href="{{.ctx.cta_link}}">{{.ctx.cta}}</a>
+      {{end}}
+    </div>
+  </div>
+</header>
+{{else}}
+<header {{if .bg_image}} style="background-color:{{.bg_color}}; background-image: linear-gradient(to left, rgba(245, 246, 252, 0.173), {{.bg_color}}), url({{.bg_image}});"{{end}} class="{{with .text_color}}text-{{. | default "dark"}}{{end}} hero-alt flex">
+  <div class="my-auto contents-wrapper container">
+    <div class="contents">
+      <h1 class="">{{.heading | markdownify}}</h1>
+      <p class="text-p">{{.text | markdownify}}</p>
+      {{ if .cta}}
+      <a class="btn btn-primary-trans in-block min-w-fit mt-2" href="{{.cta_link}}">{{.cta}}</a>
+      {{end}}
+    </div>
+  </div>
+</header>
+{{end}}
