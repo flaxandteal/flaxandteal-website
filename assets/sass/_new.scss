@@ -12,6 +12,10 @@ $xxl: 1390px;
   box-sizing: border-box;
 }
 
+:root{
+  scroll-behavior: smooth;
+}
+
 body{
   font-style: 16px;
 }
