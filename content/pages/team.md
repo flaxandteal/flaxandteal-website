@@ -43,11 +43,6 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Jana](https://www.linkedin.com/in/jana-lorencova-1822433b/) has joined our team as an Information Scientist, specialising in data cataloguing, adminstration and has an MA in International Relations and Politics from the University of Aberdeen. 
 
-### Jim Fitzsimons | Business Development Specialist 
-![Jim.png](/images/Jim.png)</br>
-
-[Jim](linkedin.com/in/jimmfitzsimons/) is a contract Business Development Specialist who works with us and specifically focuses on our work in the Republic of Ireland. 
-
 ### Kamen Dimitrov | Developer 
 ![Kamen.png](/images/Kamen.png)</br>
 
