@@ -42,7 +42,7 @@ sections:
     text: 'Our full-scale projects involve multidisciplinary teams of designers, media specialists, developers, app and mobile experts, infrastructure engineers, analysts and data scientists assembled as needed. Explore a few of our recent projects:'
     products_page: "/products"
     cards:
-     - img: '/images/index/home-products-1.webp'
+     - img: '/images/index/home-products-3.webp'
        text: '**OurRagingPlanet (ORP)** is a web app providing geospatial risk simulations to help organisations model and prepare for potential disruptions caused by extreme events like supply chain crises, natural disasters and more.'
        cta: 'Read more'
        cta_link: '/products/#our-raging-planet-orp'
@@ -50,7 +50,7 @@ sections:
        text: '**Project Lintol** is an open data validation tool led by Flax & Teal that acts like a grammar checker by integrating with existing platforms to identify potential issues in datasets before public release.'
        cta: 'Read more'
        cta_link: '/products/#project-lintol'
-     - img: '/images/index/home-products-3.webp'
+     - img: '/images/index/home-products-1.webp'
        text: '**The Data Times** is a prototype platform by Flax & Teal to help journalists discover local datasets and build data-driven stories.'
        cta: 'Read more'
        cta_link: '/products/#the-data-times'
