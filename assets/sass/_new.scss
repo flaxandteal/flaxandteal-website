@@ -490,13 +490,12 @@ main{
       }
       @media screen and (max-width: 950px) {
         width: 100%;
-        max-width: 700px;
+        max-width: var(--mw-content);
         padding: 6rem 0 3rem 0;
         margin-left: 0;
         margin-right: 0;
       }
       p{
-        max-width:470px;
         @media screen and (max-width: 950px) {
           max-width: 100%;
         }
@@ -514,9 +513,11 @@ main{
         max-width: 500px;
         border-radius: 50%;
         object-fit: cover;
+        float: right;
         @media screen and (max-width: 950px) {
           max-width: 500px;
           flex: unset;
+          float: unset;
         }
       }
     }

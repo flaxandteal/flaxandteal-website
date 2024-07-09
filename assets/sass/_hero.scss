@@ -152,7 +152,7 @@ $md: 900px;
       top: 0;
       bottom: 0;
       margin: auto;
-      z-index: 2;
+      z-index: -1;
       filter: brightness(0.3);
       height: 80%;
       @media screen and (max-width: 900px) {
