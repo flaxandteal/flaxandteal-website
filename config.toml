@@ -47,7 +47,7 @@ copyright = '© 2024 Flax & Teal Limited.'
     weight = 50
 
 [params]
-  footer_note = 'Flax & Teal Limited is a limited company registered in Northern Ireland with registration number NI617545, VAT number GB283-7116-92, EORI number GB283711692000, and ICO registration ZA243895.'
+  footer_note = 'Flax & Teal Limited is a limited company registered in Northern Ireland with registration number NI617545, VAT number GB283711692, EORI number GB283711692000, and ICO registration ZA243895.'
   address = 'Farset Labs Weavers Court <br> Linfield Road <br> Belfast BT12 5GH'
   logo_main = '/images/index/flax-teal-logo.webp'
   logo_white = '/images/index/flax-teal-logo-white.webp'
