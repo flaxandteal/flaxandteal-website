@@ -1,7 +1,7 @@
 nav{
   &.nav-new{
+    align-items: center;
     .menu-bar-close{
-      // margin-top: 1rem;
       width: 40px;
       height: 2px;
       &:nth-child(1){
@@ -15,31 +15,11 @@ nav{
       margin-right:1rem;
       cursor: pointer;
       display: none;
-      // display: flex;
-      // flex-direction: column;
       padding-bottom: 1rem;
       border: 0;
       background-color: #fff;
       @media screen and (max-width:700px) {
         display: block;
-      }
-      // display: flex;
-      // flex-direction: column;
-      &.active{
-        .menu-bar{
-          &:nth-child(1){
-            // transform: rotateZ(45deg) translateX(5px) translateY(-5px);
-            // transform: rotateZ(45deg);
-            // transform-origin:left;
-          }
-          &:nth-child(2){
-            // transform: rotateZ(-45deg) translateX(5px) translateY(-5px);
-            // transform: rotateZ(-45deg);
-            // transform-origin:center;
-            // transform: rotateZ(45deg) translateX(5px);
-          }
-
-        }
       }
       .menu-bar{
         margin-top: 1rem;
