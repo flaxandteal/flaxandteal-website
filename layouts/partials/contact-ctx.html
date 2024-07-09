@@ -2,7 +2,7 @@
   <div class="container contact-wrapper">
     <div class="left">
       <h2>{{.ctx.heading}}</h2>
-      <p>{{.ctx.text}}</p>
+      <p>{{.ctx.text | markdownify}}</p>
     </div>
     <form name="contact-form" id="contact-form-section" class="right">
       <div class="mb-1">Name (required)</div>

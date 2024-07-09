@@ -1,4 +1,4 @@
 <section class="hero_products">
-  <h1>{{.ctx.heading}}</h1>
-  <p>{{.ctx.text}}</p>
+  <h1>{{.ctx.heading | markdownify}}</h1>
+  <p>{{.ctx.text | markdownify}}</p>
 </section>

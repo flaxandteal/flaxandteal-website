@@ -57,7 +57,7 @@ sections:
     order: 3
   - type: contact-ctx
     heading: 'Let’s work together'
-    text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo' 
+    text: 'Interested in our work? We’d love to hear more about your particular needs – and we’re confident we can guide you.' 
 --- 
 
 

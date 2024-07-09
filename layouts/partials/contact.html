@@ -1,8 +1,8 @@
 <section class="contact bg-gold">
   <div class="container contact-wrapper">
     <div class="left">
-      <h2>{{.heading}}</h2>
-      <p>{{.text}}</p>
+      <h2>{{.heading | markdownify}}</h2>
+      <p>{{.text | markdownify}}</p>
     </div>
     <form name="contact-form" id="contact-form-section" class="right">
       <div class="mb-1">Name (required)</div>
