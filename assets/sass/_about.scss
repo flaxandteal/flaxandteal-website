@@ -36,12 +36,33 @@ $large-bp: 1560px;
   float: right; 
 }
 
+#btn-team-expand{
+  &:hover{
+    transform: translateY(5px);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.team-profile-img {
+  img{
+    border-radius: 50%;
+  }
+}
+
 .team-members{
   display: grid;
   grid-template-columns: repeat(3, 438px) ;
-  grid-template-rows: 572px 347px ;
+  // grid-template-rows: 572px 347px ;
   gap: 2rem;
-  padding: 2rem 2rem;
+  padding: 1rem 2rem 1rem 2rem;
+  @media screen and (max-width:1000px) {
+    padding: 0 1rem 0 1rem !important;
+  }
+
   @media screen and (max-width: $large-bp) {
     grid-template-columns: repeat(3, 1fr) ;
     grid-template-rows: repeat(1, 1fr) ;
@@ -53,8 +74,13 @@ $large-bp: 1560px;
     display: block;
     margin-bottom: 2rem;
   }
+
   .team-member{
       padding: 3rem 2rem;
+      line-height: 1.4;
+      .team-member-desc{
+        font-weight: 600;
+      }
       @media screen and (max-width:1000px) {
         margin: 0 1rem 2rem 1rem;
       }
