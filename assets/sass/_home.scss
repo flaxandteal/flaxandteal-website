@@ -13,6 +13,7 @@
     min-height: 800px;
     @media screen and (max-width: 1600px) {
       min-height: unset;
+      margin-right: unset;
     }
     @media screen and (max-width: 1050px) {
       display: block;
