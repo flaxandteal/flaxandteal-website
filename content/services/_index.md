@@ -35,7 +35,7 @@ sections:
     title: 'Software Development <br> & Research'
     img: '/images/services/software-development-research-image.webp' 
     cta: 'Discover projects'
-    cta_link: '#'
+    cta_link: '/pages/clients/'
     order: 1
   - type: value-details
     bg_color: '#F1F7F5'
@@ -45,7 +45,7 @@ sections:
     title: 'Cloud <br> & Infrastructure'
     img: '/images/services/cloud-infrastructure-image.webp'
     cta: 'Discover projects'
-    cta_link: '#'
+    cta_link: '/pages/clients/'
     reverse: true
     order: 2
   - type: value-details
@@ -53,7 +53,7 @@ sections:
     title: 'Approved <br> Suppliers'
     img: '/images/services/approved-supplier.webp'
     cta: 'Discover projects'
-    cta_link: '#'
+    cta_link: '/pages/clients/'
     order: 3
   - type: contact-ctx
     heading: 'Let’s work together'
@@ -86,11 +86,11 @@ Health, enterprise, simulation, engineering, journalism, <br> public, education
 
 **Global Clients**
 
-UK, Ireland, EU, Australasia
+UK, Ireland, Germany, New Zealand and US
 
 ---
 
-**Flax & Teal offers ongoing hosting and data processing services within the EU. These services can complement our software development offerings, support our open-source products, 
+**Flax & Teal offers ongoing hosting and data processing services within and outside the EU. These services can complement our software development offerings, support our open-source products, 
 or be provided as a standalone service.**
 
 **Extensive Experience**
@@ -104,15 +104,15 @@ We offer a range of service agreements to maintain, secure, and upgrade software
 
 **G-Cloud Supplier**
 
-Flax & Teal is an approved G-Cloud 12 supplier, enabling delivery of cloud support services to UK public sector organisations through the Crown Commercial Service.
+>Flax & Teal is an approved G-Cloud 12 supplier, enabling delivery of cloud support services to UK public sector organisations through the Crown Commercial Service.
 
 **Arches Supplier**
 
-Certified Arches supplier, Flax & Teal customises and deploys Arches instances for heritage, research, science and other sectors across public and private domains.
+>Certified Arches supplier, Flax & Teal customises and deploys Arches instances for heritage, research, science and other sectors across public and private domains.
 
 **Irish Open Data Supplier**
 
-An approved supplier with partner Keitaro for the Irish Government's Open Data Frameworks, supporting public sector bodies in fulfilling Open Data obligations through the Technical Services and Training Frameworks.
+>An approved supplier with partner Keitaro for the Irish Government's Open Data Frameworks, supporting public sector bodies in fulfilling Open Data obligations through the Technical Services and Training Frameworks.
 
 
 

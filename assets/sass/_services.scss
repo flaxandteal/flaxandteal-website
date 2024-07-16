@@ -33,9 +33,9 @@
 }
 
 .value-details{
-  padding: 4rem 2rem;
+  padding: 4rem;
   @media screen and (max-width:1450px) {
-    padding: 4rem 2rem;
+    padding: 4rem;
   }
   .main-wrapper{
     display: flex;
@@ -51,7 +51,7 @@
     }
     .right{
       flex: 1;
-      max-width: 500px;
+      max-width: 700px;
       margin: auto;
       @media screen and (max-width:900px) {
         margin: 4rem 0 0 0;

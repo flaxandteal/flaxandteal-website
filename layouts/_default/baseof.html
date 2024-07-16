@@ -12,6 +12,7 @@
   <script defer src="{{$script.RelPermalink}}"></script>
 </head>
 <body style="display: block">
+  {{ partial "open-for-business.html" . }}
   {{ block "main" . }}{{ end }}
 </body>
 </html>
