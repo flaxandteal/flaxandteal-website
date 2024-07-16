@@ -1,4 +1,4 @@
-<section class="our-team bg-primary text-light py-3">
+<section id="our-team-id" class="our-team bg-primary text-light py-3">
   <div>
     <h2 class="m-0 text-center">{{ .heading | markdownify }}</h2>
     <p style="max-width:690px" class="text-center mx-auto my-3">{{ .text | markdownify }}</p>
@@ -75,8 +75,8 @@
       </div> 
   
       <div class="team-members p-rel mx-auto container">
-        {{ range $k,$v := first 4 (after 8 .teams)  }}
-        <div class="p-rel team-member {{ if eq $k 3 }}flex gap-2{{end}}" {{ with .bg_color }} {{ printf "style='background-color:%s;'" . | safeHTMLAttr }} {{end}}>
+        {{ range $k,$v := first 5 (after 8 .teams)  }}
+        <div id="{{.name | anchorize}}-{{$k}}" class="p-rel team-member {{ if eq $k 3 }}flex gap-2{{end}}" {{ with .bg_color }} {{ printf "style='background-color:%s;'" . | safeHTMLAttr }} {{end}}>
           {{ if ne $k 3 }}
           <div class="team-linkedin flex gap-0-5 mt-1">
             <a href="{{.linkedin | relURL}}">

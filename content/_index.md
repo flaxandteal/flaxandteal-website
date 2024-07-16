@@ -36,7 +36,7 @@ sections:
     heading: 'About us'
     text: 'Our multidisciplinary team of experts combines deep technical knowledge with domain expertise to deliver innovative, tailored solutions. We pride ourselves on our commitment to open source collaboration, sustainable development practices, and cutting-edge research and development.'
     cta: 'Meet our team'
-    cta_link: '#'
+    cta_link: '/about#our-team-id'
   - type: our-products
     heading: 'Our products'
     text: 'Our full-scale projects involve multidisciplinary teams of designers, media specialists, developers, app and mobile experts, infrastructure engineers, analysts and data scientists assembled as needed. Explore a few of our recent projects:'

@@ -82,3 +82,12 @@
     }
   }
 }
+
+#stuart-marshall-4{
+  display: flex;
+  grid-column: 1/4;
+  gap: 3rem;
+  .team-linkedin{
+    order: 3;
+  }
+}
