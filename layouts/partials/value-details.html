@@ -6,7 +6,7 @@
         <div>
           {{$len := (math.Sub (.|len) 1)}}
           {{range $k,$v := .}}
-          <span><strong>{{.}} {{if lt $k $len}} | {{end}}</strong></span>
+          <span class="vd-category"><strong>{{.}} {{if lt $k $len}} | {{end}}</strong></span>
           {{end}}
         </div>
         {{end}}
