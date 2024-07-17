@@ -1,0 +1,42 @@
+.l_r{
+  padding: 4rem 2rem;
+  a{
+    color: inherit;
+  }
+  @media screen and (max-width:960px) {
+    padding: 0 2rem;
+  }
+  .l-r-wrapper{
+    display: flex;
+    margin: auto;
+    gap: 3rem;
+    @media screen and (max-width:960px) {
+      display: block; 
+      padding: 3rem 2rem;
+    }
+    @media screen and (max-width:530px) {
+      padding: 2rem 0;
+    }
+    .left{
+      width: 50%;
+      @media screen and (max-width:960px) {
+        width: 100%;
+      }
+    }
+    .right{
+      flex: 1;
+      display: flex;
+      @media screen and (max-width:960px) {
+        flex: unset;
+      }
+      img{
+        width: 100%;
+        object-fit: cover;
+        margin: auto;
+        @media screen and (max-width:960px) {
+          padding: 3rem;
+        }
+      }
+    }
+  }
+}

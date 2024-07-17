@@ -1,0 +1,17 @@
+<section class="l_r text-light" {{with .ctx.bg_color}} {{printf "style='background-color:%s;'" . | safeHTMLAttr}} {{end}}>
+  <div class="container mx-auto">
+    <div style="{{if .ctx.reverse}}flex-direction: row-reverse;{{end}}" class="l-r-wrapper">
+      <div class="left">
+        <h2 id="{{.ctx.heading | urlize}}" style="color: {{.ctx.color}}; text-decoration:underline;">{{.ctx.heading}}</h2>
+        <h4>{{.ctx.subheading}}</h4>
+        <div style="color: {{.ctx.color}};">{{ index (split .content "<hr>") .ctx.order | markdownify }}</div>
+       <div class="mt-2">
+          <a class="btn-underlined" href="{{.ctx.cta_link}}">{{.ctx.cta}}</a>
+       </div>
+      </div>
+      <div class="right">
+        <img src="{{.ctx.img}}" style="max-height: 472px;" alt="an image depicting {{ .ctx.heading | lower }}">
+      </div>
+    </div>
+  </div>
+</section>
