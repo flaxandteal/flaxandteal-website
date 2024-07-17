@@ -1,6 +1,7 @@
 ---
 title: "About Us"
 date: 2018-12-21T14:10:03Z
+aliases: ['/pages/about']
 draft: false
 
 sections:

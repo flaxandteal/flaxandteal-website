@@ -2,6 +2,7 @@
 title: "Services"
 date: 2018-12-21T14:10:03Z
 draft: false
+aliases: ['/pages/services']
 sections:
   - type: hero-alt
     text_color: 'light'

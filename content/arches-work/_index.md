@@ -1,6 +1,7 @@
 ---
 title: "Arches Work"
 date: 2023-12-21T14:10:03Z
+aliases: ['/pages/arches-work']
 draft: false
 
 sections:

@@ -1,5 +1,6 @@
 ---
 title: "Clients & Case Studies"
+aliases: ['/pages/clients']
 date: 2023-12-21T14:10:03Z
 draft: false
 sections:
@@ -9,7 +10,6 @@ sections:
   - type: l_r
     img: '/images/clients-and-case-studies/arches-cultural-heritage.webp'
     order: 1
-    # heading: "Arches - Cultural Heritage"
     bg_color: '#394E51'
   - type: l_r
     img: '/images/clients-and-case-studies/boards-123.webp'
