@@ -1,4 +1,19 @@
-{{ partial "header.html" . }}
-{{ partial "body-top.html" . }}
-{{.Content}}
-{{ partial "body-bottom.html" . }}
+{{ define "main" }}
+{{ partial "nav-new.html" . }}
+
+<main class="{{.RelPermalink | humanize | urlize}} single-content">
+    <section class="hero_single">
+      <h1>{{.Title | markdownify}}</h1>
+      {{with .Params.subtitle}}
+      <p>{{. | markdownify}}</p>
+      {{end}}
+    </section>
+    <article class="pb-3">
+      <div class="container mx-auto py-2 px-2">
+        {{.Content}}
+      </div>
+    </article>
+</main>
+
+{{ partial "footer-new.html" . }}
+{{ end }}
