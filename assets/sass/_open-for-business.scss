@@ -3,12 +3,19 @@ body{
 }
 
 #circle-wrapper{
+  transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: translateY(70px);
+  opacity: 0;
   position: fixed;
   left: 0;
   z-index: 2;
   right: 0;
   scale: 80%;
   pointer-events: none;
+  &.active{
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 #circle { 
