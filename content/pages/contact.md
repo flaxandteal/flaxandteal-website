@@ -1,3 +1,0 @@
-# Contact us 
-
-Contact us via email on info@flaxandteal.co.uk to find out more.
