@@ -15,7 +15,7 @@ sections:
     text: 'In the sea of modern tech startups fixated on intellectual property and disruptive innovation, Flax & Teal stands apart. Our intentionally organic aesthetic, inspired by traditional industry, reflects our unconventional philosophy. We are not a typical tech company – we embrace the open source ethos, emphasising accountability, transparency, and collaborative creation over proprietary products and volatile disruption. <br><br>
     While many competitors prioritise aggressive growth and lucrative exits, our North Star is cultivating long-term partnerships built on trust. From our distinctive branding to our human-centric approach, every aspect is purposefully crafted to resonate with leaders who value stability, expertise, and safeguarding their data.'
     cta: 'Discover our recent work'
-    cta_link: '/pages/clients'
+    cta_link: '/clients'
     img_src: '/images/about/about-us-ellipse.webp'
     img_alt: 'an image of our app'
   - type: our-services_about

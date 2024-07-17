@@ -3,13 +3,13 @@ title: "Clients & Case Studies"
 date: 2023-12-21T14:10:03Z
 draft: false
 sections:
-  - type: hero_clients_and_case_studies
+  - type: hero_clients
     heading: "Clients & Case Studies"
     text: 'We’ve been fortunate enough to work with a wide range of clients across various sectors, ensuring project completion and client satisfaction along the way. See a selection of our work below.'
   - type: l_r
     img: '/images/clients-and-case-studies/arches-cultural-heritage.webp'
     order: 1
-    heading: "Arches - Cultural Heritage"
+    # heading: "Arches - Cultural Heritage"
     bg_color: '#394E51'
   - type: l_r
     img: '/images/clients-and-case-studies/boards-123.webp'
@@ -70,13 +70,12 @@ sections:
     bg_color: '#394E51'
     color: '#FFF'
     reverse: true
-  - type: contact-ctx
-    heading: 'Let’s work together'
-    text: 'Interested in our work? We’d love to hear more about your particular needs – and we’re confident we can guide you.'
     
 ---
 
 ---
+
+## [Arches - Cultural Heritage](/arches-work/)
 
 A selection of our commercial Arches work, an open source data management solution. We are recognized Arches providers, an open source cultural heritage management platform, with GIS capability and suitable for movable and immovable heritage assets. 
 

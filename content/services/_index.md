@@ -35,7 +35,7 @@ sections:
     title: 'Software Development <br> & Research'
     img: '/images/services/software-development-research-image.webp' 
     cta: 'Discover projects'
-    cta_link: '/pages/clients/'
+    cta_link: '/clients/'
     order: 1
   - type: value-details
     bg_color: '#F1F7F5'
@@ -45,7 +45,7 @@ sections:
     title: 'Cloud <br> & Infrastructure'
     img: '/images/services/cloud-infrastructure-image.webp'
     cta: 'Discover projects'
-    cta_link: '/pages/clients/'
+    cta_link: '/clients/'
     reverse: true
     order: 2
   - type: value-details
@@ -53,7 +53,7 @@ sections:
     title: 'Approved <br> Suppliers'
     img: '/images/services/approved-supplier.webp'
     cta: 'Discover projects'
-    cta_link: '/pages/clients/'
+    cta_link: '/clients/'
     order: 3
   - type: contact-ctx
     heading: 'Let’s work together'
