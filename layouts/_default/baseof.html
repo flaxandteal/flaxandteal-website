@@ -10,6 +10,7 @@
   
   {{$script := resources.Get "/js/main.js"}}
   <script defer src="{{$script.RelPermalink}}"></script>
+  {{ partial "form-brick-script.html" . }}
 </head>
 <body style="display: block">
   {{ if not .IsPage}}
