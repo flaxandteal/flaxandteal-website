@@ -20,7 +20,7 @@ window.addEventListener("DOMContentLoaded", function(){
 window.addEventListener('scroll', function() {
   let scrollTop = window.scrollY || document.documentElement.scrollTop;
   
-  if (scrollTop > 500) {
+  if (scrollTop > 300) {
     circleWrapper?.classList.remove('active');
   }
 
