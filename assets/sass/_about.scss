@@ -48,8 +48,27 @@ $large-bp: 1560px;
 }
 
 .team-profile-img {
+  @media screen and (max-width:800px) {
+    margin-bottom: 1rem;
+  }
   img{
     border-radius: 50%;
+    @media screen and (max-width:800px) {
+      width: 150px ;
+      height: 150px ;
+    }
+  }
+}
+
+#stuart-marshall-4{
+  display: flex;
+  grid-column: 1/4;
+  gap: 3rem;
+  @media screen and (max-width:1000px) {
+    display: block;
+  }
+  .team-linkedin{
+    order: 3;
   }
 }
 
