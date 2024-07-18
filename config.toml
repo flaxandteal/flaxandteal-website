@@ -21,9 +21,13 @@ copyright = '© 2024 Flax & Teal Limited.'
     pageRef = '/products'
     weight = 30
   [[menus.main]]
+    name = 'Clients'
+    pageRef = '/clients'
+    weight = 40
+  [[menus.main]]
     name = 'Contact Us'
     pageRef = '/contact'
-    weight = 40
+    weight = 50
   
   [[menus.footer]]
     name = 'About Us'
