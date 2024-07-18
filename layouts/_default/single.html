@@ -10,6 +10,9 @@
     </section>
     <article class="pb-3">
       <div class="container mx-auto py-2 px-2">
+        {{ if in .RelPermalink "/thank-you"}}
+        <p class="text-center submitted-first-name"></p>
+        {{end}}
         {{.Content}}
       </div>
     </article>

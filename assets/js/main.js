@@ -14,17 +14,17 @@ menuBtn.addEventListener('click', function(){
 const circleWrapper = document.querySelector('#circle-wrapper');
 
 window.addEventListener("DOMContentLoaded", function(){
-  circleWrapper.classList.add('active');
+  circleWrapper?.classList.add('active');
 })
 
 window.addEventListener('scroll', function() {
   let scrollTop = window.scrollY || document.documentElement.scrollTop;
   
   if (scrollTop > 500) {
-    circleWrapper.classList.remove('active');
+    circleWrapper?.classList.remove('active');
   }
 
   if (scrollTop <= 10) {
-    circleWrapper.classList.add('active');
+    circleWrapper?.classList.add('active');
   }
 });

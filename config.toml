@@ -51,6 +51,8 @@ copyright = '© 2024 Flax & Teal Limited.'
   address = 'Farset Labs Weavers Court <br> Linfield Road <br> Belfast BT12 5GH'
   logo_main = '/images/index/flax-teal-logo.webp'
   logo_white = '/images/index/flax-teal-logo-white.webp'
+  form_submission_redirect = 'http://localhost:1313/thank-you/'
+  form_action_endpoint = 'https://submit-form.com/N22n4zP64'
   [[params.socials]]
     icon = 'Youtube'
     icon_src =  'images/icons/yt-logo.webp'

@@ -1,0 +1,11 @@
+{{ if in $.Page.Permalink "/thank-you"}}
+<script>
+  function getQueryParams(name) {
+    const params = new URLSearchParams(window.location.search);
+    return params.get(name);
+  }
+  
+  const firstName = getQueryParams('first-name');
+  document.querySelector('.submitted-first-name').textContent = `Hi ${firstName} 👋,`
+</script>
+{{ end }}
