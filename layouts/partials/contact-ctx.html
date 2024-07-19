@@ -1,6 +1,6 @@
 {{ $root := "" }}
 {{ if hugo.IsProduction }}
-{{ $root = `http://localhost:1313` }}
+{{ $root = `http://localhost:1313/` }}
 {{ else }}
 {{ $root = site.BaseURL }}
 {{ end }}
@@ -21,18 +21,18 @@
       <div class="form-control">
         <div class="form-input-wrapper">
           <label for="contact-form_first-name">First Name</label>
-          <input id="contact-form_first-name" name="first-name" type="text" class="mt-1">
+          <input required aria-required="true" id="contact-form_first-name" name="first-name" type="text" class="mt-1">
         </div>
         <div class="form-input-wrapper">
           <label for="contact-form_last-name">Last Name</label>
-          <input id="contact-form_last-name" name="last-name" type="text" class="mt-1">
+          <input required aria-required="true" id="contact-form_last-name" name="last-name" type="text" class="mt-1">
         </div>
       </div>
 
       <div class="form-control">
         <div style="width: 100%;" class="">
           <label for="contact-form_email">Email (required)</label>
-          <input id="contact-form_email" name="email" type="email" class="mt-1">
+          <input required aria-required="true" id="contact-form_email" name="email" type="email" class="mt-1">
         </div>
       </div>
 
@@ -44,14 +44,14 @@
       <div class="form-control">
         <div style="width: 100%;" class="">
           <label for="contact-form_subject">Subject (required)</label>
-          <input id="contact-form_subject" name="subject" type="text" class="mt-1">
+          <input required aria-required="true" id="contact-form_subject" name="subject" type="text" class="mt-1">
         </div>
       </div>
 
       <div class="form-control">
         <div style="width: 100%;" class="">
           <label for="contact-form_message">Message (required)</label>
-          <textarea id="contact-form_message" name="subject" type="text" class="mt-1"></textarea>
+          <textarea required aria-required="true" id="contact-form_message" name="subject" type="text" class="mt-1"></textarea>
         </div>
       </div>
 
