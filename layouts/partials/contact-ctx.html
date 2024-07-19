@@ -1,14 +1,21 @@
+{{ $root := "" }}
+{{ if hugo.IsProduction }}
+{{ $root = `http://localhost:1313` }}
+{{ else }}
+{{ $root = site.BaseURL }}
+{{ end }}
+
 <section class="contact bg-gold">
   <div class="container contact-wrapper">
     <div class="left">
       <h2>{{.ctx.heading}}</h2>
       <p>{{.ctx.text | markdownify}}</p>
     </div>
-    <form action="{{site.Params.form_action_endpoint}}" name="contact-form" id="contact-form-section" class="right">
+    <form action="{{ site.Params.form_action_endpoint }}" name="contact-form" id="contact-form-section" class="right">
       <input
         type="hidden"
         name="_redirect"
-        value="{{site.Params.form_submission_redirect}}"
+        value="{{ printf "%v%v" $root site.Params.form_submission_redirect}}"
       />
       <div class="mb-1">Name (required)</div>
       <div class="form-control">
