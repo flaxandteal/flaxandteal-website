@@ -27,13 +27,19 @@
       </div>
     </div>
 
-    <br><br><br>
+    <br><br>
     <hr>
 
     <h3 class="text-gold">OPEN FOR BUSINESS</h3>
     <div class="footer-note">
       <p class="copyright text-light">{{ .Site.Copyright }}</p>
       <p class="note text-light">{{ .Site.Params.footer_note }}</p>
+    </div>
+
+    <div class="py-1 mt-3">
+      {{range site.Params.footer_badges}}
+        <img class="flax-and-teal-badge mr-1" width="{{site.Params.footer_badge_max_width}}" src="{{.}}" alt="flax and teal award and badge">
+      {{end}}
     </div>
   </div>
 </footer>

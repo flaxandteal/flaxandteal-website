@@ -1,6 +1,4 @@
 baseURL = "https://flaxnteal.netlify.app"
-# baseURL = "/"
-# baseURL = "https://flaxandteal.co.uk/"
 languageCode = "en-us"
 title = "Flax &amp; Teal"
 publishDir = "docs"
@@ -52,10 +50,16 @@ copyright = '© 2024 Flax & Teal Limited.'
     weight = 50
 
 [params]
-  footer_note = 'Flax & Teal Limited is a limited company registered in Northern Ireland with registration number NI617545, VAT number GB283711692, EORI number GB283711692000, and ICO registration ZA243895.'
-  address = 'Farset Labs Weavers Court <br> Linfield Road <br> Belfast BT12 5GH'
+  # general
   logo_main = '/images/index/flax-teal-logo.webp'
   logo_white = '/images/index/flax-teal-logo-white.webp'
+  # footer
+  footer_note = 'Flax & Teal Limited is a limited company registered in Northern Ireland with registration number NI617545, VAT number GB283711692, EORI number GB283711692000, and ICO registration ZA243895.'
+  footer_image = '/images/index/flax-and-teal-field-image.webp'
+  footer_badges = ['/images/cyber-essentials-plus-logo.webp']
+  footer_badge_max_width = 100
+  address = 'Farset Labs Weavers Court <br> Linfield Road <br> Belfast BT12 5GH'
+  # contact form
   form_submission_redirect = 'thank-you'
   form_action_endpoint = 'https://submit-form.com/N22n4zP64'
   [[params.socials]]
