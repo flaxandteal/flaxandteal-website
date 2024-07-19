@@ -433,14 +433,17 @@ main{
 
 .footer-new{
   height: 682px;
+  @media screen and (max-width: 1130px) {
+    height: 100%;
+  }
   .address{
     max-width: 120px;
     line-height: 1.8;
   }
   .left{
     width: 60%;
-    @media screen and (max-width: 1100px) {
-      width: 40%;
+    @media screen and (max-width: 1390px) {
+      width: 50%;
     }
     @media screen and (max-width: 1000px) {
       display: none;
