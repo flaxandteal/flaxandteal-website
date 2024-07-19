@@ -33,7 +33,7 @@ sections:
     bg_color: '#292929'
   - type: contact-ctx
     heading: 'Let’s work together'
-    text: 'Interested in our work? We’d love to hear more about your particular needs – and we’re confident we can guide you.'
+    text: 'Interested in our work? We’d love to hear more about your particular needs – and we’re confident we can guide you. <br><br> For enquiries email info@flaxandteal.co.uk'
     
 ---
 

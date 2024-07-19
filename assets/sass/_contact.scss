@@ -1,5 +1,8 @@
 section{
   &.contact{
+    a{
+      color: inherit;
+    }
     .contact-wrapper{
       margin: auto;
       display: flex;
