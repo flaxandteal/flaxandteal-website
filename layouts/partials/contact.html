@@ -1,8 +1,8 @@
 {{ $root := "" }}
 {{ if hugo.IsProduction }}
-{{ $root = `http://localhost:1313` }}
-{{ else }}
 {{ $root = site.BaseURL }}
+{{ else }}
+{{ $root = `http://localhost:1313` }}
 {{ end }}
 
 <section class="contact bg-gold">
