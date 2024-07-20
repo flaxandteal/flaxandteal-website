@@ -1,0 +1,23 @@
+<section class="our-services_home">
+  <div class="os_home_container">
+    <div class="left py-3">
+      <h2 class="m-0 text-light">{{.heading}}</h2>
+      <p class="mb-2 text-light">{{.text | markdownify}}</p>
+      <a class=" btn btn-primary-trans" href="{{.cta_link}}">{{.cta}}</a>
+    </div>
+
+    <div class="right">
+      <div class="cards">
+        {{ range .cards }}
+          <div {{ with .bg_color }} {{ printf "style='background-color:%s;'" . | safeHTMLAttr }} {{end}} class="card-outer">
+            <div class="card">
+              <img width="64" height="64" src="{{.icon}}" alt="an icon representing {{.title}}">
+              <h3>{{.title}}</h3>
+              <p>{{.text}}</p>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

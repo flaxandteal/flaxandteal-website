@@ -1,0 +1,33 @@
+.hero_single{
+  padding: 5rem 1rem;
+  background-color: #F6F4EB;
+  text-align: center;
+  h1{
+    margin: 0;
+    @media screen and (max-width:760px) {
+      font-size: 40px;
+    }
+  }
+  p{
+    font-size: 22px;
+    margin: 0 auto;
+    max-width: 930px;
+    text-align: center;
+    @media screen and (max-width:760px) {
+      font-size: 16px;
+    }
+  }
+}
+
+.single-content{
+  a{
+    color: inherit;
+  }
+
+  ul{
+    li{
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

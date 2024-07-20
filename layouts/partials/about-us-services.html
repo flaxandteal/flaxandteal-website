@@ -1,0 +1,14 @@
+<section class="lrx2 about-us-services text-light bg-primary py-3">
+  <div class="container">
+    <div class="left">
+      <img class="about-us-image" src="{{.img_src}}" alt="{{ .img_alt | default (printf "an image that represents %s" (.heading | lower) )}}">
+    </div>
+    <div class="right">
+      <h2>{{ .heading | markdownify }}</h2>
+      <p>{{ .text | markdownify }}</p>
+      <div class="mt-3">
+        <a class="btn btn-primary-trans" href="{{.cta_link}}">{{.cta}}</a>
+      </div>
+    </div>
+  </div>
+</section>

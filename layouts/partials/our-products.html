@@ -1,0 +1,21 @@
+<section class="our-products flex flex-column bg-dark text-light">
+  <div class="m-auto text-center">
+    <h2 class="heading">{{.heading}}</h2>
+    <p class="text">{{.text}}</p>
+  </div>
+  <div class="cards container mx-auto mt-1 mb-2">
+    {{ range .cards }}
+    <div class="card">
+      <div class="card-img-wrapper">
+        {{/*  <img width="400" height="342" src="{{.img}}" alt="image">  */}}
+        <img height="342" src="{{.img}}" alt="image">
+      </div>
+      <div class="card-meta">
+        <p>{{.text | markdownify }}</p>
+        <a class="btn btn-primary-trans" href="{{.cta_link}}">{{.cta}}</a>
+        {{/*  <a class="in-block mt-3 btn btn-primary-trans" href="{{.cta_link}}">{{.cta}}</a>  */}}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>

@@ -1,0 +1,60 @@
+.lrx2{
+  .container{
+    display: flex; 
+    margin: auto;   
+    @media screen and (max-width:800px) {
+      display: block;
+    }
+    .left{
+      width: 50%;
+      min-height: 140px;
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      @media screen and (max-width:800px) {
+        width: 100%;
+      }
+    }
+    .right{
+      width: 50%;
+      min-height: 140px;
+      padding: 1rem 1.5rem;
+      @media screen and (max-width:800px) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.lrx2_swapped{
+  .container{
+    display: flex; 
+    margin: auto;   
+    @media screen and (max-width:800px) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .left{
+      width: 50%;
+      min-height: 140px;
+      padding: 1rem 1.5rem;
+      @media screen and (max-width:800px) {
+        width: 100%;
+      }
+    }
+    .right{
+      width: 50%;
+      min-height: 140px;
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      padding: 0 1.5rem 2rem 1.5rem;
+      img{
+        width: 100%;
+      }
+      @media screen and (max-width:800px) {
+        width: 100%;
+      }
+    }
+  }
+}

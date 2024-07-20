@@ -1,0 +1,185 @@
+$md: 900px;
+
+.hero-alt{
+  position: relative;
+  min-height: 740px; 
+  position: relative;
+  z-index: 0;
+  background-size: 600px 100%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  @media screen and (max-width:660px) {
+    background-size: 60% 100%;
+  } 
+  .contents-wrapper{
+    width:100%; 
+    margin:auto;
+    .contents{
+      padding: 2rem;
+      h1{
+        max-width: 900px;
+        font-size: 75px;
+        @media screen and (max-width:$md) {
+          max-width: unset;
+          font-size: 60px;
+        } 
+        @media screen and (max-width:660px) {
+          font-size: 45px;
+        } 
+        @media screen and (max-width:490px) {
+          font-size: 35px;
+        } 
+        @media screen and (max-width:390px) {
+          font-size: 30px;
+        } 
+
+      }
+      .text-p{
+        font-size: 18px;        
+        max-width: 800px; 
+        font-size: 20px;       
+        @media screen and (max-width:$md) {
+          max-width: 900px;
+        } 
+        @media screen and (max-width:490px) {
+          font-size: 16px;
+        } 
+        @media screen and (max-width:390px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  img{
+    @media screen and (max-width: 1390px) {
+      filter: opacity(0.4);
+    }
+    @media screen and (max-width: 900px) {
+      filter: opacity(0.1);
+    }
+    &.left{
+      object-fit: contain;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      z-index: 2;
+      filter: brightness(0.3);
+      height: 80%;
+      @media screen and (max-width: 900px) {
+        object-fit: cover;
+        height: unset;
+        width: 80%;
+      }
+    }
+    &.right{
+      object-fit: contain;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      z-index: 1;
+      height: 100%;
+    }
+  }
+}
+
+.header-hero{
+  position: relative;
+  min-height: 740px; 
+  position: relative;
+  z-index: 0;
+  background-size: 600px 100%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-image: linear-gradient(to left, rgba(245, 246, 252, 0.173), rgb(51, 75, 78)), url(/images/index/waterfall.webp);
+  @media screen and (max-width:660px) {
+    background-size: 60% 100%;
+  } 
+  .contents-wrapper{
+    // z-index: 3;
+    width:100%; 
+    margin:auto;
+    .contents{
+      padding: 2rem;
+      h1{
+        max-width: 900px;
+        font-size: 75px;
+        @media screen and (max-width:$md) {
+          max-width: unset;
+          font-size: 60px;
+        } 
+        @media screen and (max-width:660px) {
+          font-size: 45px;
+        } 
+        @media screen and (max-width:490px) {
+          font-size: 35px;
+        } 
+        @media screen and (max-width:390px) {
+          font-size: 30px;
+        } 
+
+      }
+      .text-p{
+        // max-width: 467px;        
+        max-width: 800px; 
+        font-size: 20px;       
+        @media screen and (max-width:$md) {
+          max-width: 900px;
+        } 
+        @media screen and (max-width:490px) {
+          font-size: 16px;
+        } 
+        @media screen and (max-width:390px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  img{
+    @media screen and (max-width: 1390px) {
+      filter: opacity(0.4);
+    }
+    @media screen and (max-width: 900px) {
+      filter: opacity(0.1);
+    }
+    &.left{
+      object-fit: contain;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      z-index: -1;
+      filter: brightness(0.3);
+      height: 80%;
+      @media screen and (max-width: 900px) {
+        object-fit: cover;
+        height: unset;
+        width: 80%;
+      }
+    }
+    &.right{
+      object-fit: contain;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      z-index: 1;
+      height: 100%;
+    }
+  }
+}
+
+.right-container{
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 35%;
+  color: white;
+}

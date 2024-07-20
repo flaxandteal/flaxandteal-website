@@ -1,0 +1,84 @@
+:root{
+  --mw-content: 700px;
+}
+
+.our-services_home{
+  background-color: #5A6D70;
+  position: relative;
+  .os_home_container{
+    display: flex;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 800px;
+    @media screen and (max-width: 1600px) {
+      min-height: unset;
+      margin-right: unset;
+    }
+    @media screen and (max-width: 1050px) {
+      display: block;
+    }
+    .left{
+      max-width: var(--mw-content);
+      margin: auto 0;
+      h2{
+        @media screen and (max-width: 1050px) {
+          margin: 3rem 0;
+        }
+      }
+      p{
+        @media screen and (max-width: 1050px) {
+          margin: 0 0 3rem 0;
+        }
+      }
+      .btn{
+        @media screen and (max-width: 1050px) {
+          margin: 0 0 3rem 0;
+          display: block;
+          width: fit-content;
+        }
+      }
+      @media screen and (max-width: 1600px) {
+        padding: 3rem 2rem;
+      }
+      @media screen and (max-width: 1050px) {
+        max-width: unset;
+      }
+    }
+    .right{
+      position: absolute;
+      right: 0;
+      @media screen and (max-width: 1600px) {
+        position: unset;
+      }
+      .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+        grid-template-rows: repeat(2, 400px);
+
+        @media screen and (max-width: 1260px) {
+          grid-template-columns: repeat(2, 350px);
+          grid-template-rows: repeat(2, 350px);
+        }
+
+        @media screen and (max-width: 1050px) {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media screen and (max-width: 460px){
+          display: block;
+        }
+
+        .card-outer{
+          display: flex;
+          padding: 2rem;
+          height: 100%;
+        }
+        .card{
+          margin: auto;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

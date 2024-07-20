@@ -1,0 +1,126 @@
+<section id="our-team-id" class="our-team bg-primary text-light py-3">
+  <div>
+    <h2 class="m-0 text-center">{{ .heading | markdownify }}</h2>
+    <p style="max-width:690px" class="text-center mx-auto my-3">{{ .text | markdownify }}</p>
+  
+    <div class="team-members p-rel mx-auto container">
+      {{ range $k,$v := first 4 .teams  }}
+      <div class="p-rel team-member {{ if eq $k 3 }}flex gap-2{{end}}" {{ with .bg_color }} {{ printf "style='background-color:%s;'" . | safeHTMLAttr }} {{end}}>
+        {{ if ne $k 3 }}
+        <div class="team-linkedin flex gap-0-5 mt-1">
+          <a href="{{.linkedin | relURL}}">
+            <img width="30" height="30" src="/images/about/linkedin.webp" alt="Linkedin logo">
+          </a>
+        </div>
+        {{ end }}
+        <div class="team-profile-img">
+          <img width="180" height="180" src="{{.img}}" alt="an image of {{ .name }} of Flax and Teal">
+        </div>
+
+        <div>
+          {{ if eq $k 3 }}
+          <div class="team-linkedin flex gap-0-5 mt-1">
+            <a href="{{.linkedin | relURL}}">
+              <img width="30" height="30" src="/images/about/linkedin.webp" alt="Linkedin logo">
+            </a>
+          </div>
+          {{ end }}
+          <h4 class="mb-0 {{ if eq $k 3 }}mt-0{{end}}">{{ .name }}</h4>
+          <p class="role mt-0">{{ .role | markdownify }}</p>
+          <p class="mb-2 team-member-desc">{{ .text | markdownify }}</p>
+          {{ with .email_link }}
+          <a class="btn cta p-abs btn-primary-trans" href="{{.}}">Email</a>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+    </div>
+    
+    <div id="btn-team-expand" class="flex container mx-auto my-1 cursor-pointer">
+      <img class="mx-auto" src="/images/about/arrow-down.webp" alt="down arrow to expand teams">
+    </div>
+    
+    <template id="team-expand">
+      <div class="team-members p-rel mx-auto container">
+        {{ range $k,$v := first 4 (after 4 .teams)  }}
+        <div class="p-rel team-member {{ if eq $k 3 }}flex gap-2{{end}}" {{ with .bg_color }} {{ printf "style='background-color:%s;'" . | safeHTMLAttr }} {{end}}>
+          {{ if ne $k 3 }}
+          <div class="team-linkedin flex gap-0-5 mt-1">
+            <a href="{{.linkedin | relURL}}">
+              <img width="30" height="30" src="/images/about/linkedin.webp" alt="Linkedin logo">
+            </a>
+          </div>
+          {{ end }}
+          <div class="team-profile-img">
+            <img width="180" height="180" src="{{.img}}" alt="an image of {{ .name }} of Flax and Teal">
+          </div>
+  
+          <div>
+            {{ if eq $k 3 }}
+            <div class="team-linkedin flex gap-0-5 mt-1">
+              <a href="{{.linkedin | relURL}}">
+                <img width="30" height="30" src="/images/about/linkedin.webp" alt="Linkedin logo">
+              </a>
+            </div>
+            {{ end }}
+            <h4 class="mb-0 {{ if eq $k 3 }}mt-0{{end}}">{{ .name }}</h4>
+            <p class="role mt-0">{{ .role | markdownify }}</p>
+            <p class="mb-2 team-member-desc">{{ .text | markdownify }}</p>
+            {{ with .email_link }}
+            <a class="btn cta p-abs btn-primary-trans" href="{{.}}">Email</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div> 
+  
+      <div class="team-members p-rel mx-auto container">
+        {{ range $k,$v := first 5 (after 8 .teams)  }}
+        <div id="{{.name | anchorize}}-{{$k}}" class="p-rel team-member {{ if eq $k 3 }}flex gap-2{{end}}" {{ with .bg_color }} {{ printf "style='background-color:%s;'" . | safeHTMLAttr }} {{end}}>
+          {{ if ne $k 3 }}
+          <div class="team-linkedin flex gap-0-5 mt-1">
+            <a href="{{.linkedin | relURL}}">
+              <img width="30" height="30" src="/images/about/linkedin.webp" alt="Linkedin logo">
+            </a>
+          </div>
+          {{ end }}
+          <div class="team-profile-img">
+            <img width="180" height="180" src="{{.img}}" alt="an image of {{ .name }} of Flax and Teal">
+          </div>
+  
+          <div>
+            {{ if eq $k 3 }}
+            <div class="team-linkedin flex gap-0-5 mt-1">
+              <a href="{{.linkedin | relURL}}">
+                <img width="30" height="30" src="/images/about/linkedin.webp" alt="Linkedin logo">
+              </a>
+            </div>
+            {{ end }}
+            <h4 class="mb-0 {{ if eq $k 3 }}mt-0{{end}}">{{ .name }}</h4>
+            <p class="role mt-0">{{ .role | markdownify }}</p>
+            <p class="mb-2 team-member-desc">{{ .text | markdownify }}</p>
+            {{ with .email_link }}
+            <a class="btn cta p-abs btn-primary-trans" href="{{.}}">Email</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div> 
+    </template>
+
+    <div id="team-inject"></div>
+  </div>
+</section>
+
+<script>
+  const btnTeamExpand = document.querySelector('#btn-team-expand')
+
+  btnTeamExpand.addEventListener('click', function(){
+    this.style.display = 'none'
+    const teamExpand = document.querySelector('#team-expand');
+    const injectable = document.createElement('div')
+    injectable.setAttribute('id', 'team-inject')
+    document.querySelector('#team-inject').innerHTML = teamExpand.innerHTML
+  })
+
+</script>

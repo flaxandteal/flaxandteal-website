@@ -1,0 +1,45 @@
+<footer class="footer-new flex flex-1">
+  <div class="left">
+    <img src="/images/index/flax-and-teal-field-image.webp" alt="Flax Teal Field">
+  </div>
+
+  <div class="right bg-primary p-3">
+    <div class="logo mb-2">
+      <a href="/"><img width="220" src="{{site.Params.logo_white}}" alt="Flax Teal Logo"></a>
+    </div>
+    <div class="flex mt-2 gap-2">
+      <div class="text-light address">
+        {{site.Params.address | markdownify}}
+        <div class="flex gap-0-5 mt-1">
+          {{range .Site.Params.socials}}
+          <a href="{{.link | relURL}}">
+            <img src="{{.icon_src | relURL}}" alt="{{.icon}} logo">
+          </a>
+          {{end}}
+        </div>
+      </div>
+      <div>
+        <ul class="footer-menu-ul p-0"> 
+          {{ range site.Menus.footer}}
+          <li><a class="text-light" href="{{.PageRef}}">{{.Name}}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
+    <br><br>
+    <hr>
+
+    <h3 class="text-gold">OPEN FOR BUSINESS</h3>
+    <div class="footer-note">
+      <p class="copyright text-light">{{ .Site.Copyright }}</p>
+      <p class="note text-light">{{ .Site.Params.footer_note }}</p>
+    </div>
+
+    <div class="py-1 mt-3">
+      {{range site.Params.footer_badges}}
+        <img class="flax-and-teal-badge mr-1" width="{{site.Params.footer_badge_max_width}}" src="{{.}}" alt="flax and teal award and badge">
+      {{end}}
+    </div>
+  </div>
+</footer>

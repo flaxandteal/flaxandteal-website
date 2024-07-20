@@ -1,9 +1,79 @@
-baseURL = "https://flaxandteal.co.uk/"
+baseURL = "https://flaxnteal.netlify.app"
 languageCode = "en-us"
 title = "Flax &amp; Teal"
 publishDir = "docs"
 sectionPagesMain = "main"
 relativeURLs = true
+copyright = '© 2024 Flax & Teal Limited.'
+
+[menus]
+  [[menus.main]]
+    name = 'About Us'
+    pageRef = '/about'
+    weight = 10
+  [[menus.main]]
+    name = 'Services'
+    pageRef = '/services'
+    weight = 20
+  [[menus.main]]
+    name = 'Products'
+    pageRef = '/products'
+    weight = 30
+  [[menus.main]]
+    name = 'Clients'
+    pageRef = '/clients'
+    weight = 40
+  [[menus.main]]
+    name = 'Contact Us'
+    pageRef = '/contact'
+    weight = 50
+  
+  [[menus.footer]]
+    name = 'About Us'
+    pageRef = '/about'
+    weight = 10
+  [[menus.footer]]
+    name = 'Technology'
+    pageRef = '/technology'
+    weight = 20
+  [[menus.footer]]
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 30
+  [[menus.footer]]
+    name = 'Privacy Policy'
+    pageRef = '/privacy-policy'
+    weight = 40
+  [[menus.footer]]
+    name = 'Terms & Conditions'
+    pageRef = '/terms-and-condition'
+    weight = 50
+
+[params]
+  # general
+  logo_main = '/images/index/flax-teal-logo.webp'
+  logo_white = '/images/index/flax-teal-logo-white.webp'
+  # footer
+  footer_note = 'Flax & Teal Limited is a limited company registered in Northern Ireland with registration number NI617545, VAT number GB283711692, EORI number GB283711692000, and ICO registration ZA243895.'
+  footer_image = '/images/index/flax-and-teal-field-image.webp'
+  footer_badges = ['/images/cyber-essentials-plus-logo.webp']
+  footer_badge_max_width = 100
+  address = 'Farset Labs Weavers Court <br> Linfield Road <br> Belfast BT12 5GH'
+  # contact form
+  form_submission_redirect = 'thank-you'
+  form_action_endpoint = 'https://submit-form.com/N22n4zP64'
+  [[params.socials]]
+    icon = 'Youtube'
+    icon_src =  'images/icons/yt-logo.webp'
+    link =  'https://youtube.com/channel/UCbF1nWNmlZ7e9AlKqijw5HA'
+  [[params.socials]]
+    icon = 'Linkedin'
+    icon_src =  'images/icons/lin-logo.webp'
+    link =  'https://linkedin.com/company/flax-&-teal-limited'
+  [[params.socials]]
+    icon = 'Twitter - X'
+    icon_src =  'images/icons/twitter-x-logo.webp'
+    link =  'https://twitter.com/flaxandteal'
 
 [markup]
   [markup.goldmark.renderer]

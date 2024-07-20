@@ -1,0 +1,378 @@
+$break-small: 620px;
+$break-large: 1080px;
+$break-xlarge: 1080px;
+$flax: #b59f77;
+$teal: #49696c;
+$steel: #626074;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+
+  @media screen and (min-width: $break-large) {
+    font-size: 14px;
+  }
+}
+
+.nav-item {
+  display: none
+}
+
+.nav-item.active {
+  display: none
+}
+
+span.arrow-down {
+  display: block;
+  border: solid $steel;
+  border-width: 0 8px 8px 0;
+  width: 0px;
+  padding: 8px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+span.twitter {
+  padding-left: 30px;
+  background: black;
+  background: url('../images/Twitter_Logo_Blue.png');
+  background-size: 30px 30px;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+}
+
+span.github {
+  padding-left: 30px;
+  background: black;
+  background: url('../images/GitHub-Mark-64px.png');
+  background-size: 25px 25px;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+}
+
+span.linkedin {
+  padding-left: 30px;
+  background: black;
+  background: url('../images/linkedin.png');
+  background-size: 35px 30px;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+}
+
+span.youtube {
+  padding-left: 30px;
+  background: black;
+  background: url('../images/371903520_SOCIAL_ICONS_YOUTUBE.png');
+  background-size: 30px 30px;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+}
+
+
+#pg2 {
+
+  width: 100%;
+  flex: 1;
+  font-family: "League Gothic";
+  #pg2-child {
+    background-image: url('../images/belfast-lough.jpg');
+    background-position: left bottom;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100%;
+
+    #pg2-menu {
+      padding-top: 20px;
+      background: rgba(255, 255, 255, 0.8);
+      width: 100%;
+      text-align: center;
+
+      #pg2-logo {
+        img {
+          width: 100%;
+          left: 0px;
+          right: 0px;
+          margin: auto;
+        }
+        width: 50%;
+        min-width: 200px;
+        @media screen and (min-width: $break-large) {
+          width: 10%;
+        }
+        display: inline-block;
+      }
+      #pg2-items {
+        display: inline-block;
+        height: 100px;
+        width: 80%;
+        @media screen and (min-width: $break-large) {
+          text-align: left;
+        }
+        nav {
+          display: inline-block;
+          left: 0px;
+          width: 100%;
+          padding-bottom: 20px;
+          display: inline-block;
+          text-transform: uppercase;
+          color: #49696c;
+          font-size: 150%;
+          padding-left: 0px;
+
+          ul {
+            display: inline-block;
+            padding: 0px 0px 0px 0px;
+            margin-bottom: 0px;
+          }
+
+          li {
+            color: #bdd;
+            text-align: left;
+            vertical-align: middle;
+            margin-bottom: 30px;
+            img {
+              height: 50px;
+              @media screen and (min-width: $break-large) {
+                height: 20px;
+              }
+              padding-right: 5px;
+              display: inline-block;
+            }
+            a {
+              color: #709090;
+              text-decoration: inherit;
+              display: inline-block;
+            }
+            white-space: nowrap;
+            list-style: none;
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px;
+            @media screen and (min-width: $break-xlarge) {
+              padding-left: 25px;
+              padding-right: 25px;
+            }
+          }
+        }
+      }
+    }
+
+    #pg2-body {
+      padding-bottom: 10px;
+      @media screen and (min-width: $break-large) {
+        padding-bottom: 10px;
+      }
+      text-align: center;
+
+      #pg2-title {
+        background: rgba(255, 255, 255, 0.92);
+        border-radius: 50px 50px;
+        overflow: hidden;
+        position: relative;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        @media screen and (min-width: $break-small) {
+          width: 50%;
+          min-width: 600px;
+        }
+        text-align: center;
+        display: inline-block;
+        font-family: "League Spartan";
+        font-size: 70%;
+
+        @media screen and (min-width: $break-large) {
+          font-size: 100%;
+        }
+
+        h1 {
+          width: 100%;
+          color: #49696c;
+          font-size: 600%;
+
+          .highlight {
+            color: #a58f67;
+          font-size: 70%;
+          }
+        }
+
+        h2 {
+          width: 100%;
+          padding-top: 10%;
+          color: #a58f67;
+          font-size: 300%;
+        }
+
+        h3 {
+          width: 100%;
+          color: $steel;
+          font-size: 200%;
+        }
+
+        a {
+          color: $teal;
+        }
+
+        p {
+          max-width: 70%;
+          display: inline-block;
+          text-align: left;
+          font-size: 150%;
+
+          em {
+            font-size: 120%;
+            color: $teal;
+          }
+
+          &.info {
+            text-align: center;
+          }
+        }
+
+        #pg2-down-link {
+          display: block;
+          text-align: center;
+
+          a {
+            color: #9ab;
+            text-decoration: inherit;
+            display: inline-block;
+          }
+
+          h3 {
+            width: 100%;
+            margin: 0;
+            color: #abc;
+            font-size: 200%;
+          }
+
+          p {
+            padding-top: 30px;
+            display: inline-block;
+            max-width: 80%;
+            color: #789;
+            font-size: 200%;
+          }
+
+          img {
+            margin-top: 20px;
+            height: 200px;
+          }
+        }
+      }
+    }
+
+    #pg2-footer {
+      background: white;
+      color: $steel;
+      width:  100%;
+      min-height: 40px;
+      font-size: 0.7em;
+      @media screen and (min-width: $break-small) {
+        font-size: 1.0em;
+      }
+      padding: 10px;
+      font-family: "League Spartan";
+      a {
+        color: $teal;
+      }
+    }
+  }
+}
+#pg2-footer {
+  position: fixed;
+  bottom: 0px;
+  width:  100%;
+}
+
+#pg2 #pg2-child #pg2-body #pg2-title {
+  margin-bottom: 100px;
+  @media screen and (min-width: $break-small) {
+    width: 80vw;
+    min-width: 600px;
+  }
+  .homepage {
+    position: relative;
+    top: -100px;
+    h1 {
+      text-align: left;
+      padding: 30px;
+      display: block;
+      background-color: $teal;
+      color: #fff;
+      padding-top: 100px;
+      margin-bottom: 0;
+    }
+
+    .dash {
+      text-decoration: underline $flax;
+    }
+
+    .dot {
+      color: $flax;
+    }
+    ul, ol {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      li:last-child:after {
+        content: "";
+      }
+
+      li {
+        padding: 0;
+        margin-right: 30px;
+        white-space: nowrap;
+        flex-grow: 0;
+        flex-shrink: 0;
+      }
+    }
+    ul {
+      background: $teal;
+      position: relative;
+      top: 20px;
+      justify-content: left;
+      padding: 30px;
+      font-size: 220%;
+      color: white;
+      opacity: 0.5;
+
+      li:after {
+        padding-right: 30px;
+        content: ".";
+        color: $flax;
+      }
+    }
+    ol {
+      font-size: 200%;
+      color: rgba(128, 128, 128, 0.4);
+
+      li:after {
+        padding-left: 30px;
+        content: "-";
+        color: rgba(128, 128, 128, 0.4);
+        padding-right: 30px;
+      }
+    }
+    h2 {
+      position: absolute;
+      padding: 0;
+      color: $teal;
+      a {
+        font-size: 70%;
+      }
+    }
+    @media screen and (min-width: $break-large) {
+      ol {
+        font-size: 150%;
+      }
+    }
+  }
+}

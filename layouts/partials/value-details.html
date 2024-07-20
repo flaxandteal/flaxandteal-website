@@ -1,0 +1,27 @@
+<section {{with .ctx.bg_color}} {{printf "style='background-color:%s;'" . | safeHTMLAttr}} {{end}} class="bg-primary py-3 {{ .ctx.text_color | default "text-light" }} value-details">
+  <div class="container mx-auto">
+    <div style="{{if .ctx.reverse}}flex-direction: row-reverse;{{end}}" class="main-wrapper">
+      <div class="left">
+        {{with .ctx.tags}}
+        <div>
+          {{$len := (math.Sub (.|len) 1)}}
+          {{range $k,$v := .}}
+          <span class="vd-category"><strong>{{.}} {{if lt $k $len}} | {{end}}</strong></span>
+          {{end}}
+        </div>
+        {{end}}
+
+        <h2>{{ .ctx.title | markdownify }}</h2>
+
+        {{ index (split .content "<hr>") .ctx.order | markdownify }}
+
+        <div class="mt-3">
+          <a class="btn {{ .ctx.btn_color | default "btn-primary-trans" }}" href="{{.ctx.cta_link}}">{{.ctx.cta}}</a>
+        </div>
+      </div>
+      <div class="right">
+        <img src="{{.ctx.img}}" alt="an image that depicts {{.ctx.title | safeHTML}}">
+      </div>
+    </div>
+  </div>
+</section>

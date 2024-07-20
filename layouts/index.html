@@ -1,6 +1,18 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
+{{ partial "nav-new.html" . }}
+
+<main class="home">
+  {{ range .Params.sections }}
+  {{ partial (printf "%s.html" .type) . }}
+  {{ end }}
+</main>
+
+{{ partial "footer-new.html" . }}
+{{ end }}
+
+{{/*  {{ partial "header.html" . }}
 {{ partial "body-top.html" . }}
 <div class="homepage">
 {{.Content}}
 </div>
-{{ partial "body-bottom.html" . }}
+{{ partial "body-bottom.html" . }}  */}}
