@@ -29,9 +29,9 @@ sections:
 
 ---
 
-Arches is an open source data management platform which makes it possible for meaningful organisational change. Jointly funded by the World Monument Fund and the Getty Conservation Institute, it has evolved into a powerful asset management and GIS tool. 
+Arches is an open source data management platform which makes it possible for meaningful organisational change. Jointly funded by the World Monument Fund and the Getty Conservation Institute, it has evolved into a powerful asset management and GIS tool. <br><br>
 
-Why Flax & Teal?
+<strong>Why Flax & Teal?</strong>
 
 We have conducted Arches workshops with the Arches team to build a roadmap for integrating the Arches software with modern DevOps flows, and are the leading team in doing so.
 
@@ -45,7 +45,7 @@ We have utilised Arches not only for large cultural heritage institutions, but f
 
 We are currently in the process of delivering a long-term digital transformation project for Northern Irish public sector, migrating all of their current and historic heritage- based data to a customised Arches HER (Historic Environment Record) instance. 
 
-They required a secure and accessible database capable of holding more than 200,000 records safely and without data loss. This has involved site visits, workshops and detailed data modelling exercises, and has been supported on the technology side by Kubernetes, Python-in-the-cloud, Ray data workflows and deployed to GKE.
+They required a secure and accessible database capable of holding more than 200,000 records safely and without data loss. This has involved site visits, workshops and detailed data modelling exercises, and has been supported on the technology side by Kubernetes, Python-in-the-cloud, Ray data workflows and deployed to GKE. <br><br>
 
   - **Kubernetes infrastructure flows**
 
@@ -56,6 +56,9 @@ They required a secure and accessible database capable of holding more than 200,
   - **Secure and stable development, staging and production instances** 
 
   - **Hosting available on-premise or in cloud**
+<br><br>
+
+We're focused on helping large public sector organisations transform and manage their heritage data.
 
 ---
 
