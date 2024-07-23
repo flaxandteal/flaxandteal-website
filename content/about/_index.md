@@ -48,23 +48,23 @@ sections:
         role: 'Operations Lead'
         linkedin: 'https://www.linkedin.com/in/alana-murphy-4ab8891aa/'
         bg_color: '#8E8E8C'
-        text: "<strong>Alana works as an operations analyst within Flax & Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen’s University. Alana has worked with SPSS, Stata, HTML and Python toolings in data analysis. She also has experience with UX/UI testing.</strong>"
+        text: "<strong>Alana works as an operations analyst within Flax & Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen’s University. Alana has worked with SPSS, Stata, HTML and Python toolings in data analysis. She co-ordinates our strategy across all our departments.</strong>"
       - name: 'Andrea Kyurchiev'
         img: '/images/about/andrea-kyurchiev.webp'
         role: 'Full-Stack Developer'
         linkedin: 'https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/'
         bg_color: '#4B7A81'
-        text: "<strong>Andrea joined Flax & Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment.</strong>"
+        text: "<strong>Andrea joined Flax & Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced and talented developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment.</strong>"
       - name: 'Ellery Ames'
         img: '/images/about/ellery-ames.webp'
         role: 'Scientific Software Engineer'
         linkedin: 'https://www.linkedin.com/in/ellery-ames-b6b3a975/'
         bg_color: '#5A6D70'
-        text: "Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes!"
+        text: "Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes."
       - name: 'Hristiyana Deliyska'
         img: '/images/about/hristiyana-deliyska.webp'
         role: 'Project & Business Development Manager'
-        linkedin: 'Project & Business Development Manager'
+        linkedin: 'https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/'
         bg_color: '#B39B52'
         text: "Hristiyana is our Project and Business Development Manger! Hristiyana has a background in economics and international relations and experience with international business development."
       - name: 'Jana Lorencova'
@@ -78,13 +78,13 @@ sections:
         role: 'Developer'
         linkedin: 'https://www.linkedin.com/in/kamen-dimitrov-a26a2492/'
         bg_color: '#4B7A81'
-        text: "Kamen is our junior software developer. He completed studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development."
+        text: "Kamen is a fullstack software developer. He completed studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development. He has successfully completed DevOps course from Telerik Academy, and has experience with GIT and Docker."
       - name: 'Kanika Miglani'
         img: '/images/about/kanika-miglani.webp'
         role: 'Data Science & Analysis'
         linkedin: 'https://www.linkedin.com/in/kanika-miglani-538a06137/'
         bg_color: '#5A6D70'
-        text: "Kanika joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data scientist with a background in Python, ML and R. Kanika has experience mentoring companies to enhance digital transformation and innovation, with client’s stating: &ldquo;Kanika has been a great help and mentor to Genysys Engine. Thanks to Kanika’s knowledge and guidance we have been able to analyze, learn & expand our Deep Learning models.&rdquo;"
+        text: "Kanika joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data scientist with a background in Python, ML and R. Kanika has experience mentoring companies to enhance digital transformation and innovation, with client’s stating: &ldquo;Kanika has been a great help and mentor to Genysys Engine. Thanks to Kanika’s knowledge and guidance we have been able to analyze, learn & expand our Deep Learning models.&rdquo; She has extensive experience in working with Python and Machine Learning techniques."
       - name: 'May Cheung'
         img: '/images/about/may-cheung.webp'
         role: ' Operations Manager / Co-Ordinator'
