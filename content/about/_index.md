@@ -21,7 +21,8 @@ sections:
     img_alt: 'an image of our app'
   - type: our-services_about
     heading: 'Our services'
-    text: 'We build innovative web platforms and solutions to tackle complex data and scientific challenges across diverse domains. Leveraging open source technologies, cloud infrastructure, and cutting-edge approaches like machine learning and scientific computing, we collaborate with clients to develop tailored solutions that drive progress and create value.'
+    text: 'We build innovative web platforms and solutions to tackle complex data and scientific challenges across diverse domains. Leveraging open source technologies, cloud infrastructure, and cutting-edge approaches like machine learning and scientific computing, we collaborate with clients to develop tailored solutions that drive progress and create value.<br><br> Despite our global reach, we believe in the power of seamless collaboration. Our distributed team leverages advanced communication technologies and agile methodologies to work together effectively across borders
+and time zones. Whether you’re in Sofia, San Francisco, or London, you can count on us to deliver responsive, reliable support whenever and wherever you need it.'
     cta: 'Discover our services'
     cta_link: '/services/'
     img_src: '/images/about/tight-rope-climber-mountain.webp'
