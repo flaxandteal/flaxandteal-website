@@ -1,5 +1,5 @@
 ---
-title: Terms and Conditions [Dummy Content]
+title: Terms and Conditions
 description: Flax and Teal's Terms and Conditions
 date: 2023-12-21T14:10:03Z
 ---
@@ -9,7 +9,7 @@ date: 2023-12-21T14:10:03Z
 
 Welcome to Flax and Teal's website. By accessing or using our website, you agree to comply with and be bound by these Terms and Conditions. Please read them carefully. If you do not agree with any part of these terms, you must not use our website. These Terms and Conditions, along with our Privacy Policy, govern your use of our website and services.
 
-Use of the Website
+## Use of the Website
 
 You agree to use our website only for lawful purposes and in a way that does not infringe the rights of, restrict, or inhibit anyone else's use and enjoyment of the website. Prohibited behavior includes harassing or causing distress or inconvenience to any other user, transmitting obscene or offensive content, or disrupting the normal flow of dialogue within our website. You are responsible for ensuring that all information you provide on our website is accurate and up-to-date.
 
