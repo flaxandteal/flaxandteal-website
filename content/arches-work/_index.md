@@ -33,7 +33,7 @@ Arches is an open source data management platform which makes it possible for me
 
 <strong>Why Flax & Teal?</strong>
 
-At Flax & Teal, we are more than just a software consultancy and IT solutions provider - we are passionate advocates for the preservation of cultural heritage. We aim to empower organisations worldwide to safeguard their invaluable heritage assets for future generations.
+At Flax & Teal, we are more than just a software consultancy and IT solutions provider - we are passionate advocates for the preservation of cultural heritage. We aim to empower organisations worldwide to safeguard their invaluable heritage assets for future generations.<br><br>
 
 <strong> Registered Arches Suppliers</strong>
 
