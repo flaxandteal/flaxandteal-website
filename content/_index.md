@@ -12,7 +12,7 @@ sections:
     cta_link: '#'
   - type: our-services_home
     heading: 'Our services'
-    text: 'Flax & Teal is a consultancy focused on open technologies, serving public and private sectors through web-based solutions in computational engineering, geospatial analysis, and data science. <br> Part of the Avata Industries consortium, we build openly-licensed products and tools, often web platforms analyzing open data, geography, and physics. With industry and academic expertise, we support R&D projects, including Horizon 2020 and InnovateUK, and are certified Arches providers for cultural heritage management.'
+    text: 'Flax & Teal is a consultancy focused on open technologies, serving public and private sectors through web-based solutions in computational engineering, geospatial analysis, and data science. <br><br> Part of the Avata Industries consortium, we build openly-licensed products and tools, often web platforms analyzing open data, geography, and physics. With industry and academic expertise, we support R&D projects, including Horizon 2020 and InnovateUK, and are certified Arches providers for cultural heritage management.'
     cta: 'Explore our services'
     cta_link: '/services/'
     cards:
@@ -33,8 +33,8 @@ sections:
         icon: "/images/icons/cloud-infrastructure-devops.webp"
         bg_color: '#F1F7F5'
   - type: about-us-home
-    heading: 'About us'
-    text: 'Our multidisciplinary team of experts combines deep technical knowledge with domain expertise to deliver innovative, tailored solutions. We pride ourselves on our commitment to open source collaboration, sustainable development practices, and cutting-edge research and development.'
+    heading: 'Global Reach, Local Expertise'
+    text: 'Our multidisciplinary team of experts combines deep technical knowledge with domain expertise to deliver innovative, tailored solutions. We pride ourselves on our commitment to open source collaboration, sustainable development practices, and cutting-edge research and development.<br><br> At Flax & Teal, we transcend borders to deliver world-class software consultancy and IT solutions. With a global presence that spans across the UK, the US, EU and Asia, and beyond, we bring together a diverse team of experts from six countries, united by a shared passion for technology and innovation.'
     cta: 'Meet our team'
     cta_link: '/about#our-team-id'
   - type: our-products
