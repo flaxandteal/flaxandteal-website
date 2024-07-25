@@ -33,6 +33,12 @@ Arches is an open source data management platform which makes it possible for me
 
 <strong>Why Flax & Teal?</strong>
 
+At Flax & Teal, we are more than just a software consultancy and IT solutions provider - we are passionate advocates for the preservation of cultural heritage. We aim to empower organisations worldwide to safeguard their invaluable heritage assets for future generations.
+
+<strong> Registered Arches Suppliers</strong>
+
+Arches is revolutionising the way cultural heritage institutions manage, document, and share their collections. 
+
 We have conducted Arches workshops with the Arches team to build a roadmap for integrating the Arches software with modern DevOps flows, and are the leading team in doing so.
 
 As open source leaders, Arches naturally fits into our service expertise, we have run community events combining Arches platforms and Virtual Reality spaces, to push Arches’ technical capabilities.
@@ -43,7 +49,7 @@ We have utilised Arches not only for large cultural heritage institutions, but f
 
 **Digitally transforming cultural heritage**
 
-We are currently in the process of delivering a long-term digital transformation project for Northern Irish public sector, migrating all of their current and historic heritage- based data to a customised Arches HER (Historic Environment Record) instance. 
+We are currently in the process of delivering a long-term digital transformation project for Northern Irish public sector, migrating all of their current and historic heritage-based data to a customised Arches HER (Historic Environment Record) instance. 
 
 They required a secure and accessible database capable of holding more than 200,000 records safely and without data loss. This has involved site visits, workshops and detailed data modelling exercises, and has been supported on the technology side by Kubernetes, Python-in-the-cloud, Ray data workflows and deployed to GKE. <br><br>
 
