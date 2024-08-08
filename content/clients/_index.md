@@ -121,7 +121,6 @@ Mile.
 We worked closely with the Office of National Statistics to enhance and improve the search functionality on their existing site. This involved using advanced Natural Language Processing techniques, Kubernetes container orchestration, and enhancing geo-location searching.
 
 We utilised ElasticSearch to augment location-based search functionality and improve search accuracy. We re-developed select pages within the front-end of the existing site to match the new internal design. 
-Mile.
 
 ---
 
