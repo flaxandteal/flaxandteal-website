@@ -10,7 +10,7 @@ sections:
     bg_image: '/images/services/services-hero.webp'
     bg_color: '#4B7A81'
     heading: 'Services'
-    text: '<strong>Flax & Teal is a consultancy specializing in openly-licensed technologies, serving both public and private sectors through web-based products and services in computational engineering, geospatial analysis, and data science (machine learning and AI).</strong> <br><br> The company builds tools for various sectors, including publicly-shared, reusable components – often web platforms that provide behind-the-scenes analysis of open data, geography, and physics.'
+    text: '<strong>Flax & Teal is a consultancy specializing in openly-licensed technologies, serving both public and private sectors through web-based products and services in computational engineering, geospatial analysis, and data science (machine learning and AI).</strong> <br><br> We builds tools for various sectors, including publicly-shared, reusable components – often web platforms that provide behind-the-scenes analysis of open data, geography, and physics.'
   - type: value_services
     bg_color: '#B9DCD5'
     values:
@@ -83,11 +83,11 @@ Training, software, data analysis, ML, design
 
 **Cross-Industry Expertise** 
 
-Health, enterprise, simulation, engineering, journalism, <br> public, education
+Health, enterprise, simulation, engineering, journalism, <br> public sector, education
 
 **Global Clients**
 
-UK, Ireland, Germany, New Zealand and US
+UK, Germany, New Zealand and US
 
 ---
 
@@ -109,7 +109,7 @@ We offer a range of service agreements to maintain, secure, and upgrade software
 
 **Arches Supplier**
 
->Certified Arches supplier, Flax & Teal customises and deploys Arches instances for heritage, research, science and other sectors across public and private domains.
+>Certified [Arches](https://https://www.archesproject.org/) supplier, Flax & Teal customises and deploys Arches instances for heritage, research, science and other sectors across public and private domains.
 
 **Irish Open Data Supplier**
 
