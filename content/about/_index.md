@@ -55,7 +55,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         role: 'Full-Stack Developer'
         linkedin: 'https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/'
         bg_color: '#4B7A81'
-        text: "<strong>Andrea joined Flax & Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced and talented developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment.</strong>"
+        text: "<strong>Andrea joined Flax & Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced and talented developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment, and is lead developer across our front-end web work.</strong>"
       - name: 'Ellery Ames'
         img: '/images/about/ellery-ames.webp'
         role: 'Scientific Software Engineer'
@@ -67,7 +67,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         role: 'Project & Business Development Manager'
         linkedin: 'https://www.linkedin.com/in/hristiyana-deliyska-5aba5119a/'
         bg_color: '#B39B52'
-        text: "Hristiyana is our Project and Business Development Manger! Hristiyana has a background in economics and international relations and experience with international business development."
+        text: "Hristiyana is our Project and Business Development Manger, managing our large-scale projects. Hristiyana has a background in economics and international relations and experience with international business development. She liaises closely with clients throughout the project life-cycle to ensure deliverables are met on time and to client satisfaction."
       - name: 'Jana Lorencova'
         img: '/images/about/jana-lorencova.webp'
         role: 'Information Scientist'
@@ -91,7 +91,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         role: ' Operations Manager / Co-Ordinator'
         linkedin: 'https://www.linkedin.com/in/maycheungni/'
         bg_color: '#B39B52'
-        text: "May adds to our operations team with 20 years experience working within the tech and legal sectors. May helps co-ordinate our in-house strategy and operations, and is also currently CFO for OpenUK, highlighting her passion and dedication to open source. She is also a Director and key volunteer organiser of NIDC (Northern Ireland Developers Conference), having been involved in multiple capacities since the first conference in 2017."
+        text: "May adds to our operations team with 20 years experience working within the tech and legal sectors. May helps co-ordinate our in-house strategy and operations, and is also currently CFO for OpenUK, highlighting her passion and dedication to open source. <br><br>She is also a Director and key volunteer organiser of NIDC (Northern Ireland Developers Conference), having been involved in multiple capacities since the first conference in 2017."
       - name: 'Sharon Ingram'
         img: '/images/about/sharon-ingram.webp'
         role: 'Cloud Architect'
