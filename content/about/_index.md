@@ -9,7 +9,7 @@ sections:
     bg_image: '/images/about/about-hero.webp'
     bg_color: '#F6F4EB'
     heading: 'About us'
-    text: '<strong>Flax and Teal has grown exponentially since its humble beginnings as a one-person operation in Belfast back in 2013.</strong> <br><br> What started as a solo endeavour has blossomed into a globally distributed team spanning four locations - Northern Ireland, Bulgaria, India, and California. Our 13-member strong workforce continues to expand, fuelled by a commitment to meeting the ever-evolving needs of our customers across Ireland, the UK, Europe, and North America. <br><br> With expertise honed through technical competency groups led by seasoned veterans, we seamlessly bridge time zones and harness best practices to deliver efficient, cutting-edge solutions.'
+    text: '<strong>Flax and Teal has grown exponentially since its humble beginnings as a one-person operation in Belfast back in 2013.</strong> <br><br> What started as a solo endeavour has blossomed into a globally distributed team spanning four locations - Northern Ireland, Bulgaria, India, and California. Our 13-member strong workforce continues to expand, fuelled by a commitment to meeting the ever-evolving needs of our customers across the UK, Europe, North America, Asia and Oceania. <br><br> With expertise honed through technical competency groups led by seasoned veterans, we seamlessly bridge time zones and harness best practices to deliver efficient, cutting-edge solutions.'
     bg_color: '#F6F4EB'
   - type: what-we-do_about
     heading: What we do
@@ -76,7 +76,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         text: "Jana has joined our team as an Information Scientist, specialising in data cataloguing, adminstration and has an MA in International Relations and Politics from the University of Aberdeen."
       - name: 'Kamen Dimitrov'
         img: '/images/about/kamen-dimitrov.webp'
-        role: 'Developer'
+        role: 'Fullstack Developer'
         linkedin: 'https://www.linkedin.com/in/kamen-dimitrov-a26a2492/'
         bg_color: '#4B7A81'
         text: "Kamen is a fullstack software developer. He completed studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development. He has successfully completed DevOps course from Telerik Academy, and has experience with GIT and Docker."
@@ -85,7 +85,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         role: 'Data Science & Analysis'
         linkedin: 'https://www.linkedin.com/in/kanika-miglani-538a06137/'
         bg_color: '#5A6D70'
-        text: "Kanika joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data scientist with a background in Python, ML and R. Kanika has experience mentoring companies to enhance digital transformation and innovation, with client’s stating: &ldquo;Kanika has been a great help and mentor to Genysys Engine. Thanks to Kanika’s knowledge and guidance we have been able to analyze, learn & expand our Deep Learning models.&rdquo; She has extensive experience in working with Python and Machine Learning techniques."
+        text: "Kanika joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data scientist with a background in Python, ML and R. <br><br>Kanika has experience mentoring companies to enhance digital transformation and innovation, with client’s stating: &ldquo;Kanika has been a great help and mentor to Genysys Engine. Thanks to Kanika’s knowledge and guidance we have been able to analyze, learn & expand our Deep Learning models.&rdquo; She has extensive experience in working with Python and Machine Learning techniques."
       - name: 'May Cheung'
         img: '/images/about/may-cheung.webp'
         role: ' Operations Manager / Co-Ordinator'
