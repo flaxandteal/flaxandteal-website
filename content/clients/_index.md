@@ -6,7 +6,7 @@ draft: false
 sections:
   - type: hero_clients
     heading: "Clients & Case Studies"
-    text: 'We’ve been fortunate enough to work with a wide range of clients across various sectors, ensuring project completion and client satisfaction along the way. See a selection of our work below.'
+    text: 'We’ve been fortunate enough to work with a wide range of clients across various sectors, ensuring timely project completion and high levels of client satisfaction along the way. See a selection of our work below.'
   - type: l_r
     img: '/images/clients-and-case-studies/arches-cultural-heritage.webp'
     order: 1
@@ -77,19 +77,19 @@ sections:
 
 ## [Arches - Cultural Heritage](/arches-work/)
 
-A selection of our commercial Arches work, an open source data management solution. We are recognized Arches providers, an open source cultural heritage management platform, with GIS capability and suitable for movable and immovable heritage assets. 
+A selection of our commercial Arches work, an open source data management solution. We are recognized Arches service providers, an open source cultural heritage management platform, with GIS capability and suitable for movable and immovable heritage assets. 
 
 Our in-house expertise allows us to transform and customise Arches to your needs, whether that is within heritage, research, science and more. Serving public and private sector alike through open source cultural heritage. [Get in touch](/contact/) to see what Arches can do for you.
 
 ---
 
-We developed ESG dashboards capable of inputting data to generate reports, graphs and capturing geo-spatial data.
+We developed ESG dashboards capable of inputting data to generate reports, graphs and capturing geo-spatial data, developing front-end and back-end in parallel.
 
 > **❝Boards123 innovates Board Performance. We do this with our software, services and training products. We work with Flax and Teal as our technology partner, as they are experts in transforming complex data and management systems into easy-to-use, highly accessible and intelligent software solutions.❞**
 
 ---
 
-We partnered with Big Motive to develop cutting edge fasttext algorithms to work in the background of their pain-based application. Our data and architect expertise ensured project was delivered on time and to specification. 
+We partnered with Big Motive to develop cutting edge fasttext algorithms to work in the background of their pain-based application. Our in-house data and architect expertise ensured project was delivered on time and to specification. 
 
 >**❝We, at Big Motive, have worked with Flax & Teal on multiple technical projects and have benefited significantly from their ability to provide agile planning and delivery of technical work. From the early stages of the projects, Flax and Teal worked extremely well with all stakeholders, including the design and client teams to fully understand the project and co-create requirements.❞**
 
@@ -103,7 +103,7 @@ This project involved an iterative Agile, full stack build and development of cl
 
 Our in-house team of web developers and data scientists are experts in guiding businesses throughout their digital transformation journey. 
 
-This knowledge transfer and upskilling can be through; digitalisation, web development, machine learning and data science. We aim to not only resolve initial problems and barriers to digital transformation, but to ensure these processes can continue without us involved. 
+This knowledge transfer and upskilling can be imparted through several fields; digitalisation, web development, machine learning and data science. We aim to not only resolve initial problems and barriers to digital transformation, but to ensure these processes can continue without our involvement. 
 
 We also provide training services in Python and Kubernetes, with highly positive feedback. Our Python course can be tailored to delivery, with modules focused to customer need. Our Director, Phil Weir, is one of Northern Ireland’s only certified Kubernetes architects.
 
@@ -120,19 +120,19 @@ Mile.
 
 We worked closely with the Office of National Statistics to enhance and improve the search functionality on their existing site. This involved using advanced Natural Language Processing techniques, Kubernetes container orchestration, and enhancing geo-location searching.
 
-We utilised ElasticSearch to augment location-based search functionality and improve search accuracy. We re-developed select pages within the front-end of the existing site to match the new internal design. 
+We utilised ElasticSearch to augment location-based search functionality and improve search accuracy. We re-developed select pages within the front-end of the existing site to match the new internal design, based on client specification. 
 
 ---
 
 Flax & Teal were winners of the OpenDataNI Innovation & Outreach Fund 2020 & 2021, for our work surrounding [Our Raging Planet](/products#our-raging-planet-orp) and our work with open data and Covid-19.
 
-We utilised Northern Irish open data surrounding Covid-19 cases and vaccinations, after conducting user-research with key stakeholders. We collated the data and displayed findings through interactive Python-based graphs.
+We utilised Northern Irish open data surrounding Covid-19 cases and vaccinations, after conducting user-research with key stakeholders. We collated the data and displayed findings through interactive Python-based graphs for end-users.
 
 ---
 
 We developed a web-based platform for HR management and dashboard analytics. Developing both back-end and front-end to client specification, to transform how skill gaps are addressed in employment.
 
-Working closely with YFor, we developed tailored dashboards according to user requirements, and developed both client and user front-ends. 
+Working closely with YFor, we developed tailored dashboards according to user requirements, and developed both client and user front-ends, with multiple levels of user access. 
 
 ---
 
