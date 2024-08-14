@@ -109,7 +109,7 @@ We offer a range of service agreements to maintain, secure, and upgrade software
 
 **Arches Supplier**
 
->Certified [Arches](https://https://www.archesproject.org/) supplier, Flax & Teal customises and deploys Arches instances for heritage, research, science and other sectors across public and private domains.
+>Certified Arches supplier, Flax & Teal customises and deploys Arches instances for heritage, research, science and other sectors across public and private domains.
 
 **Irish Open Data Supplier**
 
