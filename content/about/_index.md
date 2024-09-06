@@ -61,7 +61,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         role: 'Scientific Software Engineer'
         linkedin: 'https://www.linkedin.com/in/ellery-ames-b6b3a975/'
         bg_color: '#5A6D70'
-        text: "Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes."
+        text: "Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes. Ellery works primarily on our computational projects, specifically within simulation workflows."
       - name: 'Hristiyana Deliyska'
         img: '/images/about/hristiyana-deliyska.webp'
         role: 'Project & Business Development Manager'
@@ -73,19 +73,19 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         role: 'Information Scientist'
         linkedin: 'https://www.linkedin.com/in/jana-lorencova-1822433b/'
         bg_color: '#8E8E8C'
-        text: "Jana has joined our team as an Information Scientist, specialising in data cataloguing, adminstration and has an MA in International Relations and Politics from the University of Aberdeen."
+        text: "Jana has joined our team as an Information Scientist, specialising in data cataloguing, adminstration and has an MA in International Relations and Politics from the University of Aberdeen. Jana works closely alongside clients, specifically within our Arches work, ensuring seamless transition from systems."
       - name: 'Kamen Dimitrov'
         img: '/images/about/kamen-dimitrov.webp'
         role: 'Fullstack Developer'
         linkedin: 'https://www.linkedin.com/in/kamen-dimitrov-a26a2492/'
         bg_color: '#4B7A81'
-        text: "Kamen is a fullstack software developer. He completed studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development. He has successfully completed DevOps course from Telerik Academy, and has experience with GIT and Docker."
+        text: "Kamen works as a fullstack software developer within Flax & Teal. He completed studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development. He has successfully completed DevOps course from Telerik Academy, and has experience with GIT and Docker."
       - name: 'Kanika Miglani'
         img: '/images/about/kanika-miglani.webp'
         role: 'Data Science & Analysis'
         linkedin: 'https://www.linkedin.com/in/kanika-miglani-538a06137/'
         bg_color: '#5A6D70'
-        text: "Kanika joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data scientist with a background in Python, ML and R. <br><br>Kanika has experience mentoring companies to enhance digital transformation and innovation, with client’s stating: &ldquo;Kanika has been a great help and mentor to Genysys Engine. Thanks to Kanika’s knowledge and guidance we have been able to analyze, learn & expand our Deep Learning models.&rdquo; She has extensive experience in working with Python and Machine Learning techniques."
+        text: "Kanika joined us to add to our machine learning and data science analytics skill-sets. Kanika has a Masters in Mathematics and Statistics from the Indian Institute of Technology and is an experienced data scientist with a background in Python, ML and R. <br><br>Kanika has extensive experience mentoring companies to enhance digital transformation and innovation, with client’s stating: &ldquo;Kanika has been a great help and mentor to Genysys Engine. Thanks to Kanika’s knowledge and guidance we have been able to analyze, learn & expand our Deep Learning models.&rdquo; She has extensive experience in working with Python and advanced Machine Learning techniques."
       - name: 'May Cheung'
         img: '/images/about/may-cheung.webp'
         role: ' Operations Manager / Co-Ordinator'
