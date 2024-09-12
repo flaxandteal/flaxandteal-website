@@ -36,12 +36,13 @@ draft: false
   Our project not only preserves but revitalises our shared heritage. By engaging with our digital archive, you contribute to the ongoing story of our past, ensuring it remains alive for future generations.
 
   **Begin Your Journey Here**  
+  
   Scan. Explore. Discover. History awaits at your fingertips.
 
   This Maritime Mile project has received funding from European Union’s Horizon 2020 research and innovation programme, and is supported by Maritime Belfast Trust, HUB-IN, and Belfast City Council.
 </div>
 
-<div style="text-align:center; margin-top:20px;">
+<div style="text-align:right; margin-top:20px;">
   <img alt="Horizon 2020 Logo" src="/images/horizon2020.png" style="width:25%;">
 </div>
 </div>
