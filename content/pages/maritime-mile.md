@@ -7,7 +7,8 @@ draft: false
 <div style="padding: 2% 10%;">
 
 <div style="text-align:center;">
-  ## Explore Belfast’s Maritime Mile History Like Never Before
+
+  # Explore Belfast’s Maritime Mile History Like Never Before
 
   ### Welcome to the Virtual Heritage Experience
 </div>
