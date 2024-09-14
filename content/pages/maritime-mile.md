@@ -42,7 +42,13 @@ draft: false
   This Maritime Mile project has received funding from European Union’s Horizon 2020 research and innovation programme, and is supported by Maritime Belfast Trust, HUB-IN, and Belfast City Council.
 </div>
 
-<div style="text-align:right; margin-top:20px;">
-  <img alt="Horizon 2020 Logo" src="/images/horizon2020.png" style="width:25%;">
+<div style="text-align:center; margin-top:20px;">
+  <!-- The embedded PDF -->
+  <object data="/images/ft-maritime-mile-map.pdf" type="application/pdf" width="50%" height="600px">
+    <p>Your browser does not support PDFs. <a href="/images/ft-maritime-mile-map.pdf">Download the PDF</a>.</p>
+  </object>
+  
+  <!-- The Horizon 2020 logo -->
+  <img alt="Horizon 2020 Logo" src="/images/horizon2020.png" style="width:25%; margin-top:20px;">
 </div>
 </div>
