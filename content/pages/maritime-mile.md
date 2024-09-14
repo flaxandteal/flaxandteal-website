@@ -44,7 +44,7 @@ draft: false
 
 <div style="text-align:center; margin-top:20px;">
   <!-- The embedded PDF with increased width -->
-  <object data="/images/ft-maritime-mile-map.pdf" type="application/pdf" width="80%" height="600px">
+  <object data="/images/ft-maritime-mile-map.pdf" type="application/pdf" width="100%" height="600px">
     <p>Your browser does not support PDFs. <a href="/images/ft-maritime-mile-map.pdf">Download the PDF</a>.</p>
   </object>
   
