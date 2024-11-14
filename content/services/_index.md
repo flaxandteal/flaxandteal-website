@@ -105,7 +105,7 @@ We offer a range of service agreements to maintain, secure, and upgrade software
 
 **G-Cloud Supplier**
 
->Flax & Teal is an approved G-Cloud 12 supplier, enabling delivery of cloud support services to UK public sector organisations through the Crown Commercial Service.
+>Flax & Teal is an approved G-Cloud 14 supplier, enabling delivery of cloud support and cloud software services to UK public sector organisations through the Crown Commercial Service.
 
 **Arches Supplier**
 
