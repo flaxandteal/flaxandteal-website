@@ -38,12 +38,6 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         linkedin: 'https://www.linkedin.com/in/phil-weir-033b5a62'
         bg_color: '#5A6D70'
         text: "<strong>As founder and director of Flax & Teal Ltd., Phil Weir brings a unique blend of scientific rigor and technical prowess to the company's projects and services. Holding a Ph.D. in Python-based mathematical simulation, Phil is an accomplished scientist and web developer with extensive experience in cutting-edge technologies like Kubernetes. One of Northern Ireland's qualified Kubernetes trainers, he has successfully delivered training programs on Python and Kubernetes, showcasing his deep knowledge in these domains</strong>. <br><br> Phil's expertise extends beyond programming into areas like geospatial data analysis and numerical simulations. He has presented his work at prestigious conferences worldwide, including PyCon New Zealand, FEniCS, and the Open Data Science Conference, covering topics such as numerical analysis, web-based simulations, and on-demand data analysis. With his unique skillset and thought leadership, Phil spearheads Flax & Teal's innovative projects as the lead architect, ensuring robust, scientifically sound solutions."
-      - name: 'Adam Kelly'
-        img: '/images/about/adam-kelly.webp'
-        role: 'Front-end Developer'
-        linkedin: 'https://www.linkedin.com/in/adam-kelly-4525b2160/'
-        bg_color: '#B39B52'
-        text: "<strong>Adam joins our team as a front-end developer with experience in Javascript, Software Testing Life Cycle and UI / front-end build. He holds a degree in Computer Science from Ulster Univeristy and a foundation degree in Computing.</strong>"
       - name: 'Alana Murphy'
         img: '/images/about/alana-murphy.webp'
         role: 'Operations Lead'
