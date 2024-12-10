@@ -109,7 +109,7 @@ We also provide training services in Python and Kubernetes, with highly positive
 
 ---
 
-Developed through the Belfast City Council’s HUB-IN Challenge Fund, we created a prototype that utilized advanced technologies to enhance the exploration of Belfast's Maritime Mile.
+Developed through the Belfast City Council’s HUB-IN Challenge Fund, we created a prototype that utilized advanced technologies to enhance the exploration of Belfast's [Maritime Mile](https://maritime-mile.com/).
 
 This involved creating immersive virtual environments accessible via smartphones, allowing users to explore detailed 3D/VR recreations of historical sites along the Maritime
 Mile.
@@ -140,7 +140,7 @@ We have provided services and support in cloud architecture, focused on Kubernet
 
 We partnered with ASM to build a front-end web based application to replace their previous desktop-based system. This involved a full-build development, implementing new functionality and new UX design.
 
->**❝We have found the Flax and Teal team to be thoroughly professional, strategic and engaged. We can highly recommend working with them. Their expertise enabled us to kick start our frontend web development.❞**
+>**❝We have found the Flax & Teal team to be thoroughly professional, strategic and engaged. We can highly recommend working with them. Their expertise enabled us to kick start our frontend web development.❞**
 
 ---
 
