@@ -42,7 +42,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         img: '/images/about/alana-murphy.webp'
         role: 'Operations Lead'
         linkedin: 'https://www.linkedin.com/in/alana-murphy-4ab8891aa/'
-        bg_color: '#8E8E8C'
+        bg_color: '#B39B52'
         text: "<strong>Alana works as an operations analyst within Flax & Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen’s University. Alana has worked with SPSS, Stata, HTML and Python toolings in data analysis. She co-ordinates our strategy across all our departments.</strong>"
       - name: 'Andrea Kyurchiev'
         img: '/images/about/andrea-kyurchiev.webp'
@@ -54,7 +54,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         img: '/images/about/ellery-ames.webp'
         role: 'Scientific Software Engineer'
         linkedin: 'https://www.linkedin.com/in/ellery-ames-b6b3a975/'
-        bg_color: '#5A6D70'
+        bg_color: '#8E8E8C'
         text: "Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes. Ellery works primarily on our computational projects, specifically within simulation workflows."
       - name: 'Hristiyana Deliyska'
         img: '/images/about/hristiyana-deliyska.webp'
