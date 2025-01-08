@@ -106,7 +106,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         text: "Shauna adds to our team in our data analysis and supporting project / product management tasks. Shauna works on licensing and compliance to ensure the highest standards are met throughout our projects."
       - name: 'Stuart Marshall'
         img: '/images/about/stuart-marshall.webp'
-        role: 'Progressing Developer'
+        role: 'Software Developer'
         linkedin: 'https://www.linkedin.com/in/stuartcmarshall/'
         bg_color: '#5A6D70'
         text: "Stuart joins our team as a Front-end Software Developer with an extensive background in 3D design, architecture and additive manufacturing. He has experience working in the front-end and backend, including; VR technologies such as Blender, CSS, JavaScript, HMTL, C# and .NET, with expertise in Vue and React. Stuart is a talented and focused web developer, with a focus on design interfaces."
