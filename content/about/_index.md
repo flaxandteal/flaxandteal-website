@@ -50,7 +50,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         linkedin: 'https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/'
         bg_color: '#4B7A81'
         text: "<strong>Andrea joined Flax & Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced and talented developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment, and is lead developer across our front-end web work.</strong>"
-        - name: 'Dylan Cree'
+      - name: 'Dylan Cree'
         img: '/images/about/dylan.webp'
         role: 'Progressing Developer'
         linkedin: 'https://www.linkedin.com/in/dylan-cree-621345222/'
