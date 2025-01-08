@@ -50,12 +50,18 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         linkedin: 'https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/'
         bg_color: '#4B7A81'
         text: "<strong>Andrea joined Flax & Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced and talented developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment, and is lead developer across our front-end web work.</strong>"
+        - name: 'Dylan Cree'
+        img: '/images/about/dylan.webp'
+        role: 'Progressing Developer'
+        linkedin: 'https://www.linkedin.com/in/dylan-cree-621345222/'
+        bg_color: '#4B7A81'
+        text: "<strong>Dylan joins our team as a Progressing Software Developer, currently completing his undergraduate in Software Engineering from Ulster University. He has strong experience as a front-end developer, and has worked with technologies such as; Java, React and NextJS. He also has experience working with Python and supporting data ingestion pipelines. </strong>"
       - name: 'Ellery Ames'
         img: '/images/about/ellery-ames.webp'
         role: 'Scientific Software Engineer'
         linkedin: 'https://www.linkedin.com/in/ellery-ames-b6b3a975/'
         bg_color: '#8E8E8C'
-        text: "Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes. Ellery works primarily on our computational projects, specifically within simulation workflows."
+        text: "Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics spanning 11 years, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes orchestration. Ellery works primarily on our computational projects, specifically within scientific simulation workflows."
       - name: 'Hristiyana Deliyska'
         img: '/images/about/hristiyana-deliyska.webp'
         role: 'Project & Business Development Manager'
@@ -73,7 +79,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         role: 'Fullstack Developer'
         linkedin: 'https://www.linkedin.com/in/kamen-dimitrov-a26a2492/'
         bg_color: '#4B7A81'
-        text: "Kamen works as a fullstack software developer within Flax & Teal. He completed studying Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development. He has successfully completed DevOps course from Telerik Academy, and has experience with GIT and Docker."
+        text: "Kamen works as a fullstack software developer within Flax & Teal. He studied Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development. He has successfully completed DevOps course from Telerik Academy, and has experience with GIT and Docker. Kamen works extensively on infrastructure pipelines."
       - name: 'Kanika Miglani'
         img: '/images/about/kanika-miglani.webp'
         role: 'Data Science & Analysis'
@@ -91,7 +97,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         role: 'Cloud Architect'
         linkedin: 'https://www.linkedin.com/in/sharoningram/'
         bg_color: '#8E8E8C'
-        text: "Sharon joins our team as an experienced cloud engineer and certified Azure Solutions Architecture and DevOps Expert. She has over 10 years experience within this role and adds to our cloud engineering and computational skill-sets. Sharon also has experience with Kubernetes, .NET, Oracle, Javascript and C-Sharp."
+        text: "Sharon joins our team as an experienced cloud engineer and certified Azure Solutions Architecture and DevOps Expert. She has over 20 years experience within this role and adds to our cloud engineering and computational skill-sets. Sharon also has experience with Kubernetes, .NET, Oracle, Javascript and C-Sharp."
       - name: 'Shauna Fitzsimons '
         img: '/images/about/shauna-fitzsimons.webp'
         role: 'Product Owner'
@@ -103,5 +109,5 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         role: 'Progressing Developer'
         linkedin: 'https://www.linkedin.com/in/stuartcmarshall/'
         bg_color: '#5A6D70'
-        text: "Stuart joins our team as a Progressing Software Developer with an extensive background in 3D design, architecture and additive manufacturing. He has experience working in the front-end and backend, including; VR technologies such as Blender, CSS, JavaScript, HMTL, C# and .NET, with expertise in Vue and React."
+        text: "Stuart joins our team as a Front-end Software Developer with an extensive background in 3D design, architecture and additive manufacturing. He has experience working in the front-end and backend, including; VR technologies such as Blender, CSS, JavaScript, HMTL, C# and .NET, with expertise in Vue and React. Stuart is a talented and focused web developer, with a focus on design interfaces."
 ---
