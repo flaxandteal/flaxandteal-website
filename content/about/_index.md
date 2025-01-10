@@ -62,7 +62,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         linkedin: 'https://www.linkedin.com/in/ellery-ames-b6b3a975/'
         bg_color: '#8E8E8C'
         text: "Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics spanning 11 years, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes orchestration. Ellery works primarily on our computational projects, specifically within scientific simulation workflows."
-        - name: 'Emma Mulholland'
+      - name: 'Emma Mulholland'
         img: ''
         role: 'Product Lead'
         linkedin: 'https://www.linkedin.com/in/emulholland/'
