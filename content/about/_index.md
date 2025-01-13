@@ -62,7 +62,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         linkedin: 'https://www.linkedin.com/in/emulholland/'
         bg_color: '#5A6D70'
         text: "<strong>As the Flax & Teal Product Lead, Emma helps organisations understand their big problems, and through user centred design practices and a product mindset, create innovative solutions.<br><br> She has over 18 years product and innovation experience across startups and large enterprises in eCommerce, insurance, retail and consultancy. This has included a number of digital transformation programmes, and the creation of an Innovation Lab. Most recently she was a coach on the Catalyst Co-Founders programme.<br><br> Outside Flax & Teal - she shares a passion for inclusive innovation through the setup and co-ordination of local meetups and conferences such as ProductTank Belfast, Lean Coffee Belfast, NIDC, and Product Camp Belfast; is an Instructor for Mind the Product, and coaches clients in Product Leadership.</strong>"
-         - name: 'Ellery Ames'
+      - name: 'Ellery Ames'
         img: '/images/about/ellery-ames.webp'
         role: 'Scientific Software Engineer'
         linkedin: 'https://www.linkedin.com/in/ellery-ames-b6b3a975/'
