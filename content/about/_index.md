@@ -56,18 +56,18 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         linkedin: 'https://www.linkedin.com/in/dylan-cree-621345222/'
         bg_color: '#4B7A81'
         text: "<strong>Dylan joins our team as a Progressing Software Developer, currently completing his undergraduate in Software Engineering from Ulster University. He has strong experience as a front-end developer, and has worked with technologies such as; Java, React and NextJS. He also has experience working with Python and supporting data ingestion pipelines. </strong>"
-      - name: 'Ellery Ames'
-        img: '/images/about/ellery-ames.webp'
-        role: 'Scientific Software Engineer'
-        linkedin: 'https://www.linkedin.com/in/ellery-ames-b6b3a975/'
-        bg_color: '#8E8E8C'
-        text: "<strong>Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics spanning 11 years, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes orchestration. Ellery works primarily on our computational projects, specifically within scientific simulation workflows.</strong>"
       - name: 'Emma Mulholland'
         img: '/images/about/Emma-175.webp'
         role: 'Product Lead'
         linkedin: 'https://www.linkedin.com/in/emulholland/'
         bg_color: '#5A6D70'
-        text: "<strong>As the Flax & Teal Product Lead, Emma helps organisations understand their big problems, and through user centred design practices and a product mindset, create innovative solutions.<br><br> She has over 18 years product and innovation experience across startups and large enterprises in eCommerce, insurance, retail and consultancy. This has included a number of digital transformation programmes, and the creation of an Innovation Lab. Most recently she was a coach on the Catalyst Co-Founders programme.<br><br> Outside Flax & Teal - she shares a passion for inclusive innovation through the setup and co-ordination of local meetups and conferences such as ProductTank Belfast, Lean Coffee Belfast, NIDC, and Product Camp Belfast; is an Instructor for Mind the Product, and coaches clients in Product Leadership.</strong>" 
+        text: "<strong>As the Flax & Teal Product Lead, Emma helps organisations understand their big problems, and through user centred design practices and a product mindset, create innovative solutions.<br><br> She has over 18 years product and innovation experience across startups and large enterprises in eCommerce, insurance, retail and consultancy. This has included a number of digital transformation programmes, and the creation of an Innovation Lab. Most recently she was a coach on the Catalyst Co-Founders programme.<br><br> Outside Flax & Teal - she shares a passion for inclusive innovation through the setup and co-ordination of local meetups and conferences such as ProductTank Belfast, Lean Coffee Belfast, NIDC, and Product Camp Belfast; is an Instructor for Mind the Product, and coaches clients in Product Leadership.</strong>"
+         - name: 'Ellery Ames'
+        img: '/images/about/ellery-ames.webp'
+        role: 'Scientific Software Engineer'
+        linkedin: 'https://www.linkedin.com/in/ellery-ames-b6b3a975/'
+        bg_color: '#8E8E8C'
+        text: "<strong>Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics spanning 11 years, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes orchestration. Ellery works primarily on our computational projects, specifically within scientific simulation workflows.</strong>"
       - name: 'Hristiyana Deliyska'
         img: '/images/about/hristiyana-deliyska.webp'
         role: 'Project & Business Development Manager'
