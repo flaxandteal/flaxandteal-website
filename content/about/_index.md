@@ -61,13 +61,13 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         role: 'Scientific Software Engineer'
         linkedin: 'https://www.linkedin.com/in/ellery-ames-b6b3a975/'
         bg_color: '#8E8E8C'
-        text: "Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics spanning 11 years, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes orchestration. Ellery works primarily on our computational projects, specifically within scientific simulation workflows."
+        text: "<strong>Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics spanning 11 years, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes orchestration. Ellery works primarily on our computational projects, specifically within scientific simulation workflows.</strong>"
       - name: 'Emma Mulholland'
-        img: ''
+        img: '/images/about/Emma-175.webp'
         role: 'Product Lead'
         linkedin: 'https://www.linkedin.com/in/emulholland/'
         bg_color: '#5A6D70'
-        text: "<strong>Emma joins our team as a seasoned Product Lead, with over 12 years experience working in Product development and management. She has extensive experience in leading and managing product user journey, from design and discovery, right through to full build. Emma has strong stakeholder management skills, and is an intrinsic part of our user research and product roadmapping capabilities.</strong>"
+        text: "<strong>As the Flax & Teal Product Lead, Emma helps organisations understand their big problems, and through user centred design practices and a product mindset, create innovative solutions.<br><br> She has over 18 years product and innovation experience across startups and large enterprises in eCommerce, insurance, retail and consultancy. This has included a number of digital transformation programmes, and the creation of an Innovation Lab. Most recently she was a coach on the Catalyst Co-Founders programme.<br><br> Outside Flax & Teal - she shares a passion for inclusive innovation through the setup and co-ordination of local meetups and conferences such as ProductTank Belfast, Lean Coffee Belfast, NIDC, and Product Camp Belfast; is an Instructor for Mind the Product, and coaches clients in Product Leadership.</strong>" 
       - name: 'Hristiyana Deliyska'
         img: '/images/about/hristiyana-deliyska.webp'
         role: 'Project & Business Development Manager'
