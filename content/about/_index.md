@@ -57,7 +57,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         bg_color: '#4B7A81'
         text: "<strong>Dylan joins our team as a Progressing Software Developer, currently completing his undergraduate in Software Engineering from Ulster University. He has strong experience as a front-end developer, and has worked with technologies such as; Java, React and NextJS. He also has experience working with Python and supporting data ingestion pipelines. </strong>"
       - name: 'Emma Mulholland'
-        img: '/images/about/Emma-175.webp'
+        img: '/images/about/emma.webp'
         role: 'Product Lead'
         linkedin: 'https://www.linkedin.com/in/emulholland/'
         bg_color: '#5A6D70'
