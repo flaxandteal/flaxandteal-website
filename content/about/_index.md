@@ -85,7 +85,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         role: 'Fullstack Developer'
         linkedin: 'https://www.linkedin.com/in/kamen-dimitrov-a26a2492/'
         bg_color: '#4B7A81'
-        text: "Kamen works as a fullstack software developer within Flax & Teal. He studied Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development. He has successfully completed DevOps course from Telerik Academy, and has experience with GIT and Docker. Kamen works extensively on infrastructure pipelines."
+        text: "Kamen works as a fullstack software developer within Flax & Teal. He studied Software Engineering in Sofia and has experience with Java, Python, Rust and Go programming languages and back-end development.<br><br> He has successfully completed DevOps course from Telerik Academy, and has experience with GIT and Docker. Kamen works extensively on infrastructure pipelines."
       - name: 'Kanika Miglani'
         img: '/images/about/kanika-miglani.webp'
         role: 'Data Science & Analysis'
