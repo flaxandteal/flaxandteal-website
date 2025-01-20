@@ -33,7 +33,7 @@ He has presented at PyCon New Zealand (2012) on numerical analysis, FEniCS 2016 
 
 [Ellery](https://www.linkedin.com/in/ellery-ames-b6b3a975/) joins our team as an experienced Scientific Software Engineer. 
 With a PhD in Physics from the University of Oregon and postdoctoral experience at Chalmers and KTH, Ellery brings a background in mathematical modeling, computational physics, and partial differential equations.
-Ellery helps clients build, deploy, and scale digital twins and simulation workflows on premise or in the cloud using softare including scientific Python, C/C++, Kubernetes, Spack, Slurm, and Kubeflow.
+Ellery helps clients build, deploy, and scale digital twins and simulation workflows on premise or in the cloud using software including scientific Python, C/C++, Kubernetes, Spack, Slurm, and Kubeflow.
 
 ### Hristiyana Deliyska | Project & Business Development Manager 
 ![Hristiyana.png](/images/Hristiyana.png)</br> 
