@@ -14,3 +14,7 @@
 form_submission_redirect = 'https://flaxandteal.co.uk/thank-you/'
 form_action_endpoint = 'https://submit-form.com/xxxxxxxxx'
 ```
+
+## Converting from png to webp
+
+Currently done by `mogrify -format webp -quality 80 X.png` with ImageMagick installed.
