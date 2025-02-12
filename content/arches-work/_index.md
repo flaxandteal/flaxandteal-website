@@ -76,6 +76,6 @@ This involved interviewing a range of researchers, from social scientists to geo
 
 Tomorrow’s Cities is being conducted with a range of institutions in Scotland, Nepal, Kenya and Turkey and, indirectly, governmental stakeholders to inform risk management for urban disaster planning globally.
 
-** Sustainable Open Source **
+**Sustainable Open Source**
 
 Working closely with the London Science Museum, we developed and enhanced upon Arches' existing Bulk Data Manager module, allowing users to easily edit, flag and upload bulk data into their research database. We plan to integrate this work into the wider Arches codebase, and sustainably contribute to the open source development of the platform. 
