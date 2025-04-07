@@ -104,12 +104,6 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         linkedin: 'https://www.linkedin.com/in/sharoningram/'
         bg_color: '#8E8E8C'
         text: "Sharon joins our team as an experienced cloud engineer and certified Azure Solutions Architecture and DevOps Expert. She has over 20 years experience within this role and adds to our cloud engineering and computational skill-sets. Sharon also has experience with Kubernetes, .NET, Oracle, Javascript and C-Sharp."
-      - name: 'Shauna Fitzsimons '
-        img: '/images/about/shauna-fitzsimons.webp'
-        role: 'Product Owner'
-        linkedin: 'https://www.linkedin.com/in/shauna-f-030798aa/'
-        bg_color: '#4B7A81'
-        text: "Shauna adds to our team in our data analysis and supporting project / product management tasks. Shauna works on licensing and compliance to ensure the highest standards are met throughout our projects."
       - name: 'Stuart Marshall'
         img: '/images/about/stuart-marshall.webp'
         role: 'Software Developer'
