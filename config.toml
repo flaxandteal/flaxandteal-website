@@ -4,7 +4,7 @@ title = "Flax &amp; Teal"
 publishDir = "docs"
 sectionPagesMain = "main"
 relativeURLs = true
-copyright = '© 2024 Flax & Teal Limited.'
+copyright = '© {year} Flax & Teal Limited.'
 
 [menus]
   [[menus.main]]
