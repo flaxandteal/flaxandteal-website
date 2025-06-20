@@ -3,11 +3,6 @@
   <head>
     <title>Flax &amp; Teal - Software Development | Data Science | Consultancy - Open Source in Business</title>
     <meta charset="UTF-8"/>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
-    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
-    <meta http-equiv="Permissions-Policy" content="geolocation=(), camera=(), microphone=()">
     <link rel='stylesheet' href='/fonts/league-gothic/stylesheet.css' type='text/css' />
     <link rel='stylesheet' href='/fonts/league-spartan/stylesheet.css' type='text/css' />
     {{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
