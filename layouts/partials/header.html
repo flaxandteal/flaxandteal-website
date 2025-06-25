@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
     <link rel='stylesheet' href='/fonts/league-gothic/stylesheet.css' type='text/css' />
     <link rel='stylesheet' href='/fonts/league-spartan/stylesheet.css' type='text/css' />
-    {{ $style := resources.Get "sass/style.scss" | css.Sass | resources.Minify | resources.Fingerprint }}
+    {{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
   </head>
   
