@@ -42,7 +42,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         img: '/images/about/abhinav.webp'
         role: 'Data Engineer'
         linkedin: 'https://www.linkedin.com/in/abhinavtk/'
-        bg_colour: '#8E8E8C'
+        bg_color: '#8E8E8C'
         text: "Abhinav joins our team as a Data Engineer. He holds a Master’s degree in Industrial Mathematics and Scientific Computing from IIT Madras and has prior experience as a Business Analyst. He brings strong expertise in mathematical modeling and data science, along with a passion for FEniCS Project development and finite element research. He is proficient in Python, Git, Docker, and Machine Learning tools."
       - name: 'Alana Murphy'
         img: '/images/about/alana-murphy.webp'
