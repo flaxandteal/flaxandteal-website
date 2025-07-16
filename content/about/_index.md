@@ -43,37 +43,37 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         role: 'Data Engineer'
         linkedin: 'https://www.linkedin.com/in/abhinavtk/'
         bg_colour: '#8E8E8C'
-        text: "<strong>Abhinav joins our team as a Data Engineer. He holds a Master’s degree in Industrial Mathematics and Scientific Computing from IIT Madras and has prior experience as a Business Analyst. He brings strong expertise in mathematical modeling and data science, along with a passion for FEniCS Project development and finite element research. He is proficient in Python, Git, Docker, and Machine Learning tools.</strong>"
+        text: "Abhinav joins our team as a Data Engineer. He holds a Master’s degree in Industrial Mathematics and Scientific Computing from IIT Madras and has prior experience as a Business Analyst. He brings strong expertise in mathematical modeling and data science, along with a passion for FEniCS Project development and finite element research. He is proficient in Python, Git, Docker, and Machine Learning tools."
       - name: 'Alana Murphy'
         img: '/images/about/alana-murphy.webp'
         role: 'Operations Lead'
         linkedin: 'https://www.linkedin.com/in/alana-murphy-4ab8891aa/'
         bg_color: '#B39B52'
-        text: "<strong>Alana works as an operations analyst within Flax & Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen’s University. Alana has worked with SPSS, Stata, HTML and Python toolings in data analysis. She co-ordinates our strategy across all our departments.</strong>"
+        text: "Alana works as an operations analyst within Flax & Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen’s University. Alana has worked with SPSS, Stata, HTML and Python toolings in data analysis. She co-ordinates our strategy across all our departments."
       - name: 'Andrea Kyurchiev'
         img: '/images/about/andrea-kyurchiev.webp'
         role: 'Full-Stack Developer'
         linkedin: 'https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/'
         bg_color: '#4B7A81'
-        text: "<strong>Andrea joined Flax & Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced and talented developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment, and is lead developer across our front-end web work.</strong>"
+        text: "Andrea joined Flax & Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced and talented developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment, and is lead developer across our front-end web work."
       - name: 'Dylan Cree'
         img: '/images/about/dylan.webp'
         role: 'Progressing Developer'
         linkedin: 'https://www.linkedin.com/in/dylan-cree-621345222/'
         bg_color: '#4B7A81'
-        text: "<strong>Dylan joins our team as a Progressing Software Developer, currently completing his undergraduate in Software Engineering from Ulster University. He has strong experience as a front-end developer, and has worked with technologies such as; Java, React and NextJS. He also has experience working with Python and supporting data ingestion pipelines. </strong>"
+        text: "Dylan joins our team as a Progressing Software Developer, currently completing his undergraduate in Software Engineering from Ulster University. He has strong experience as a front-end developer, and has worked with technologies such as; Java, React and NextJS. He also has experience working with Python and supporting data ingestion pipelines."
       - name: 'Emma Mulholland'
         img: '/images/about/emma.webp'
         role: 'Product Lead'
         linkedin: 'https://www.linkedin.com/in/emulholland/'
         bg_color: '#5A6D70'
-        text: "<strong>As the Flax & Teal Product Lead, Emma helps organisations understand their big problems, and through user centred design practices and a product mindset, create innovative solutions.<br><br> She has over 18 years product and innovation experience across startups and large enterprises in eCommerce, insurance, retail and consultancy. This has included a number of digital transformation programmes, and the creation of an Innovation Lab. Most recently she was a coach on the Catalyst Co-Founders programme.<br><br> Outside Flax & Teal - she shares a passion for inclusive innovation through the setup and co-ordination of local meetups and conferences such as ProductTank Belfast, Lean Coffee Belfast, NIDC, and Product Camp Belfast; is an Instructor for Mind the Product, and coaches clients in Product Leadership.</strong>"
+        text: "As the Flax & Teal Product Lead, Emma helps organisations understand their big problems, and through user centred design practices and a product mindset, create innovative solutions.<br><br> She has over 18 years product and innovation experience across startups and large enterprises in eCommerce, insurance, retail and consultancy. This has included a number of digital transformation programmes, and the creation of an Innovation Lab. Most recently she was a coach on the Catalyst Co-Founders programme.<br><br> Outside Flax & Teal - she shares a passion for inclusive innovation through the setup and co-ordination of local meetups and conferences such as ProductTank Belfast, Lean Coffee Belfast, NIDC, and Product Camp Belfast; is an Instructor for Mind the Product, and coaches clients in Product Leadership."
       - name: 'Ellery Ames'
         img: '/images/about/ellery-ames.webp'
         role: 'Scientific Software Engineer'
         linkedin: 'https://www.linkedin.com/in/ellery-ames-b6b3a975/'
         bg_color: '#8E8E8C'
-        text: "<strong>Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics spanning 11 years, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes orchestration. Ellery works primarily on our computational projects, specifically within scientific simulation workflows.</strong>"
+        text: "Ellery joins our team as an experienced Scientific Software Engineer. He has a background in physics and mathematics spanning 11 years, with a PhD from the University of Oregon in Physics. He has experience with computational physics, engineering, mathematical modelling, geo-metric analysis, Python, C/C++ and Kubernetes orchestration. Ellery works primarily on our computational projects, specifically within scientific simulation workflows."
       - name: 'Hristiyana Deliyska'
         img: '/images/about/hristiyana-deliyska.webp'
         role: 'Project & Business Development Manager'
