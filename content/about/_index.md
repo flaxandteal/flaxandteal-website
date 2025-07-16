@@ -39,7 +39,7 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         bg_color: '#5A6D70'
         text: "<strong>As founder and director of Flax & Teal Ltd., Phil Weir brings a unique blend of scientific rigor and technical prowess to the company's projects and services. Holding a Ph.D. in Python-based mathematical simulation, Phil is an accomplished scientist and web developer with extensive experience in cutting-edge technologies like Kubernetes. One of Northern Ireland's qualified Kubernetes trainers, he has successfully delivered training programs on Python and Kubernetes, showcasing his deep knowledge in these domains</strong>. <br><br> Phil's expertise extends beyond programming into areas like geospatial data analysis and numerical simulations. He has presented his work at prestigious conferences worldwide, including PyCon New Zealand, FEniCS, and the Open Data Science Conference, covering topics such as numerical analysis, web-based simulations, and on-demand data analysis. With his unique skillset and thought leadership, Phil spearheads Flax & Teal's innovative projects as the lead architect, ensuring robust, scientifically sound solutions.</strong>"
       - name: 'Abhinav TK'
-        img: '/images/about/Abinhav.webp'
+        img: '/images/about/abhinav.webp'
         role: 'Data Engineer'
         linkedin: 'https://www.linkedin.com/in/abhinavtk/'
         bg_colour: '#8E8E8C'
