@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DTFF Application Support | Services | Flax &amp; Teal</title>
+  <meta name="description" content="Specialist DTFF application support for Northern Ireland SMEs. Choose from compliance checks, application strengthening, full writing, or end-to-end project support. Fast turnaround, council-ready, proven results." />
+  <link rel="canonical" href="https://flaxandteal.co.uk/services/dtff-application-support/" />
+  <meta name="robots" content="index, follow" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="DTFF Application Support | Flax &amp; Teal" />
+  <meta property="og:description" content="Strengthen your DTFF application with expert support, from light-touch reviews to full writing and end-to-end delivery." />
+  <meta property="og:url" content="https://flaxandteal.co.uk/services/dtff-application-support/" />
+  <meta property="og:site_name" content="Flax &amp; Teal" />
+  <meta property="og:image" content="https://flaxandteal.co.uk/assets/images/dtff-cover.jpg" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DTFF Application Support | Flax &amp; Teal" />
+  <meta name="twitter:description" content="Specialist DTFF application support for Northern Ireland SMEs." />
+  <meta name="twitter:image" content="https://flaxandteal.co.uk/assets/images/dtff-cover.jpg" />
+  <!-- JSON-LD: Breadcrumb + Service + FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://flaxandteal.co.uk/"},
+          {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://flaxandteal.co.uk/services/"},
+          {"@type": "ListItem", "position": 3, "name": "DTFF Application Support", "item": "https://flaxandteal.co.uk/services/dtff-application-support/"}
+        ]
+      },
+      {
+        "@type": "Service",
+        "name": "DTFF Application Support",
+        "provider": {"@type": "Organization", "name": "Flax & Teal Limited", "url": "https://flaxandteal.co.uk/"},
+        "serviceType": "Grant application consulting",
+        "areaServed": {"@type": "AdministrativeArea", "name": "Northern Ireland"},
+        "audience": {"@type": "BusinessAudience", "name": "SMEs"},
+        "description": "Specialist support to plan, write, and quality-assure Digital Transformation Flexible Fund applications.",
+        "offers": [
+          {"@type": "Offer", "name": "Level 1 – Application Compliance Check", "price": "375", "priceCurrency": "GBP"},
+          {"@type": "Offer", "name": "Level 2 – Application Strengthening Support", "price": "750", "priceCurrency": "GBP"},
+          {"@type": "Offer", "name": "Level 3 – Application Writing", "price": "1500", "priceCurrency": "GBP"},
+          {"@type": "Offer", "name": "Level 4 – Full-Service Application & Project Support", "price": "3000", "priceCurrency": "GBP"}
+        ],
+        "url": "https://flaxandteal.co.uk/services/dtff-application-support/",
+        "termsOfService": "https://flaxandteal.co.uk/terms/"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the DTFF?",
+            "acceptedAnswer": {"@type": "Answer", "text": "The Digital Transformation Flexible Fund provides Northern Ireland SMEs with grants between £5,000 and £20,000 to invest in advanced digital technologies."}
+          },
+          {
+            "@type": "Question",
+            "name": "Which package should I choose?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Level 1 suits confident applicants who want a compliance check. Level 2 is best when you have a draft that needs sharpening. Level 3 is for those who want us to write the application. Level 4 covers end-to-end support, including procurement and submission handling."}
+          },
+          {
+            "@type": "Question",
+            "name": "How quickly can you start?",
+            "acceptedAnswer": {"@type": "Answer", "text": "We prioritise active funding calls. Get in touch to confirm availability and timelines."}
+          },
+          {
+            "@type": "Question",
+            "name": "Do you submit the application on our behalf?",
+            "acceptedAnswer": {"@type": "Answer", "text": "For Levels 1–3, submission is handled by the client. Level 4 includes submission handling and timeline management."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root{
+      --brand:#0a2a3a; /* fallback guess if no CSS framework present */
+      --accent:#2f9e8f;
+      --ink:#0f172a;
+      --muted:#475569;
+      --bg:#ffffff;
+      --ring:#e2e8f0;
+    }
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
+    a{color:var(--accent);text-decoration-thickness: .08em}
+    .container{max-width:1100px;margin-inline:auto;padding:clamp(16px,2vw,24px)}
+    header.hero{background:linear-gradient(180deg,#f7fafc,transparent)}
+    .eyebrow{letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;font-size:.875rem}
+    h1{font-size:clamp(1.8rem,4vw,2.6rem);margin:.2rem 0 .6rem}
+    .lead{font-size:clamp(1.05rem,1.6vw,1.25rem);color:var(--muted)}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+    .btn{display:inline-block;padding:12px 18px;border-radius:12px;border:1px solid var(--ring);font-weight:600}
+    .btn.primary{background:var(--accent);color:#fff;border-color:transparent}
+    .btn.secondary{background:#fff;color:var(--accent)}
+    .grid{display:grid;gap:18px}
+    .grid.features{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:24px}
+    .card{border:1px solid var(--ring);border-radius:16px;padding:18px;background:#fff}
+    .card h3{margin-top:0}
+    .packages{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:12px}
+    .price{font-size:1.75rem;font-weight:800;margin:4px 0}
+    .kicker{color:var(--muted);font-size:.95rem}
+    .check{list-style:none;padding-left:0;margin:12px 0}
+    .check li{padding-left:28px;position:relative;margin:8px 0}
+    .check li:before{content:"✓";position:absolute;left:0;top:0;color:var(--accent);font-weight:700}
+    .muted{color:var(--muted)}
+    .section{padding:28px 0;border-top:1px solid var(--ring)}
+    .two-col{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+    footer{padding:28px 0;border-top:1px solid var(--ring);color:var(--muted)}
+    .small{font-size:.9rem}
+    .table{width:100%;border-collapse:collapse}
+    .table th,.table td{border:1px solid var(--ring);padding:10px;text-align:left;vertical-align:top}
+    .badge{display:inline-block;background:#eef8f6;color:var(--accent);border:1px solid var(--accent);padding:2px 8px;border-radius:999px;font-size:.8rem;font-weight:700}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <div class="eyebrow">Services</div>
+      <h1>DTFF Application Support for Northern Ireland SMEs</h1>
+      <p class="lead">Strengthen your Digital Transformation Flexible Fund application with specialist support that fits your stage and capacity. We help you align with scoring, avoid compliance risks, and submit on time.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:dtff@flaxandteal.co.uk?subject=DTFF%20Support%20Enquiry">Email dtff@flaxandteal.co.uk</a>
+        <a class="btn secondary" href="#packages">View packages</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container section" aria-labelledby="why">
+      <h2 id="why">Why SMEs work with us</h2>
+      <div class="grid features">
+        <article class="card">
+          <h3>DTFF know-how</h3>
+          <p>We focus on DTFF criteria, documentation, and procurement rules, so your submission stays compliant and easy to assess.</p>
+        </article>
+        <article class="card">
+          <h3>Clear, assessor-friendly writing</h3>
+          <p>Concise responses that show the problem, the digital solution, and measurable business impact, without jargon.</p>
+        </article>
+        <article class="card">
+          <h3>Fast, practical delivery</h3>
+          <p>Pick the level of support you need. We keep momentum with checklists, timelines, and live reviews.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section" id="packages" aria-labelledby="pkgs">
+      <h2 id="pkgs">Packages and pricing</h2>
+      <div class="grid packages">
+        <article class="card">
+          <span class="badge">Level 1</span>
+          <h3>Application Compliance Check</h3>
+          <p class="kicker">Best for confident applicants wanting reassurance.</p>
+          <p class="price">£375</p>
+          <ul class="check">
+            <li>Professional review of your Digital Transformation Plan and documents</li>
+            <li>Verification against DTFF scoring criteria</li>
+            <li>Actionable feedback for you to implement</li>
+          </ul>
+          <a class="btn secondary" href="mailto:dtff@flaxandteal.co.uk?subject=DTFF%20Level%201%20Compliance%20Check">Book Level 1</a>
+        </article>
+        <article class="card">
+          <span class="badge">Level 2</span>
+          <h3>Application Strengthening Support</h3>
+          <p class="kicker">Best for a good draft that needs sharpening.</p>
+          <p class="price">£750</p>
+          <ul class="check">
+            <li>Detailed review with rewrite suggestions</li>
+            <li>Guidance on scoring alignment</li>
+            <li>One-hour live review call</li>
+          </ul>
+          <a class="btn secondary" href="mailto:dtff@flaxandteal.co.uk?subject=DTFF%20Level%202%20Strengthening%20Support">Book Level 2</a>
+        </article>
+        <article class="card">
+          <span class="badge">Level 3</span>
+          <h3>Application Writing</h3>
+          <p class="kicker">Best for applicants who want us to write the application.</p>
+          <p class="price">£1,500</p>
+          <ul class="check">
+            <li>Kick-off call to capture project details</li>
+            <li>Full drafting of DTP Criteria 1–3</li>
+            <li>Annex A preparation and compliance checks</li>
+            <li>Two revision cycles</li>
+            <li>Submission handled by client</li>
+          </ul>
+          <a class="btn secondary" href="mailto:dtff@flaxandteal.co.uk?subject=DTFF%20Level%203%20Application%20Writing">Book Level 3</a>
+        </article>
+        <article class="card">
+          <span class="badge">Level 4</span>
+          <h3>Full-Service Application &amp; Project Support</h3>
+          <p class="kicker">Best for time-poor or first-time applicants.</p>
+          <p class="price">£3,000</p>
+          <ul class="check">
+            <li>Everything in Level 3</li>
+            <li>EOI drafting and submission</li>
+            <li>Procurement management and quote sourcing</li>
+            <li>Full document collation and submission handling</li>
+            <li>Timeline management and post-award guidance</li>
+          </ul>
+          <a class="btn secondary" href="mailto:dtff@flaxandteal.co.uk?subject=DTFF%20Level%204%20Full-Service%20Support">Book Level 4</a>
+        </article>
+      </div>
+
+      <details class="card" style="margin-top:18px">
+        <summary><strong>Compare features at a glance</strong></summary>
+        <div style="overflow:auto;margin-top:12px">
+          <table class="table small" aria-label="Comparison of DTFF support levels">
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Level 1</th>
+                <th>Level 2</th>
+                <th>Level 3</th>
+                <th>Level 4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>DTP review</td><td>✔</td><td>✔</td><td>✔ (drafting)</td><td>✔ (drafting)</td></tr>
+              <tr><td>Supporting documents review</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td></tr>
+              <tr><td>Scoring alignment check</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td></tr>
+              <tr><td>Written feedback report</td><td>✔</td><td>✔</td><td>–</td><td>–</td></tr>
+              <tr><td>Suggested rewrites</td><td>✖</td><td>✔</td><td>–</td><td>–</td></tr>
+              <tr><td>Live review call</td><td>✖</td><td>✔</td><td>Optional</td><td>Optional</td></tr>
+              <tr><td>Full application writing</td><td>✖</td><td>✖</td><td>✔</td><td>✔</td></tr>
+              <tr><td>Annex A preparation</td><td>Guidance</td><td>Guidance</td><td>✔</td><td>✔</td></tr>
+              <tr><td>Annex B check</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td></tr>
+              <tr><td>Procurement management</td><td>✖</td><td>✖</td><td>Client quotes only</td><td>✔</td></tr>
+              <tr><td>EOI support</td><td>✖</td><td>✖</td><td>✖</td><td>✔</td></tr>
+              <tr><td>Quote sourcing</td><td>✖</td><td>✖</td><td>✖</td><td>✔</td></tr>
+              <tr><td>Submission handling</td><td>✖</td><td>✖</td><td>Client handles</td><td>✔</td></tr>
+              <tr><td>Timeline management</td><td>✖</td><td>✖</td><td>Partial</td><td>✔</td></tr>
+              <tr><td>Post-award guidance</td><td>✖</td><td>✖</td><td>✔</td><td>✔</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </section>
+
+    <section class="container section" aria-labelledby="how">
+      <h2 id="how">How it works</h2>
+      <div class="two-col">
+        <div class="card">
+          <h3>1. Quick discovery</h3>
+          <p>We confirm eligibility, scope, and timelines, then agree the right package for your needs.</p>
+        </div>
+        <div class="card">
+          <h3>2. Evidence and drafting</h3>
+          <p>We capture the problem, map the digital solution, and quantify benefits, costs, and risks.</p>
+        </div>
+        <div class="card">
+          <h3>3. Compliance checks</h3>
+          <p>We verify scoring alignment, procurement requirements, and document completeness.</p>
+        </div>
+        <div class="card">
+          <h3>4. Final polish and submission</h3>
+          <p>We refine the narrative and ensure all documents are complete. Submission support depends on your package.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" aria-labelledby="faq">
+      <h2 id="faq">Frequently asked questions</h2>
+      <div class="two-col">
+        <div class="card">
+          <h3>What do you need from us?</h3>
+          <p>Basic business details, problem statement, solution outline, supplier quotes or shortlists, and any prior drafts. We provide templates to speed this up.</p>
+        </div>
+        <div class="card">
+          <h3>Do you help with suppliers?</h3>
+          <p>Yes. At Level 4 we manage procurement and quote sourcing. At other levels we review your quotes for compliance.</p>
+        </div>
+        <div class="card">
+          <h3>Is this only for one council area?</h3>
+          <p>No. We support SMEs across all 11 council areas in Northern Ireland.</p>
+        </div>
+        <div class="card">
+          <h3>Can you help after an award?</h3>
+          <p>Yes. We provide post-award guidance and light-touch project support, depending on the package.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" aria-labelledby="cta">
+      <h2 id="cta">Ready to strengthen your DTFF application?</h2>
+      <p class="muted">Email us to check availability and choose the package that fits your timeline.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:dtff@flaxandteal.co.uk?subject=DTFF%20Support%20Enquiry">Get started</a>
+        <a class="btn" href="/services/">See all services</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container small">
+      <p><strong>Flax &amp; Teal Limited</strong> · Belfast · <a href="mailto:dtff@flaxandteal.co.uk">dtff@flaxandteal.co.uk</a></p>
+      <p class="muted">Content on this page is provided for guidance. Final eligibility and awards are determined by the fund administrators.</p>
+    </div>
+  </footer>
+</body>
+</html>
