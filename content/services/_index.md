@@ -10,7 +10,7 @@ sections:
     bg_image: '/images/services/services-hero.webp'
     bg_color: '#4B7A81'
     heading: 'Services'
-    text: '<strong>Flax & Teal is a consultancy specializing in openly-licensed technologies, serving both public and private sectors through web-based products and services in computational engineering, geospatial analysis, and data science (machine learning and AI).</strong> <br><br> We builds tools for various sectors, including publicly-shared, reusable components – often web platforms that provide behind-the-scenes analysis of open data, geography, and physics.'
+    text: '<strong>Flax & Teal is a consultancy specializing in openly-licensed technologies, serving both public and private sectors through web-based products and services in computational engineering, geospatial analysis, and data science (machine learning and AI).</strong> <br><br> We build tools for various sectors, including publicly-shared, reusable components – often web platforms that provide behind-the-scenes analysis of open data, geography, and physics.'
   - type: value_services
     bg_color: '#B9DCD5'
     values:
@@ -30,6 +30,10 @@ sections:
         text: 'Robust, scalable solutions on AWS, GCP, Azure using containers, Kubernetes, cloud-native architectures.'
         icon: "/images/icons/cloud-infrastructure-devops.webp"
         bg_color: '#CFE6E1' 
+      - title: 'DTFF Application <br> Support'
+        text: 'Specialist packages for NI SMEs to plan, write, and strengthen DTFF applications – from compliance checks to full-service support.'
+        icon: "/images/icons/dtff-application-support.webp"
+        bg_color: '#F1F7F5'
   - type: value-details
     bg_color: '334B4E'
     tags: ['Web', 'Data', 'Engineering', 'Science']
@@ -61,7 +65,6 @@ sections:
     text: 'Interested in our work? We’d love to hear more about your particular needs – and we’re confident we can guide you. <br><br> For enquiries email info@flaxandteal.co.uk'
 --- 
 
-
 ---
 
 – **Prototypes from £20K**
@@ -69,7 +72,6 @@ sections:
 – **Sole/collaborative lead**
 
 – **Large-scale multidisciplinary new-tech projects**
-
 
 **Complex Project Execution Since 2013** <br>
 
@@ -114,8 +116,3 @@ We offer a range of service agreements to maintain, secure, and upgrade software
 **Irish Open Data Supplier**
 
 >An approved supplier with partner Keitaro for the Irish Government's Open Data Frameworks, supporting public sector bodies in fulfilling Open Data obligations through the Technical Services and Training Frameworks.
-
-
-
-
-
