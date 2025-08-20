@@ -29,11 +29,7 @@ sections:
       - title: 'Cloud <br> Infrastructure <br> & DevOps'
         text: 'Robust, scalable solutions on AWS, GCP, Azure using containers, Kubernetes, cloud-native architectures.'
         icon: "/images/icons/cloud-infrastructure-devops.webp"
-        bg_color: '#CFE6E1' 
-      - title: 'DTFF Application <br> Support'
-        text: 'Specialist packages for NI SMEs to plan, write, and strengthen DTFF applications – from compliance checks to full-service support.'
-        icon: "/images/icons/dtff-application-support.webp"
-        bg_color: '#F1F7F5'
+        bg_color: '#CFE6E1'
   - type: value-details
     bg_color: '334B4E'
     tags: ['Web', 'Data', 'Engineering', 'Science']
