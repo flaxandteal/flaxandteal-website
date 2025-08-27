@@ -1,7 +1,8 @@
 ---
 title: "AI Tools for Business – Workshop Packages"
 description: "AI workshops for SMEs, councils, and enterprise agencies. Practical, hands-on training to help businesses apply AI tools like ChatGPT for marketing, productivity, and growth."
-date: 2025-08-26T14:10:03Z
+slug: aiforbusiness
+url: "/aiforbusiness/"
 ---
 
 # AI Tools for Business – Workshop Packages
