@@ -65,6 +65,3 @@ If you’re a **council**, **enterprise agency**, or **sector organisation** loo
 👉 Contact us today at to book a workshop or discuss a tailored option.  
 
 ---
-
-## SEO keywords
-**AI workshops for SMEs, AI training for councils, AI for business growth, digital transformation workshops, AI mentoring, AI tools for small business, AI consultancy Northern Ireland, enterprise agency AI support, AI for local businesses, ChatGPT training for SMEs**
