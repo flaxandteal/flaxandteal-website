@@ -5,8 +5,6 @@ slug: aiforbusiness
 url: "/aiforbusiness/"
 ---
 
-# AI Tools for Business – Workshop Packages
-
 ### Unlock the power of AI for your organisation and the businesses you support
 
 Artificial Intelligence isn’t just for big tech firms – it’s already transforming how local SMEs market, sell, and operate. Our **AI workshops for business** are designed to cut through the hype and show practical, immediate ways AI can help SMEs save time, reduce costs, and reach new customers.
