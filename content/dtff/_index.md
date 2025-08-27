@@ -2,27 +2,6 @@
 title: "DTFF Application Support"
 date: 2025-08-27T13:00:00Z
 draft: false
-
-sections:
-  - type: l_r
-    img: '/images/dtff/dtff-funding-for-ni-smes.webp'
-    order: 1
-    heading: "DTFF - funding for Northern Ireland SMEs"
-    bg_color: '#9BCCC1'
-    color: '#394E51'
-  - type: l_r
-    img: '/images/dtff/dtff-support-packages.webp'
-    order: 2
-    heading: "DTFF support packages - review, writing, full service"
-    bg_color: '#F6F4EB'
-    color: '#000'
-    reverse: true
-  - type: l_r
-    img: '/images/dtff/dtff-apply-with-confidence.webp'
-    order: 3
-    heading: "Apply with confidence - download the brochure at https://flaxandteal.co.uk/dtff_support_packages.pdf"
-    bg_color: '#292929'
-    color: '#FFFFFF'
 ---
 
 # DTFF Application Support – Northern Ireland
