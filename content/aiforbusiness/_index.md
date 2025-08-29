@@ -21,6 +21,7 @@ sections:
     bg_color: "#F6F4EB"
     color: "#000000"
     reverse: false
+
   - type: l_r
     order: 2
     heading: "Who should commission these workshops"
@@ -33,6 +34,7 @@ sections:
     bg_color: "#9BCCC1"
     color: "#394E51"
     reverse: true
+
   - type: l_r
     order: 3
     heading: "Who attends"
@@ -47,31 +49,33 @@ sections:
     bg_color: "#FFFFFF"
     color: "#000000"
     reverse: false
+
   - type: l_r
     order: 4
     heading: "Packages to fit your programme"
     copy: |
-      **Tier 1 – Workshop & Mentoring (£1,200)**  
+      **Tier 1 - Workshop & Mentoring (£1,200)**  
       - 3-hour interactive workshop  
-      - 8 × 1-hour virtual mentoring sessions within two weeks  
+      - 8 x 1-hour virtual mentoring sessions within two weeks  
       - Max 15 participants  
       - **Best for:** small pilots or introductory programmes
 
-      **Tier 2 – Full Engagement (£2,000)**  
+      **Tier 2 - Full Engagement (£2,000)**  
       - Everything in Tier 1  
       - 4 additional mentoring sessions (total 12)  
-      - Short insights summary (2–3 pages)  
+      - Short insights summary (2-3 pages)  
       - **Best for:** organisations wanting delivery plus actionable insights
 
-      **Tier 3 – Programme Pilot (£4,750)**  
+      **Tier 3 - Programme Pilot (£4,750)**  
       - Co-facilitated workshop  
-      - 14 × 1-hour mentoring sessions  
+      - 14 x 1-hour mentoring sessions  
       - Sector report - needs, readiness, roadmap  
       - **Best for:** larger pilots or those testing innovation support programmes
     img: "/images/aiforbusiness/packages.png"
     bg_color: "#292929"
     color: "#FFFFFF"
     reverse: true
+
   - type: l_r
     order: 5
     heading: "What businesses gain"
@@ -86,6 +90,7 @@ sections:
     bg_color: "#F6F4EB"
     color: "#000000"
     reverse: false
+
   - type: l_r
     order: 6
     heading: "Ready to support your business community"
@@ -100,3 +105,10 @@ sections:
     reverse: true
 ---
 
+# AI Tools for Business - Workshops
+
+Our AI workshops help councils, enterprise agencies, and hubs deliver practical support to SMEs. The programme is designed to be clear, hands-on, and focused on outcomes that matter - sharper copy, smarter marketing, better product pages, and faster research.
+
+**Download the brochure:** https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf  
+**Email:** info@flaxandteal.co.uk  
+**Book a call:** mailto:info@flaxandteal.co.uk  
