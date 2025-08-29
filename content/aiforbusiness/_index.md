@@ -105,10 +105,68 @@ sections:
     reverse: true
 ---
 
-# AI Tools for Business - Workshops
+# Introduction to AI tools for business - practical workshops for your community
+Save time, cut costs, and reach more customers. These commissioned workshops help councils, enterprise agencies, and hubs deliver real value to their SME communities with practical, hands-on AI training.
 
-Our AI workshops help councils, enterprise agencies, and hubs deliver practical support to SMEs. The programme is designed to be clear, hands-on, and focused on outcomes that matter - sharper copy, smarter marketing, better product pages, and faster research.
+**[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**  |  **[Book a discovery call](mailto:info@flaxandteal.co.uk)**
 
-**Download the brochure:** https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf  
-**Email:** info@flaxandteal.co.uk  
-**Book a call:** mailto:info@flaxandteal.co.uk  
+---
+
+# Who should commission these workshops
+Designed for organisations that support local businesses:
+- Councils and enterprise agencies supporting micro and SME communities
+- Innovation hubs and sector bodies running events or clinics
+- Organisations that want tangible outcomes rather than theory
+
+---
+
+# Who attends
+Typical attendees include:
+- SME owners and managers seeking practical digital tools
+- Marketing and operations staff looking to streamline workflows
+- Early-stage entrepreneurs exploring affordable ways to save time
+- Sector representatives - craft, food, cultural, creative, manufacturing
+- Business advisers and hub managers futureproofing services
+
+---
+
+# Packages to fit your programme
+**Tier 1 – Workshop & Mentoring (£1,200)**  
+- 3-hour interactive workshop (1 x facilitator)
+- 8 × 1-hour virtual mentoring sessions within two weeks  
+- Max 15 participants  
+- **Best for:** small pilots or introductory programmes
+
+**Tier 2 – Full Engagement (£2,000)**  
+- Everything in Tier 1  
+- 4 additional mentoring sessions (total 12)  
+- Short insights summary (2–3 pages)  
+- **Best for:** organisations wanting delivery plus actionable insights
+
+**Tier 3 – Programme Pilot (£4,750)**  
+- Co-facilitated workshop (2 x facilitators)
+- 14 × 1-hour mentoring sessions  
+- Sector report - needs, readiness, roadmap  
+- **Best for:** larger pilots or those testing innovation support programmes
+
+---
+
+# What businesses gain
+- Faster, more consistent content creation  
+- Clearer product positioning and simple market research workflows  
+- Safer, more efficient day-to-day use of AI tools  
+- Practical next steps agreed through one-to-one mentoring  
+
+**Example workshop flow:** 
+- setup and context
+- walk-throughs
+- group exercise
+- share and refine
+
+---
+
+# Ready to support your business community
+Take the first step toward practical AI adoption for your local SMEs.
+
+**[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**  
+**[Book a discovery call](mailto:info@flaxandteal.co.uk)**
