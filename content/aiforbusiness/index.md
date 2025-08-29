@@ -13,11 +13,11 @@ keywords: ["AI workshops for SMEs", "AI training for councils", "AI for business
 
 # AI Tools for Business – Workshop Packages
 
-A practical, hands-on programme that helps local businesses use AI well. We focus on real outcomes such as better copy, faster content, improved product pages, and smarter customer research.
+Save time, cut costs, and reach more customers. Our workshops show businesses how to use AI to get real results fast — from sharper copy and smarter marketing to streamlined operations and product improvements.
 
 ---
 
-Our AI workshops give SMEs the tools and confidence to use AI effectively in day-to-day work. Designed for councils, enterprise agencies, and sector bodies, each package blends clear demonstrations, guided practice, and one-to-one mentoring. With options from £1,200, organisations can deliver high-impact support that is practical, accessible, and results-driven.
+Our AI workshops give SMEs the tools and confidence to use AI effectively in day-to-day work. Designed for councils, enterprise agencies, and sector bodies, each package blends clear demonstrations, guided practice, and one-to-one mentoring. With options from £1,200, organisations can deliver high-impact support that is practical, accessible, and results-driven. Now is the right moment to act — AI adoption is accelerating, and local businesses risk being left behind without the right guidance.
 
 ---
 
@@ -28,10 +28,10 @@ Our AI workshops give SMEs the tools and confidence to use AI effectively in day
 
 ---
 
-## Examples of Suitable attendees
+## Suitable attendees
 - SME owners and managers seeking practical digital tools
-- Early-stage entrepreneurs exploring affordable ways to save time
 - Marketing and operations staff looking to streamline workflows
+- Early-stage entrepreneurs exploring affordable ways to save time
 - Sector representatives (e.g. manufacturing, creative, cultural, food) wanting relevant examples
 - Business advisers and hub managers interested in futureproofing support services
 
@@ -60,16 +60,19 @@ This mix keeps the sessions grounded and usable while answering questions with c
 - Real use cases, group tasks, and guided prompts
 - 8 × 1-hour virtual mentoring sessions within two weeks of delivery
 - Max 15 participants
+- **Best for**: small pilots or introductory programmes
 
 ### Tier 2 – Full Engagement (£2,000)
 - Everything in Tier 1
 - 4 additional mentoring sessions (total 12)
 - Short insights summary (2–3 pages)
+- **Best for**: councils or agencies wanting both delivery and actionable insights
 
 ### Tier 3 – Programme Pilot (£4,750)
 - Co-facilitated workshop
 - 14 × 1-hour mentoring sessions
 - Sector report (up to 5 pages): needs, readiness, and roadmap
+- **Best for**: larger-scale pilots or organisations testing innovation support programmes
 
 **Post Workshop optional add-ons for attendees**
 - Ongoing mentoring (£80/hour)
@@ -124,4 +127,6 @@ We can tailor scope to fit budget and reporting needs. Packages are priced to en
 
 ## Download and contact
 - **PDF overview:** https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf  
-- **Email:** info@flaxandteal.co.uk
+- **Email:** info@flaxandteal.co.uk  
+
+Take the first step towards practical AI adoption in your business community — **book a discovery call today** and see how these workshops can deliver impact quickly.
