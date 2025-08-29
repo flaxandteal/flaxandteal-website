@@ -5,7 +5,7 @@ slug: aiforbusiness
 url: "/aiforbusiness/"
 menu:
   main:
-    name: "AI for Business"
+    name: "AI for Business Workshops"
     weight: 45
 layout: aiforbusiness
 keywords: ["AI workshops for SMEs", "AI training for councils", "AI for business growth", "digital transformation workshops", "AI mentoring", "AI tools for small business", "AI consultancy Northern Ireland", "enterprise agency AI support", "AI for local businesses", "ChatGPT training for SMEs"]
@@ -15,20 +15,23 @@ keywords: ["AI workshops for SMEs", "AI training for councils", "AI for business
 
 Save time, cut costs, and reach more customers. Our workshops show businesses how to use AI to get real results fast — from sharper copy and smarter marketing to streamlined operations and product improvements.
 
+> “AI will not replace humans, but those who use AI will replace those who don't.”  
+> — Ginni Rometty, Former CEO of IBM
+
 ---
 
 Our AI workshops give SMEs the tools and confidence to use AI effectively in day-to-day work. Designed for councils, enterprise agencies, and sector bodies, each package blends clear demonstrations, guided practice, and one-to-one mentoring. With options from £1,200, organisations can deliver high-impact support that is practical, accessible, and results-driven. Now is the right moment to act — AI adoption is accelerating, and local businesses risk being left behind without the right guidance.
 
 ---
 
-## Who this is for
+## Who should commission these workshops for their business community
 - Councils and enterprise agencies supporting micro and SME communities
 - Innovation hubs and sector bodies running events or clinics
 - Organisations that want tangible outcomes rather than theory
 
 ---
 
-## Suitable attendees
+## Example suitable attendees
 - SME owners and managers seeking practical digital tools
 - Marketing and operations staff looking to streamline workflows
 - Early-stage entrepreneurs exploring affordable ways to save time
@@ -99,16 +102,9 @@ This mix keeps the sessions grounded and usable while answering questions with c
 ---
 
 ## Mentoring model
-- Short, focused sessions within two weeks of the event
+- Short, focused 1 hour 1-2-1 session within two weeks of the event
 - Clear action list at each session
 - Optional follow-on support for businesses ready to progress
-
----
-
-## Practicalities
-- Client provides venue, catering, registration, and promotion
-- We provide slides, prompt packs, and example workflows
-- Reference rates: £550 per consultant per day; £80/hour for mentoring
 
 ---
 
@@ -125,8 +121,6 @@ We can tailor scope to fit budget and reporting needs. Packages are priced to en
 
 ---
 
-## Download and contact
-- **PDF overview:** https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf  
-- **Email:** info@flaxandteal.co.uk  
+**[Download the brochure here](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**
 
-Take the first step towards practical AI adoption in your business community — **book a discovery call today** and see how these workshops can deliver impact quickly.
+Take the first step towards practical AI adoption in your business community — **[book a discovery call today](mailto:info@flaxandteal.co.uk)** and see how these workshops can deliver impact quickly.
