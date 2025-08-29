@@ -1,124 +1,106 @@
 ---
 title: "AI Tools for Business – Workshop Packages"
-description: "Practical AI workshops and mentoring for SMEs, councils, and enterprise agencies. Hands-on, sector-aware, budget-sensible."
-slug: aiforbusiness
-url: "/aiforbusiness/"
+description: "Practical AI workshops and mentoring commissioned by councils, enterprise agencies, and hubs to support local SMEs."
+aliases: ["/aiforbusiness/"]
+draft: false
 menu:
   main:
     name: "AI for Business Workshops"
     weight: 45
-layout: aiforbusiness
-keywords: ["AI workshops for SMEs", "AI training for councils", "AI for business growth", "digital transformation workshops", "AI mentoring", "AI tools for small business", "AI consultancy Northern Ireland", "enterprise agency AI support", "AI for local businesses", "ChatGPT training for SMEs"]
----
 
-Save time, cut costs, and reach more customers. Our workshops show businesses how to use AI to get real results fast — from sharper copy and smarter marketing to streamlined operations and product improvements.
+sections:
+  - type: l_r
+    order: 1
+    heading: "Introduction to AI tools for business - practical workshops for your community"
+    copy: |
+      Save time, cut costs, and reach more customers. These commissioned workshops help councils, enterprise agencies, and hubs deliver real value to their SME communities with practical, hands-on AI training.
 
-> _“AI will not replace humans, but those who use AI will replace those who don't.”_  
-> **— Ginni Rometty, Former CEO of IBM**
+      **[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**  |  **[Book a discovery call](mailto:info@flaxandteal.co.uk)**
+    img: "/images/aiforbusiness/hero.png"
+    bg_color: "#F6F4EB"
+    color: "#000000"
+    reverse: false
+   
+  - type: l_r
+    order: 2
+    heading: "Who should commission these workshops"
+    copy: |
+      Designed for organisations that support local businesses:
+      - Councils and enterprise agencies supporting micro and SME communities
+      - Innovation hubs and sector bodies running events or clinics
+      - Organisations that want tangible outcomes rather than theory
+    img: "/images/aiforbusiness/commissioners.png"
+    bg_color: "#9BCCC1"
+    color: "#394E51"
+    reverse: true
 
----
+  - type: l_r
+    order: 3
+    heading: "Who attends"
+    copy: |
+      Typical attendees include:
+      - SME owners and managers seeking practical digital tools
+      - Marketing and operations staff looking to streamline workflows
+      - Early-stage entrepreneurs exploring affordable ways to save time
+      - Sector representatives - craft, food, cultural, creative, manufacturing
+      - Business advisers and hub managers futureproofing services
+    img: "/images/aiforbusiness/attendees.png"
+    bg_color: "#FFFFFF"
+    color: "#000000"
+    reverse: false
 
-Our AI workshops give SMEs the tools and confidence to use AI effectively in day-to-day work. Designed for councils, enterprise agencies, and sector bodies, each package blends clear demonstrations, guided practice, and one-to-one mentoring. With options from £1,200, organisations can deliver high-impact support that is practical, accessible, and results-driven. Now is the right moment to act - AI adoption is accelerating, and local businesses risk being left behind without the right guidance.
+  - type: l_r
+    order: 4
+    heading: "Packages to fit your programme"
+    copy: |
+      **Tier 1 – Workshop & Mentoring (£1,200)**  
+      - 3-hour interactive workshop  
+      - 8 × 1-hour virtual mentoring sessions within two weeks  
+      - Max 15 participants  
+      - **Best for:** small pilots or introductory programmes
 
----
+      **Tier 2 – Full Engagement (£2,000)**  
+      - Everything in Tier 1  
+      - 4 additional mentoring sessions (total 12)  
+      - Short insights summary (2–3 pages)  
+      - **Best for:** organisations wanting delivery plus actionable insights
 
-## Who should commission these workshops for their business community
-- Councils and enterprise agencies supporting micro and SME communities
-- Innovation hubs and sector bodies running events or clinics
-- Organisations that want tangible outcomes rather than theory
+      **Tier 3 – Programme Pilot (£4,750)**  
+      - Co-facilitated workshop  
+      - 14 × 1-hour mentoring sessions  
+      - Sector report - needs, readiness, roadmap  
+      - **Best for:** larger pilots or those testing innovation support programmes
+    img: "/images/aiforbusiness/packages.png"
+    bg_color: "#292929"
+    color: "#FFFFFF"
+    reverse: true
 
----
+  - type: l_r
+    order: 5
+    heading: "What businesses gain"
+    copy: |
+      - Faster, more consistent content creation  
+      - Clearer product positioning and simple market research workflows  
+      - Safer, more efficient day-to-day use of AI tools  
+      - Practical next steps agreed through one-to-one mentoring  
 
-## Example suitable attendees
-- SME owners and managers seeking practical digital tools
-- Marketing and operations staff looking to streamline workflows
-- Early-stage entrepreneurs exploring affordable ways to save time
-- Sector representatives (e.g. manufacturing, creative, cultural, food) wanting relevant examples
-- Business advisers and hub managers interested in futureproofing support services
+      **Workshop flow:** setup and context, live walk-throughs, group exercise, share and refine, next steps.
+    img: "/images/aiforbusiness/outcomes..png"
+    bg_color: "#F6F4EB"
+    color: "#000000"
+    reverse: false
 
----
+  - type: l_r
+    order: 6
+    heading: "Ready to support your business community"
+    copy: |
+      Take the first step toward practical AI adoption for your local SMEs.
 
-## What you will get
-- A clear, structured workshop that demystifies AI tools
-- Guided practice using safe, low-risk examples relevant to small businesses
-- One-to-one mentoring to turn learning into action within two weeks
-- Optional discovery work to scope a sensible roadmap
-
----
-
-## Delivery approach
-- **Facilitation and strategy** - senior consultant with economic development and SME mentoring experience
-- **Applied technology** - software practitioner experienced in practical AI tools
-
-This mix keeps the sessions grounded and usable while answering questions with confidence.
-
----
-
-## Packages
-
-### Tier 1 – Workshop & Mentoring (£1,200)
-- 3-hour interactive workshop
-- Real use cases, group tasks, and guided prompts
-- 8 × 1-hour virtual mentoring sessions within two weeks of delivery
-- Max 15 participants
-- **Best for**: small pilots or introductory programmes
-
-### Tier 2 – Full Engagement (£2,000)
-- Everything in Tier 1
-- 4 additional mentoring sessions (total 12)
-- Short insights summary (2–3 pages)
-- **Best for**: councils or agencies wanting both delivery and actionable insights
-
-### Tier 3 – Programme Pilot (£4,750)
-- Co-facilitated workshop
-- 14 × 1-hour mentoring sessions
-- Sector report (up to 5 pages): needs, readiness, and roadmap
-- **Best for**: larger-scale pilots or organisations testing innovation support programmes
-
-### Post Workshop optional add-ons for attendees
-- Ongoing mentoring (£80/hour)
-- Light-Touch Discovery Session (£950)
-- Discovery & Technology Roadmap (£3,000–£5,000)
-
----
-
-## Outcomes attendees can expect
-- Faster, more consistent content creation
-- Clearer product positioning and simple market research workflows
-- Safer, more efficient day-to-day use of AI tools
-- Practical next steps for each participating business
-
----
-
-## Example workshop flow
-1. **Set up and context** - plain-English overview of AI tools used by SMEs
-2. **Live walk-throughs** - website copy, product critique, and marketing prompts
-3. **Group exercise** - guided prompt pack in teams
-4. **Show and share** - constructive feedback
-5. **Wrap and actions** - checklist and mentoring sign-ups
-
----
-
-## Mentoring model
-- Short, focused 1 hour 1-2-1 session within two weeks of the event
-- Clear action list at each session
-- Optional follow-on support for businesses ready to progress
-
----
-
-## Procurement and flexibility
-We can tailor scope to fit budget and reporting needs. Packages are priced to ensure delivery quality.
+      **[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**  
+      **[Book a discovery call](mailto:info@flaxandteal.co.uk)**
+    img: "/images/aiforbusiness/cta.png"
+    bg_color: "#9BCCC1"
+    color: "#394E51"
+    reverse: true
 
 ---
-
-## FAQs
-**Will this work for non-technical businesses?**  Yes, it’s designed for first-time users and light adopters.  
-**How many businesses can attend?**  Up to 15 per workshop, with options for larger groups.  
-**Can we add our own case studies?**  Yes, we can integrate sector examples or anonymised local scenarios.  
-**What about data and safety?**  We use public, non-sensitive examples and advise on responsible use.
-
----
-
-**[Download the brochure here](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**
-
-Take the first step towards practical AI adoption in your business community - **[book a discovery call today](mailto:info@flaxandteal.co.uk)** and see how these workshops can deliver impact quickly.
