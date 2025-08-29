@@ -54,21 +54,21 @@ sections:
     order: 4
     heading: "Packages to fit your programme"
     copy: |
-      **Tier 1 - Workshop & Mentoring (£1,200)**  
-      - 3-hour interactive workshop  
-      - 8 x 1-hour virtual mentoring sessions within two weeks  
+      **Tier 1 – Workshop & Mentoring (£1,200)**  
+      - 3-hour interactive workshop (1 x facilitator)  
+      - 8 × 1-hour virtual mentoring sessions within two weeks  
       - Max 15 participants  
       - **Best for:** small pilots or introductory programmes
 
-      **Tier 2 - Full Engagement (£2,000)**  
+      **Tier 2 – Full Engagement (£2,000)**  
       - Everything in Tier 1  
       - 4 additional mentoring sessions (total 12)  
-      - Short insights summary (2-3 pages)  
+      - Short insights summary (2–3 pages)  
       - **Best for:** organisations wanting delivery plus actionable insights
 
-      **Tier 3 - Programme Pilot (£4,750)**  
-      - Co-facilitated workshop  
-      - 14 x 1-hour mentoring sessions  
+      **Tier 3 – Programme Pilot (£4,750)**  
+      - Co-facilitated workshop (2 x facilitators)  
+      - 14 × 1-hour mentoring sessions  
       - Sector report - needs, readiness, roadmap  
       - **Best for:** larger pilots or those testing innovation support programmes
     img: "/images/aiforbusiness/packages.png"
@@ -85,7 +85,7 @@ sections:
       - Safer, more efficient day-to-day use of AI tools  
       - Practical next steps agreed through one-to-one mentoring  
 
-      **Workshop flow:** setup and context, live walk-throughs, group exercise, share and refine, next steps.
+      **Workshop flow:** setup and context, walk-throughs, group exercise, share and refine.
     img: "/images/aiforbusiness/outcomes.png"
     bg_color: "#F6F4EB"
     color: "#000000"
