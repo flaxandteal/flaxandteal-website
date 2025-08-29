@@ -7,6 +7,7 @@ menu:
   main:
     name: "AI for Business Workshops"
     weight: 45
+layout: services
 
 sections:
   - type: l_r
@@ -20,7 +21,6 @@ sections:
     bg_color: "#F6F4EB"
     color: "#000000"
     reverse: false
-   
   - type: l_r
     order: 2
     heading: "Who should commission these workshops"
@@ -33,7 +33,6 @@ sections:
     bg_color: "#9BCCC1"
     color: "#394E51"
     reverse: true
-
   - type: l_r
     order: 3
     heading: "Who attends"
@@ -48,7 +47,6 @@ sections:
     bg_color: "#FFFFFF"
     color: "#000000"
     reverse: false
-
   - type: l_r
     order: 4
     heading: "Packages to fit your programme"
@@ -74,7 +72,6 @@ sections:
     bg_color: "#292929"
     color: "#FFFFFF"
     reverse: true
-
   - type: l_r
     order: 5
     heading: "What businesses gain"
@@ -85,11 +82,10 @@ sections:
       - Practical next steps agreed through one-to-one mentoring  
 
       **Workshop flow:** setup and context, live walk-throughs, group exercise, share and refine, next steps.
-    img: "/images/aiforbusiness/outcomes..png"
+    img: "/images/aiforbusiness/outcomes.png"
     bg_color: "#F6F4EB"
     color: "#000000"
     reverse: false
-
   - type: l_r
     order: 6
     heading: "Ready to support your business community"
@@ -102,5 +98,4 @@ sections:
     bg_color: "#9BCCC1"
     color: "#394E51"
     reverse: true
-
 ---
