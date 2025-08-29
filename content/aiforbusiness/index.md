@@ -11,8 +11,6 @@ layout: aiforbusiness
 keywords: ["AI workshops for SMEs", "AI training for councils", "AI for business growth", "digital transformation workshops", "AI mentoring", "AI tools for small business", "AI consultancy Northern Ireland", "enterprise agency AI support", "AI for local businesses", "ChatGPT training for SMEs"]
 ---
 
-# AI Tools for Business – Workshop Packages
-
 Save time, cut costs, and reach more customers. Our workshops show businesses how to use AI to get real results fast — from sharper copy and smarter marketing to streamlined operations and product improvements.
 
 > “AI will not replace humans, but those who use AI will replace those who don't.”  
