@@ -18,7 +18,7 @@ Save time, cut costs, and reach more customers. Our workshops show businesses ho
 
 ---
 
-Our AI workshops give SMEs the tools and confidence to use AI effectively in day-to-day work. Designed for councils, enterprise agencies, and sector bodies, each package blends clear demonstrations, guided practice, and one-to-one mentoring. With options from £1,200, organisations can deliver high-impact support that is practical, accessible, and results-driven. Now is the right moment to act — AI adoption is accelerating, and local businesses risk being left behind without the right guidance.
+Our AI workshops give SMEs the tools and confidence to use AI effectively in day-to-day work. Designed for councils, enterprise agencies, and sector bodies, each package blends clear demonstrations, guided practice, and one-to-one mentoring. With options from £1,200, organisations can deliver high-impact support that is practical, accessible, and results-driven. Now is the right moment to act - AI adoption is accelerating, and local businesses risk being left behind without the right guidance.
 
 ---
 
@@ -47,8 +47,8 @@ Our AI workshops give SMEs the tools and confidence to use AI effectively in day
 ---
 
 ## Delivery approach
-- **Facilitation and strategy** – senior consultant with economic development and SME mentoring experience
-- **Applied technology** – software practitioner experienced in practical AI tools
+- **Facilitation and strategy** - senior consultant with economic development and SME mentoring experience
+- **Applied technology** - software practitioner experienced in practical AI tools
 
 This mix keeps the sessions grounded and usable while answering questions with confidence.
 
@@ -91,11 +91,11 @@ This mix keeps the sessions grounded and usable while answering questions with c
 ---
 
 ## Example workshop flow
-1. **Set up and context** – plain-English overview of AI tools used by SMEs
-2. **Live walk-throughs** – website copy, product critique, and marketing prompts
-3. **Group exercise** – guided prompt pack in teams
-4. **Show and share** – constructive feedback
-5. **Wrap and actions** – checklist and mentoring sign-ups
+1. **Set up and context** - plain-English overview of AI tools used by SMEs
+2. **Live walk-throughs** - website copy, product critique, and marketing prompts
+3. **Group exercise** - guided prompt pack in teams
+4. **Show and share** - constructive feedback
+5. **Wrap and actions** - checklist and mentoring sign-ups
 
 ---
 
@@ -121,4 +121,4 @@ We can tailor scope to fit budget and reporting needs. Packages are priced to en
 
 **[Download the brochure here](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**
 
-Take the first step towards practical AI adoption in your business community — **[book a discovery call today](mailto:info@flaxandteal.co.uk)** and see how these workshops can deliver impact quickly.
+Take the first step towards practical AI adoption in your business community - **[book a discovery call today](mailto:info@flaxandteal.co.uk)** and see how these workshops can deliver impact quickly.
