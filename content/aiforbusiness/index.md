@@ -17,7 +17,6 @@ A practical, hands-on programme that helps local businesses use AI well. We focu
 
 ---
 
-## Summary blurb
 Our AI workshops give SMEs the tools and confidence to use AI effectively in day-to-day work. Designed for councils, enterprise agencies, and sector bodies, each package blends clear demonstrations, guided practice, and one-to-one mentoring. With options from £1,200, organisations can deliver high-impact support that is practical, accessible, and results-driven.
 
 ---
@@ -26,6 +25,15 @@ Our AI workshops give SMEs the tools and confidence to use AI effectively in day
 - Councils and enterprise agencies supporting micro and SME communities
 - Innovation hubs and sector bodies running events or clinics
 - Organisations that want tangible outcomes rather than theory
+
+---
+
+## Examples of Suitable attendees
+- SME owners and managers seeking practical digital tools
+- Early-stage entrepreneurs exploring affordable ways to save time
+- Marketing and operations staff looking to streamline workflows
+- Sector representatives (e.g. manufacturing, creative, cultural, food) wanting relevant examples
+- Business advisers and hub managers interested in futureproofing support services
 
 ---
 
