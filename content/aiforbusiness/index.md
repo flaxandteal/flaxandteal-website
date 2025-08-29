@@ -75,7 +75,7 @@ This mix keeps the sessions grounded and usable while answering questions with c
 - Sector report (up to 5 pages): needs, readiness, and roadmap
 - **Best for**: larger-scale pilots or organisations testing innovation support programmes
 
-**Post Workshop optional add-ons for attendees**
+### Post Workshop optional add-ons for attendees
 - Ongoing mentoring (£80/hour)
 - Light-Touch Discovery Session (£950)
 - Discovery & Technology Roadmap (£3,000–£5,000)
