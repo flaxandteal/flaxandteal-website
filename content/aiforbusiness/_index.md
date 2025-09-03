@@ -41,8 +41,6 @@ sections:
     
 ---
 
----
-
 Designed for organisations that support local businesses:
 - Councils and enterprise agencies supporting micro and SME communities
 - Innovation hubs and sector bodies running events or clinics
@@ -54,7 +52,7 @@ Typical attendees include:
 - SME owners and managers seeking practical digital tools
 - Marketing and operations staff looking to streamline workflows
 - Early-stage entrepreneurs exploring affordable ways to save time
-- Sector representatives - craft, food, cultural, creative, manufacturing
+- Sector representatives - e.g. craft, food, cultural, creative, manufacturing
 - Business advisers and hub managers futureproofing services
 
 
