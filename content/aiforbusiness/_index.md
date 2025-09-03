@@ -10,7 +10,7 @@ sections:
   - type: l_r
     img: '/images/aiforbusiness/commissioners.png'
     order: 1
-    heading: "Who should commission these workshops?"
+    heading: "Who should commission these workshops"
 	bg_color: '#394E51'
   - type: l_r
     img: '/images/aiforbusiness/attendees.png'
