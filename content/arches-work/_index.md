@@ -1,81 +1,116 @@
 ---
-title: "Arches Work"
-date: 2023-12-21T14:10:03Z
-aliases: ['/pages/arches-work']
+title: "AI Tools for Business – Workshop Packages"
+description: "Practical AI workshops and mentoring commissioned by councils, enterprise agencies, and hubs to support local SMEs."
+aliases: ["/aiforbusiness/"]
 draft: false
+menu:
+  main:
+    name: "AI for Business Workshops"
+    weight: 45
+layout: services
 
 sections:
+  - type: hero_clients
+    heading: "Introduction to AI tools for business - practical workshops for your community"
+    text: |
+      Save time, cut costs, and reach more customers. These commissioned workshops help councils, enterprise agencies, and hubs deliver real value to their SME communities with practical, hands-on AI training.
+
+      **[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**  |  **[Book a discovery call](mailto:info@flaxandteal.co.uk)**
+
   - type: l_r
-    img: '/images/arches-work/arches-transforming-your-data.webp'
+    order: 0
+    heading: "Who should commission these workshops"
+    img: "/images/aiforbusiness/commissioners.png"
+    bg_color: "#394E51"
+    color: "#FFFFFF"
+    reverse: false
+
+  - type: l_r
     order: 1
-    heading: "Arches - transforming your data"
-    bg_color: '#9BCCC1'
-    color: "#394E51"
-  - type: l_r
-    img: '/images/arches-work/arches-for-cultural-heritage.webp'
-    order: 2
-    heading: "Arches for Cultural Heritage"
-    bg_color: "#F6F4EB"
-    color: "#000"
+    heading: "Who attends"
+    img: "/images/aiforbusiness/attendees.png"
+    bg_color: "#292929"
+    color: "#9BCCC1"
     reverse: true
+
   - type: l_r
-    img: '/images/arches-work/arches-for-science.webp'
+    order: 2
+    heading: "Packages to fit your programme"
+    img: "/images/aiforbusiness/packages.png"
+    bg_color: "#9BCCC1"
+    color: "#394E51"
+    reverse: false
+
+  - type: l_r
     order: 3
-    heading: "Arches for Science"
-    bg_color: '#292929'
-    color: '#FFF'
+    heading: "What businesses gain"
+    img: "/images/aiforbusiness/outcomes.png"
+    bg_color: "#F6F4EB"
+    color: "#000000"
+    reverse: true
 
+  - type: l_r
+    order: 4
+    heading: "Ready to support your business community"
+    img: "/images/aiforbusiness/cta.png"
+    bg_color: "#292929"
+    color: "#9BCCC1"
+    reverse: false
 ---
 
----
+# AI Tools for Business – Workshop Packages
+Save time, cut costs, and reach more customers. These commissioned workshops help councils, enterprise agencies, and hubs deliver real value to their SME communities with practical, hands-on AI training.
 
-Arches is an open source data management platform which makes it possible for meaningful organisational change. Jointly funded by the World Monument Fund and the Getty Conservation Institute, it has evolved into a powerful asset management and GIS tool. <br><br>
+**[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**  |  **[Book a discovery call](mailto:info@flaxandteal.co.uk)**
 
-<strong>Why Flax & Teal?</strong>
+<hr>
 
-At Flax & Teal, we are more than just a software consultancy and IT solutions provider - we are passionate advocates for the preservation of cultural heritage. We aim to empower organisations worldwide to safeguard their invaluable heritage assets for future generations.<br><br>
+Designed for organisations that support local businesses:
+- Councils and enterprise agencies supporting micro and SME communities
+- Innovation hubs and sector bodies running events or clinics
+- Organisations that want tangible outcomes rather than theory
 
-<strong> Registered Arches Suppliers</strong>
+<hr>
 
-Arches is revolutionising the way cultural heritage institutions manage, document, and share their collections. 
+Typical attendees include:
+- SME owners and managers seeking practical digital tools
+- Marketing and operations staff looking to streamline workflows
+- Early-stage entrepreneurs exploring affordable ways to save time
+- Sector representatives – craft, food, cultural, creative, manufacturing
+- Business advisers and hub managers futureproofing services
 
-We have conducted Arches workshops with the Arches team to build a roadmap for integrating the Arches software with modern DevOps flows, and are the leading team in doing so.
+<hr>
 
-As open source leaders, Arches naturally fits into our service expertise, we have run community events combining Arches platforms and Virtual Reality spaces, to push Arches’ technical capabilities.
+**Tier 1 – Workshop & Mentoring (£1,200)**  
+- 3-hour interactive workshop (1 × facilitator)  
+- 8 × 1-hour virtual mentoring sessions within two weeks  
+- Max 15 participants  
+- **Best for:** small pilots or introductory programmes
 
-We have utilised Arches not only for large cultural heritage institutions, but for research-based organisations focused on data management.
+**Tier 2 – Full Engagement (£2,000)**  
+- Everything in Tier 1  
+- 4 additional mentoring sessions (total 12)  
+- Short insights summary (2–3 pages)  
+- **Best for:** organisations wanting delivery plus actionable insights
 
----
+**Tier 3 – Programme Pilot (£4,750)**  
+- Co-facilitated workshop (2 × facilitators)  
+- 14 × 1-hour mentoring sessions  
+- Sector report – needs, readiness, roadmap  
+- **Best for:** larger pilots or those testing innovation support programmes
 
-**Digitally transforming cultural heritage**
+<hr>
 
-We are currently in the process of delivering a long-term digital transformation project for Northern Irish public sector, migrating all of their current and historic heritage-based data to a customised Arches HER (Historic Environment Record) instance. 
+- Faster, more consistent content creation  
+- Clearer product positioning and simple market research workflows  
+- Safer, more efficient day-to-day use of AI tools  
+- Practical next steps agreed through one-to-one mentoring  
 
-They required a secure and accessible database capable of holding more than 200,000 records safely and without data loss. This has involved site visits, workshops and detailed data modelling exercises, and has been supported on the technology side by Kubernetes, Python-in-the-cloud, Ray data workflows and deployed to GKE. <br><br>
+**Example workshop flow:** setup and context, walk-throughs, group exercise, share and refine
 
-  - **Kubernetes infrastructure flows**
+<hr>
 
-  - **Custom workflow development**
+Take the first step toward practical AI adoption for your local SMEs.
 
-  - **Custom dashboards for business processes**
-
-  - **Secure and stable development, staging and production instances** 
-
-  - **Hosting available on-premise or in cloud**
-<br><br>
-
-We're focused on helping large public sector organisations transform and manage their heritage data.
-
----
-
-**Stable and secure data repository for researchers**
-
-We have deployed, and are currently hosting, Arches as a data repository for a large- scale international cross-disciplinary research project on urban policy (Tomorrow’s Cities).
-
-This involved interviewing a range of researchers, from social scientists to geologists, to establish a common base of requirements, and ensuring UKRI (UK Research and Innovation) compliant documentation and data management.
-
-Tomorrow’s Cities is being conducted with a range of institutions in Scotland, Nepal, Kenya and Turkey and, indirectly, governmental stakeholders to inform risk management for urban disaster planning globally.
-
-**Sustainable Open Source**
-
-Working closely with the London Science Museum, we developed and enhanced upon Arches' existing Bulk Data Manager module, allowing users to easily edit, flag and upload bulk data into their research database. We plan to integrate this work into the wider Arches codebase, and sustainably contribute to the open source development of the platform. 
+**[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**  
+**[Book a discovery call](mailto:info@flaxandteal.co.uk)**
