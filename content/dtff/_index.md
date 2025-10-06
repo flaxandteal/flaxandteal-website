@@ -1,46 +1,99 @@
 ---
 title: "DTFF Application Support"
-date: 2025-08-26T13:00:00Z
+description: "Specialist help for Northern Ireland SMEs applying to the Digital Transformation Flexible Fund (DTFF)"
+aliases: ["/dtff/"]
 draft: false
 
+# This adds the page to the main menu; adjust the weight to position it.
+menu:
+  main:
+    name: "DTFF Support"
+    weight: 45
+
+layout: services
+
 sections:
-  - type: hero-alt
-    bg_image: '/images/dtff/dtff-banner.webp'  # Path to your banner image in static/images/dtff
-    bg_color: '#CFE6E1'
-    heading: 'DTFF Application Support'
-    text: 'Specialist support to help Northern Ireland SMEs secure DTFF funding.'
-    cta: 'Contact us'
-    cta_link: '/contact'
+  # Hero banner at the top
+  - type: hero_clients
+    heading: "Secure your DTFF funding with expert support"
+    text: |
+      The **Digital Transformation Flexible Fund (DTFF)** offers **Northern Ireland SMEs between £5,000 and £20,000** to invest in AI, data and process automation. Funding calls close quickly and the competition is intense.  We help you strengthen, refine or fully manage your submission.
+      
+      **[Download our DTFF brochure](/dtff_support_packages.pdf)** | **[Book a call](mailto:dtff@flaxandteal.co.uk)**
+    bg_color: "#394E51"
+    color: "#FFFFFF"
+    # optional: bg_image: "/images/dtff/hero.webp"
 
-  - type: value_services
-    bg_color: '#B9DCD5'
-    values:
-      - title: 'Level 1: Compliance Check'
-        text: 'Review your application against DTFF scoring criteria and highlight gaps.'
-        icon: '/images/dtff/level1-icon.webp'
-        bg_color: '#F1F7F5'
-      - title: 'Level 2: Application Strengthening'
-        text: 'Edit and polish your draft plan; includes a live review call and scoring guidance.'
-        icon: '/images/dtff/level2-icon.webp'
-        bg_color: '#CFE6E1'
-      - title: 'Level 3: Application Writing'
-        text: 'We draft your Digital Transformation Plan and Annex A for maximum impact.'
-        icon: '/images/dtff/level3-icon.webp'
-        bg_color: '#F1F7F5'
-      - title: 'Level 4: Full‑Service Support'
-        text: 'From expression of interest to post‑award guidance – we manage everything.'
-        icon: '/images/dtff/level4-icon.webp'
-        bg_color: '#CFE6E1'
+  # First left/right section: reasons to work with you
+  - type: l_r
+    order: 0
+    heading: "Why work with Flax & Teal?"
+    img: "/images/dtff/why-work.webp"
+    bg_color: "#292929"
+    color: "#9BCCC1"
+    reverse: false
 
-  - type: contact-ctx
-    heading: 'Ready to Get Started?'
-    text: 'Email us at <a href="mailto:dtff@flaxandteal.co.uk">dtff@flaxandteal.co.uk</a> or call to discuss your needs.'
+  # Second left/right section: outline the support packages
+  - type: l_r
+    order: 1
+    heading: "DTFF Support Packages"
+    img: "/images/dtff/packages.webp"
+    bg_color: "#9BCCC1"
+    color: "#394E51"
+    reverse: true
+
+  # Third left/right section: final call to action
+  - type: l_r
+    order: 2
+    heading: "Start your DTFF application today"
+    img: "/images/dtff/get-started.webp"
+    bg_color: "#F6F4EB"
+    color: "#000000"
+    reverse: false
 ---
 
-# DTFF Application Support – Northern Ireland
+# DTFF Application Support – Northern Ireland
 
-The **Digital Transformation Flexible Fund (DTFF)** offers **Northern Ireland SMEs between £5,000 and £20,000** to invest in advanced digital technologies such as AI, data, and process automation. But competition is intense, and funding calls close quickly. A small mistake or weak alignment with DTFF criteria can mean losing out.
+The **Digital Transformation Flexible Fund (DTFF)** offers **Northern Ireland SMEs between £5,000 and £20,000** to invest in advanced digital technologies, but competition is fierce and calls close quickly.  A small mistake or weak alignment with DTFF criteria can mean losing out.  At **Flax & Teal** we provide **specialist DTFF application support** to help you strengthen, refine or fully manage your submission.
 
-At **Flax & Teal**, we provide **specialist DTFF application support** to help you strengthen, refine, or fully manage your submission. Our team has already supported SMEs across all 11 Council areas to prepare **compliant, fundable applications** that meet assessor expectations.
+<hr>
 
----
+### Why Work With Flax & Teal?
+
+✔ **Local expertise** – We understand the Northern Ireland business landscape and DTFF’s unique requirements.  
+✔ **Proven results** – Our track record includes guiding SMEs through successful DTFF submissions.  
+✔ **Flexible packages** – From a compliance check to full end‑to‑end application management, we match the level of support to your needs.  
+✔ **Time savings** – Free up your team to focus on running the business while we handle the detail.  
+✔ **Peace of mind** – Be confident your Digital Transformation Plan is in the strongest position to meet DTFF scoring criteria.  
+
+<hr>
+
+### DTFF Support Packages
+
+**Level 1: Application Compliance Check**  
+Ideal for confident applicants who want reassurance. We’ll review your application against DTFF scoring and provide a clear report of any gaps.  
+*From £375*
+
+**Level 2: Application Strengthening**  
+For businesses with a draft plan that needs polish. Includes a detailed rewrite review, live review call, and practical scoring guidance.  
+*From £750*
+
+**Level 3: Application Writing**  
+Our experts draft your Digital Transformation Plan and Annex A, ensuring your submission is aligned with DTFF criteria. Includes two revisions.  
+*From £1,500*
+
+**Level 4: Full‑Service Application & Project Support**  
+End‑to‑end support for time‑poor SMEs – from expression of interest to procurement management, document collation, submission and post‑award guidance.  
+*From £3,000*
+
+**[Download the full DTFF Support Packages brochure](https://flaxandteal.co.uk/dtff_support_packages.pdf)**
+
+<hr>
+
+### Start Your DTFF Application Today
+
+Don’t let your business miss out on DTFF funding. Whether you need a quick compliance check or full application management, our support packages give you the best chance of success.  
+
+Contact us at [dtff@flaxandteal.co.uk](mailto:dtff@flaxandteal.co.uk)
+
+**Act now – DTFF calls close fast and funding is limited.  Secure your package today to give your application the edge!**
