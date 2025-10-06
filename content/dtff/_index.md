@@ -4,7 +4,7 @@ description: "Specialist help for Northern Ireland SMEs applying to the Digital 
 aliases: ["/dtff/"]
 draft: false
 
-# This adds the page to the main menu; adjust the weight to position it.
+# Add this page to the main menu; adjust the weight to position it
 menu:
   main:
     name: "DTFF Support"
@@ -17,12 +17,11 @@ sections:
   - type: hero_clients
     heading: "Secure your DTFF funding with expert support"
     text: |
-      The **Digital Transformation Flexible Fund (DTFF)** offers **Northern Ireland SMEs between £5,000 and £20,000** to invest in AI, data and process automation. Funding calls close quickly and the competition is intense.  We help you strengthen, refine or fully manage your submission.
-      
+      The **Digital Transformation Flexible Fund (DTFF)** offers **Northern Ireland SMEs between £5,000 and £20,000** to invest in AI, data and process automation. Funding calls close quickly and the competition is intense. We help you strengthen, refine or fully manage your submission.
+
       **[Download our DTFF brochure](/dtff_support_packages.pdf)** | **[Book a call](mailto:dtff@flaxandteal.co.uk)**
     bg_color: "#394E51"
     color: "#FFFFFF"
-    # optional: bg_image: "/images/dtff/hero.webp"
 
   # First left/right section: reasons to work with you
   - type: l_r
@@ -54,7 +53,7 @@ sections:
 
 # DTFF Application Support – Northern Ireland
 
-The **Digital Transformation Flexible Fund (DTFF)** offers **Northern Ireland SMEs between £5,000 and £20,000** to invest in advanced digital technologies, but competition is fierce and calls close quickly.  A small mistake or weak alignment with DTFF criteria can mean losing out.  At **Flax & Teal** we provide **specialist DTFF application support** to help you strengthen, refine or fully manage your submission.
+The **Digital Transformation Flexible Fund (DTFF)** offers **Northern Ireland SMEs between £5,000 and £20,000** to invest in advanced digital technologies, but competition is fierce and calls close quickly. A small mistake or weak alignment with DTFF criteria can mean losing out. At **Flax & Teal** we provide **specialist DTFF application support** to help you strengthen, refine or fully manage your submission.
 
 <hr>
 
@@ -64,7 +63,7 @@ The **Digital Transformation Flexible Fund (DTFF)** offers **Northern Ireland S
 ✔ **Proven results** – Our track record includes guiding SMEs through successful DTFF submissions.  
 ✔ **Flexible packages** – From a compliance check to full end‑to‑end application management, we match the level of support to your needs.  
 ✔ **Time savings** – Free up your team to focus on running the business while we handle the detail.  
-✔ **Peace of mind** – Be confident your Digital Transformation Plan is in the strongest position to meet DTFF scoring criteria.  
+✔ **Peace of mind** – Be confident your Digital Transformation Plan is in the strongest position to meet DTFF scoring criteria.
 
 <hr>
 
@@ -96,4 +95,4 @@ Don’t let your business miss out on DTFF funding. Whether you need a quick com
 
 Contact us at [dtff@flaxandteal.co.uk](mailto:dtff@flaxandteal.co.uk)
 
-**Act now – DTFF calls close fast and funding is limited.  Secure your package today to give your application the edge!**
+**Act now – DTFF calls close fast and funding is limited. Secure your package today to give your application the edge!**
