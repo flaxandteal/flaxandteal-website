@@ -3,7 +3,6 @@ title: "DTFF Application Support"
 date: 2025-08-26T13:00:00Z
 draft: false
 
-# Add your sections here.  Each item is rendered by a partial in layouts/partials.
 sections:
   - type: hero-alt
     bg_image: '/images/dtff/dtff-banner.webp'  # Path to your banner image in static/images/dtff
