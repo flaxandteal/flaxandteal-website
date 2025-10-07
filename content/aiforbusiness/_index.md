@@ -2,7 +2,7 @@
 title: "AI Tools for Business – Workshop Packages"
 description: "Practical AI workshops and mentoring commissioned by councils, enterprise agencies, and hubs to support local SMEs."
 aliases: ["/aiforbusiness/"]
-draft: false
+draft: true
 menu:
   main:
     name: "AI for Business Workshops"
