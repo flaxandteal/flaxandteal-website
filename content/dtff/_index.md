@@ -27,7 +27,7 @@ sections:
   - type: l_r
     order: 0
     heading: "Why work with Flax & Teal?"
-    img: "/images/dtff/why-work.webp"
+    img: "/images/dtff/why-work.png"
     bg_color: "#292929"
     color: "#9BCCC1"
     reverse: false
@@ -36,7 +36,7 @@ sections:
   - type: l_r
     order: 1
     heading: "DTFF Support Packages"
-    img: "/images/dtff/packages.webp"
+    img: "/images/dtff/packages.png"
     bg_color: "#9BCCC1"
     color: "#394E51"
     reverse: true
@@ -45,7 +45,7 @@ sections:
   - type: l_r
     order: 2
     heading: "Start your DTFF application today"
-    img: "/images/dtff/get-started.webp"
+    img: "/images/dtff/get-started.png"
     bg_color: "#F6F4EB"
     color: "#000000"
     reverse: false
