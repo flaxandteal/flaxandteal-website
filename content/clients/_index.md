@@ -1,6 +1,6 @@
 ---
 title: "Clients & Case Studies"
-aliases: ['/pages/clients']
+aliases: ['/clients']
 date: 2023-12-21T14:10:03Z
 draft: false
 sections:

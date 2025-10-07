@@ -1,6 +1,6 @@
 ---
 title: Contact Us
-aliases: ['/pages/contact']
+aliases: ['/contact']
 description: Drop us a message via our contact form
 draft: false
 sections:
