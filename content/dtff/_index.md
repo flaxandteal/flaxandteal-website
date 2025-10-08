@@ -81,6 +81,8 @@ End‑to‑end support for time‑poor SMEs – from expression of interest to p
 
 **[Download the full DTFF Support Packages brochure](https://flaxandteal.co.uk/dtff_support_packages.pdf)**
 
+Contact us at [dtff@flaxandteal.co.uk](mailto:dtff@flaxandteal.co.uk) or [book a free initial consultation](https://calendar.app.google/WhR8ushcrqHUMtyAA).
+
 <hr>
 
 ### Start Your DTFF Application Today
