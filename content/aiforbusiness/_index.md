@@ -15,12 +15,12 @@ sections:
     text: |
       Save time, cut costs, and reach more customers. These commissioned workshops help councils, enterprise agencies, and hubs deliver real value to their SME communities with practical, hands-on AI training.
 
-      **[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**  |  **[Book a discovery call](mailto:info@flaxandteal.co.uk)**
+      **[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**  |  **[Book a call](https://calendar.app.google/NJXiZ8TQNPS7c8h97)**
 
   - type: l_r
     order: 0
     heading: "Who should commission these workshops"
-    img: "/images/aiforbusiness/commissioners.png"
+    img: "/images/aiforbusiness/commissioners.webp"
     bg_color: "#394E51"
     color: "#FFFFFF"
     reverse: false
@@ -28,7 +28,7 @@ sections:
   - type: l_r
     order: 1
     heading: "Who attends"
-    img: "/images/aiforbusiness/attendees.png"
+    img: "/images/aiforbusiness/attendees.webp"
     bg_color: "#292929"
     color: "#9BCCC1"
     reverse: true
@@ -36,7 +36,7 @@ sections:
   - type: l_r
     order: 2
     heading: "Packages to fit your programme"
-    img: "/images/aiforbusiness/packages.png"
+    img: "/images/aiforbusiness/packages.webp"
     bg_color: "#9BCCC1"
     color: "#394E51"
     reverse: false
@@ -44,7 +44,7 @@ sections:
   - type: l_r
     order: 3
     heading: "What businesses gain"
-    img: "/images/aiforbusiness/outcomes.png"
+    img: "/images/aiforbusiness/outcomes.webp"
     bg_color: "#F6F4EB"
     color: "#000000"
     reverse: true
@@ -52,7 +52,7 @@ sections:
   - type: l_r
     order: 4
     heading: "Ready to support your business community"
-    img: "/images/aiforbusiness/cta.png"
+    img: "/images/aiforbusiness/cta.webp"
     bg_color: "#292929"
     color: "#9BCCC1"
     reverse: false
