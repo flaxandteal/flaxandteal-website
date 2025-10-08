@@ -27,7 +27,7 @@ sections:
   - type: l_r
     order: 0
     heading: "DTFF Application Support – Northern Ireland"
-    img: "/images/dtff/why-work.png"
+    img: "/images/dtff/packages.png"
     bg_color: "#292929"
     color: "#9BCCC1"
     reverse: false
@@ -36,7 +36,7 @@ sections:
   - type: l_r
     order: 1
     heading: "Why Work With Flax & Teal?"
-    img: "/images/dtff/packages.png"
+    img: "/images/dtff/why-work.png"
     bg_color: "#9BCCC1"
     color: "#394E51"
     reverse: true
