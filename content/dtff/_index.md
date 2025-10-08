@@ -55,11 +55,11 @@ sections:
 
 <hr>
 
-✔ **Local expertise** – We understand the Northern Ireland business landscape and DTFF’s unique requirements.  
-✔ **Proven results** – Our track record includes guiding businesses through successful DTFF submissions.  
-✔ **Flexible packages** – From a compliance check to full end‑to‑end application management, we match the level of support to your needs.  
-✔ **Time savings** – Free up your team to focus on running the business while we handle the detail.  
-✔ **Peace of mind** – Be confident your Digital Transformation Plan is in the strongest position to meet DTFF scoring criteria.
+#### ✔ **Local expertise** – We understand the Northern Ireland business landscape and DTFF’s unique requirements.  
+#### ✔ **Proven results** – Our track record includes guiding businesses through successful DTFF submissions.  
+#### ✔ **Flexible packages** – From a compliance check to full end‑to‑end application management, we match the level of support to your needs.  
+#### ✔ **Time savings** – Free up your team to focus on running the business while we handle the detail.  
+#### ✔ **Peace of mind** – Be confident your Digital Transformation Plan is in the strongest position to meet DTFF scoring criteria.
 
 <hr>
 #### 
