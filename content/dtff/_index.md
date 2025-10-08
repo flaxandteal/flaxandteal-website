@@ -23,19 +23,19 @@ sections:
     bg_color: "#394E51"
     color: "#FFFFFF"
 
-  # First left/right section: reasons to work with you
+  # First left/right section: header
   - type: l_r
     order: 0
-    heading: "Why work with Flax & Teal?"
+    heading: "DTFF Application Support – Northern Ireland"
     img: "/images/dtff/why-work.png"
     bg_color: "#292929"
     color: "#9BCCC1"
     reverse: false
 
-  # Second left/right section: outline the support packages
+  # Second left/right section: why work with us
   - type: l_r
     order: 1
-    heading: "DTFF Support Packages"
+    heading: "Why Work With Flax & Teal?"
     img: "/images/dtff/packages.png"
     bg_color: "#9BCCC1"
     color: "#394E51"
@@ -51,13 +51,9 @@ sections:
     reverse: false
 ---
 
-# DTFF Application Support – Northern Ireland
-
 The **Digital Transformation Flexible Fund (DTFF)** offers **Northern Ireland SMEs between £5,000 and £20,000** to invest in advanced digital technologies, but competition is fierce and calls close quickly. A small mistake or weak alignment with DTFF criteria can mean losing out. At **Flax & Teal** we provide **specialist DTFF application support** to help you strengthen, refine or fully manage your submission.
 
 <hr>
-
-### Why Work With Flax & Teal?
 
 ✔ **Local expertise** – We understand the Northern Ireland business landscape and DTFF’s unique requirements.  
 ✔ **Proven results** – Our track record includes guiding businesses through successful DTFF submissions.  
@@ -66,8 +62,6 @@ The **Digital Transformation Flexible Fund (DTFF)** offers **Northern Ireland S
 ✔ **Peace of mind** – Be confident your Digital Transformation Plan is in the strongest position to meet DTFF scoring criteria.
 
 <hr>
-
-### DTFF Support Packages
 
 **Level 1: Application Compliance Check**  
 Ideal for confident applicants who want reassurance. We’ll review your application against DTFF scoring and provide a clear report of any gaps.  
