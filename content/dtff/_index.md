@@ -15,11 +15,11 @@ layout: services
 sections:
   # Hero banner at the top
   - type: hero_clients
-    heading: "Secure your DTFF funding with expert support"
+    heading: "Secure your DTFF funding without the stress"
     text: |
-      The **Digital Transformation Flexible Fund (DTFF)** offers **Northern Ireland SMEs between £5,000 and £20,000** to invest in AI, data and process automation. Funding calls close quickly and the competition is intense. We help you strengthen, refine or fully manage your submission.
+      Expert guidance for Northern Ireland SMEs, from compliance check to full application management.
 
-      **[Download our DTFF brochure](/dtff_support_packages.pdf)** | **[Book a call](mailto:dtff@flaxandteal.co.uk)**
+      **[Download our DTFF support brochure](/dtff_support_packages.pdf)** | **[Book a free initial consultation](https://calendar.app.google/WhR8ushcrqHUMtyAA)**
     bg_color: "#394E51"
     color: "#FFFFFF"
 
@@ -60,7 +60,7 @@ The **Digital Transformation Flexible Fund (DTFF)** offers **Northern Ireland S
 ### Why Work With Flax & Teal?
 
 ✔ **Local expertise** – We understand the Northern Ireland business landscape and DTFF’s unique requirements.  
-✔ **Proven results** – Our track record includes guiding SMEs through successful DTFF submissions.  
+✔ **Proven results** – Our track record includes guiding businesses through successful DTFF submissions.  
 ✔ **Flexible packages** – From a compliance check to full end‑to‑end application management, we match the level of support to your needs.  
 ✔ **Time savings** – Free up your team to focus on running the business while we handle the detail.  
 ✔ **Peace of mind** – Be confident your Digital Transformation Plan is in the strongest position to meet DTFF scoring criteria.
@@ -93,6 +93,6 @@ End‑to‑end support for time‑poor SMEs – from expression of interest to p
 
 Don’t let your business miss out on DTFF funding. Whether you need a quick compliance check or full application management, our support packages give you the best chance of success.  
 
-Contact us at [dtff@flaxandteal.co.uk](mailto:dtff@flaxandteal.co.uk)
+Contact us at [dtff@flaxandteal.co.uk](mailto:dtff@flaxandteal.co.uk) or [book a free initial consultation](https://calendar.app.google/WhR8ushcrqHUMtyAA).
 
 **Act now – DTFF calls close fast and funding is limited. Secure your package today to give your application the edge!**
