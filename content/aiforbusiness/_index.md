@@ -111,4 +111,4 @@ Typical attendees include:
 Take the first step toward practical AI adoption for your local SMEs.
 
 **[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**  
-**[Book a discovery call](mailto:info@flaxandteal.co.uk)**
+**[Book an initial consultation](https://calendar.app.google/YzkjBbPdPPvGmzDn8)**
