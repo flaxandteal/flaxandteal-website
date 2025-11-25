@@ -1,0 +1,41 @@
+{{ define "main" }}
+<div class="no-print">
+  {{ partial "nav-new.html" . }}
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+<main class="ai-readiness-report ai-readiness-quiz">
+  <section class="report-header quiz-hero">
+    <div class="container mx-auto">
+      <img src="/images/index/flax-teal-logo.webp" alt="Flax & Teal" style="width: 150px; margin-bottom: 1rem;">
+      <h1>AI Readiness Diagnostic Report</h1>
+      <p id="report-date"></p>
+    </div>
+  </section>
+
+  <div id="report-content" class="quiz-container">
+    <div style="text-align: center; padding: 3rem; color: #666;">
+      <p>Loading your report...</p>
+      <p style="font-size: 14px; margin-top: 1rem;">If you haven't completed the quiz, <a href="/ai-readiness/">click here to take it now</a>.</p>
+    </div>
+  </div>
+
+  <div class="report-actions no-print" style="text-align: center; margin: 2rem 0 4rem 0;">
+    <button class="btn-primary" onclick="window.print()" style="padding: 0.8rem 2rem; border-radius: 500px; font-size: 16px; cursor: pointer; background-color: #334B4E; color: #fff; border: 2px solid #334B4E; font-weight: 600; font-family: 'Kumbh Sans', sans-serif; margin-right: 1rem;">
+      Print / Save as PDF
+    </button>
+    <a href="/ai-readiness/" class="btn-secondary" style="padding: 0.8rem 2rem; border-radius: 500px; font-size: 16px; text-decoration: none; background-color: transparent; color: #334B4E; border: 2px solid #334B4E; font-weight: 600; font-family: 'Kumbh Sans', sans-serif; display: inline-block;">
+      Retake Quiz
+    </a>
+  </div>
+</main>
+
+<div class="no-print">
+  {{ partial "footer-new.html" . }}
+</div>
+
+<script src="/report-generator-enhanced.js"></script>
+{{ end }}

@@ -1,0 +1,282 @@
+{
+  "quiz_title": "AI Readiness Diagnostic",
+  "quiz_description": "Understand your organization's readiness for AI adoption",
+  "questions": [
+    {
+      "id": "q1",
+      "category": "strategy",
+      "text": "How well defined are your organization's digital transformation goals?",
+      "options": [
+        {
+          "text": "We have no formal digital strategy",
+          "score": 0
+        },
+        {
+          "text": "We have discussed digital goals but nothing documented",
+          "score": 1
+        },
+        {
+          "text": "We have documented digital goals but no clear implementation plan",
+          "score": 2
+        },
+        {
+          "text": "We have clear, documented digital goals with implementation roadmaps",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "category": "data",
+      "text": "How would you describe your organization's approach to data management?",
+      "options": [
+        {
+          "text": "We store data but don't actively manage or analyze it",
+          "score": 0
+        },
+        {
+          "text": "We track key metrics but data is scattered across systems",
+          "score": 1
+        },
+        {
+          "text": "We have centralized data storage and regular reporting",
+          "score": 2
+        },
+        {
+          "text": "We have robust data governance and analytics capabilities",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "category": "skills",
+      "text": "What is your team's current level of AI and digital tool literacy?",
+      "options": [
+        {
+          "text": "Limited - most staff use only basic digital tools",
+          "score": 0
+        },
+        {
+          "text": "Moderate - some staff are comfortable with digital tools",
+          "score": 1
+        },
+        {
+          "text": "Good - most staff regularly use digital tools and are open to learning",
+          "score": 2
+        },
+        {
+          "text": "Advanced - team actively explores and adopts new technologies",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "category": "infrastructure",
+      "text": "How would you rate your current technology infrastructure?",
+      "options": [
+        {
+          "text": "Outdated systems with frequent issues",
+          "score": 0
+        },
+        {
+          "text": "Basic systems that meet current needs but limited scalability",
+          "score": 1
+        },
+        {
+          "text": "Modern systems with cloud services and regular updates",
+          "score": 2
+        },
+        {
+          "text": "Cutting-edge infrastructure with APIs and integration capabilities",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "category": "culture",
+      "text": "How does your organization approach innovation and change?",
+      "options": [
+        {
+          "text": "We prefer to stick with proven methods",
+          "score": 0
+        },
+        {
+          "text": "We're cautious but will adopt when others have proven success",
+          "score": 1
+        },
+        {
+          "text": "We actively seek opportunities to improve processes",
+          "score": 2
+        },
+        {
+          "text": "We have a culture of experimentation and continuous improvement",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "category": "resources",
+      "text": "What resources can your organization commit to AI initiatives?",
+      "options": [
+        {
+          "text": "Very limited - we're focused on day-to-day operations",
+          "score": 0
+        },
+        {
+          "text": "Some capacity - we could allocate a few hours per week",
+          "score": 1
+        },
+        {
+          "text": "Moderate capacity - we have budget and time for pilot projects",
+          "score": 2
+        },
+        {
+          "text": "Strong capacity - we have dedicated resources for innovation",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "category": "processes",
+      "text": "How documented and standardized are your key business processes?",
+      "options": [
+        {
+          "text": "Most processes are informal and undocumented",
+          "score": 0
+        },
+        {
+          "text": "Key processes are understood but not formally documented",
+          "score": 1
+        },
+        {
+          "text": "Most processes are documented with some standardization",
+          "score": 2
+        },
+        {
+          "text": "Comprehensive process documentation with continuous improvement",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "category": "awareness",
+      "text": "How familiar is your leadership team with AI capabilities and use cases?",
+      "options": [
+        {
+          "text": "Limited awareness - AI seems complex and distant",
+          "score": 0
+        },
+        {
+          "text": "Basic awareness - we've heard about AI but unclear on applications",
+          "score": 1
+        },
+        {
+          "text": "Good awareness - we understand potential use cases for our sector",
+          "score": 2
+        },
+        {
+          "text": "Strong awareness - we're actively exploring specific AI opportunities",
+          "score": 3
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "strategy": {
+      "name": "Strategic Planning",
+      "description": "Clear vision and goals for digital transformation"
+    },
+    "data": {
+      "name": "Data Readiness",
+      "description": "Ability to collect, manage and analyze data effectively"
+    },
+    "skills": {
+      "name": "Team Capabilities",
+      "description": "Staff skills and willingness to adopt new technologies"
+    },
+    "infrastructure": {
+      "name": "Technical Infrastructure",
+      "description": "Quality and scalability of existing technology systems"
+    },
+    "culture": {
+      "name": "Organizational Culture",
+      "description": "Openness to innovation and change"
+    },
+    "resources": {
+      "name": "Resource Availability",
+      "description": "Time, budget and commitment for AI initiatives"
+    },
+    "processes": {
+      "name": "Process Maturity",
+      "description": "Documentation and standardization of workflows"
+    },
+    "awareness": {
+      "name": "AI Awareness",
+      "description": "Understanding of AI capabilities and opportunities"
+    }
+  },
+  "score_bands": [
+    {
+      "min": 0,
+      "max": 8,
+      "level": "Foundation",
+      "color": "#E07A5F",
+      "summary": "Your organization is in the early stages of digital readiness. Focus on building foundational capabilities before pursuing AI initiatives.",
+      "recommendations": [
+        "Start with basic digital literacy training for your team",
+        "Document your key business processes",
+        "Identify one or two areas where better data tracking could help",
+        "Attend introductory workshops on AI for business"
+      ],
+      "next_steps": "Consider our Foundation Workshop package to help your team understand AI basics and identify quick wins."
+    },
+    {
+      "min": 9,
+      "max": 14,
+      "level": "Emerging",
+      "color": "#F4A261",
+      "summary": "Your organization has some digital capabilities in place but needs strengthening before scaling AI adoption.",
+      "recommendations": [
+        "Improve data collection and management practices",
+        "Pilot small AI tools for specific use cases (e.g., content generation)",
+        "Build a clearer digital transformation roadmap",
+        "Invest in upskilling key team members"
+      ],
+      "next_steps": "Our Tier 1 Workshop and Mentoring package could help you run focused pilots and build momentum."
+    },
+    {
+      "min": 15,
+      "max": 20,
+      "level": "Developing",
+      "color": "#9BCCC1",
+      "summary": "Your organization has good foundations and is ready to actively experiment with AI tools and approaches.",
+      "recommendations": [
+        "Launch pilot AI projects in 2-3 areas (e.g., marketing, operations)",
+        "Establish clear success metrics for AI initiatives",
+        "Build internal champions who can support broader adoption",
+        "Consider how AI can support your strategic goals"
+      ],
+      "next_steps": "Our Tier 2 Full Engagement package provides hands-on support plus insights to guide your AI strategy."
+    },
+    {
+      "min": 21,
+      "max": 24,
+      "level": "Advanced",
+      "color": "#394E51",
+      "summary": "Your organization is well-positioned for AI adoption and can pursue ambitious initiatives with confidence.",
+      "recommendations": [
+        "Develop a comprehensive AI adoption roadmap across functions",
+        "Invest in advanced AI capabilities (custom models, automation)",
+        "Share your learnings to position as an innovation leader",
+        "Explore partnerships or R&D opportunities"
+      ],
+      "next_steps": "Our Tier 3 Programme Pilot can help you develop a sector-leading AI capability and document your approach."
+    }
+  ]
+}

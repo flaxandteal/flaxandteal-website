@@ -1,0 +1,1113 @@
+{
+  "quiz_title": "AI Readiness Diagnostic",
+  "quiz_description": "Understand your organisation's readiness for AI adoption",
+  "sectors": {
+    "manufacturing": {
+      "name": "Manufacturing",
+      "icon": "🏭",
+      "description": "Production, assembly, and industrial processes"
+    },
+    "creative": {
+      "name": "Creative & Cultural",
+      "icon": "🎨",
+      "description": "Arts, design, media, and creative industries"
+    },
+    "food": {
+      "name": "Food & Beverage",
+      "icon": "🍽️",
+      "description": "Food production, hospitality, and catering"
+    },
+    "retail": {
+      "name": "Retail & E-commerce",
+      "icon": "🛍️",
+      "description": "Shops, online stores, and consumer goods"
+    },
+    "professional": {
+      "name": "Professional Services",
+      "icon": "💼",
+      "description": "Consulting, accounting, legal, and business services"
+    },
+    "technology": {
+      "name": "Technology & Software",
+      "icon": "💻",
+      "description": "IT services, software development, and tech products"
+    },
+    "health": {
+      "name": "Health & Wellness",
+      "icon": "🏥",
+      "description": "Healthcare, fitness, and wellbeing services"
+    },
+    "education": {
+      "name": "Education & Training",
+      "icon": "📚",
+      "description": "Schools, training providers, and educational services"
+    },
+    "other": {
+      "name": "Other",
+      "icon": "🏢",
+      "description": "Other sectors and industries"
+    }
+  },
+  "regions": {
+    "northern_ireland": {
+      "name": "Northern Ireland",
+      "enabled": true,
+      "description": "Based in Northern Ireland"
+    },
+    "scotland": {
+      "name": "Scotland",
+      "enabled": false,
+      "description": "Based in Scotland"
+    },
+    "england": {
+      "name": "England",
+      "enabled": false,
+      "description": "Based in England"
+    },
+    "wales": {
+      "name": "Wales",
+      "enabled": false,
+      "description": "Based in Wales"
+    },
+    "republic_ireland": {
+      "name": "Republic of Ireland",
+      "enabled": false,
+      "description": "Based in the Republic of Ireland"
+    },
+    "other": {
+      "name": "Other Region",
+      "enabled": true,
+      "description": "Based elsewhere"
+    }
+  },
+  "questions": [
+    {
+      "id": "q0_sector",
+      "type": "grid",
+      "category": "sector",
+      "text": "Which sector best describes your organisation?",
+      "description": "This helps us provide sector-specific insights and recommendations.",
+      "options": "sectors"
+    },
+    {
+      "id": "q0_region",
+      "type": "grid",
+      "category": "region",
+      "text": "Where is your organisation based?",
+      "description": "This helps us provide region-specific funding and support information.",
+      "options": "regions"
+    },
+    {
+      "id": "q1",
+      "category": "strategy",
+      "text": "How well defined are your organisation's digital transformation goals?",
+      "options": [
+        {"text": "We have no formal digital strategy", "score": 0},
+        {"text": "We have discussed digital goals but nothing documented", "score": 1},
+        {"text": "We have documented digital goals but no clear implementation plan", "score": 2},
+        {"text": "We have clear, documented digital goals with implementation roadmaps", "score": 3}
+      ]
+    },
+    {
+      "id": "q2",
+      "category": "data",
+      "text": "How would you describe your organisation's approach to data management?",
+      "options": [
+        {"text": "We store data but don't actively manage or analyse it", "score": 0},
+        {"text": "We track key metrics but data is scattered across systems", "score": 1},
+        {"text": "We have centralized data storage and regular reporting", "score": 2},
+        {"text": "We have robust data governance and analytics capabilities", "score": 3}
+      ]
+    },
+    {
+      "id": "q3",
+      "category": "skills",
+      "text": "What is your team's current level of AI and digital tool literacy?",
+      "options": [
+        {"text": "Limited - most staff use only basic digital tools", "score": 0},
+        {"text": "Moderate - some staff are comfortable with digital tools", "score": 1},
+        {"text": "Good - most staff regularly use digital tools and are open to learning", "score": 2},
+        {"text": "Advanced - team actively explores and adopts new technologies", "score": 3}
+      ]
+    },
+    {
+      "id": "q4",
+      "category": "infrastructure",
+      "text": "How would you rate your current technology infrastructure?",
+      "options": [
+        {"text": "Outdated systems with frequent issues", "score": 0},
+        {"text": "Basic systems that meet current needs but limited scalability", "score": 1},
+        {"text": "Modern systems with cloud services and regular updates", "score": 2},
+        {"text": "Cutting-edge infrastructure with APIs and integration capabilities", "score": 3}
+      ]
+    },
+    {
+      "id": "q5",
+      "category": "culture",
+      "text": "How does your organisation approach innovation and change?",
+      "options": [
+        {"text": "We prefer to stick with proven methods", "score": 0},
+        {"text": "We're cautious but will adopt when others have proven success", "score": 1},
+        {"text": "We actively seek opportunities to improve processes", "score": 2},
+        {"text": "We have a culture of experimentation and continuous improvement", "score": 3}
+      ]
+    },
+    {
+      "id": "q6",
+      "category": "resources",
+      "text": "What resources can your organisation commit to AI initiatives?",
+      "options": [
+        {"text": "Very limited - we're focused on day-to-day operations", "score": 0},
+        {"text": "Some capacity - we could allocate a few hours per week", "score": 1},
+        {"text": "Moderate capacity - we have budget and time for pilot projects", "score": 2},
+        {"text": "Strong capacity - we have dedicated resources for innovation", "score": 3}
+      ]
+    },
+    {
+      "id": "q7",
+      "category": "processes",
+      "text": "How documented and standardised are your key business processes?",
+      "options": [
+        {"text": "Most processes are informal and undocumented", "score": 0},
+        {"text": "Key processes are understood but not formally documented", "score": 1},
+        {"text": "Most processes are documented with some standardisation", "score": 2},
+        {"text": "Comprehensive process documentation with continuous improvement", "score": 3}
+      ]
+    },
+    {
+      "id": "q8",
+      "category": "awareness",
+      "text": "How familiar is your leadership team with AI capabilities and use cases?",
+      "options": [
+        {"text": "Limited awareness - AI seems complex and distant", "score": 0},
+        {"text": "Basic awareness - we've heard about AI but unclear on applications", "score": 1},
+        {"text": "Good awareness - we understand potential use cases for our sector", "score": 2},
+        {"text": "Strong awareness - we're actively exploring specific AI opportunities", "score": 3}
+      ]
+    }
+  ],
+  "categories": {
+    "strategy": {
+      "name": "Strategic Planning",
+      "description": "Clear vision and goals for digital transformation",
+      "explanation": "Strategic planning measures whether your organisation has articulated goals for digital transformation and AI adoption. Organisations with strong strategic foundations can align AI initiatives with business objectives, secure leadership buy-in, and measure ROI effectively."
+    },
+    "data": {
+      "name": "Data Readiness",
+      "description": "Ability to collect, manage and analyse data effectively",
+      "explanation": "Data is the fuel for AI systems. This dimension assesses your organisation's maturity in collecting, storing, and leveraging data. Strong data practices enable better AI outcomes and reduce implementation risks."
+    },
+    "skills": {
+      "name": "Team Capabilities",
+      "description": "Staff skills and willingness to adopt new technologies",
+      "explanation": "Your team's digital literacy and openness to learning directly impacts AI adoption success. Organisations with stronger digital capabilities can implement AI tools faster and maximize their value."
+    },
+    "infrastructure": {
+      "name": "Technical Infrastructure",
+      "description": "Quality and scalability of existing technology systems",
+      "explanation": "Modern, scalable infrastructure supports AI integration and experimentation. Legacy systems may require upgrades or workarounds before AI tools can be effectively deployed."
+    },
+    "culture": {
+      "name": "Organisational Culture",
+      "description": "Openness to innovation and change",
+      "explanation": "A culture that embraces experimentation and continuous improvement accelerates AI adoption. Organisations that resist change face longer implementation timelines and lower success rates."
+    },
+    "resources": {
+      "name": "Resource Availability",
+      "description": "Time, budget and commitment for AI initiatives",
+      "explanation": "Successful AI adoption requires dedicated time and budget. Organisations that can allocate resources to experimentation and learning see faster results than those constrained by day-to-day operations."
+    },
+    "processes": {
+      "name": "Process Maturity",
+      "description": "Documentation and standardisation of workflows",
+      "explanation": "Well-documented processes are easier to optimise with AI. Understanding your current workflows helps identify where AI can add value and enables better measurement of improvements."
+    },
+    "awareness": {
+      "name": "AI Awareness",
+      "description": "Understanding of AI capabilities and opportunities",
+      "explanation": "Leadership understanding of AI capabilities shapes realistic expectations and informed decision-making. Higher awareness correlates with more strategic AI investments and better outcomes."
+    }
+  },
+  "score_bands": [
+    {
+      "min": 0,
+      "max": 8,
+      "level": "Foundation",
+      "color": "#E07A5F",
+      "summary": "Your organisation is in the early stages of digital readiness. Focus on building foundational capabilities before pursuing AI initiatives.",
+      "recommendations": [
+        "Start with basic digital literacy training for your team",
+        "Document your key business processes",
+        "Identify one or two areas where better data tracking could help",
+        "Attend introductory workshops on AI for business"
+      ],
+      "next_steps": "Consider our Foundation Workshop package to help your team understand AI basics and identify quick wins.",
+      "state_of_industry": "AI adoption is accelerating across all sectors, but successful implementation requires solid digital foundations. Organisations at your maturity level should focus on strengthening core capabilities rather than rushing into AI deployment. The good news: simple, affordable AI tools are increasingly accessible for businesses building their digital capabilities.",
+      "sector_uptake": {
+        "manufacturing": "In manufacturing, AI adoption ranges from basic inventory management systems to sophisticated predictive maintenance. At your maturity level, focus on digitizing manual processes and establishing reliable data collection before considering AI applications.",
+        "creative": "Creative sectors are seeing rapid AI adoption in content generation and design assistance. However, successful use requires understanding your creative processes and where AI can augment rather than replace human creativity.",
+        "food": "Food businesses are using AI for inventory optimisation, demand forecasting, and customer preferences. Start by digitizing your ordering and stock management systems to create the data foundation AI needs.",
+        "default": "Across all sectors, successful AI adoption begins with strong digital foundations. Organisations at your level should focus on basic digitization and data practices before pursuing AI implementations."
+      },
+      "future_developments": "Over the next 12-18 months, focus on building digital literacy across your team, documenting core processes, and establishing basic data management practices. These foundations will position you for AI experimentation when you're ready. Expect AI tools to become more accessible and user-friendly, making entry easier for SMEs.",
+      "common_tools": [
+        {
+          "name": "ChatGPT / Claude",
+          "category": "Content & Communication",
+          "description": "AI assistants for writing, brainstorming, and content creation. Useful for drafting emails, marketing copy, and exploring ideas.",
+          "cost": "Free to £20/month",
+          "ease": "Very Easy",
+          "notes": "Start here. These tools require no technical setup and provide immediate value for content tasks. Focus on learning effective prompting techniques."
+        },
+        {
+          "name": "Canva AI",
+          "category": "Design & Visual",
+          "description": "Design platform with AI-powered image generation, background removal, and layout suggestions.",
+          "cost": "Free to £10/month",
+          "ease": "Easy",
+          "notes": "Great for businesses needing marketing materials without a dedicated designer. AI features help non-designers create professional content."
+        },
+        {
+          "name": "Grammarly",
+          "category": "Writing & Editing",
+          "description": "AI-powered writing assistant for grammar, tone, and clarity improvements.",
+          "cost": "Free to £12/month",
+          "ease": "Very Easy",
+          "notes": "Improves written communication quality across your organisation. Particularly valuable for customer-facing content."
+        },
+        {
+          "name": "Google Workspace AI",
+          "category": "Productivity",
+          "description": "AI features in Gmail, Docs, and Sheets for drafting, summarizing, and data analysis.",
+          "cost": "Included in workspace plans",
+          "ease": "Easy",
+          "notes": "If you already use Google Workspace, these AI features are available at no extra cost. Start experimenting with Smart Compose and Help me write."
+        }
+      ],
+      "funding_support": {
+        "northern_ireland": {
+          "enabled": true,
+          "items": [
+            "**Invest NI Innovation Vouchers** - Up to £5,000 for innovation projects including AI exploration. No match funding required for businesses under 50 employees.",
+            "**Digital Skills Support** - Funding available through local councils for digital upskilling programmes.",
+            "**Enterprise NI SME Support** - Various programmes offering support for digital transformation, including subsidised consultancy."
+          ]
+        },
+        "scotland": {
+          "enabled": false,
+          "items": [
+            "**Scottish Enterprise Digital Boost** - Grants and support for digital transformation projects.",
+            "**Skills Development Scotland** - Funding for workforce digital upskilling.",
+            "**Scottish Government Innovation Support** - Various schemes supporting business innovation."
+          ]
+        },
+        "england": {
+          "enabled": false,
+          "items": [
+            "**Innovate UK SMART Grants** - Funding for innovative technology projects.",
+            "**Local Enterprise Partnerships** - Regional support for business growth and innovation.",
+            "**Help to Grow: Digital** - Government scheme supporting SME digital adoption."
+          ]
+        },
+        "wales": {
+          "enabled": false,
+          "items": [
+            "**Business Wales Innovation Vouchers** - Support for exploring new technologies.",
+            "**Welsh Government Smart Cymru** - R&D funding for innovation projects.",
+            "**Digital Development Fund** - Grants for digital technology adoption."
+          ]
+        },
+        "republic_ireland": {
+          "enabled": false,
+          "items": [
+            "**Enterprise Ireland Innovation Vouchers** - Up to €5,000 for innovation projects.",
+            "**Local Enterprise Office Support** - Training and grant support for SMEs.",
+            "**Skillnet Ireland** - Subsidised training programmes including digital skills."
+          ]
+        },
+        "general": [
+          "Look for sector-specific innovation programmes through your local enterprise agency",
+          "Council-commissioned digital skills programmes often include AI awareness training",
+          "Consider peer learning groups or business networks for shared learning opportunities"
+        ]
+      },
+      "business_groups": {
+        "northern_ireland": {
+          "enabled": true,
+          "groups": [
+            {
+              "name": "Digital DNA NI",
+              "description": "Northern Ireland's digital technology network connecting businesses with digital opportunities and peer learning.",
+              "link": "https://digitaldna.org.uk"
+            },
+            {
+              "name": "NI Chamber Digital Council",
+              "description": "Business network focused on digital transformation and technology adoption across NI sectors.",
+              "link": "https://www.nighamber.org.uk"
+            },
+            {
+              "name": "TechStart NI",
+              "description": "Supporting tech-enabled businesses with events, mentoring, and connections to the innovation ecosystem.",
+              "link": "https://techstartni.com"
+            }
+          ]
+        },
+        "scotland": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "ScotlandIS",
+              "description": "Trade body for Scotland's digital technologies industry, offering networking and support.",
+              "link": "https://www.scotlandis.com"
+            },
+            {
+              "name": "Scottish Tech Network",
+              "description": "Community connecting tech businesses across Scotland for knowledge sharing and collaboration.",
+              "link": "https://scottech.network"
+            }
+          ]
+        },
+        "england": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "Tech UK",
+              "description": "National trade association for technology companies with regional chapters.",
+              "link": "https://www.techuk.org"
+            },
+            {
+              "name": "Local Digital Partnerships",
+              "description": "Regional business networks focused on digital transformation, varies by area.",
+              "link": ""
+            }
+          ]
+        },
+        "wales": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "Tech Wales",
+              "description": "Community supporting Welsh tech sector with events and networking.",
+              "link": "https://www.techwales.com"
+            },
+            {
+              "name": "Fintech Wales",
+              "description": "Promoting financial technology innovation across Wales.",
+              "link": "https://fintechswales.com"
+            }
+          ]
+        },
+        "republic_ireland": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "Technology Ireland",
+              "description": "Ibec's technology sector group representing Irish tech companies.",
+              "link": "https://www.ibec.ie/technologyireland"
+            },
+            {
+              "name": "Irish Tech Community",
+              "description": "Grassroots community connecting tech professionals and businesses across Ireland.",
+              "link": "https://irishtechcommunity.com"
+            }
+          ]
+        },
+        "general": [
+          {
+            "name": "Local Chamber of Commerce",
+            "description": "Most areas have chamber of commerce with digital or innovation working groups.",
+            "link": ""
+          },
+          {
+            "name": "Industry Trade Bodies",
+            "description": "Sector-specific trade associations often have technology and innovation initiatives.",
+            "link": ""
+          },
+          {
+            "name": "LinkedIn Industry Groups",
+            "description": "Professional networking groups focused on AI adoption in your sector.",
+            "link": ""
+          }
+        ]
+      },
+      "next_steps_detailed": [
+        {
+          "priority": "Immediate (Next 4 weeks)",
+          "actions": [
+            "Assign one team member as digital champion to explore AI tools",
+            "Sign up for free trials of ChatGPT Plus and Canva Pro",
+            "Identify three repetitive tasks that could benefit from automation or AI assistance",
+            "Attend a Flax & Teal introductory workshop on AI for business"
+          ]
+        },
+        {
+          "priority": "Short-term (1-3 months)",
+          "actions": [
+            "Document your top 5-10 business processes",
+            "Start collecting basic data on customer interactions and sales patterns",
+            "Run small experiments with free AI tools in marketing or customer service",
+            "Schedule time for team members to learn about AI through online resources"
+          ]
+        },
+        {
+          "priority": "Medium-term (3-6 months)",
+          "actions": [
+            "Review your experiments and identify which AI tools added value",
+            "Develop a simple digital roadmap identifying areas for improvement",
+            "Consider investing in a paid AI tool that showed clear benefits",
+            "Explore Invest NI innovation vouchers for external AI consultancy"
+          ]
+        }
+      ],
+      "common_strategies": [
+        {
+          "strategy": "Start with Personal Productivity",
+          "description": "Have team members use AI tools for their individual tasks (emails, research, content) before attempting organisation-wide implementation. This builds familiarity and identifies champions.",
+          "success_factors": ["Low risk", "Immediate feedback", "Builds confidence", "Minimal investment"]
+        },
+        {
+          "strategy": "Focus on Content and Marketing",
+          "description": "Content creation is where AI delivers quick wins for SMEs. Use AI to draft social media posts, product descriptions, email campaigns, and basic graphics.",
+          "success_factors": ["Visible results", "Time savings", "Easy to measure", "Multiple free tools available"]
+        },
+        {
+          "strategy": "Document as You Go",
+          "description": "As you experiment with AI tools, document what works and what doesn't. This creates organisational learning and prevents repeated mistakes.",
+          "success_factors": ["Builds knowledge base", "Identifies patterns", "Supports scaling", "Enables knowledge transfer"]
+        },
+        {
+          "strategy": "Join a Learning Cohort",
+          "description": "Connect with other SMEs exploring AI through council programmes, enterprise agencies, or Flax & Teal workshops. Peer learning accelerates adoption and reduces isolated frustration.",
+          "success_factors": ["Shared learning", "Peer support", "Realistic expectations", "Sector-specific insights"]
+        }
+      ],
+      "contact_cta": {
+        "heading": "Ready to Build Your AI Foundation?",
+        "message": "Our Foundation Workshop helps SMEs at your stage understand AI capabilities and identify practical starting points. We provide hands-on training and personalized guidance to build your confidence.",
+        "primary_action": "Book a free consultation",
+        "secondary_action": "Download our workshop brochure"
+      }
+    },
+    {
+      "min": 9,
+      "max": 14,
+      "level": "Emerging",
+      "color": "#F4A261",
+      "summary": "Your organisation has some digital capabilities in place but needs strengthening before scaling AI adoption.",
+      "recommendations": [
+        "Improve data collection and management practices",
+        "Pilot small AI tools for specific use cases (e.g., content generation)",
+        "Build a clearer digital transformation roadmap",
+        "Invest in upskilling key team members"
+      ],
+      "next_steps": "Our Tier 1 Workshop and Mentoring package could help you run focused pilots and build momentum.",
+      "state_of_industry": "You're in a strong position relative to many SMEs. Organisations at your maturity level are successfully running AI pilots and beginning to integrate AI into standard workflows. The key challenge is moving from experimentation to systematic adoption.",
+      "sector_uptake": {
+        "default": "Across sectors, organisations at your level are piloting AI in 2-3 specific use cases. Focus on learning from these experiments and gradually expanding successful applications rather than pursuing multiple simultaneous initiatives."
+      },
+      "future_developments": "Over the next 6-12 months, consolidate your digital infrastructure and data practices. Successful pilots should be scaled, unsuccessful ones discontinued. Build internal expertise through training and mentoring. Expect to see measurable productivity gains in the areas where you've deployed AI effectively.",
+      "common_tools": [
+        {
+          "name": "Notion AI / Craft",
+          "category": "Knowledge Management",
+          "description": "AI-enhanced workspace for documentation, project management, and knowledge sharing with automatic summarization and content generation.",
+          "cost": "£8-15/user/month",
+          "ease": "Moderate",
+          "notes": "Helps centralize information and make it accessible. AI features assist with documentation and knowledge retrieval."
+        },
+        {
+          "name": "HubSpot AI / Mailchimp AI",
+          "category": "Marketing Automation",
+          "description": "CRM and marketing platforms with AI for email optimisation, content suggestions, and customer segmentation.",
+          "cost": "£15-50/month",
+          "ease": "Moderate",
+          "notes": "Suitable for businesses ready to systematize marketing. AI helps optimise campaigns and personalize customer communications."
+        },
+        {
+          "name": "Zapier with AI",
+          "category": "Automation",
+          "description": "Connects different software tools with AI-powered automation for repetitive tasks.",
+          "cost": "£20-50/month",
+          "ease": "Moderate",
+          "notes": "Powerful for automating workflows between systems. Requires some technical comfort but no coding skills."
+        }
+      ],
+      "funding_support": {
+        "northern_ireland": {
+          "enabled": true,
+          "items": [
+            "**Invest NI Collaborative Growth Programme** - Supports innovation projects with grants up to £50,000 (with match funding).",
+            "**Digital Transformation Vouchers** - Available through some local councils for technology adoption.",
+            "**Innovation Labs NI** - Access to facilities and expertise for testing AI solutions."
+          ]
+        },
+        "scotland": {
+          "enabled": false,
+          "items": [
+            "**Scottish Enterprise Innovation Support** - Grants and advice for innovation projects.",
+            "**Interface Innovation Vouchers** - Connect with academic expertise for technology projects.",
+            "**Scottish Funding Council** - Research and innovation partnerships."
+          ]
+        },
+        "england": {
+          "enabled": false,
+          "items": [
+            "**Innovate UK Grants** - Competitive funding for innovation projects.",
+            "**Regional Growth Funds** - Available through local enterprise partnerships.",
+            "**Innovation Loans** - Government-backed loans for business innovation."
+          ]
+        },
+        "wales": {
+          "enabled": false,
+          "items": [
+            "**Smart Innovation Vouchers** - Up to £25,000 for collaborative innovation projects.",
+            "**Welsh Government Business Development Grants** - Support for growth and innovation.",
+            "**Academi Wales** - Innovation partnerships with Welsh universities."
+          ]
+        },
+        "republic_ireland": {
+          "enabled": false,
+          "items": [
+            "**Enterprise Ireland Innovation Partnership** - Support for collaborative innovation projects.",
+            "**Disruptive Technologies Innovation Fund** - Funding for cutting-edge technology adoption.",
+            "**Regional Enterprise Development Fund** - Grants for business growth and innovation."
+          ]
+        },
+        "general": [
+          "Explore sector-specific innovation funds through trade bodies",
+          "Consider innovation loans and growth funding from business banks",
+          "Look for university partnership programmes in your region"
+        ]
+      },
+      "business_groups": {
+        "northern_ireland": {
+          "enabled": true,
+          "groups": [
+            {
+              "name": "Digital DNA NI",
+              "description": "Northern Ireland's digital technology network with peer learning and collaboration opportunities.",
+              "link": "https://digitaldna.org.uk"
+            },
+            {
+              "name": "Catalyst Inc",
+              "description": "NI's largest tech and innovation hub offering workspace, events, and connections.",
+              "link": "https://catalystinc.org"
+            },
+            {
+              "name": "Women in Business NI",
+              "description": "Supporting female entrepreneurs with technology and innovation focus.",
+              "link": "https://womeninbusinessni.com"
+            }
+          ]
+        },
+        "scotland": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "ScotlandIS",
+              "description": "Scotland's tech trade body with events, advocacy, and business support.",
+              "link": "https://www.scotlandis.com"
+            },
+            {
+              "name": "CodeBase",
+              "description": "Scotland's largest tech incubator with community and growth support.",
+              "link": "https://www.thisiscodebase.com"
+            }
+          ]
+        },
+        "england": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "Tech Nation",
+              "description": "National network supporting UK tech companies with growth programmes.",
+              "link": "https://technation.io"
+            },
+            {
+              "name": "Regional Tech Clusters",
+              "description": "Technology business networks in major cities (Tech Manchester, Leeds Digital, etc.).",
+              "link": ""
+            }
+          ]
+        },
+        "wales": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "Tech Wales",
+              "description": "Community-led network supporting Welsh tech sector growth.",
+              "link": "https://www.techwales.com"
+            },
+            {
+              "name": "Cardiff Start",
+              "description": "Innovation hub supporting startups and growing businesses in South Wales.",
+              "link": "https://cardiffstart.co.uk"
+            }
+          ]
+        },
+        "republic_ireland": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "Technology Ireland",
+              "description": "National tech industry group with networking and policy advocacy.",
+              "link": "https://www.ibec.ie/technologyireland"
+            },
+            {
+              "name": "Dublin Tech Summit",
+              "description": "Major tech conference and year-round community for Irish tech businesses.",
+              "link": "https://dublintechsummit.tech"
+            }
+          ]
+        },
+        "general": [
+          {
+            "name": "Industry Peer Groups",
+            "description": "Join sector-specific business networks or peer learning circles.",
+            "link": ""
+          },
+          {
+            "name": "Scale-up Networks",
+            "description": "Regional networks for growth-stage businesses often focus on innovation.",
+            "link": ""
+          }
+        ]
+      },
+      "next_steps_detailed": [
+        {
+          "priority": "Immediate (Next 4 weeks)",
+          "actions": [
+            "Audit current AI tool usage across your organisation",
+            "Identify 2-3 high-impact pilot projects",
+            "Designate AI champions within key departments",
+            "Book a Tier 1 workshop with mentoring support"
+          ]
+        }
+      ],
+      "common_strategies": [
+        {
+          "strategy": "Pilot, Measure, Scale",
+          "description": "Run focused pilots in specific areas, measure results rigorously, then scale successes. Don't spread resources too thin.",
+          "success_factors": ["Clear metrics", "Contained scope", "Quick learning cycles", "Evidence-based decisions"]
+        }
+      ],
+      "contact_cta": {
+        "heading": "Ready to Scale Your AI Pilots?",
+        "message": "Our Tier 1 Workshop and Mentoring package helps organisations like yours move from experimentation to systematic adoption with hands-on support.",
+        "primary_action": "Book a consultation",
+        "secondary_action": "Learn more about our workshops"
+      }
+    },
+    {
+      "min": 15,
+      "max": 20,
+      "level": "Developing",
+      "color": "#9BCCC1",
+      "summary": "Your organisation has good foundations and is ready to actively experiment with AI tools and approaches.",
+      "recommendations": [
+        "Launch pilot AI projects in 2-3 areas (e.g., marketing, operations)",
+        "Establish clear success metrics for AI initiatives",
+        "Build internal champions who can support broader adoption",
+        "Consider how AI can support your strategic goals"
+      ],
+      "next_steps": "Our Tier 2 Full Engagement package provides hands-on support plus insights to guide your AI strategy.",
+      "state_of_industry": "Organisations at your maturity level are integrating AI into core workflows and seeing measurable productivity gains. The focus shifts from experimentation to scaling successful implementations and building organisational AI capability.",
+      "sector_uptake": {
+        "default": "Developing-level organisations are moving beyond pilots to systematic AI deployment. Success requires balancing ambition with pragmatism - scale what works, iterate on what doesn't, and build the internal capability to sustain progress."
+      },
+      "future_developments": "Over the next 6-12 months, focus on scaling successful pilots, building internal expertise, and establishing governance frameworks. Expect to see compound benefits as AI tools integrate with each other and your workflows. Leadership understanding and organisational change management become critical success factors.",
+      "common_tools": [
+        {
+          "name": "Custom GPT / Claude Projects",
+          "category": "Tailored AI Assistants",
+          "description": "Create customised AI assistants trained on your specific processes, data, and needs.",
+          "cost": "£20-60/month",
+          "ease": "Moderate",
+          "notes": "Powerful for creating organisation-specific AI capabilities without custom development. Requires clear understanding of use cases and good prompt engineering."
+        },
+        {
+          "name": "Make.com / n8n",
+          "category": "Advanced Automation",
+          "description": "Visual automation platforms with AI integrations for complex workflows.",
+          "cost": "£30-100/month",
+          "ease": "Moderate-Hard",
+          "notes": "More powerful than Zapier for complex scenarios. Requires technical comfort but enables sophisticated AI-powered workflows."
+        }
+      ],
+      "funding_support": {
+        "northern_ireland": {
+          "enabled": true,
+          "items": [
+            "**Innovation Voucher Plus** - Up to £10,000 for advanced innovation projects.",
+            "**R&D Tax Credits** - Claim back corporation tax on qualifying AI development work.",
+            "**Invest NI Growth Accelerator** - Intensive support for scaling businesses including AI strategy."
+          ]
+        },
+        "scotland": {
+          "enabled": false,
+          "items": [
+            "**Scottish Enterprise Account Management** - Tailored support for growth companies including innovation funding.",
+            "**R&D Tax Credits** - HMRC scheme for claiming back development costs.",
+            "**Scottish Investment Bank** - Growth funding and patient capital for innovative businesses."
+          ]
+        },
+        "england": {
+          "enabled": false,
+          "items": [
+            "**Innovate UK Smart Grants** - Substantial funding for ambitious innovation projects.",
+            "**R&D Tax Credits** - Claim back development costs on qualifying activities.",
+            "**Growth Hubs** - Regional support for scaling businesses including innovation programmes."
+          ]
+        },
+        "wales": {
+          "enabled": false,
+          "items": [
+            "**Smart Cymru Accelerated Growth Programme** - Intensive support for high-growth potential businesses.",
+            "**R&D Tax Credits** - Maximize claims for innovation and development work.",
+            "**Development Bank of Wales** - Growth capital and innovation funding."
+          ]
+        },
+        "republic_ireland": {
+          "enabled": false,
+          "items": [
+            "**Enterprise Ireland High Potential Start-Up** - Funding and support for innovative companies.",
+            "**R&D Tax Credit** - Generous 25% credit on qualifying expenditure.",
+            "**Competitive Start Fund** - Equity investment for ambitious innovation-driven companies."
+          ]
+        },
+        "general": [
+          "Maximize R&D tax credit claims - engage specialist advisors",
+          "Explore innovation-focused lending products from business banks",
+          "Consider equity investment if pursuing significant AI development",
+          "Look for sector-specific innovation challenges and competitions"
+        ]
+      },
+      "business_groups": {
+        "northern_ireland": {
+          "enabled": true,
+          "groups": [
+            {
+              "name": "Catalyst Inc",
+              "description": "Innovation hub with scale-up programmes, mentoring, and investor connections.",
+              "link": "https://catalystinc.org"
+            },
+            {
+              "name": "NI Chamber Scale-Up Programme",
+              "description": "Peer learning and support for high-growth businesses.",
+              "link": "https://www.nighamber.org.uk"
+            },
+            {
+              "name": "Belfast Tech Meetup",
+              "description": "Active community of technology professionals and innovators.",
+              "link": "https://www.meetup.com/belfast-tech"
+            }
+          ]
+        },
+        "scotland": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "CodeBase Scale",
+              "description": "Growth programme for Scotland's most ambitious tech companies.",
+              "link": "https://www.thisiscodebase.com"
+            },
+            {
+              "name": "Entrepreneurial Scotland",
+              "description": "Network of high-growth business leaders with technology focus.",
+              "link": "https://www.entrepreneurial-scotland.com"
+            }
+          ]
+        },
+        "england": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "Tech Nation Scale-Up",
+              "description": "Growth programme for UK's fastest-growing tech companies.",
+              "link": "https://technation.io"
+            },
+            {
+              "name": "Scale-Up Institute",
+              "description": "National organisation supporting high-growth companies.",
+              "link": "https://www.scaleupinstitute.org.uk"
+            }
+          ]
+        },
+        "wales": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "Tech Wales Scale",
+              "description": "Supporting Welsh tech companies through growth stages.",
+              "link": "https://www.techwales.com"
+            },
+            {
+              "name": "Accelerate Wales",
+              "description": "Business support network focused on innovation and growth.",
+              "link": "https://businesswales.gov.wales"
+            }
+          ]
+        },
+        "republic_ireland": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "Scale Ireland",
+              "description": "Community and supports for Ireland's scaling companies.",
+              "link": "https://www.scaleireland.com"
+            },
+            {
+              "name": "Going for Growth",
+              "description": "Peer-led development programme for ambitious business leaders.",
+              "link": "https://goingforgrowth.com"
+            }
+          ]
+        },
+        "general": [
+          {
+            "name": "Industry Leadership Groups",
+            "description": "Join CEO or leadership peer groups focused on innovation and technology.",
+            "link": ""
+          },
+          {
+            "name": "Academic Partnerships",
+            "description": "University innovation centres often run industry collaboration programmes.",
+            "link": ""
+          }
+        ]
+      },
+      "next_steps_detailed": [
+        {
+          "priority": "Immediate (Next 4 weeks)",
+          "actions": [
+            "Map current AI usage and identify scaling opportunities",
+            "Establish KPIs for AI initiatives",
+            "Create an AI governance framework",
+            "Book Tier 2 Full Engagement workshop"
+          ]
+        }
+      ],
+      "common_strategies": [
+        {
+          "strategy": "Build Internal Champions",
+          "description": "Identify and empower AI champions across departments who can drive adoption, support colleagues, and provide feedback on what's working.",
+          "success_factors": ["Distributed expertise", "Peer learning", "Faster adoption", "Better feedback loops"]
+        }
+      ],
+      "contact_cta": {
+        "heading": "Ready to Scale Systematically?",
+        "message": "Our Tier 2 Full Engagement package provides hands-on support and strategic insights to help you move from pilots to systematic AI integration.",
+        "primary_action": "Book a consultation",
+        "secondary_action": "Explore our workshops"
+      }
+    },
+    {
+      "min": 21,
+      "max": 24,
+      "level": "Advanced",
+      "color": "#394E51",
+      "summary": "Your organisation is well-positioned for AI adoption and can pursue ambitious initiatives with confidence.",
+      "recommendations": [
+        "Develop a comprehensive AI adoption roadmap across functions",
+        "Invest in advanced AI capabilities (custom models, automation)",
+        "Share your learnings to position as an innovation leader",
+        "Explore partnerships or R&D opportunities"
+      ],
+      "next_steps": "Our Tier 3 Programme Pilot can help you develop a sector-leading AI capability and document your approach.",
+      "state_of_industry": "You're among the leading SMEs in AI maturity. Organisations at your level are differentiating competitively through AI, developing proprietary capabilities, and often advising peers. The opportunity is to leverage this advantage strategically and avoid common scaling pitfalls.",
+      "sector_uptake": {
+        "default": "Advanced organisations are pushing the boundaries of what's possible for SMEs with AI. Success requires balancing innovation with operational stability, building versus buying capabilities, and managing the organisational change that comes with AI-driven transformation."
+      },
+      "future_developments": "Focus on building sustainable competitive advantage through AI, developing sector-specific expertise, and potentially creating IP or proprietary capabilities. Consider how AI enables new business models or market opportunities. Governance, ethics, and responsible AI become increasingly important.",
+      "common_tools": [
+        {
+          "name": "OpenAI API / Anthropic API",
+          "category": "AI Development",
+          "description": "Direct API access to advanced AI models for building custom applications.",
+          "cost": "Usage-based, £50-500+/month",
+          "ease": "Hard (requires development)",
+          "notes": "Enables building proprietary AI capabilities integrated with your systems. Requires technical expertise or development partners like Flax & Teal."
+        },
+        {
+          "name": "Retool / Internal Tools",
+          "category": "Custom Applications",
+          "description": "Build internal applications with AI capabilities tailored to your workflows.",
+          "cost": "£50-200/month",
+          "ease": "Moderate-Hard",
+          "notes": "For organisations ready to build custom tooling. Combines database access, APIs, and AI in purpose-built applications."
+        }
+      ],
+      "funding_support": {
+        "northern_ireland": {
+          "enabled": true,
+          "items": [
+            "**Horizon Europe** - EU R&D funding for innovative AI projects (accessible via UK association).",
+            "**Invest NI R&D Programme** - Support for ambitious research and development projects.",
+            "**R&D Tax Credits** - Maximize claims for AI development and experimentation work."
+          ]
+        },
+        "scotland": {
+          "enabled": false,
+          "items": [
+            "**Horizon Europe** - EU R&D funding accessible to UK organisations.",
+            "**Scottish Enterprise R&D Support** - Grants and expertise for research-intensive projects.",
+            "**Industrial Innovation Programmes** - Sector-specific R&D collaboration funding."
+          ]
+        },
+        "england": {
+          "enabled": false,
+          "items": [
+            "**Innovate UK Smart Grants** - Competitive funding for game-changing innovations.",
+            "**Horizon Europe** - International R&D funding programmes.",
+            "**R&D Tax Credits Enhanced** - Additional benefits for SMEs with intensive R&D activity."
+          ]
+        },
+        "wales": {
+          "enabled": false,
+          "items": [
+            "**Smart Cymru R&D Funding** - Support for research-intensive innovation projects.",
+            "**Horizon Europe** - Access to EU research and innovation funding.",
+            "**Welsh Government Tech Valleys** - Regional innovation support and funding."
+          ]
+        },
+        "republic_ireland": {
+          "enabled": false,
+          "items": [
+            "**Horizon Europe** - Full participation in EU research and innovation programmes.",
+            "**Enterprise Ireland R&D Fund** - Substantial grants for innovative R&D projects.",
+            "**Innovation Partnership Programme** - Collaborative funding with research institutions."
+          ]
+        },
+        "general": [
+          "Explore academic partnerships for advanced R&D and access to specialist expertise",
+          "Consider patent protection for proprietary AI approaches and innovations",
+          "Investigate sector-specific innovation funds and industry challenges",
+          "Look for European and international innovation programmes"
+        ]
+      },
+      "business_groups": {
+        "northern_ireland": {
+          "enabled": true,
+          "groups": [
+            {
+              "name": "Catalyst Inc Advanced Programme",
+              "description": "Elite programme for NI's most innovative tech companies with R&D support.",
+              "link": "https://catalystinc.org"
+            },
+            {
+              "name": "AI NI Consortium",
+              "description": "Collaborative network of organisations advancing AI capabilities in Northern Ireland.",
+              "link": ""
+            },
+            {
+              "name": "Digital Catapult NI",
+              "description": "Innovation centre for advanced digital technologies including AI.",
+              "link": "https://digitalcatapult.org.uk"
+            }
+          ]
+        },
+        "scotland": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "Scottish AI Alliance",
+              "description": "National network advancing AI capabilities across Scotland's economy.",
+              "link": "https://www.scottishaialliance.org"
+            },
+            {
+              "name": "Data Lab Innovation Centre",
+              "description": "Scotland's innovation centre for data and AI with industry partnerships.",
+              "link": "https://www.thedatalab.com"
+            }
+          ]
+        },
+        "england": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "The AI Council",
+              "description": "Government-industry partnership advancing UK AI leadership.",
+              "link": "https://www.ai-council.uk"
+            },
+            {
+              "name": "Innovate UK KTN",
+              "description": "Knowledge Transfer Network connecting innovators with opportunities and expertise.",
+              "link": "https://ktn-uk.org"
+            }
+          ]
+        },
+        "wales": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "AI Wales Network",
+              "description": "Community advancing AI adoption and innovation across Welsh industries.",
+              "link": ""
+            },
+            {
+              "name": "Innovate UK EDGE Wales",
+              "description": "Supporting Welsh innovation-driven businesses to scale globally.",
+              "link": "https://www.innovateukedge.ukri.org"
+            }
+          ]
+        },
+        "republic_ireland": {
+          "enabled": false,
+          "groups": [
+            {
+              "name": "AI Ireland",
+              "description": "National network promoting AI excellence and ethical adoption.",
+              "link": "https://ai-ireland.com"
+            },
+            {
+              "name": "ADAPT Research Centre",
+              "description": "World-leading AI research centre with industry partnership opportunities.",
+              "link": "https://www.adaptcentre.ie"
+            }
+          ]
+        },
+        "general": [
+          {
+            "name": "International AI Conferences",
+            "description": "Attend major AI conferences to connect with global innovation leaders.",
+            "link": ""
+          },
+          {
+            "name": "Research Institution Partnerships",
+            "description": "Collaborate with universities on cutting-edge AI research and talent access.",
+            "link": ""
+          }
+        ]
+      },
+      "next_steps_detailed": [
+        {
+          "priority": "Immediate (Next 4 weeks)",
+          "actions": [
+            "Audit your AI capability maturity across the organisation",
+            "Identify opportunities for proprietary AI development",
+            "Consider external partnerships (universities, tech providers)",
+            "Book Tier 3 Programme Pilot consultation"
+          ]
+        }
+      ],
+      "common_strategies": [
+        {
+          "strategy": "Build Proprietary Capabilities",
+          "description": "Move beyond off-the-shelf tools to develop AI capabilities that create competitive advantage. This might include custom models, unique data sets, or proprietary workflows.",
+          "success_factors": ["Competitive differentiation", "IP development", "Strategic advantage", "Market leadership"]
+        },
+        {
+          "strategy": "Become a Sector Leader",
+          "description": "Share your AI journey through case studies, speaking, and peer support. This builds reputation, attracts talent, and creates business development opportunities.",
+          "success_factors": ["Thought leadership", "Business development", "Talent attraction", "Peer learning"]
+        }
+      ],
+      "contact_cta": {
+        "heading": "Ready to Lead Your Sector?",
+        "message": "Our Tier 3 Programme Pilot helps advanced organisations develop sector-leading AI capabilities, document their approach, and position as innovation leaders.",
+        "primary_action": "Book a strategic consultation",
+        "secondary_action": "Discuss partnership opportunities"
+      }
+    }
+  ]
+}

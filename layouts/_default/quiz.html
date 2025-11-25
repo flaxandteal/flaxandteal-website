@@ -1,0 +1,38 @@
+{{ define "main" }}
+{{ partial "nav-new.html" . }}
+
+<main class="ai-readiness-quiz">
+  <section class="quiz-hero">
+    <div class="container mx-auto">
+      <h1>{{.Title}}</h1>
+      <p class="quiz-intro">{{.Content}}</p>
+    </div>
+  </section>
+
+  <section class="quiz-container" id="quiz-app">
+    <div class="quiz-progress">
+      <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+      <p class="progress-text">Question <span id="current-question">1</span> of <span id="total-questions">8</span></p>
+    </div>
+
+    <div class="quiz-content" id="quiz-content">
+      <!-- Questions will be dynamically inserted here -->
+    </div>
+
+    <div class="quiz-navigation">
+      <button class="btn-secondary" id="prev-btn" style="display: none;">Previous</button>
+      <button class="btn-primary" id="next-btn">Next</button>
+    </div>
+
+    <div class="quiz-results" id="quiz-results" style="display: none;">
+      <!-- Results will be shown here -->
+    </div>
+  </section>
+</main>
+
+{{ partial "footer-new.html" . }}
+
+<script src="/quiz-engine.js"></script>
+{{ end }}

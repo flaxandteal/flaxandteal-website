@@ -15,7 +15,7 @@ sections:
     text: |
       Save time, cut costs, and reach more customers. These commissioned workshops help councils, enterprise agencies, and hubs deliver real value to their SME communities with practical, hands-on AI training.
 
-      **[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**  |  **[Book a call](https://calendar.app.google/NJXiZ8TQNPS7c8h97)**
+       **[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**  |  **[Book a call](https://calendar.app.google/NJXiZ8TQNPS7c8h97)**
 
   - type: l_r
     order: 0
@@ -110,5 +110,7 @@ Typical attendees include:
 <!-- BODY CHUNK for order: 4 -->
 Take the first step toward practical AI adoption for your local SMEs.
 
-**[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**  
+**Not sure where to start?** Take our free [AI Readiness Diagnostic Quiz](/ai-readiness/) to understand your organization's readiness for AI adoption and receive personalized recommendations.
+
+**[Download the brochure](https://flaxandteal.co.uk/AI%20for%20Business%20Workshop%20Packages.pdf)**
 **[Book an initial consultation](https://calendar.app.google/YzkjBbPdPPvGmzDn8)**
