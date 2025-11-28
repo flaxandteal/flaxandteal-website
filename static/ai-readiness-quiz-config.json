@@ -288,9 +288,9 @@
         "northern_ireland": {
           "enabled": true,
           "items": [
-            "**Invest NI Innovation Vouchers** - Up to £5,000 for innovation projects including AI exploration. No match funding required for businesses under 50 employees.",
-            "**Digital Skills Support** - Funding available through local councils for digital upskilling programmes.",
-            "**Enterprise NI SME Support** - Various programmes offering support for digital transformation, including subsidised consultancy."
+            "**Digital Transformation Flexible Fund (DTFF)** - Grants to support SME digital transformation. https://dtff.co.uk/",
+            "**Business Innovation Grant (BIG)** - Funding to launch new innovations. https://www.innovateni.com/business-innovation-grant",
+            "**Go Succeed** - Local council SME funding support and network. https://go-succeed.com/"
           ]
         },
         "scotland": {
@@ -336,19 +336,19 @@
           "enabled": true,
           "groups": [
             {
-              "name": "Digital DNA NI",
-              "description": "Northern Ireland's digital technology network connecting businesses with digital opportunities and peer learning.",
-              "link": "https://digitaldna.org.uk"
+              "name": "Northern Ireland Chamber of Commerce and Industry",
+              "description": "The largest independent business network in NI, helping SMEs and larger firms grow, trade, and connect across sectors locally and internationally.",
+              "link": "https://www.northernirelandchamber.com/"
             },
             {
-              "name": "NI Chamber Digital Council",
-              "description": "Business network focused on digital transformation and technology adoption across NI sectors.",
-              "link": "https://www.nighamber.org.uk"
+              "name": "Business in the Community Northern Ireland",
+              "description": "A membership-based network encouraging businesses to adopt responsible practices, build sustainability, and collaborate - a good match for SMEs embracing digital tools alongside purpose and social values.",
+              "link": "https://www.bitcni.org.uk/"
             },
             {
-              "name": "TechStart NI",
-              "description": "Supporting tech-enabled businesses with events, mentoring, and connections to the innovation ecosystem.",
-              "link": "https://techstartni.com"
+              "name": "InterTradeIreland",
+              "description": "All-island enterprise support body helping Northern-Irish and Irish SMEs with cross-border trade, innovation, scaling and business-development support - useful for SMEs looking to grow beyond NI, adopt new processes or collaborate across jurisdictions.",
+              "link": "https://intertradeireland.com/"
             }
           ]
         },
@@ -584,19 +584,19 @@
           "enabled": true,
           "groups": [
             {
-              "name": "Digital DNA NI",
-              "description": "Northern Ireland's digital technology network with peer learning and collaboration opportunities.",
-              "link": "https://digitaldna.org.uk"
+              "name": "Northern Ireland Chamber of Commerce and Industry",
+              "description": "The largest independent business network in NI, helping SMEs and larger firms grow, trade, and connect across sectors locally and internationally.",
+              "link": "https://www.northernirelandchamber.com/"
             },
             {
-              "name": "Catalyst Inc",
-              "description": "NI's largest tech and innovation hub offering workspace, events, and connections.",
-              "link": "https://catalystinc.org"
+              "name": "Business in the Community Northern Ireland",
+              "description": "A membership-based network encouraging businesses to adopt responsible practices, build sustainability, and collaborate - a good match for SMEs embracing digital tools alongside purpose and social values.",
+              "link": "https://www.bitcni.org.uk/"
             },
             {
-              "name": "Women in Business NI",
-              "description": "Supporting female entrepreneurs with technology and innovation focus.",
-              "link": "https://womeninbusinessni.com"
+              "name": "InterTradeIreland",
+              "description": "All-island enterprise support body helping Northern-Irish and Irish SMEs with cross-border trade, innovation, scaling and business-development support - useful for SMEs looking to grow beyond NI, adopt new processes or collaborate across jurisdictions.",
+              "link": "https://intertradeireland.com/"
             }
           ]
         },
@@ -787,19 +787,19 @@
           "enabled": true,
           "groups": [
             {
-              "name": "Catalyst Inc",
-              "description": "Innovation hub with scale-up programmes, mentoring, and investor connections.",
-              "link": "https://catalystinc.org"
+              "name": "Northern Ireland Chamber of Commerce and Industry",
+              "description": "The largest independent business network in NI, helping SMEs and larger firms grow, trade, and connect across sectors locally and internationally.",
+              "link": "https://www.northernirelandchamber.com/"
             },
             {
-              "name": "NI Chamber Scale-Up Programme",
-              "description": "Peer learning and support for high-growth businesses.",
-              "link": "https://www.nighamber.org.uk"
+              "name": "Business in the Community Northern Ireland",
+              "description": "A membership-based network encouraging businesses to adopt responsible practices, build sustainability, and collaborate - a good match for SMEs embracing digital tools alongside purpose and social values.",
+              "link": "https://www.bitcni.org.uk/"
             },
             {
-              "name": "Belfast Tech Meetup",
-              "description": "Active community of technology professionals and innovators.",
-              "link": "https://www.meetup.com/belfast-tech"
+              "name": "InterTradeIreland",
+              "description": "All-island enterprise support body helping Northern-Irish and Irish SMEs with cross-border trade, innovation, scaling and business-development support - useful for SMEs looking to grow beyond NI, adopt new processes or collaborate across jurisdictions.",
+              "link": "https://intertradeireland.com/"
             }
           ]
         },
@@ -990,19 +990,19 @@
           "enabled": true,
           "groups": [
             {
-              "name": "Catalyst Inc Advanced Programme",
-              "description": "Elite programme for NI's most innovative tech companies with R&D support.",
-              "link": "https://catalystinc.org"
+              "name": "Northern Ireland Chamber of Commerce and Industry",
+              "description": "The largest independent business network in NI, helping SMEs and larger firms grow, trade, and connect across sectors locally and internationally.",
+              "link": "https://www.northernirelandchamber.com/"
             },
             {
-              "name": "AI NI Consortium",
-              "description": "Collaborative network of organisations advancing AI capabilities in Northern Ireland.",
-              "link": ""
+              "name": "Business in the Community Northern Ireland",
+              "description": "A membership-based network encouraging businesses to adopt responsible practices, build sustainability, and collaborate - a good match for SMEs embracing digital tools alongside purpose and social values.",
+              "link": "https://www.bitcni.org.uk/"
             },
             {
-              "name": "Digital Catapult NI",
-              "description": "Innovation centre for advanced digital technologies including AI.",
-              "link": "https://digitalcatapult.org.uk"
+              "name": "InterTradeIreland",
+              "description": "All-island enterprise support body helping Northern-Irish and Irish SMEs with cross-border trade, innovation, scaling and business-development support - useful for SMEs looking to grow beyond NI, adopt new processes or collaborate across jurisdictions.",
+              "link": "https://intertradeireland.com/"
             }
           ]
         },
