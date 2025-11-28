@@ -52,7 +52,6 @@
     "northern_ireland": {
       "name": "Northern Ireland",
       "enabled": true,
-      "description": "Based in Northern Ireland"
     },
     "scotland": {
       "name": "Scotland",
@@ -115,7 +114,7 @@
       "options": [
         {"text": "We store data but don't actively manage or analyse it", "score": 0},
         {"text": "We track key metrics but data is scattered across systems", "score": 1},
-        {"text": "We have centralized data storage and regular reporting", "score": 2},
+        {"text": "We have centralised data storage and regular reporting", "score": 2},
         {"text": "We have robust data governance and analytics capabilities", "score": 3}
       ]
     },
@@ -200,7 +199,7 @@
     "skills": {
       "name": "Team Capabilities",
       "description": "Staff skills and willingness to adopt new technologies",
-      "explanation": "Your team's digital literacy and openness to learning directly impacts AI adoption success. Organisations with stronger digital capabilities can implement AI tools faster and maximize their value."
+      "explanation": "Your team's digital literacy and openness to learning directly impacts AI adoption success. Organisations with stronger digital capabilities can implement AI tools faster and maximise their value."
     },
     "infrastructure": {
       "name": "Technical Infrastructure",
@@ -244,10 +243,10 @@
       "next_steps": "Consider our Foundation Workshop package to help your team understand AI basics and identify quick wins.",
       "state_of_industry": "AI adoption is accelerating across all sectors, but successful implementation requires solid digital foundations. Organisations at your maturity level should focus on strengthening core capabilities rather than rushing into AI deployment. The good news: simple, affordable AI tools are increasingly accessible for businesses building their digital capabilities.",
       "sector_uptake": {
-        "manufacturing": "In manufacturing, AI adoption ranges from basic inventory management systems to sophisticated predictive maintenance. At your maturity level, focus on digitizing manual processes and establishing reliable data collection before considering AI applications.",
+        "manufacturing": "In manufacturing, AI adoption ranges from basic inventory management systems to sophisticated predictive maintenance. At your maturity level, focus on digitising manual processes and establishing reliable data collection before considering AI applications.",
         "creative": "Creative sectors are seeing rapid AI adoption in content generation and design assistance. However, successful use requires understanding your creative processes and where AI can augment rather than replace human creativity.",
-        "food": "Food businesses are using AI for inventory optimisation, demand forecasting, and customer preferences. Start by digitizing your ordering and stock management systems to create the data foundation AI needs.",
-        "default": "Across all sectors, successful AI adoption begins with strong digital foundations. Organisations at your level should focus on basic digitization and data practices before pursuing AI implementations."
+        "food": "Food businesses are using AI for inventory optimisation, demand forecasting, and customer preferences. Start by digitising your ordering and stock management systems to create the data foundation AI needs.",
+        "default": "Across all sectors, successful AI adoption begins with strong digital foundations. Organisations at your level should focus on basic digitisation and data practices before pursuing AI implementations."
       },
       "future_developments": "Over the next 12-18 months, focus on building digital literacy across your team, documenting core processes, and establishing basic data management practices. These foundations will position you for AI experimentation when you're ready. Expect AI tools to become more accessible and user-friendly, making entry easier for SMEs.",
       "common_tools": [
@@ -278,7 +277,7 @@
         {
           "name": "Google Workspace AI",
           "category": "Productivity",
-          "description": "AI features in Gmail, Docs, and Sheets for drafting, summarizing, and data analysis.",
+          "description": "AI features in Gmail, Docs, and Sheets for drafting, summarising, and data analysis.",
           "cost": "Included in workspace plans",
           "ease": "Easy",
           "notes": "If you already use Google Workspace, these AI features are available at no extra cost. Start experimenting with Smart Compose and Help me write."
@@ -483,7 +482,7 @@
       ],
       "contact_cta": {
         "heading": "Ready to Build Your AI Foundation?",
-        "message": "Our Foundation Workshop helps SMEs at your stage understand AI capabilities and identify practical starting points. We provide hands-on training and personalized guidance to build your confidence.",
+        "message": "Our Foundation Workshop helps SMEs at your stage understand AI capabilities and identify practical starting points. We provide hands-on training and personalised guidance to build your confidence.",
         "primary_action": "Book a free consultation",
         "secondary_action": "Download our workshop brochure"
       }
@@ -510,10 +509,10 @@
         {
           "name": "Notion AI / Craft",
           "category": "Knowledge Management",
-          "description": "AI-enhanced workspace for documentation, project management, and knowledge sharing with automatic summarization and content generation.",
+          "description": "AI-enhanced workspace for documentation, project management, and knowledge sharing with automatic summarisation and content generation.",
           "cost": "£8-15/user/month",
           "ease": "Moderate",
-          "notes": "Helps centralize information and make it accessible. AI features assist with documentation and knowledge retrieval."
+          "notes": "Helps centralise information and make it accessible. AI features assist with documentation and knowledge retrieval."
         },
         {
           "name": "HubSpot AI / Mailchimp AI",
@@ -521,7 +520,7 @@
           "description": "CRM and marketing platforms with AI for email optimisation, content suggestions, and customer segmentation.",
           "cost": "£15-50/month",
           "ease": "Moderate",
-          "notes": "Suitable for businesses ready to systematize marketing. AI helps optimise campaigns and personalize customer communications."
+          "notes": "Suitable for businesses ready to systematise marketing. AI helps optimise campaigns and personalise customer communications."
         },
         {
           "name": "Zapier with AI",
@@ -763,7 +762,7 @@
           "enabled": false,
           "items": [
             "**Smart Cymru Accelerated Growth Programme** - Intensive support for high-growth potential businesses.",
-            "**R&D Tax Credits** - Maximize claims for innovation and development work.",
+            "**R&D Tax Credits** - Maximise claims for innovation and development work.",
             "**Development Bank of Wales** - Growth capital and innovation funding."
           ]
         },
@@ -776,7 +775,7 @@
           ]
         },
         "general": [
-          "Maximize R&D tax credit claims - engage specialist advisors",
+          "Maximise R&D tax credit claims - engage specialist advisors",
           "Explore innovation-focused lending products from business banks",
           "Consider equity investment if pursuing significant AI development",
           "Look for sector-specific innovation challenges and competitions"
