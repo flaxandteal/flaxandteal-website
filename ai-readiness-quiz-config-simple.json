@@ -1,11 +1,11 @@
 {
-  "quiz_title": "AI Readiness Diagnostic",
-  "quiz_description": "Understand your organization's readiness for AI adoption",
+  "quis_title": "AI Readiness Diagnostic",
+  "quis_description": "Understand your organisation's readiness for AI adoption",
   "questions": [
     {
       "id": "q1",
       "category": "strategy",
-      "text": "How well defined are your organization's digital transformation goals?",
+      "text": "How well defined are your organisation's digital transformation goals?",
       "options": [
         {
           "text": "We have no formal digital strategy",
@@ -28,10 +28,10 @@
     {
       "id": "q2",
       "category": "data",
-      "text": "How would you describe your organization's approach to data management?",
+      "text": "How would you describe your organisation's approach to data management?",
       "options": [
         {
-          "text": "We store data but don't actively manage or analyze it",
+          "text": "We store data but don't actively manage or analyse it",
           "score": 0
         },
         {
@@ -39,7 +39,7 @@
           "score": 1
         },
         {
-          "text": "We have centralized data storage and regular reporting",
+          "text": "We have centralised data storage and regular reporting",
           "score": 2
         },
         {
@@ -97,7 +97,7 @@
     {
       "id": "q5",
       "category": "culture",
-      "text": "How does your organization approach innovation and change?",
+      "text": "How does your organisation approach innovation and change?",
       "options": [
         {
           "text": "We prefer to stick with proven methods",
@@ -120,7 +120,7 @@
     {
       "id": "q6",
       "category": "resources",
-      "text": "What resources can your organization commit to AI initiatives?",
+      "text": "What resources can your organisation commit to AI initiatives?",
       "options": [
         {
           "text": "Very limited - we're focused on day-to-day operations",
@@ -143,7 +143,7 @@
     {
       "id": "q7",
       "category": "processes",
-      "text": "How documented and standardized are your key business processes?",
+      "text": "How documented and standardised are your key business processes?",
       "options": [
         {
           "text": "Most processes are informal and undocumented",
@@ -154,7 +154,7 @@
           "score": 1
         },
         {
-          "text": "Most processes are documented with some standardization",
+          "text": "Most processes are documented with some standardisation",
           "score": 2
         },
         {
@@ -194,7 +194,7 @@
     },
     "data": {
       "name": "Data Readiness",
-      "description": "Ability to collect, manage and analyze data effectively"
+      "description": "Ability to collect, manage and analyse data effectively"
     },
     "skills": {
       "name": "Team Capabilities",
@@ -205,7 +205,7 @@
       "description": "Quality and scalability of existing technology systems"
     },
     "culture": {
-      "name": "Organizational Culture",
+      "name": "Organisational Culture",
       "description": "Openness to innovation and change"
     },
     "resources": {
@@ -214,7 +214,7 @@
     },
     "processes": {
       "name": "Process Maturity",
-      "description": "Documentation and standardization of workflows"
+      "description": "Documentation and standardisation of workflows"
     },
     "awareness": {
       "name": "AI Awareness",
@@ -227,7 +227,7 @@
       "max": 8,
       "level": "Foundation",
       "color": "#E07A5F",
-      "summary": "Your organization is in the early stages of digital readiness. Focus on building foundational capabilities before pursuing AI initiatives.",
+      "summary": "Your organisation is in the early stages of digital readiness. Focus on building foundational capabilities before pursuing AI initiatives.",
       "recommendations": [
         "Start with basic digital literacy training for your team",
         "Document your key business processes",
@@ -241,7 +241,7 @@
       "max": 14,
       "level": "Emerging",
       "color": "#F4A261",
-      "summary": "Your organization has some digital capabilities in place but needs strengthening before scaling AI adoption.",
+      "summary": "Your organisation has some digital capabilities in place but needs strengthening before scaling AI adoption.",
       "recommendations": [
         "Improve data collection and management practices",
         "Pilot small AI tools for specific use cases (e.g., content generation)",
@@ -255,7 +255,7 @@
       "max": 20,
       "level": "Developing",
       "color": "#9BCCC1",
-      "summary": "Your organization has good foundations and is ready to actively experiment with AI tools and approaches.",
+      "summary": "Your organisation has good foundations and is ready to actively experiment with AI tools and approaches.",
       "recommendations": [
         "Launch pilot AI projects in 2-3 areas (e.g., marketing, operations)",
         "Establish clear success metrics for AI initiatives",
@@ -269,7 +269,7 @@
       "max": 24,
       "level": "Advanced",
       "color": "#394E51",
-      "summary": "Your organization is well-positioned for AI adoption and can pursue ambitious initiatives with confidence.",
+      "summary": "Your organisation is well-positioned for AI adoption and can pursue ambitious initiatives with confidence.",
       "recommendations": [
         "Develop a comprehensive AI adoption roadmap across functions",
         "Invest in advanced AI capabilities (custom models, automation)",
