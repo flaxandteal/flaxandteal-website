@@ -52,6 +52,7 @@
     "northern_ireland": {
       "name": "Northern Ireland",
       "enabled": true,
+      "description": "Based in Northern Ireland"
     },
     "scotland": {
       "name": "Scotland",
