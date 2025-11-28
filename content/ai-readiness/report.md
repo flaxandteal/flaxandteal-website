@@ -1,6 +1,6 @@
 ---
 title: "AI Readiness Diagnostic Report"
-description: "Your personalized AI readiness assessment report"
+description: "Your personalised AI readiness assessment report"
 draft: false
 layout: report
 ---
