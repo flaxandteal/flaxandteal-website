@@ -75,8 +75,6 @@ class EnhancedReportGenerator {
 
       <div class="page-break"></div>
 
-      ${this.buildStateOfIndustry(band)}
-
       ${this.buildSectorUptake(band)}
 
       ${this.buildFutureDevelopments(band)}
@@ -324,19 +322,6 @@ class EnhancedReportGenerator {
     `;
   }
 
-  buildStateOfIndustry(band) {
-    return `
-      <section style="margin: 3rem 0;">
-        <h2 style="color: #334B4E; margin-bottom: 1rem;">State of AI in Your Industry</h2>
-        <div style="background-color: #F1F7F5; padding: 2rem; border-radius: 12px;">
-          <p style="line-height: 1.8; color: #333;">
-            ${band.state_of_industry}
-          </p>
-        </div>
-      </section>
-    `;
-  }
-
   buildSectorUptake(band) {
     const sectorContent = band.sector_uptake[this.sector] || band.sector_uptake.default;
 
@@ -461,19 +446,21 @@ class EnhancedReportGenerator {
     const regionFunding = band.funding_support[this.region];
     const hasRegionFunding = regionFunding && regionFunding.enabled;
 
+    const formatFundingText = text => text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
     let regionHTML = '';
     let regionName = '';
 
     if (hasRegionFunding) {
       regionName = this.config.regions[this.region].name;
       regionHTML = regionFunding.items.map(item =>
-        `<li style="margin-bottom: 0.8rem; line-height: 1.6;">${item}</li>`
+        `<li style="margin-bottom: 0.8rem; line-height: 1.6;">${formatFundingText(item)}</li>`
       ).join('');
     }
 
     const generalHTML = band.funding_support.general && band.funding_support.general.length > 0
       ? band.funding_support.general.map(item =>
-          `<li style="margin-bottom: 0.8rem; line-height: 1.6;">${item}</li>`
+          `<li style="margin-bottom: 0.8rem; line-height: 1.6;">${formatFundingText(item)}</li>`
         ).join('')
       : '';
 
