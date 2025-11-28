@@ -1,6 +1,6 @@
 ---
 title: "AI Readiness Diagnostic"
-description: "Take our interactive quiz to assess your organization's readiness for AI adoption"
+description: "Take our interactive quiz to assess your organisation's readiness for AI adoption"
 draft: false
 layout: quiz
 menu:
@@ -10,4 +10,4 @@ menu:
     parent: "AI for Business Workshops"
 ---
 
-Understand where your organization stands on the AI readiness journey. This quick diagnostic takes 5-7 minutes and provides personalized insights based on your responses.
+Understand where your organisation stands on the AI readiness journey. This quick diagnostic takes 5 minutes and provides personalised insights based on your responses.
