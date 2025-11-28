@@ -2,8 +2,8 @@
   <div class="container mx-auto">
     <div style="{{if .ctx.reverse}}flex-direction: row-reverse;{{end}}" class="l-r-wrapper">
       <div class="left">
-        <h2 id="{{.ctx.heading | urlize}}" style="color: {{.ctx.color}}; text-decoration:underline;">{{.ctx.heading}}</h2>
-        <h4>{{.ctx.subheading}}</h4>
+        <h2 id="{{.ctx.heading | urlize}}" style="color: {{.ctx.color}}; text-decoration:underline;">{{.ctx.heading | markdownify | replaceRE "^<p>(.*)</p>$" "$1" | safeHTML}}</h2>
+        <h4>{{.ctx.subheading | markdownify | replaceRE "^<p>(.*)</p>$" "$1" | safeHTML}}</h4>
         <div style="color: {{.ctx.color}};">{{ index (split .content "<hr>") .ctx.order | markdownify }}</div>
        <div class="mt-2">
           <a class="btn-underlined" href="{{.ctx.cta_link}}">{{.ctx.cta}}</a>

@@ -8,7 +8,7 @@
 <section class="contact bg-gold">
   <div class="container contact-wrapper">
     <div>
-      <h2>{{.ctx.heading}}</h2>
+      <h2>{{.ctx.heading | markdownify | replaceRE "^<p>(.*)</p>$" "$1" | safeHTML}}</h2>
       <p>{{.ctx.text | markdownify}}</p>
     </div>
   </div>
