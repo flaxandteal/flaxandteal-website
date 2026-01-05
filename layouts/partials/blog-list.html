@@ -1,0 +1,31 @@
+<section class="blog-list-section py-5 px-2">
+  <div class="container">
+    <div class="blog-list-header">
+      <p class="eyebrow text-primary">{{ default "Blog" .label }}</p>
+      <h2>{{ .intro_heading | default "Latest posts" | markdownify }}</h2>
+      {{ with .intro_text }}
+      <p class="text-p">{{ . | markdownify }}</p>
+      {{ end }}
+    </div>
+
+    {{ with .posts }}
+    <div class="blog-grid">
+      {{ range . }}
+      <article class="blog-card">
+        <p class="blog-card__meta">
+          {{ with .date }}
+          <time datetime="{{ . }}">{{ time . | time.Format "2 Jan 2006" }}</time>
+          {{ end }}
+          {{ if and .date .author }}<span aria-hidden="true">•</span>{{ end }}
+          {{ with .author }}<span class="blog-card__author">{{ . }}</span>{{ end }}
+        </p>
+        <h3>{{ .title | markdownify }}</h3>
+        {{ with .description }}
+        <p class="blog-card__description">{{ . | markdownify }}</p>
+        {{ end }}
+      </article>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
