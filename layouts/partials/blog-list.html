@@ -11,11 +11,7 @@
     {{ with .posts }}
     <div class="blog-grid">
       {{ range . }}
-      {{ $tag := "article" }}
-      {{ if .link }}
-        {{ $tag = "a" }}
-      {{ end }}
-      <{{ $tag }} class="blog-card" {{ with .link }}href="{{ . }}"{{ end }}>
+      <article class="blog-card">
         <p class="blog-card__meta">
           {{ with .date }}
           <time datetime="{{ . }}">{{ time . | time.Format "2 Jan 2006" }}</time>
@@ -27,7 +23,7 @@
         {{ with .description }}
         <p class="blog-card__description">{{ . | markdownify }}</p>
         {{ end }}
-      </{{ $tag }}>
+      </article>
       {{ end }}
     </div>
     {{ end }}
