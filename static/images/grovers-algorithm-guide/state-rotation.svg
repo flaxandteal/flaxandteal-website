@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 500 350">
+<style> text { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; } </style>
+<rect x="0" y="0" width="500" height="350" fill="#fff" stroke="#e5e7eb" />
+<line x1="80" y1="250" x2="420" y2="250" stroke="#9ca3af" stroke-width="1" stroke-dasharray="4 4" />
+<line x1="250" y1="330" x2="250" y2="70" stroke="#9ca3af" stroke-width="1" stroke-dasharray="4 4" />
+<line x1="250" y1="250" x2="250" y2="80" stroke="#c54f1f" stroke-width="2" marker-end="url(#arrow-red)" />
+<line x1="250" y1="250" x2="420" y2="250" stroke="#0b6e4f" stroke-width="2" marker-end="url(#arrow-green)" />
+<defs>
+  <marker id="arrow-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f77b4"/>
+  </marker>
+  <marker id="arrow-red" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#c54f1f"/>
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#0b6e4f"/>
+  </marker>
+</defs>
+<text x="260" y="85" fill="#c54f1f">|w> (marked state)</text>
+<text x="365" y="240" fill="#0b6e4f">|r> (rest)</text>
+<line x1="250" y1="250" x2="383.1" y2="206.7" stroke="#1f77b4" stroke-width="2.2" marker-end="url(#arrow-blue)" opacity="0.78" />
+<text x="383.1" y="196.7" text-anchor="middle" fill="#1f77b4">k=0</text>
+<line x1="250" y1="250" x2="332.3" y2="136.7" stroke="#1f77b4" stroke-width="2.2" marker-end="url(#arrow-blue)" opacity="0.78" />
+<text x="332.3" y="126.7" text-anchor="middle" fill="#1f77b4">k=1</text>
+<line x1="250" y1="250" x2="250.0" y2="110.0" stroke="#1f77b4" stroke-width="2.2" marker-end="url(#arrow-blue)" opacity="0.78" />
+<text x="250.0" y="100.0" text-anchor="middle" fill="#1f77b4">k=2</text>
+<line x1="250" y1="250" x2="167.7" y2="136.7" stroke="#1f77b4" stroke-width="2.2" marker-end="url(#arrow-blue)" opacity="0.78" />
+<text x="167.7" y="126.7" text-anchor="middle" fill="#1f77b4">k=3</text>
+<line x1="250" y1="250" x2="116.9" y2="206.7" stroke="#1f77b4" stroke-width="2.2" marker-end="url(#arrow-blue)" opacity="0.78" />
+<text x="116.9" y="196.7" text-anchor="middle" fill="#1f77b4">k=4</text>
+<text x="250" y="36" text-anchor="middle" font-size="14" font-weight="600">Rotation of the state vector across Grover iterations</text>
+<text x="250" y="340" text-anchor="middle">Angles grow by 2θ per iteration in the |w>, |r> plane</text>
+</svg>
