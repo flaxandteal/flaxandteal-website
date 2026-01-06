@@ -1,7 +1,7 @@
 ---
 title: "Blog"
 date: 2024-08-22T00:00:00Z
-draft: false
+draft: true
 aliases: ['/blog']
 sections:
   - type: hero-alt

@@ -20,10 +20,6 @@ copyright = '© {year} Flax & Teal Limited.'
     pageRef = '/products'
     weight = 30
   [[menus.main]]
-    name = 'Blog'
-    pageRef = '/blog'
-    weight = 35
-  [[menus.main]]
     name = 'Clients'
     pageRef = '/clients'
     weight = 40
