@@ -4,6 +4,7 @@ slug: "grovers-algorithm-guide"
 draft: false
 layout: "single"
 description: "A step-by-step walkthrough of Grover's quantum search algorithm, including the oracle, diffusion operator, and amplitude amplification schedule."
+math: true
 ---
 
 ## Introduction

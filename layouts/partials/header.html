@@ -7,5 +7,8 @@
     <link rel='stylesheet' href='/fonts/league-spartan/stylesheet.css' type='text/css' />
     {{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ if .Param "math" }}
+      {{ partial "math.html" . }}
+    {{ end }}
   </head>
   
