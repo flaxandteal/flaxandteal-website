@@ -1,0 +1,139 @@
+name: Publish Blog Post
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: "Post title"
+        required: true
+        type: string
+      author:
+        description: "Author name"
+        required: true
+        type: string
+      summary:
+        description: "1-2 sentence summary for the listing page"
+        required: true
+        type: string
+      body:
+        description: "Full post body (Markdown)"
+        required: true
+        type: string
+      tags:
+        description: "Optional comma-separated tags"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  create-post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate post
+        env:
+          TITLE: ${{ inputs.title }}
+          AUTHOR: ${{ inputs.author }}
+          SUMMARY: ${{ inputs.summary }}
+          BODY: ${{ inputs.body }}
+          TAGS: ${{ inputs.tags }}
+        run: |
+          set -euo pipefail
+
+          if [[ -z "${TITLE}" || -z "${AUTHOR}" || -z "${SUMMARY}" || -z "${BODY}" ]]; then
+            echo "All required fields (title, author, summary, body) must be provided."
+            exit 1
+          fi
+
+          DATE_UTC="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          DATE_PREFIX="${DATE_UTC%%T}"
+
+          SLUG="$(python - <<'PY'
+import os, re, sys, unicodedata
+title = os.environ["TITLE"]
+value = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode("ascii")
+value = re.sub(r"[^a-zA-Z0-9]+", "-", value).strip("-").lower()
+print(value or "post")
+PY
+)"
+
+          export TAG_LIST="[]"
+          if [[ -n "${TAGS}" ]]; then
+            export TAG_LIST="$(python - <<'PY'
+import os, json
+tags = [t.strip() for t in os.environ["TAGS"].split(",") if t.strip()]
+print(json.dumps(tags))
+PY
+)"
+          fi
+
+          export POST_PATH="content/blog/${DATE_PREFIX}-${SLUG}.md"
+
+          python - <<'PY'
+import json, os, pathlib
+
+post = {
+    "title": os.environ["TITLE"],
+    "date": os.environ["DATE_UTC"],
+    "author": os.environ["AUTHOR"],
+    "description": os.environ["SUMMARY"],
+    "draft": False,
+    "tags": json.loads(os.environ["TAG_LIST"]),
+}
+
+body = os.environ["BODY"]
+path = pathlib.Path(os.environ["POST_PATH"])
+
+front_matter = "\n".join(
+    [
+        f'title: {json.dumps(post["title"])}',
+        f'date: {post["date"]}',
+        f'author: {json.dumps(post["author"])}',
+        f'description: {json.dumps(post["description"])}',
+        f'draft: {str(post["draft"]).lower()}',
+        f'tags: {json.dumps(post["tags"])}',
+    ]
+)
+
+content = f"---\n{front_matter}\n---\n\n{body.strip()}\n"
+path.parent.mkdir(parents=True, exist_ok=True)
+path.write_text(content, encoding="utf-8")
+PY
+
+          echo "Created ${POST_PATH}"
+          echo "post_path=${POST_PATH}" >> "$GITHUB_ENV"
+
+      - name: Commit and push
+        env:
+          POST_PATH: ${{ env.post_path }}
+          TITLE: ${{ inputs.title }}
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add "${POST_PATH}"
+          git commit -m "Add blog post: ${TITLE}"
+          git push origin HEAD:${{ github.ref_name }}
+
+      - name: Workflow summary
+        env:
+          POST_PATH: ${{ env.post_path }}
+          TITLE: ${{ inputs.title }}
+          AUTHOR: ${{ inputs.author }}
+          SUMMARY: ${{ inputs.summary }}
+        run: |
+          {
+            echo "### Blog post created"
+            echo "- File: \`${POST_PATH}\`"
+            echo "- Title: \"${TITLE}\""
+            echo "- Author: ${AUTHOR}"
+            echo "- Summary: ${SUMMARY}"
+          } >> "$GITHUB_STEP_SUMMARY"
