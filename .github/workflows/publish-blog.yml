@@ -26,7 +26,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   create-post:
@@ -114,18 +113,11 @@ PY
         env:
           POST_PATH: ${{ env.post_path }}
           TITLE: ${{ inputs.title }}
-          PUSH_TOKEN: ${{ secrets.PERSONAL_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
 
-          if [[ -z "${PUSH_TOKEN}" ]]; then
-            echo "No push token available. Please define PERSONAL_TOKEN (preferred) or ensure GITHUB_TOKEN has write access."
-            exit 1
-          fi
-
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin "https://x-access-token:${PUSH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
           git add "${POST_PATH}"
           git commit -m "Add blog post: ${TITLE}"

@@ -32,7 +32,3 @@ Flax & Teal staff can publish new blog posts through GitHub:
 3. Submit the form. The workflow will create a new Markdown file in `content/blog/`, commit it to `master`, and the existing deploy workflow will publish it to `/blog`.
 
 Only users with write access to the repository (F&T staff) can run the workflow, keeping the publishing portal private to the team.
-
-### GitHub setup required
-
-- Ensure the repository has a `PERSONAL_TOKEN` secret with permission to push to the default branch (used by the workflow). If branch protections block the default `GITHUB_TOKEN`, the personal token will allow the workflow to commit new posts.
