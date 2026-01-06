@@ -1,31 +1,49 @@
+{{ $section := .section }}
+{{ $page := .page }}
+{{ $posts := slice }}
+
+{{ with $page }}
+  {{ $posts = where .RegularPages "Draft" "!=" true | sort "Date" "desc" }}
+{{ end }}
+
+{{ if $section.limit }}
+  {{ $posts = first $section.limit $posts }}
+{{ end }}
+
 <section class="blog-list-section py-5 px-2">
   <div class="container">
     <div class="blog-list-header">
-      <p class="eyebrow text-primary">{{ default "Blog" .label }}</p>
-      <h2>{{ .intro_heading | default "Latest posts" | markdownify }}</h2>
-      {{ with .intro_text }}
+      <p class="eyebrow text-primary">{{ default "Blog" $section.label }}</p>
+      <h2>{{ $section.intro_heading | default "Latest posts" | markdownify }}</h2>
+      {{ with $section.intro_text }}
       <p class="text-p">{{ . | markdownify }}</p>
       {{ end }}
     </div>
 
-    {{ with .posts }}
+    {{ if gt (len $posts) 0 }}
     <div class="blog-grid">
-      {{ range . }}
+      {{ range $posts }}
       <article class="blog-card">
         <p class="blog-card__meta">
-          {{ with .date }}
-          <time datetime="{{ . }}">{{ time . | time.Format "2 Jan 2006" }}</time>
+          {{ with .Date }}
+          <time datetime="{{ . }}">{{ . | time.Format "2 Jan 2006" }}</time>
           {{ end }}
-          {{ if and .date .author }}<span aria-hidden="true">•</span>{{ end }}
-          {{ with .author }}<span class="blog-card__author">{{ . }}</span>{{ end }}
+          {{ if and .Date .Params.author }}<span aria-hidden="true">•</span>{{ end }}
+          {{ with .Params.author }}<span class="blog-card__author">{{ . }}</span>{{ end }}
         </p>
-        <h3>{{ .title | markdownify }}</h3>
-        {{ with .description }}
+        <h3><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h3>
+        {{ with .Params.description }}
         <p class="blog-card__description">{{ . | markdownify }}</p>
+        {{ else }}
+        {{ with .Summary }}
+        <p class="blog-card__description">{{ . | plainify }}</p>
+        {{ end }}
         {{ end }}
       </article>
       {{ end }}
     </div>
+    {{ else }}
+    <p class="text-center text-muted">No posts published yet.</p>
     {{ end }}
   </div>
 </section>

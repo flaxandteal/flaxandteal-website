@@ -1,9 +1,19 @@
 {{ define "main" }}
 {{ partial "nav-new.html" . }}
 
-<main class="{{.RelPermalink | humanize | urlize}} single-content">
+<main class="{{.RelPermalink | humanize | urlize}} single-content {{ .Type }}">
     <section class="hero_single">
       <h1>{{.Title | markdownify}}</h1>
+      {{ if eq .Type "blog" }}
+      <p class="blog-meta">
+        {{ with .Date }}
+        <time datetime="{{ . }}">{{ . | time.Format "2 Jan 2006" }}</time>
+        {{ end }}
+        {{ if and .Date .Params.author }}<span aria-hidden="true">•</span>{{ end }}
+        {{ with .Params.author }}<span class="blog-card__author">{{ . }}</span>{{ end }}
+        {{ if gt .ReadingTime 0 }}<span aria-hidden="true">•</span><span>{{ .ReadingTime }} min read</span>{{ end }}
+      </p>
+      {{ end }}
       {{with .Params.subtitle}}
       <p>{{. | markdownify}}</p>
       {{end}}
