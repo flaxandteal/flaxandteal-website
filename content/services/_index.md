@@ -39,6 +39,14 @@ sections:
     cta_link: '/clients/'
     order: 1
   - type: value-details
+    bg_color: '#334B4E'
+    tags: ['Photonics', 'Simulation', 'Engineering']
+    title: 'Scientific Software <br> & Simulation (Photonics)'
+    img: '/images/services/software-development-research-image.webp'
+    cta: 'Learn more → Scientific Software & Simulation for Photonics'
+    cta_link: '/services/scientific-software-simulation-photonics/'
+    order: 2
+  - type: value-details
     bg_color: '#F1F7F5'
     text_color: text-dark
     btn_color: btn-dark
@@ -48,14 +56,14 @@ sections:
     cta: 'Discover projects'
     cta_link: '/clients/'
     reverse: true
-    order: 2
+    order: 3
   - type: value-details
     bg_color: '#334B4E'
     title: 'Approved <br> Suppliers'
     img: '/images/services/approved-supplier.webp'
     cta: 'Discover projects'
     cta_link: '/clients/'
-    order: 3
+    order: 4
   - type: contact-ctx
     heading: 'Let’s work together'
     text: 'Interested in our work? We’d love to hear more about your particular needs – and we’re confident we can guide you. <br><br> For enquiries email info@flaxandteal.co.uk'
@@ -86,6 +94,23 @@ Health, enterprise, simulation, engineering, journalism, <br> public sector, edu
 **Global Clients**
 
 UK, Germany, New Zealand and US
+
+---
+
+**Scientific Software & Simulation (Photonics)**
+
+We support photonics, semiconductor, and advanced engineering teams to design, scale, and modernise scientific software and simulation workflows — from early-stage R&D through to production-grade platforms.
+
+Our work sits at the intersection of physics-based modelling, high-performance computing, and cloud-native software engineering, with a strong emphasis on reproducibility, validation, and long-term maintainability. We use open source strategically where appropriate, while protecting intellectual property and preserving scientific integrity.
+
+Typical engagements include:
+- Optical and semiconductor simulation pipelines and legacy solvers
+- Cloud and HPC enablement for compute-intensive modelling
+- Automation and reproducibility of scientific workflows
+- Responsible ML and AI used to augment physics-based models
+- Productising internal R&D tools into shared engineering platforms
+
+[Learn more → Scientific Software & Simulation for Photonics](/services/scientific-software-simulation-photonics/)
 
 ---
 
