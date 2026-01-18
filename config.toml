@@ -16,6 +16,10 @@ copyright = '© {year} Flax & Teal Limited.'
     pageRef = '/services'
     weight = 20
   [[menus.main]]
+    name = 'Scientific Software & Simulation'
+    pageRef = '/services/scientific-software-simulation-photonics'
+    weight = 25
+  [[menus.main]]
     name = 'Products'
     pageRef = '/products'
     weight = 30
