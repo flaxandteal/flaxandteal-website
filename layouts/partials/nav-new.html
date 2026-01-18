@@ -8,9 +8,18 @@
   <div class="right">
     <ul class="flex gap-2">
       {{ range site.Menus.main}}
-        {{ if in .URL "contact"}} 
+        {{ if .HasChildren }}
+          <li class="nav-dropdown">
+            <a class="text-dark" href="{{.URL}}">{{.Name}}</a>
+            <ul class="nav-dropdown-menu">
+              {{ range .Children }}
+                <li><a class="text-dark" href="{{.URL}}">{{.Name}}</a></li>
+              {{ end }}
+            </ul>
+          </li>
+        {{ else if in .URL "contact"}} 
           <li><a class="btn btn-primary text-light" href="{{.URL}}">{{.Name}}</a></li>
-          {{ else }}
+        {{ else }}
           <li><a class="text-dark" href="{{.URL}}">{{.Name}}</a></li>
         {{ end }}
       {{ end }}      
@@ -24,7 +33,16 @@
     </button>
     <ul>
       {{ range site.Menus.main}}
-      {{ if in .URL "contact"}} 
+      {{ if .HasChildren }}
+      <li class="nav-dropdown">
+        <a class="text-dark" href="{{.URL}}">{{.Name}}</a>
+        <ul class="nav-dropdown-menu">
+          {{ range .Children }}
+          <li><a class="text-dark" href="{{.URL}}">{{.Name}}</a></li>
+          {{ end }}
+        </ul>
+      </li>
+      {{ else if in .URL "contact"}} 
       <li><a class="btn btn-primary text-light" href="{{.URL}}">{{.Name}}</a></li>
       {{ else }}
       <li><a class="text-dark" href="{{.URL}}">{{.Name}}</a></li>
