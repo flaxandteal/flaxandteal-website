@@ -28,6 +28,11 @@ copyright = '© {year} Flax & Teal Limited.'
     pageRef = '/clients'
     weight = 40
   [[menus.main]]
+    name = 'Business Support'
+    identifier = 'business-support'
+    pageRef = '/services'
+    weight = 45
+  [[menus.main]]
     name = "Grover's Algorithm Guide"
     pageRef = '/grovers-algorithm-guide'
     weight = 42
