@@ -3,7 +3,8 @@ title: "Scientific Software & Simulation for Photonics"
 description: "Scientific software and simulation support for photonics and semiconductor engineering, spanning physics-based modelling, HPC workflows, and cloud-native platforms."
 date: 2025-01-18T00:00:00Z
 draft: false
-aliases: ['/simulation']
+url: "/scientific-software-simulation-photonics/"
+aliases: ['/simulation', '/services/scientific-software-simulation-photonics/']
 sections:
   - type: hero_products
     heading: "Scientific software and simulation for photonics and semiconductor engineering"
