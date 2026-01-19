@@ -7,9 +7,13 @@
           <h4>{{ . }}</h4>
         {{ end }}
         {{ index (split .content "<hr>") .ctx.order | markdownify }}
-        <div class="mt-2">
-          <a class="btn-underlined" href="{{.ctx.cta_link}}">{{.ctx.cta}}</a>
-        </div>
+        {{ with .ctx.cta }}
+          {{ with $.ctx.cta_link }}
+            <div class="mt-2">
+              <a class="btn-underlined" href="{{.}}">{{$.ctx.cta}}</a>
+            </div>
+          {{ end }}
+        {{ end }}
       </div>
     </div>
   </div>
