@@ -32,10 +32,6 @@ sections:
     order: 6
     heading: "How we work"
     bg_color: "#292929"
-  - type: product-text
-    order: 7
-    heading: "Get in touch"
-    bg_color: "#334B4E"
   - type: contact-ctx
     heading: "Let’s work together"
     text: "Interested in our work? We’d love to hear more about your particular needs – and we’re confident we can guide you. <br><br> For enquiries email info@flaxandteal.co.uk"
@@ -119,10 +115,3 @@ Our approach is collaborative, transparent, and grounded in practical delivery.
 * Knowledge transfer and enablement built into delivery
 
 ---
-
-If your organisation is exploring how to scale simulation, modernise scientific software, or responsibly integrate AI into physics-led environments, we would welcome a conversation.
-
-📧 [info@flaxandteal.co.uk](mailto:info@flaxandteal.co.uk) 🌐 flaxandteal.co.uk
-
-Flax & Teal Limited  
-Belfast, UK | Global delivery
