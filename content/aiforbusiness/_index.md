@@ -6,7 +6,7 @@ draft: false
 menu:
   main:
     name: "AI for Business Workshops"
-    weight: 10
+    weight: 44
 layout: services
 
 sections:
