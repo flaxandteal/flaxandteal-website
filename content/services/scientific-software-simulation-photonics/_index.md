@@ -85,12 +85,15 @@ We are often brought in when simulation or modelling capability becomes a constr
 ---
 
 **Semiconductor optics simulation**
+
 Refactoring licensed, legacy simulation code into modular, cloud-ready workflows; enabling high-volume, bursty simulation across teams; estimated upwards of €60m savings through modularisation and optimisation.
 
 **Sensor and telemetry systems**
+
 Near-real-time ingestion and analysis of large-scale sensor data; secure, multi-tenant cloud infrastructure; ML-driven insights integrated into operational systems.
 
 **Scientific R&D collaboration**
+
 FEM-based electromagnetic modelling; HPC-enabled 3D simulation; reproducible, open scientific pipelines developed alongside domain experts.
 
 *Additional photonics and semiconductor case studies available.*
