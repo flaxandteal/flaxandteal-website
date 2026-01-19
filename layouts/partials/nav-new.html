@@ -8,7 +8,7 @@
   <div class="right">
     <ul class="flex gap-2">
       {{ range site.Menus.main}}
-        {{ if .Children }}
+        {{ if .HasChildren }}
           <li class="nav-dropdown">
             <a class="text-dark" href="{{.URL}}">{{.Name}}</a>
             <ul class="nav-dropdown-menu">
@@ -33,7 +33,7 @@
     </button>
     <ul>
       {{ range site.Menus.main}}
-      {{ if .Children }}
+      {{ if .HasChildren }}
       <li class="nav-dropdown">
         <a class="text-dark" href="{{.URL}}">{{.Name}}</a>
         <ul class="nav-dropdown-menu">
