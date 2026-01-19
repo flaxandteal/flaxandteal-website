@@ -8,7 +8,6 @@ draft: false
 menu:
   main:
     name: "DTFF Support"
-    parent: "business-support"
     weight: 20
 
 layout: services
