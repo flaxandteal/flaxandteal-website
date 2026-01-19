@@ -5,8 +5,10 @@ aliases: ["/aiforbusiness/"]
 draft: false
 menu:
   main:
-    name: "AI for Business Workshops"
-    weight: 45
+    name: "AI for Business Support"
+    identifier: "ai-business-support"
+    parent: "business-support"
+    weight: 10
 layout: services
 
 sections:
