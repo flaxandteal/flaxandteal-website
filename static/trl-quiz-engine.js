@@ -146,20 +146,15 @@
     }
   };
 
-  const totalSteps = 7;
+  const totalQuestions = 5;
   let currentId = 'q1';
   let history = [];
 
   const contentEl = document.getElementById('trl-quiz-content');
   const progressFillEl = document.getElementById('progress-fill');
   const progressStepEl = document.getElementById('progress-step');
-  const progressTotalEl = document.getElementById('progress-total');
 
   if (!contentEl) return;
-
-  if (progressTotalEl) {
-    progressTotalEl.textContent = String(totalSteps);
-  }
 
   function escapeHtml(text) {
     return String(text)
@@ -213,9 +208,10 @@
       restartButton.addEventListener('click', restart);
     }
 
-    const step = Math.min(history.length + 1, totalSteps);
-    const pct = (step / totalSteps) * 100;
-    updateProgress(pct, step);
+    const questionNumberMap = { q1: 1, q2: 2, q3: 3, q3b: 3, q4: 4, q5: 5, q4b: 5 };
+    const questionNumber = questionNumberMap[questionId] || 1;
+    const pct = (questionNumber / totalQuestions) * 100;
+    updateProgress(pct, `Question ${questionNumber} of ${totalQuestions}`);
   }
 
   function renderResult(resultId) {
@@ -253,8 +249,7 @@
       restartButton.addEventListener('click', restart);
     }
 
-    const step = Math.min(history.length + 1, totalSteps);
-    updateProgress(100, step);
+    updateProgress(100, "Done \u00b7 Result");
   }
 
   function choose(nextId) {
@@ -289,7 +284,7 @@
     renderQuestion('q1');
   }
 
-  function updateProgress(pct, step) {
+  function updateProgress(pct, label) {
     if (progressFillEl) {
       progressFillEl.style.width = `${pct}%`;
       const progressBar = progressFillEl.closest('[role="progressbar"]');
@@ -299,7 +294,7 @@
     }
 
     if (progressStepEl) {
-      progressStepEl.textContent = String(step);
+      progressStepEl.textContent = label;
     }
   }
 
