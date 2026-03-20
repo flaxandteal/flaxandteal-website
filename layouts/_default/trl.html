@@ -1,0 +1,62 @@
+{{ define "main" }}
+{{ partial "nav-new.html" . }}
+
+<div class="trl-quiz-page">
+  <main class="trl-quiz-main">
+    <section class="trl-quiz-hero">
+      <div class="container mx-auto">
+        <h1>{{ .Title }}</h1>
+        <p class="trl-quiz-intro">{{ .Content }}</p>
+        <div class="trl-quiz-meta" aria-label="Tool metadata">
+          <span class="trl-pill">ISMS Tool</span>
+          <span class="trl-pill">Decision Tree</span>
+          <span class="trl-pill">5–8 Minutes</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trl-quiz-app" id="trl-quiz-app">
+      <div class="trl-progress" aria-label="Assessment progress">
+        <div class="trl-progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="trl-progress-fill" id="progress-fill"></div>
+        </div>
+        <p class="trl-progress-text">
+          Step <span id="progress-step">1</span> of <span id="progress-total">7</span>
+        </p>
+      </div>
+
+      <div class="trl-quiz-content" id="trl-quiz-content" aria-live="polite"></div>
+
+      <section class="trl-scale-reference" aria-labelledby="trl-scale-heading">
+        <button
+          class="trl-scale-toggle"
+          id="trl-scale-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="trl-scale-panel"
+        >
+          <span id="trl-scale-heading">Technology Readiness Level Scale Reference</span>
+          <span class="trl-scale-icon" aria-hidden="true">▾</span>
+        </button>
+        <div class="trl-scale-panel" id="trl-scale-panel" hidden>
+          <ul>
+            <li><strong>TRL 1</strong> – Basic principles observed.</li>
+            <li><strong>TRL 2</strong> – Technology concept formulated.</li>
+            <li><strong>TRL 3</strong> – Experimental proof of concept.</li>
+            <li><strong>TRL 4</strong> – Validation in laboratory environment.</li>
+            <li><strong>TRL 5</strong> – Validation in relevant environment.</li>
+            <li><strong>TRL 6</strong> – Prototype demonstrated in relevant environment.</li>
+            <li><strong>TRL 7</strong> – System prototype demonstrated in operational setting.</li>
+            <li><strong>TRL 8</strong> – System complete and qualified.</li>
+            <li><strong>TRL 9</strong> – Actual system proven in mission operations.</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+  </main>
+</div>
+
+{{ partial "footer-new.html" . }}
+
+<script src="/trl-quiz-engine.js"></script>
+{{ end }}
