@@ -4,6 +4,6 @@ layout: trl
 draft: false
 ---
 
-Use this quick Technology Readiness Level (TRL) identifier to estimate where your innovation currently sits, from early concept through operational deployment.
+Answer a few questions to identify your current Technology Readiness Level (TRL) for internal ISMS use.
 
-The tool asks a short sequence of practical, evidence-led questions and then maps your responses to a likely TRL band. You can restart at any time, compare pathways, and use the scale reference to align your internal assessment language.
+This tool is for team and internal usage only, to support consistent internal assessment and discussion.
