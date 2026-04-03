@@ -110,6 +110,9 @@ code {
   background: white;
   border-color: white;
 }
+.nav-dot[title]::after {
+  content: attr(title);
+}
 #print-btn {
   background: rgba(255,255,255,0.15);
   color: white;
@@ -211,7 +214,6 @@ code {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  text-decoration: none;
 }
 .hero-chapter-item .num {
   width: 20px; height: 20px;
@@ -812,14 +814,14 @@ code {
       <span class="badge">📐 Wiring diagrams included</span>
     </div>
     <div class="hero-chapters">
-      <a class="hero-chapter-item" href="#ch1"><div class="num">1</div> Prepare the Pi</a>
-      <a class="hero-chapter-item" href="#ch2"><div class="num">2</div> Fit the HAT Mini</a>
-      <a class="hero-chapter-item" href="#ch3"><div class="num">3</div> Temperature sensors</a>
-      <a class="hero-chapter-item" href="#ch4"><div class="num">4</div> Wire the heaters</a>
-      <a class="hero-chapter-item" href="#ch5"><div class="num">5</div> Wire the AC fan</a>
-      <a class="hero-chapter-item" href="#ch6"><div class="num">6</div> Power supply</a>
-      <a class="hero-chapter-item" href="#ch7"><div class="num">7</div> Install software</a>
-      <a class="hero-chapter-item" href="#ch8"><div class="num">8</div> First test</a>
+      <div class="hero-chapter-item"><div class="num">1</div> Prepare the Pi</div>
+      <div class="hero-chapter-item"><div class="num">2</div> Fit the HAT Mini</div>
+      <div class="hero-chapter-item"><div class="num">3</div> Temperature sensors</div>
+      <div class="hero-chapter-item"><div class="num">4</div> Wire the heaters</div>
+      <div class="hero-chapter-item"><div class="num">5</div> Wire the AC fan</div>
+      <div class="hero-chapter-item"><div class="num">6</div> Power supply</div>
+      <div class="hero-chapter-item"><div class="num">7</div> Install software</div>
+      <div class="hero-chapter-item"><div class="num">8</div> First test</div>
     </div>
   </div>
 </section>
