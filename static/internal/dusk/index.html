@@ -91,6 +91,12 @@ code {
   font-weight: 600;
   color: white;
   white-space: nowrap;
+  text-decoration: none;
+}
+#top-nav .nav-title:hover,
+#top-nav .nav-title:focus,
+#top-nav .nav-title:active {
+  text-decoration: none;
 }
 #top-nav .nav-chapters {
   display: flex;
@@ -791,7 +797,7 @@ code {
 
 <!-- Top Navigation -->
 <nav id="top-nav">
-  <span class="nav-title">🏠 Model House Build Guide</span>
+  <a class="nav-title" href="#" aria-label="Back to top">🏠 Model House Build Guide</a>
   <div class="nav-chapters" id="nav-chapters">
     <a class="nav-dot active" href="#safety" title="Safety"></a>
     <a class="nav-dot" href="#parts" title="Parts"></a>
