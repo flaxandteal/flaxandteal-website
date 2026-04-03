@@ -1,0 +1,2082 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dusk - Internal Build Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Nunito:wght@400;500;600;700;800&family=Caveat:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ===== VARIABLES ===== */
+:root {
+  --bg: #F8F5EF;
+  --card: #FFFFFF;
+  --primary: #1A5C3C;
+  --primary-mid: #2D8A5E;
+  --primary-light: #EAF4EE;
+  --accent: #B8710F;
+  --accent-light: #FDF3E4;
+  --danger: #B03030;
+  --danger-light: #FDF0F0;
+  --info: #1F5A80;
+  --info-light: #EAF2F9;
+  --success: #2D7A4E;
+  --success-light: #EAF7EF;
+  --warning: #8B5800;
+  --warning-light: #FFF8EC;
+  --ink: #1E2020;
+  --ink-mid: #4A5050;
+  --ink-light: #8A9090;
+  --border: #DDD6C8;
+  --border-mid: #C4BAA8;
+  --sketch-ink: #2E3040;
+  --red-wire: #D93030;
+  --black-wire: #2A2A2A;
+  --yellow-wire: #E8B800;
+  --blue-wire: #2060C0;
+  --purple-wire: #8040C0;
+  --orange-wire: #D0600A;
+  --white-wire: #CCCCCC;
+}
+
+/* ===== RESET & BASE ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1, h2, h3, h4 {
+  font-family: 'Fraunces', serif;
+  line-height: 1.25;
+  color: var(--primary);
+}
+h1 { font-size: 2.8rem; font-weight: 700; }
+h2 { font-size: 1.9rem; font-weight: 700; margin-bottom: 0.6rem; }
+h3 { font-size: 1.35rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--ink); }
+h4 { font-size: 1.1rem; font-weight: 600; color: var(--primary); margin-bottom: 0.4rem; }
+p { margin-bottom: 0.9rem; color: var(--ink-mid); }
+p:last-child { margin-bottom: 0; }
+strong { color: var(--ink); font-weight: 700; }
+code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85em;
+  background: #EDE8E0;
+  color: var(--primary);
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+}
+
+/* ===== NAV ===== */
+#top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--primary);
+  color: white;
+  padding: 0.7rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+#top-nav .nav-title {
+  font-family: 'Fraunces', serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: white;
+  white-space: nowrap;
+}
+#top-nav .nav-chapters {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.nav-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.3);
+  border: 2px solid rgba(255,255,255,0.5);
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+.nav-dot:hover, .nav-dot.active {
+  background: white;
+  border-color: white;
+}
+#print-btn {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.4);
+  padding: 0.35rem 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+#print-btn:hover { background: rgba(255,255,255,0.25); }
+
+/* ===== LAYOUT ===== */
+.container { max-width: 860px; margin: 0 auto; padding: 0 1.5rem; }
+.section { padding: 3rem 0; }
+.section + .section { border-top: 1px solid var(--border); }
+
+/* ===== HERO ===== */
+#hero {
+  background: linear-gradient(145deg, #132E20 0%, #1A5C3C 60%, #1F7048 100%);
+  padding: 4rem 2rem 3.5rem;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+#hero::before {
+  content: '';
+  position: absolute;
+  top: -40px; right: -40px;
+  width: 260px; height: 260px;
+  background: radial-gradient(circle, rgba(200,180,100,0.12) 0%, transparent 70%);
+  border-radius: 50%;
+}
+#hero::after {
+  content: '';
+  position: absolute;
+  bottom: -60px; left: -30px;
+  width: 220px; height: 220px;
+  background: radial-gradient(circle, rgba(100,200,150,0.08) 0%, transparent 70%);
+  border-radius: 50%;
+}
+#hero .container { position: relative; z-index: 1; }
+.hero-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.65);
+  margin-bottom: 0.8rem;
+}
+#hero h1 {
+  color: white;
+  font-size: 2.6rem;
+  margin-bottom: 0.8rem;
+}
+#hero h1 em {
+  font-style: italic;
+  color: #F0D080;
+}
+.hero-sub {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.8);
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+.badge {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: rgba(255,255,255,0.9);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.hero-chapters {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.6rem;
+  max-width: 700px;
+}
+.hero-chapter-item {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.85);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+.hero-chapter-item .num {
+  width: 20px; height: 20px;
+  background: var(--accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: white;
+  flex-shrink: 0;
+}
+
+/* ===== HOW TO USE ===== */
+.use-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+.use-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.use-icon { font-size: 1.5rem; }
+.use-card h4 { font-size: 0.9rem; margin: 0; }
+.use-card p { font-size: 0.82rem; margin: 0; }
+
+/* ===== CALLOUT BOXES ===== */
+.callout {
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.8rem;
+  align-items: flex-start;
+}
+.callout-icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 0.05rem; }
+.callout-body h4 { margin-bottom: 0.3rem; font-size: 0.95rem; }
+.callout-body p { font-size: 0.9rem; margin: 0; }
+.callout.danger { background: var(--danger-light); border-left: 4px solid var(--danger); }
+.callout.danger h4 { color: var(--danger); }
+.callout.warning { background: var(--warning-light); border-left: 4px solid var(--warning); }
+.callout.warning h4 { color: var(--warning); }
+.callout.info { background: var(--info-light); border-left: 4px solid var(--info); }
+.callout.info h4 { color: var(--info); }
+.callout.success { background: var(--success-light); border-left: 4px solid var(--success); }
+.callout.success h4 { color: var(--success); }
+.callout.tip { background: var(--accent-light); border-left: 4px solid var(--accent); }
+.callout.tip h4 { color: var(--accent); }
+
+/* ===== SAFETY RULES ===== */
+.safety-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+.safety-card {
+  background: var(--card);
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  padding: 1.2rem;
+  position: relative;
+}
+.safety-card.critical { border-color: var(--danger); background: var(--danger-light); }
+.safety-num {
+  width: 28px; height: 28px;
+  background: var(--primary);
+  border-radius: 50%;
+  color: white;
+  font-weight: 800;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.7rem;
+}
+.safety-card.critical .safety-num { background: var(--danger); }
+.safety-card h4 { font-size: 0.95rem; margin-bottom: 0.3rem; }
+.safety-card p { font-size: 0.85rem; }
+
+/* ===== CHECKLIST ===== */
+.checklist-section {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+.checklist-header {
+  background: var(--primary-light);
+  padding: 0.9rem 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+}
+.checklist-header h3 { color: var(--primary); font-size: 1rem; margin: 0; }
+.checklist-progress {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.checklist-group-label {
+  padding: 0.5rem 1.2rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-light);
+  background: #F5F2EC;
+  border-bottom: 1px solid var(--border);
+}
+.check-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9rem;
+  padding: 0.85rem 1.2rem;
+  border-bottom: 1px solid #F0EDE6;
+  transition: background 0.15s;
+  cursor: pointer;
+}
+.check-item:last-child { border-bottom: none; }
+.check-item:hover { background: #F8F6F2; }
+.check-item.done { opacity: 0.6; }
+.check-item.done .check-name { text-decoration: line-through; }
+.check-item input[type="checkbox"] {
+  width: 18px; height: 18px;
+  accent-color: var(--primary);
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+  cursor: pointer;
+}
+.check-name { font-weight: 600; font-size: 0.92rem; color: var(--ink); line-height: 1.4; }
+.check-detail {
+  font-size: 0.8rem;
+  color: var(--ink-mid);
+  margin-top: 0.15rem;
+  line-height: 1.4;
+}
+.check-qty {
+  margin-left: auto;
+  flex-shrink: 0;
+  background: var(--primary-light);
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 0.78rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+.check-link {
+  font-size: 0.78rem;
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.check-link:hover { text-decoration: underline; }
+
+/* ===== CHAPTER STRUCTURE ===== */
+.chapter {
+  padding: 2.5rem 0;
+}
+.chapter + .chapter { border-top: 2px dashed var(--border); }
+.chapter-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.chapter-num {
+  width: 50px; height: 50px;
+  background: var(--primary);
+  border-radius: 50%;
+  color: white;
+  font-family: 'Fraunces', serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.chapter-title-group { flex: 1; }
+.chapter-title-group h2 { margin: 0; font-size: 1.65rem; }
+.chapter-subtitle { font-size: 0.88rem; color: var(--ink-light); margin: 0; }
+.chapter-done-wrap { display: flex; align-items: center; gap: 0.5rem; }
+.chapter-done-label { font-size: 0.82rem; color: var(--ink-light); }
+
+/* ===== STEPS ===== */
+.step {
+  margin: 1.5rem 0;
+  padding-left: 2.5rem;
+  position: relative;
+}
+.step::before {
+  content: attr(data-step);
+  position: absolute;
+  left: 0; top: 0.1rem;
+  width: 24px; height: 24px;
+  background: var(--accent);
+  border-radius: 50%;
+  color: white;
+  font-size: 0.78rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+}
+.step h3 { font-size: 1.05rem; font-family: 'Nunito', sans-serif; font-weight: 700; color: var(--ink); }
+.step p { font-size: 0.92rem; }
+
+/* ===== COMMAND BLOCK ===== */
+.cmd-block {
+  background: #1C2830;
+  border-radius: 8px;
+  padding: 0.9rem 1.2rem;
+  margin: 0.8rem 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82rem;
+  color: #A8EFCC;
+  overflow-x: auto;
+  position: relative;
+}
+.cmd-block .prompt { color: #5A9080; user-select: none; }
+.cmd-block .comment { color: #5A7060; }
+.cmd-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-light);
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+/* ===== DIAGRAM CONTAINER ===== */
+.diagram-wrap {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+.diagram-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+  background: #F5F2EC;
+}
+.diagram-tab {
+  padding: 0.55rem 1.1rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ink-light);
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: all 0.15s;
+  user-select: none;
+}
+.diagram-tab.active { color: var(--primary); border-bottom-color: var(--primary); }
+.diagram-pane { display: none; padding: 1.5rem; }
+.diagram-pane.active { display: block; }
+.diagram-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-light);
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.diagram-pane svg { display: block; margin: 0 auto; max-width: 100%; }
+
+/* ===== WIRE LEGEND ===== */
+.wire-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+.wire-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink-mid);
+}
+.wire-swatch {
+  width: 28px; height: 6px;
+  border-radius: 3px;
+}
+
+/* ===== PIN MAP ===== */
+.pin-map {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 4px 0;
+  max-width: 660px;
+  margin: 1rem auto;
+  font-size: 0.75rem;
+}
+.pin-row { display: contents; }
+.pin-left {
+  text-align: right;
+  padding: 3px 8px 3px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  font-weight: 600;
+  color: var(--ink-mid);
+  line-height: 1.3;
+}
+.pin-right {
+  text-align: left;
+  padding: 3px 4px 3px 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
+  color: var(--ink-mid);
+  line-height: 1.3;
+}
+.pin-num {
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: white;
+  flex-shrink: 0;
+}
+.pin-connector { display: flex; align-items: center; justify-content: center; }
+.pin-dot {
+  width: 8px; height: 26px;
+  background: var(--border-mid);
+  border-radius: 2px;
+}
+/* Pin colours */
+.p-power5 { background: #CC3030; }
+.p-power3 { background: #C0A020; }
+.p-gnd { background: #2A2A2A; }
+.p-hat { background: var(--primary-mid); }
+.p-sensor { background: #D0600A; color: white; }
+.p-mosfet1 { background: #2060C0; }
+.p-mosfet2 { background: #8040C0; }
+.p-eeprom { background: #888; }
+.p-free { background: #B8B0A4; }
+.pin-map-legend { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; justify-content: center; }
+.pm-leg {
+  display: flex; align-items: center; gap: 0.4rem;
+  font-size: 0.76rem; font-weight: 600; color: var(--ink-mid);
+}
+.pm-dot {
+  width: 12px; height: 12px;
+  border-radius: 3px;
+}
+
+/* ===== COMPONENT CARDS ===== */
+.component-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.component-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.2rem;
+  border-top: 3px solid var(--primary);
+}
+.component-card .comp-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--primary);
+  margin-bottom: 0.4rem;
+}
+.component-card h4 { font-size: 1rem; color: var(--ink); margin-bottom: 0.5rem; }
+.component-card p { font-size: 0.83rem; color: var(--ink-mid); }
+.component-card .analogy {
+  margin-top: 0.7rem;
+  padding-top: 0.6rem;
+  border-top: 1px dashed var(--border);
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-style: italic;
+}
+
+/* ===== PRE-POWER CHECKLIST ===== */
+.prepower {
+  background: linear-gradient(135deg, #1A3520, #2A5C3C);
+  border-radius: 14px;
+  padding: 1.8rem;
+  color: white;
+  margin: 2rem 0;
+}
+.prepower h3 { color: #A8E8C0; margin-bottom: 1rem; }
+.prepower-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+.prepower-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.88);
+}
+.prepower-list li input[type="checkbox"] {
+  width: 16px; height: 16px;
+  accent-color: #60E090;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+}
+
+/* ===== TROUBLESHOOTING ===== */
+.trouble-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  margin-top: 1rem;
+}
+.trouble-table th {
+  background: var(--primary);
+  color: white;
+  padding: 0.7rem 1rem;
+  text-align: left;
+  font-weight: 700;
+}
+.trouble-table td {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+  color: var(--ink-mid);
+}
+.trouble-table tr:hover td { background: var(--primary-light); }
+.trouble-table td:first-child { font-weight: 600; color: var(--danger); width: 30%; }
+.trouble-table td:nth-child(2) { width: 35%; }
+.trouble-table td:last-child { color: var(--success); font-weight: 600; }
+
+/* ===== CHAPTER COMPLETE BOX ===== */
+.chapter-complete {
+  background: var(--success-light);
+  border: 2px solid #2D7A4E;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.chapter-complete label { font-size: 0.9rem; font-weight: 700; color: var(--success); cursor: pointer; }
+.chapter-complete input[type="checkbox"] { width: 20px; height: 20px; accent-color: var(--success); cursor: pointer; }
+
+/* ===== WIRE COLOUR BOX ===== */
+.wire-colours {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.8rem 0;
+}
+.wire-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  border: 2px solid;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+.wire-pill.red { border-color: #D93030; background: #FEF0F0; color: #A02020; }
+.wire-pill.black { border-color: #2A2A2A; background: #F0F0F0; color: #1A1A1A; }
+.wire-pill.yellow { border-color: #C8A000; background: #FFFBEA; color: #806400; }
+
+/* ===== BACK TO TOP ===== */
+#back-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 42px; height: 42px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+  z-index: 99;
+  transition: background 0.2s;
+}
+#back-top:hover { background: var(--primary-mid); }
+#back-top.visible { display: flex; }
+
+/* ===== PROGRESS BAR ===== */
+#progress-bar {
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px;
+  background: #F0D080;
+  z-index: 200;
+  transition: width 0.1s;
+  pointer-events: none;
+}
+
+/* ===== PRINT ===== */
+@media print {
+  #top-nav, #back-top, #progress-bar, #print-btn { display: none !important; }
+  body { background: white; }
+  .diagram-tabs { display: none; }
+  .diagram-pane { display: block !important; }
+  .chapter { break-inside: avoid; }
+  h2, h3 { break-after: avoid; }
+  .callout { break-inside: avoid; }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  h1 { font-size: 1.9rem; }
+  h2 { font-size: 1.45rem; }
+  #hero { padding: 2.5rem 1.2rem 2rem; }
+  .pin-map { font-size: 0.65rem; }
+  .pin-num { width: 22px; height: 22px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Progress bar -->
+<div id="progress-bar" style="width:0%"></div>
+
+<!-- SVG filter definitions -->
+<svg style="display:none" width="0" height="0">
+  <defs>
+    <filter id="sketchy" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035 0.035" numOctaves="4" seed="5" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.8" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <marker id="arr-teal" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#1A5C3C"/>
+    </marker>
+    <marker id="arr-red" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#CC3030"/>
+    </marker>
+    <marker id="arr-sketch" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#2E3040"/>
+    </marker>
+    <marker id="arr-amber" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#B8710F"/>
+    </marker>
+  </defs>
+</svg>
+
+<!-- Top Navigation -->
+<nav id="top-nav">
+  <span class="nav-title">🏠 Model House Build Guide</span>
+  <div class="nav-chapters" id="nav-chapters">
+    <a class="nav-dot active" href="#safety" title="Safety"></a>
+    <a class="nav-dot" href="#parts" title="Parts"></a>
+    <a class="nav-dot" href="#ch1" title="Ch 1: Pi Setup"></a>
+    <a class="nav-dot" href="#ch2" title="Ch 2: HAT Mini"></a>
+    <a class="nav-dot" href="#ch3" title="Ch 3: Sensors"></a>
+    <a class="nav-dot" href="#ch4" title="Ch 4: Heaters"></a>
+    <a class="nav-dot" href="#ch5" title="Ch 5: Fan"></a>
+    <a class="nav-dot" href="#ch6" title="Ch 6: Power"></a>
+    <a class="nav-dot" href="#ch7" title="Ch 7: Software"></a>
+    <a class="nav-dot" href="#ch8" title="Ch 8: Test"></a>
+  </div>
+  <button id="print-btn" onclick="window.print()">🖨 Print / Save PDF</button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-label">Project Dusk — Electronics Build Guide</div>
+    <h1>Your <em>step-by-step</em> guide to wiring the model house</h1>
+    <p class="hero-sub">No electronics experience needed. Follow each chapter in order and you'll have a fully working sensor and control system — safely, neatly, and confidently.</p>
+    <div class="hero-badges">
+      <span class="badge">🔌 5V DC only — no mains voltage</span>
+      <span class="badge">🟢 Beginner-friendly</span>
+      <span class="badge">✅ Interactive checklists</span>
+      <span class="badge">📐 Wiring diagrams included</span>
+    </div>
+    <div class="hero-chapters">
+      <a class="hero-chapter-item" href="#ch1"><div class="num">1</div> Prepare the Pi</a>
+      <a class="hero-chapter-item" href="#ch2"><div class="num">2</div> Fit the HAT Mini</a>
+      <a class="hero-chapter-item" href="#ch3"><div class="num">3</div> Temperature sensors</a>
+      <a class="hero-chapter-item" href="#ch4"><div class="num">4</div> Wire the heaters</a>
+      <a class="hero-chapter-item" href="#ch5"><div class="num">5</div> Wire the AC fan</a>
+      <a class="hero-chapter-item" href="#ch6"><div class="num">6</div> Power supply</a>
+      <a class="hero-chapter-item" href="#ch7"><div class="num">7</div> Install software</a>
+      <a class="hero-chapter-item" href="#ch8"><div class="num">8</div> First test</a>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO USE -->
+<section class="section" id="how-to-use">
+<div class="container">
+  <h2>How to use this guide</h2>
+  <p>Work through each chapter in order. Do not skip ahead — later steps depend on earlier ones. Take your time, double-check each step, and use the checklists to track your progress.</p>
+  <div class="use-grid">
+    <div class="use-card"><div class="use-icon">✅</div><h4>Tick off tasks</h4><p>Interactive checkboxes save your progress automatically in your browser.</p></div>
+    <div class="use-card"><div class="use-icon">⚠️</div><h4>Warning boxes</h4><p>Red and orange boxes highlight safety-critical steps. Always read these carefully.</p></div>
+    <div class="use-card"><div class="use-icon">💡</div><h4>Tip boxes</h4><p>Blue and green boxes give helpful advice and explain why a step matters.</p></div>
+    <div class="use-card"><div class="use-icon">🔍</div><h4>Diagram tabs</h4><p>Each wiring diagram has a "Clean" and "Hand-drawn" view. Switch between them to find what works for you.</p></div>
+    <div class="use-card"><div class="use-icon">💻</div><h4>Code blocks</h4><p>Dark boxes contain text you type into the terminal. Copy carefully, including spaces.</p></div>
+    <div class="use-card"><div class="use-icon">🖨️</div><h4>Print or save</h4><p>Use the "Print / Save PDF" button at the top to create an offline copy.</p></div>
+  </div>
+</div>
+</section>
+
+<!-- SAFETY -->
+<section class="section" id="safety">
+<div class="container">
+  <h2>Safety first — read before you start</h2>
+  <p>All the electronics in this project run on <strong>5 volts DC</strong> — the same voltage as a phone charger. This is safe for humans. However, incorrect wiring can damage the Raspberry Pi or start a small electrical fire. Follow these rules every time.</p>
+
+  <div class="callout danger">
+    <div class="callout-icon">🚫</div>
+    <div class="callout-body">
+      <h4>Most important rule: power off when wiring</h4>
+      <p>Never connect or disconnect wires while the power supply is plugged in. Always unplug the power before making any changes to the wiring. Plug power in only at the specific test points in this guide.</p>
+    </div>
+  </div>
+
+  <div class="safety-grid">
+    <div class="safety-card critical">
+      <div class="safety-num">1</div>
+      <h4>Power off before wiring</h4>
+      <p>Unplug the 5V power supply before connecting any wires. Only power on when this guide tells you to.</p>
+    </div>
+    <div class="safety-card">
+      <div class="safety-num">2</div>
+      <h4>Touch metal before handling the Pi</h4>
+      <p>Static electricity from your hands can damage the Raspberry Pi. Touch a metal radiator or tap before picking it up. This is called "earthing yourself".</p>
+    </div>
+    <div class="safety-card">
+      <div class="safety-num">3</div>
+      <h4>Mount heaters on non-flammable surfaces</h4>
+      <p>The PTC heating elements reach 40°C — warm, not burning-hot. But place them on an aluminium plate or ceramic tile, never directly on cardboard, foam, or raw wood inside the model.</p>
+    </div>
+    <div class="safety-card">
+      <div class="safety-num">4</div>
+      <h4>Double-check wires before powering on</h4>
+      <p>Use the pre-power checklist in Chapter 6 before connecting your first power supply. A quick check takes 2 minutes and prevents most problems.</p>
+    </div>
+    <div class="safety-card">
+      <div class="safety-num">5</div>
+      <h4>Do not short circuit the power rail</h4>
+      <p>Never connect a red (+5V) wire directly to a black (GND) wire without something in between. This creates a short circuit and can cause heat or smoke.</p>
+    </div>
+    <div class="safety-card">
+      <div class="safety-num">6</div>
+      <h4>No mains voltage in this project</h4>
+      <p>Everything here is low-voltage DC (5V). Never connect mains electricity (the wall socket) to any component in this project.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- PARTS LIST -->
+<section class="section" id="parts">
+<div class="container">
+  <h2>What you'll need</h2>
+  <p>Tick off each item as you gather it. Everything listed here is required unless marked "optional". Purchasing links are for reference — shop around for the best UK prices.</p>
+
+  <!-- Core components -->
+  <div class="checklist-section">
+    <div class="checklist-header">
+      <h3>Core components</h3>
+      <span class="checklist-progress" id="prog-core">0 / 8</span>
+    </div>
+    <div class="checklist-group-label">The main building blocks</div>
+    <label class="check-item" data-list="core"><input type="checkbox"> <div><div class="check-name">Raspberry Pi 4 Model B (2GB RAM or more)</div><div class="check-detail">The brain of the system. Any Pi 4B variant works. Comes without microSD — buy separately.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="core"><input type="checkbox"> <div><div class="check-name">MicroSD card (16GB or larger, Class 10)</div><div class="check-detail">The Pi's "hard drive". Must be pre-loaded with Raspberry Pi OS Bookworm before use. A Samsung or SanDisk card is recommended.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="core"><input type="checkbox"> <div><div class="check-name">Pimoroni Automation HAT Mini</div><div class="check-detail">Sits on top of the Pi. Provides the relay and control outputs. Note: has only 1 relay — this guide adds MOSFET circuits for the extra actuators.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="core"><input type="checkbox"> <div><div class="check-name">Waterproof DS18B20 Temperature Sensor (with resistor)</div><div class="check-detail">From The Pi Hut. The pack includes one sensor and a 4.7kΩ resistor — buy three packs.</div></div><span class="check-qty">× 3</span></label>
+    <label class="check-item" data-list="core"><input type="checkbox"> <div><div class="check-name">DFRobot PTC Heating Element 5V 40°C (FIT0844)</div><div class="check-detail">Self-limiting heater — it physically cannot exceed its rated temperature.</div></div><span class="check-qty">× 2</span></label>
+    <label class="check-item" data-list="core"><input type="checkbox"> <div><div class="check-name">Model AC unit (small 5V fan, 2-wire)</div><div class="check-detail">The "air conditioning" unit for the model house. Any small 5V USB or DC fan with a black and white/red wire will work.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="core"><input type="checkbox"> <div><div class="check-name">5V 6A Switching Power Supply</div><div class="check-detail">Powers everything. Look for "5V 6A 30W enclosed PSU" on Amazon or RS Components. Mean Well RS-25-5 or S-25-5 is ideal. Must have screw terminal outputs.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="core"><input type="checkbox"> <div><div class="check-name">USB-C cable (data + power rated)</div><div class="check-detail">To connect the Pi to its power from the main supply. Or use the official Raspberry Pi 5V/3A USB-C PSU as a separate supply for the Pi (see Chapter 6).</div></div><span class="check-qty">× 1</span></label>
+  </div>
+
+  <!-- Electronics extras -->
+  <div class="checklist-section">
+    <div class="checklist-header">
+      <h3>Electronics extras (small parts)</h3>
+      <span class="checklist-progress" id="prog-extras">0 / 7</span>
+    </div>
+    <div class="checklist-group-label">These make up the MOSFET switching circuits</div>
+    <label class="check-item" data-list="extras"><input type="checkbox"> <div><div class="check-name">IRLZ44N N-channel MOSFET (TO-220 package)</div><div class="check-detail">Electronic switches for Heater 2 and the fan. Buy from Farnell, Mouser, or RS Components — avoid cheap marketplaces for this specific part due to counterfeiting.</div></div><span class="check-qty">× 2</span></label>
+    <label class="check-item" data-list="extras"><input type="checkbox"> <div><div class="check-name">220Ω resistor (red-red-brown-gold bands)</div><div class="check-detail">Gate current limiters for the MOSFETs. Standard 1/4W through-hole resistors.</div></div><span class="check-qty">× 2</span></label>
+    <label class="check-item" data-list="extras"><input type="checkbox"> <div><div class="check-name">10kΩ resistor (brown-black-orange-gold bands)</div><div class="check-detail">Gate pull-down resistors — keep the MOSFETs safely OFF when the Pi is starting up.</div></div><span class="check-qty">× 2</span></label>
+    <label class="check-item" data-list="extras"><input type="checkbox"> <div><div class="check-name">1N5819 Schottky diode</div><div class="check-detail">Flyback diode for the fan MOSFET circuit only. Protects the MOSFET from voltage spikes from the fan motor. Not needed for the heater circuits.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="extras"><input type="checkbox"> <div><div class="check-name">4.7kΩ resistor (yellow-violet-red-gold bands)</div><div class="check-detail">Pull-up resistor for the temperature sensor data line. One is usually included with the DS18B20 pack — you only need one total, not one per sensor.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="extras"><input type="checkbox"> <div><div class="check-name">2×20 GPIO stacking header (extra-tall)</div><div class="check-detail">Sits between the Pi and the HAT Mini, allowing you to connect wires to the GPIO pins the HAT covers. Adafruit #2223 or Pimoroni's own booster header. Look for "13mm tall female stacking header for Raspberry Pi".</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="extras"><input type="checkbox"> <div><div class="check-name">Screw terminal blocks (2-pin and 3-pin, 2.54mm pitch)</div><div class="check-detail">For making neat, removable wire connections on the perfboard. Buy a mixed pack.</div></div><span class="check-qty">× 6–8</span></label>
+  </div>
+
+  <!-- Board and connectors -->
+  <div class="checklist-section">
+    <div class="checklist-header">
+      <h3>Build materials and connectors</h3>
+      <span class="checklist-progress" id="prog-build">0 / 6</span>
+    </div>
+    <div class="checklist-group-label">For a neat, permanent wiring hub</div>
+    <label class="check-item" data-list="build"><input type="checkbox"> <div><div class="check-name">Perfboard / stripboard (approx. 70 × 50 mm, 2.54mm pitch)</div><div class="check-detail">A small circuit board with holes for soldering your MOSFET circuits and sensor connections onto. Also called "veroboard". Double-sided is easier to work with.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="build"><input type="checkbox"> <div><div class="check-name">WAGO 221-413 lever-nut connectors (3-port)</div><div class="check-detail">For joining wires inside the model house (e.g. joining all three sensor VCC wires together). Tool-free and transparent. Pack of 10 is more than enough.</div></div><span class="check-qty">× 6</span></label>
+    <label class="check-item" data-list="build"><input type="checkbox"> <div><div class="check-name">Dupont jumper wires (female-to-female, 20cm)</div><div class="check-detail">Connect from the stacking header pins to your perfboard. Buy a mixed pack of at least 20.</div></div><span class="check-qty">× 10–20</span></label>
+    <label class="check-item" data-list="build"><input type="checkbox"> <div><div class="check-name">Coloured hookup wire (22AWG solid core, red/black/yellow/blue)</div><div class="check-detail">For wiring the components. Solid core is easier to work with on perfboard. Pre-cut lengths work well. 1 metre of each colour is plenty.</div></div><span class="check-qty">× 4 colours</span></label>
+    <label class="check-item" data-list="build"><input type="checkbox"> <div><div class="check-name">Bootlace ferrules with crimping tool</div><div class="check-detail">Crimp these onto stranded wire ends before inserting into screw terminals. Prevents fraying. A starter kit with assorted 0.25–1.5mm² sizes costs around £10–12.</div></div><span class="check-qty">× kit</span></label>
+    <label class="check-item" data-list="build"><input type="checkbox"> <div><div class="check-name">Small cable ties and adhesive cable mounts</div><div class="check-detail">For routing and securing wires neatly inside the model house. 100mm × 2.5mm ties are ideal.</div></div><span class="check-qty">× pack</span></label>
+  </div>
+
+  <!-- Tools -->
+  <div class="checklist-section">
+    <div class="checklist-header">
+      <h3>Tools you'll need</h3>
+      <span class="checklist-progress" id="prog-tools">0 / 8</span>
+    </div>
+    <div class="checklist-group-label">Borrow or buy — you'll use most of these long-term</div>
+    <label class="check-item" data-list="tools"><input type="checkbox"> <div><div class="check-name">Soldering iron + solder</div><div class="check-detail">Needed for the stacking header and the perfboard circuit. A temperature-controlled iron (Hakko FX-888D or Pinecil) at 350°C is ideal. Rosin-core solder, 0.7–1mm diameter.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="tools"><input type="checkbox"> <div><div class="check-name">Wire strippers</div><div class="check-detail">For removing insulation from wire ends. Adjust to the wire size (22AWG). Self-adjusting strippers are easiest for beginners.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="tools"><input type="checkbox"> <div><div class="check-name">Multimeter</div><div class="check-detail">For checking your wiring before powering on. Set it to DC volts (20V range) to check power, or continuity mode (the beep mode) to check connections. An inexpensive AstroAI or Uni-T meter is fine.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="tools"><input type="checkbox"> <div><div class="check-name">Flat-head and crosshead screwdrivers (small)</div><div class="check-detail">For the screw terminals on the HAT Mini and perfboard terminal blocks. A precision set works well.</div></div><span class="check-qty">× 1 set</span></label>
+    <label class="check-item" data-list="tools"><input type="checkbox"> <div><div class="check-name">Needle-nose pliers</div><div class="check-detail">For gripping small components and bending leads.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="tools"><input type="checkbox"> <div><div class="check-name">Laptop or PC with SSH or screen/keyboard for the Pi</div><div class="check-detail">To run software commands. You can connect a keyboard, mouse, and monitor directly, or SSH in over the network. The Pi Imager tool lets you configure Wi-Fi and SSH before first boot.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="tools"><input type="checkbox"> <div><div class="check-name">Anti-static wrist strap (recommended)</div><div class="check-detail">Prevents static electricity from damaging the Pi. Clips to your wrist and connects to a metal surface. Costs around £3–4.</div></div><span class="check-qty">× 1</span></label>
+    <label class="check-item" data-list="tools"><input type="checkbox"> <div><div class="check-name">Heat-resistant mat or surface</div><div class="check-detail">For soldering on. A silicone mat or ceramic tile protects your table and catches any dropped solder.</div></div><span class="check-qty">× 1</span></label>
+  </div>
+
+  <!-- Heater protection -->
+  <div class="checklist-section">
+    <div class="checklist-header">
+      <h3>Heater mounting and protection</h3>
+      <span class="checklist-progress" id="prog-heater">0 / 3</span>
+    </div>
+    <div class="checklist-group-label">For safe, effective heater installation</div>
+    <label class="check-item" data-list="heater"><input type="checkbox"> <div><div class="check-name">Small aluminium plate or sheet (approx. 40 × 30 mm per heater)</div><div class="check-detail">The heater sits on this. Aluminium spreads heat, acts as a fire-safe mounting base, and improves heat radiation into the model space. Cut from aluminium flashing or buy pre-cut shims.</div></div><span class="check-qty">× 2</span></label>
+    <label class="check-item" data-list="heater"><input type="checkbox"> <div><div class="check-name">Silicone mat or sheet (cut from a baking mat)</div><div class="check-detail">Wrapped loosely around the heater assembly, this allows heat to escape while protecting surrounding surfaces. Silicone is food-safe and rated well above 100°C — completely safe at 40°C.</div></div><span class="check-qty">× 1 sheet</span></label>
+    <label class="check-item" data-list="heater"><input type="checkbox"> <div><div class="check-name">Kapton tape (polyimide tape)</div><div class="check-detail">Heat-resistant tape for securing the heater to its aluminium plate. Do not use regular tape — it can melt. Kapton is the gold-coloured tape used in electronics manufacturing.</div></div><span class="check-qty">× 1 roll</span></label>
+  </div>
+</div>
+</section>
+
+<!-- CHAPTER 1: KNOW YOUR PARTS -->
+<section class="section" id="ch0">
+<div class="container">
+  <div class="chapter-header">
+    <div class="chapter-num" style="background: var(--accent)">🔍</div>
+    <div class="chapter-title-group">
+      <h2>Getting to know your parts</h2>
+      <p class="chapter-subtitle">A friendly tour of every component before you start</p>
+    </div>
+  </div>
+
+  <p>Before connecting anything, take a few minutes to understand what each component does. This makes the wiring steps much less confusing.</p>
+
+  <div class="component-grid">
+    <div class="component-card">
+      <div class="comp-label">The brain</div>
+      <h4>Raspberry Pi 4B</h4>
+      <p>A tiny computer that runs Python code. It has 40 metal pins (the "GPIO header") along one edge — these are how it talks to other electronics.</p>
+      <div class="analogy">💡 Think of it as a very small PC that can directly control physical things.</div>
+    </div>
+    <div class="component-card">
+      <div class="comp-label">Control board</div>
+      <h4>Automation HAT Mini</h4>
+      <p>Clips onto the Pi's GPIO pins. Provides a relay switch and several inputs/outputs. It also has a small display screen. Has <strong>one relay</strong> (not three — the full HAT has three).</p>
+      <div class="analogy">💡 Like an expansion pack for the Pi — adds real-world switching capability.</div>
+    </div>
+    <div class="component-card">
+      <div class="comp-label">Temperature sensors</div>
+      <h4>DS18B20 Waterproof Probe</h4>
+      <p>Three-wire sensor in a metal probe. Measures temperature digitally. All three sensors can share a single wire back to the Pi — each has a unique ID so the Pi knows which is which.</p>
+      <div class="analogy">💡 Like a digital thermometer that sends readings directly to the Pi.</div>
+    </div>
+    <div class="component-card">
+      <div class="comp-label">Heating element</div>
+      <h4>PTC Heater (FIT0844)</h4>
+      <p>A flat, 5V ceramic heating element. "PTC" stands for Positive Temperature Coefficient — the material physically self-limits at 40°C. It <em>cannot</em> overheat by design. No thermostat needed.</p>
+      <div class="analogy">💡 Like a tiny, smart heated blanket that switches itself off at the right temperature.</div>
+    </div>
+    <div class="component-card">
+      <div class="comp-label">Switching component</div>
+      <h4>IRLZ44N MOSFET</h4>
+      <p>An electronic switch you can trigger with 3.3V from the Pi. One tiny signal on the "gate" pin allows or blocks a much larger current flowing through it. Runs completely silently — no moving parts.</p>
+      <div class="analogy">💡 Like a tap: a small turn of the handle (the Pi's signal) controls a large flow (the heater's power).</div>
+    </div>
+    <div class="component-card">
+      <div class="comp-label">Mechanical switch</div>
+      <h4>Relay (inside the HAT)</h4>
+      <p>An electrically-operated mechanical switch. When the Pi sends a signal, a small magnet pulls a metal contact closed, completing a separate circuit. Has three terminals: COM (common), NO (normally open), and NC (normally closed).</p>
+      <div class="analogy">💡 Like a light switch, but flipped by electricity instead of your finger.</div>
+    </div>
+    <div class="component-card">
+      <div class="comp-label">Power connection</div>
+      <h4>Stacking Header</h4>
+      <p>A special 40-pin connector that goes <em>between</em> the Pi and the HAT Mini. The HAT sits on top, but the long pins of the stacking header stick out above and below so you can connect wires to any pin.</p>
+      <div class="analogy">💡 Like an extension lead — plugs in between two things to give you extra access points.</div>
+    </div>
+    <div class="component-card">
+      <div class="comp-label">Wire junction</div>
+      <h4>WAGO Lever-Nut</h4>
+      <p>A small transparent connector with a lever. Push a wire in, close the lever, and it's held firmly. Lift the lever to release. No soldering needed. Great for joining multiple wires in the model house.</p>
+      <div class="analogy">💡 Like a tiny, reusable junction box for wires.</div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- CHAPTER 1: RASPBERRY PI SETUP -->
+<section class="section" id="ch1">
+<div class="container">
+  <div class="chapter-header">
+    <div class="chapter-num">1</div>
+    <div class="chapter-title-group">
+      <h2>Preparing your Raspberry Pi</h2>
+      <p class="chapter-subtitle">Install the OS, configure settings, and enable the interfaces you need</p>
+    </div>
+  </div>
+
+  <div class="callout info">
+    <div class="callout-icon">ℹ️</div>
+    <div class="callout-body"><h4>Before you start this chapter</h4><p>You will need a laptop or desktop with internet access to prepare the microSD card. The official Raspberry Pi Imager is free and handles everything.</p></div>
+  </div>
+
+  <div class="step" data-step="1">
+    <h3>Download and install the Raspberry Pi Imager</h3>
+    <p>On your laptop, go to <strong>raspberrypi.com/software</strong> and download the Raspberry Pi Imager for your operating system. Install and open it.</p>
+  </div>
+
+  <div class="step" data-step="2">
+    <h3>Flash Raspberry Pi OS onto your microSD card</h3>
+    <p>Insert the microSD card into your laptop using an adaptor if needed. In the Imager:</p>
+    <ul style="margin: 0.5rem 0 0.7rem 1.5rem; font-size: 0.92rem; color: var(--ink-mid);">
+      <li>Choose Device: <strong>Raspberry Pi 4</strong></li>
+      <li>Choose OS: <strong>Raspberry Pi OS (64-bit)</strong> — the one labelled "Recommended"</li>
+      <li>Choose Storage: select your microSD card</li>
+    </ul>
+    <p>Click <strong>Next</strong>, then click <strong>Edit Settings</strong>. This is important — you can set up Wi-Fi, a username, password, and enable SSH here before the card even boots. Fill in your Wi-Fi details and a hostname (e.g. <code>model-house</code>). Enable SSH under the Services tab. Click Save, then Yes when prompted.</p>
+    <p>Click <strong>Write</strong>. This takes 3–5 minutes.</p>
+  </div>
+
+  <div class="step" data-step="3">
+    <h3>First boot</h3>
+    <p>Insert the microSD card into the slot on the underside of the Pi (it clicks in). Connect a monitor via the micro-HDMI port (use the port labelled HDMI0 — closest to the USB-C power port), keyboard, and mouse if using a screen directly. Alternatively, connect the Pi to power and SSH in from your laptop over Wi-Fi using the hostname you set.</p>
+    <p>To SSH from your laptop, open a Terminal (Mac/Linux) or PowerShell (Windows) and type:</p>
+    <span class="cmd-label">In your laptop's terminal</span>
+    <div class="cmd-block"><span class="prompt">$ </span>ssh pi@model-house.local</div>
+    <p style="font-size: 0.85rem; color: var(--ink-light);">Replace <code>pi</code> with your username and <code>model-house</code> with the hostname you set. Accept the fingerprint prompt by typing <code>yes</code>.</p>
+  </div>
+
+  <div class="step" data-step="4">
+    <h3>Enable I2C and 1-Wire interfaces</h3>
+    <p>The HAT Mini uses I2C to communicate with the Pi. The temperature sensors use 1-Wire. Both must be enabled. Once connected to the Pi (via SSH or directly), run:</p>
+    <span class="cmd-label">On the Pi</span>
+    <div class="cmd-block"><span class="prompt">$ </span>sudo raspi-config</div>
+    <p>Navigate to <strong>Interface Options</strong>. Enable <strong>I2C</strong>. Then go back to Interface Options and enable <strong>1-Wire</strong>. Select Finish and reboot when prompted.</p>
+    <p>After reboot, open the config file to confirm the 1-Wire overlay is pointing to the correct pin:</p>
+    <span class="cmd-label">On the Pi — check the config file</span>
+    <div class="cmd-block"><span class="prompt">$ </span>grep w1 /boot/firmware/config.txt</div>
+    <p>You should see a line containing <code>dtoverlay=w1-gpio</code>. If it does not already say <code>gpiopin=4</code>, open the file to edit it:</p>
+    <span class="cmd-label">Edit the config file</span>
+    <div class="cmd-block"><span class="prompt">$ </span>sudo nano /boot/firmware/config.txt</div>
+    <p>Find the line and change it to read exactly:</p>
+    <div class="cmd-block">dtoverlay=w1-gpio,gpiopin=4</div>
+    <p>Press <strong>Ctrl+X</strong>, then <strong>Y</strong>, then <strong>Enter</strong> to save. Reboot: <code>sudo reboot</code>.</p>
+  </div>
+
+  <div class="chapter-complete">
+    <input type="checkbox" id="done-ch1">
+    <label for="done-ch1">Chapter 1 complete — Pi is set up and SSH is working ✅</label>
+  </div>
+</div>
+</section>
+
+<!-- CHAPTER 2: HAT MINI -->
+<section class="section" id="ch2">
+<div class="container">
+  <div class="chapter-header">
+    <div class="chapter-num">2</div>
+    <div class="chapter-title-group">
+      <h2>Fitting the Automation HAT Mini</h2>
+      <p class="chapter-subtitle">Solder the stacking header, attach the HAT, and understand the relay terminals</p>
+    </div>
+  </div>
+
+  <div class="callout danger">
+    <div class="callout-icon">⚡</div>
+    <div class="callout-body"><h4>Power off for this entire chapter</h4><p>The Pi must be completely unpowered. No USB-C cable, no power supply connected. Confirm the Pi is off before touching any pins.</p></div>
+  </div>
+
+  <div class="callout warning">
+    <div class="callout-icon">🔥</div>
+    <div class="callout-body"><h4>First soldering in this project</h4><p>This chapter requires soldering the stacking header onto the HAT Mini. If you have never soldered before, search for "how to solder a through-hole header" on YouTube — a 5-minute video will teach you everything you need. Work slowly, one pin at a time.</p></div>
+  </div>
+
+  <div class="step" data-step="1">
+    <h3>Prepare the stacking header</h3>
+    <p>The Automation HAT Mini comes with a standard female header. You need to replace this with the extra-tall stacking header so you can access the GPIO pins from above the HAT.</p>
+    <p>If the HAT Mini already has a header soldered on, you will need to carefully desolder it first. If it is just inserted (not soldered) or you are building from scratch, insert the stacking header into the HAT Mini's GPIO holes from the <strong>underside</strong> of the board — the long pins should point <strong>downward</strong> (toward the Pi), and the female sockets should point <strong>upward</strong> (above the HAT).</p>
+    <p>Solder each of the 40 pins on the top side of the HAT Mini board. Use just enough solder to fill the hole and form a small dome — avoid blobs that could bridge two adjacent pins. Allow to cool fully before proceeding.</p>
+  </div>
+
+  <div class="step" data-step="2">
+    <h3>Seat the HAT Mini onto the Pi</h3>
+    <p>With the Pi upside-down so you can see the GPIO pins, carefully align the 40 long pins of the stacking header with the Pi's GPIO header. All 40 pins must align — take your time and do not force it. Press down gently but firmly until the HAT Mini sits flush against the Pi's PCB.</p>
+    <p>The HAT Mini's screw-terminal strip (the row of small green connectors) should be at the same end as the Pi's USB ports.</p>
+    <div class="callout tip">
+      <div class="callout-icon">💡</div>
+      <div class="callout-body"><h4>Check alignment before pressing down</h4><p>Hold both boards up to the light. Every Pi GPIO pin should enter a stacking header socket — none should be between sockets or off to the side. A slightly misaligned pin can bend and break.</p></div>
+    </div>
+  </div>
+
+  <div class="step" data-step="3">
+    <h3>Understand the HAT Mini's relay terminals</h3>
+    <p>Look at the HAT Mini — along one edge there is a row of screw terminals. The relay terminals are labelled on the PCB silkscreen. Identify the three relay terminals:</p>
+    <ul style="margin: 0.5rem 0 0.7rem 1.5rem; font-size: 0.92rem; color: var(--ink-mid);">
+      <li><strong>NO</strong> — Normally Open. The circuit is open (off) when the relay is not activated.</li>
+      <li><strong>COM</strong> — Common. Always connected internally to either NO or NC.</li>
+      <li><strong>NC</strong> — Normally Closed. The circuit is closed (on) when the relay is <em>not</em> activated.</li>
+    </ul>
+    <p>For Heater 1, you will use <strong>NO</strong> and <strong>COM</strong> — so the heater is OFF by default and switches ON when the Pi activates the relay. Never wire anything to NC in this project.</p>
+  </div>
+
+  <div class="callout info">
+    <div class="callout-icon">ℹ️</div>
+    <div class="callout-body"><h4>The HAT Mini has one relay — not three</h4><p>The full-size Automation HAT has three relays. The <em>Mini</em> has only one. This guide uses one relay (for Heater 1) plus two separate MOSFET circuits (for Heater 2 and the fan) — giving you control of all three actuators.</p></div>
+  </div>
+
+  <div class="chapter-complete">
+    <input type="checkbox" id="done-ch2">
+    <label for="done-ch2">Chapter 2 complete — HAT Mini is fitted with stacking header ✅</label>
+  </div>
+</div>
+</section>
+
+<!-- CHAPTER 3: TEMPERATURE SENSORS -->
+<section class="section" id="ch3">
+<div class="container">
+  <div class="chapter-header">
+    <div class="chapter-num">3</div>
+    <div class="chapter-title-group">
+      <h2>Connecting the temperature sensors</h2>
+      <p class="chapter-subtitle">Wire all three DS18B20 sensors onto a single data bus</p>
+    </div>
+  </div>
+
+  <div class="callout info">
+    <div class="callout-icon">ℹ️</div>
+    <div class="callout-body"><h4>How three sensors share one wire</h4><p>The DS18B20 uses a protocol called "1-Wire". Every sensor has a unique ID burned into it at the factory. All three sensors connect to the same three wires (power, ground, and data) — the Pi reads all three simultaneously and tells them apart by their unique IDs. This means you only need one connection to the Pi, no matter how many sensors you add.</p></div>
+  </div>
+
+  <div class="step" data-step="1">
+    <h3>Identify the sensor wires</h3>
+    <p>Each DS18B20 probe has three wires coming out of the cable. The standard colour code for the PiHut DS18B20 is:</p>
+    <div class="wire-colours">
+      <div class="wire-pill red">🔴 Red = Power (VCC) — connect to 3.3V</div>
+      <div class="wire-pill black">⚫ Black = Ground (GND) — connect to GND</div>
+      <div class="wire-pill yellow">🟡 Yellow = Data — connect to GPIO 4</div>
+    </div>
+    <div class="callout warning">
+      <div class="callout-icon">⚠️</div>
+      <div class="callout-body"><h4>Always verify wire colours with a multimeter</h4><p>Wire colours vary between manufacturers and even between batches. Before connecting anything, use your multimeter in continuity mode (the "beep" mode) to confirm which wire connects to which pin on the sensor head. Check the sensor's own datasheet or marking.</p></div>
+    </div>
+  </div>
+
+  <div class="step" data-step="2">
+    <h3>Build the sensor bus on your perfboard</h3>
+    <p>All three sensors share one data bus. Rather than connecting directly to the Pi, you will build a small junction on the perfboard where the three sensor cables meet, and then run a single set of three wires from there to the Pi.</p>
+    <p>On your perfboard, solder three rows of 4 connected holes (or use WAGO lever-nuts):</p>
+    <ul style="margin: 0.5rem 0 0.7rem 1.5rem; font-size: 0.92rem; color: var(--ink-mid);">
+      <li>A <strong>red/VCC row</strong>: joins all three red wires + one wire to the Pi's 3.3V pin</li>
+      <li>A <strong>black/GND row</strong>: joins all three black wires + one wire to the Pi's GND pin</li>
+      <li>A <strong>yellow/DATA row</strong>: joins all three yellow wires + one wire to the Pi's GPIO 4 pin</li>
+    </ul>
+    <p>The <strong>4.7kΩ pull-up resistor</strong> is soldered between the VCC row and the DATA row. One end goes to VCC (3.3V), the other end goes to DATA. You need only <strong>one resistor</strong> regardless of how many sensors are on the bus.</p>
+  </div>
+
+  <!-- DS18B20 Diagram -->
+  <div class="diagram-wrap">
+    <div class="diagram-tabs">
+      <div class="diagram-tab active" onclick="switchTab(this,'ds18b20-clean')">Clean diagram</div>
+      <div class="diagram-tab" onclick="switchTab(this,'ds18b20-sketch')">Hand-drawn</div>
+    </div>
+    <div class="diagram-pane active" id="ds18b20-clean">
+      <svg viewBox="0 0 700 300" width="700" height="300" xmlns="http://www.w3.org/2000/svg" style="font-family:'Nunito',sans-serif;">
+        <!-- Pi box -->
+        <rect x="20" y="80" width="130" height="140" rx="8" fill="#EAF4EE" stroke="#1A5C3C" stroke-width="2"/>
+        <text x="85" y="100" text-anchor="middle" font-size="11" font-weight="700" fill="#1A5C3C">RASPBERRY PI 4</text>
+        <text x="85" y="116" text-anchor="middle" font-size="9" fill="#5A7060">(via stacking header)</text>
+        <!-- Pi pins -->
+        <rect x="115" y="130" width="35" height="18" rx="3" fill="#C0A020"/>
+        <text x="132" y="143" text-anchor="middle" font-size="9" fill="white" font-weight="700">3.3V</text>
+        <text x="110" y="141" text-anchor="end" font-size="9" fill="#4A5050">Pin 1</text>
+        <rect x="115" y="158" width="35" height="18" rx="3" fill="#D0600A"/>
+        <text x="132" y="171" text-anchor="middle" font-size="9" fill="white" font-weight="700">GPIO 4</text>
+        <text x="110" y="169" text-anchor="end" font-size="9" fill="#4A5050">Pin 7</text>
+        <rect x="115" y="186" width="35" height="18" rx="3" fill="#2A2A2A"/>
+        <text x="132" y="199" text-anchor="middle" font-size="9" fill="white" font-weight="700">GND</text>
+        <text x="110" y="197" text-anchor="end" font-size="9" fill="#4A5050">Pin 9</text>
+
+        <!-- Junction box / perfboard -->
+        <rect x="210" y="70" width="130" height="160" rx="8" fill="#FDF3E4" stroke="#B8710F" stroke-width="2" stroke-dasharray="5,3"/>
+        <text x="275" y="90" text-anchor="middle" font-size="10" font-weight="700" fill="#B8710F">PERFBOARD JUNCTION</text>
+
+        <!-- VCC row -->
+        <line x1="210" y1="120" x2="340" y2="120" stroke="#CC3030" stroke-width="3"/>
+        <text x="275" y="115" text-anchor="middle" font-size="8" fill="#CC3030" font-weight="700">VCC / 3.3V bus</text>
+        <!-- GND row -->
+        <line x1="210" y1="170" x2="340" y2="170" stroke="#2A2A2A" stroke-width="3"/>
+        <text x="275" y="185" text-anchor="middle" font-size="8" fill="#2A2A2A" font-weight="700">GND bus</text>
+        <!-- DATA row -->
+        <line x1="210" y1="145" x2="340" y2="145" stroke="#C8A000" stroke-width="3"/>
+        <text x="275" y="140" text-anchor="middle" font-size="8" fill="#9A7800" font-weight="700">DATA bus (GPIO 4)</text>
+
+        <!-- Pull-up resistor -->
+        <line x1="310" y1="120" x2="310" y2="127" stroke="#CC3030" stroke-width="2"/>
+        <rect x="302" y="127" width="16" height="18" rx="3" fill="white" stroke="#888" stroke-width="1.5"/>
+        <text x="310" y="139" text-anchor="middle" font-size="8" fill="#555">4.7k</text>
+        <line x1="310" y1="145" x2="310" y2="138" stroke="#C8A000" stroke-width="2"/>
+        <text x="328" y="134" font-size="8" fill="#888">Ω</text>
+
+        <!-- Wires from Pi to junction -->
+        <line x1="150" y1="139" x2="210" y2="120" stroke="#CC3030" stroke-width="2.5" marker-end="url(#arr-red)"/>
+        <line x1="150" y1="167" x2="210" y2="145" stroke="#C8A000" stroke-width="2.5" marker-end="url(#arr-amber)"/>
+        <line x1="150" y1="195" x2="210" y2="170" stroke="#444" stroke-width="2.5"/>
+
+        <!-- Three sensors -->
+        <!-- Sensor 1 -->
+        <rect x="490" y="60" width="90" height="50" rx="6" fill="#F0F8FF" stroke="#2060A0" stroke-width="1.5"/>
+        <text x="535" y="80" text-anchor="middle" font-size="10" font-weight="700" fill="#2060A0">SENSOR 1</text>
+        <text x="535" y="96" text-anchor="middle" font-size="8.5" fill="#4A7090">End of house</text>
+        <!-- Sensor 2 -->
+        <rect x="490" y="125" width="90" height="50" rx="6" fill="#F0F8FF" stroke="#2060A0" stroke-width="1.5"/>
+        <text x="535" y="145" text-anchor="middle" font-size="10" font-weight="700" fill="#2060A0">SENSOR 2</text>
+        <text x="535" y="161" text-anchor="middle" font-size="8.5" fill="#4A7090">Middle</text>
+        <!-- Sensor 3 -->
+        <rect x="490" y="190" width="90" height="50" rx="6" fill="#F0F8FF" stroke="#2060A0" stroke-width="1.5"/>
+        <text x="535" y="210" text-anchor="middle" font-size="10" font-weight="700" fill="#2060A0">SENSOR 3</text>
+        <text x="535" y="226" text-anchor="middle" font-size="8.5" fill="#4A7090">Other end</text>
+
+        <!-- Wires from junction to sensors - VCC red -->
+        <line x1="340" y1="120" x2="490" y2="85" stroke="#CC3030" stroke-width="2"/>
+        <line x1="340" y1="120" x2="490" y2="150" stroke="#CC3030" stroke-width="2"/>
+        <line x1="340" y1="120" x2="490" y2="215" stroke="#CC3030" stroke-width="2"/>
+        <!-- DATA yellow -->
+        <line x1="340" y1="145" x2="490" y2="88" stroke="#C8A000" stroke-width="2"/>
+        <line x1="340" y1="145" x2="490" y2="153" stroke="#C8A000" stroke-width="2"/>
+        <line x1="340" y1="145" x2="490" y2="218" stroke="#C8A000" stroke-width="2"/>
+        <!-- GND black -->
+        <line x1="340" y1="170" x2="490" y2="100" stroke="#444" stroke-width="2"/>
+        <line x1="340" y1="170" x2="490" y2="165" stroke="#444" stroke-width="2"/>
+        <line x1="340" y1="170" x2="490" y2="230" stroke="#444" stroke-width="2"/>
+
+        <!-- Wire colour dots on sensors -->
+        <circle cx="490" cy="85" r="4" fill="#CC3030"/>
+        <circle cx="490" cy="88" r="4" fill="#C8A000"/>
+        <circle cx="490" cy="100" r="4" fill="#333"/>
+        <circle cx="490" cy="150" r="4" fill="#CC3030"/>
+        <circle cx="490" cy="153" r="4" fill="#C8A000"/>
+        <circle cx="490" cy="165" r="4" fill="#333"/>
+        <circle cx="490" cy="215" r="4" fill="#CC3030"/>
+        <circle cx="490" cy="218" r="4" fill="#C8A000"/>
+        <circle cx="490" cy="230" r="4" fill="#333"/>
+      </svg>
+      <div class="diagram-title">DS18B20 three-sensor bus — all sensors share one data line</div>
+      <div class="wire-legend">
+        <div class="wire-item"><div class="wire-swatch" style="background:#CC3030"></div> Red — Power (3.3V)</div>
+        <div class="wire-item"><div class="wire-swatch" style="background:#C8A000"></div> Yellow — Data (GPIO 4)</div>
+        <div class="wire-item"><div class="wire-swatch" style="background:#333"></div> Black — Ground</div>
+        <div class="wire-item"><div class="wire-swatch" style="background:#888; border: 1px solid #ccc"></div> 4.7kΩ resistor between 3.3V and Data</div>
+      </div>
+    </div>
+    <div class="diagram-pane" id="ds18b20-sketch">
+      <svg viewBox="0 0 620 280" width="620" height="280" xmlns="http://www.w3.org/2000/svg" style="font-family:'Caveat',cursive;" filter="url(#sketchy)">
+        <!-- Pi label -->
+        <rect x="20" y="90" width="110" height="100" rx="6" fill="none" stroke="#2E3040" stroke-width="2.5"/>
+        <text x="75" y="108" text-anchor="middle" font-size="13" font-weight="700" fill="#2E3040">Pi 4</text>
+        <!-- Pins -->
+        <rect x="110" y="110" width="30" height="14" rx="3" fill="#C0A020" stroke="none"/>
+        <text x="95" y="121" font-size="11" fill="#2E3040" text-anchor="end">3.3V →</text>
+        <rect x="110" y="132" width="30" height="14" rx="3" fill="#D0600A" stroke="none"/>
+        <text x="95" y="143" font-size="11" fill="#2E3040" text-anchor="end">DATA →</text>
+        <rect x="110" y="154" width="30" height="14" rx="3" fill="#333" stroke="none"/>
+        <text x="95" y="165" font-size="11" fill="#2E3040" text-anchor="end">GND →</text>
+        <!-- 4.7k label -->
+        <rect x="180" y="118" width="40" height="20" rx="3" fill="none" stroke="#2E3040" stroke-width="2"/>
+        <text x="200" y="132" text-anchor="middle" font-size="12" fill="#2E3040">4.7kΩ</text>
+        <line x1="140" y1="117" x2="180" y2="128" stroke="#CC3030" stroke-width="2"/>
+        <line x1="140" y1="139" x2="180" y2="138" stroke="#C8A000" stroke-width="2"/>
+        <line x1="220" y1="128" x2="230" y2="117" stroke="#CC3030" stroke-width="2"/>
+        <line x1="220" y1="138" x2="230" y2="139" stroke="#C8A000" stroke-width="2"/>
+        <!-- Data bus line -->
+        <line x1="230" y1="117" x2="580" y2="75" stroke="#CC3030" stroke-width="2.5"/>
+        <line x1="230" y1="139" x2="580" y2="145" stroke="#C8A000" stroke-width="2.5"/>
+        <line x1="140" y1="161" x2="580" y2="210" stroke="#333" stroke-width="2.5"/>
+        <!-- Sensor boxes -->
+        <rect x="480" y="58" width="100" height="34" rx="5" fill="none" stroke="#2060A0" stroke-width="2.2"/>
+        <text x="530" y="72" text-anchor="middle" font-size="13" fill="#2060A0" font-weight="700">Sensor 1</text>
+        <text x="530" y="86" text-anchor="middle" font-size="10" fill="#4A7090">End of house</text>
+        <rect x="480" y="128" width="100" height="34" rx="5" fill="none" stroke="#2060A0" stroke-width="2.2"/>
+        <text x="530" y="142" text-anchor="middle" font-size="13" fill="#2060A0" font-weight="700">Sensor 2</text>
+        <text x="530" y="156" text-anchor="middle" font-size="10" fill="#4A7090">Middle</text>
+        <rect x="480" y="198" width="100" height="34" rx="5" fill="none" stroke="#2060A0" stroke-width="2.2"/>
+        <text x="530" y="212" text-anchor="middle" font-size="13" fill="#2060A0" font-weight="700">Sensor 3</text>
+        <text x="530" y="226" text-anchor="middle" font-size="10" fill="#4A7090">Other end</text>
+        <!-- Note -->
+        <text x="300" y="268" text-anchor="middle" font-size="12" fill="#888">One 4.7kΩ pull-up serves all three sensors</text>
+      </svg>
+      <div class="diagram-title">DS18B20 three-sensor bus — hand-drawn view</div>
+    </div>
+  </div>
+
+  <div class="step" data-step="3">
+    <h3>Connect the sensor bus to the Pi (via stacking header)</h3>
+    <p>Run three Dupont wires from your perfboard junction up to the stacking header on the HAT Mini stack. These are the <strong>only five connections</strong> you need from the stacking header for the sensors:</p>
+    <ul style="margin: 0.5rem 0 0.7rem 1.5rem; font-size: 0.92rem; color: var(--ink-mid);">
+      <li><strong>Pin 1</strong> (3.3V) → to the red VCC bus on your perfboard</li>
+      <li><strong>Pin 7</strong> (GPIO 4) → to the yellow DATA bus on your perfboard</li>
+      <li><strong>Pin 9</strong> (GND) → to the black GND bus on your perfboard</li>
+    </ul>
+    <p>See the GPIO Pin Map below to locate these pins on the stacking header.</p>
+  </div>
+
+  <!-- GPIO PIN MAP -->
+  <div class="diagram-wrap">
+    <div class="diagram-tabs">
+      <div class="diagram-tab active" onclick="switchTab(this,'gpio-map')">GPIO pin map</div>
+    </div>
+    <div class="diagram-pane active" id="gpio-map">
+      <p style="font-size:0.82rem; color:var(--ink-light); text-align:center; margin-bottom:0.8rem;">The five pins you need for this project are highlighted. Odd-numbered pins are on the left, even on the right — exactly as on the physical board.</p>
+      <div class="pin-map" id="pin-map-grid"></div>
+      <div class="pin-map-legend">
+        <div class="pm-leg"><div class="pm-dot" style="background:#C0A020"></div> 3.3V power</div>
+        <div class="pm-leg"><div class="pm-dot" style="background:#CC3030"></div> 5V power</div>
+        <div class="pm-leg"><div class="pm-dot" style="background:#2A2A2A"></div> Ground</div>
+        <div class="pm-leg"><div class="pm-dot" style="background:#D0600A"></div> DS18B20 data (GPIO 4)</div>
+        <div class="pm-leg"><div class="pm-dot" style="background:#2060C0"></div> Heater 2 control (GPIO 17)</div>
+        <div class="pm-leg"><div class="pm-dot" style="background:#8040C0"></div> Fan control (GPIO 27)</div>
+        <div class="pm-leg"><div class="pm-dot" style="background:#2D8A5E"></div> Used by HAT Mini</div>
+        <div class="pm-leg"><div class="pm-dot" style="background:#B8B0A4"></div> Free / not used</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="step" data-step="4">
+    <h3>Position the sensors in the model house</h3>
+    <p>Place the three sensors at these locations before securing the cables:</p>
+    <ul style="margin: 0.5rem 0 0.7rem 1.5rem; font-size: 0.92rem; color: var(--ink-mid);">
+      <li><strong>Sensor 1</strong> — one end of the model house</li>
+      <li><strong>Sensor 2</strong> — the middle of the model house</li>
+      <li><strong>Sensor 3</strong> — the other end of the model house</li>
+    </ul>
+    <p>Route the cables neatly along the walls or floor using cable ties and adhesive mounts. Keep all sensor cables away from the heater elements.</p>
+  </div>
+
+  <div class="chapter-complete">
+    <input type="checkbox" id="done-ch3">
+    <label for="done-ch3">Chapter 3 complete — three sensors wired on the bus ✅</label>
+  </div>
+</div>
+</section>
+
+<!-- CHAPTER 4: HEATERS -->
+<section class="section" id="ch4">
+<div class="container">
+  <div class="chapter-header">
+    <div class="chapter-num">4</div>
+    <div class="chapter-title-group">
+      <h2>Wiring the heaters</h2>
+      <p class="chapter-subtitle">Heater 1 via the relay, Heater 2 via a MOSFET circuit</p>
+    </div>
+  </div>
+
+  <div class="callout success">
+    <div class="callout-icon">🌡️</div>
+    <div class="callout-body"><h4>PTC heater safety — these are safe by design</h4><p>The DFRobot FIT0844 uses PTC (Positive Temperature Coefficient) technology. As the element heats up, its electrical resistance increases automatically — reducing current and limiting the temperature to about 40°C. It is self-regulating and cannot overheat. The surface feels warm to the touch, like the underside of a laptop. It is not a fire hazard when mounted correctly.</p></div>
+  </div>
+
+  <div class="step" data-step="1">
+    <h3>Mount and protect the heaters</h3>
+    <p>For each heater element:</p>
+    <ul style="margin: 0.5rem 0 0.7rem 1.5rem; font-size: 0.92rem; color: var(--ink-mid);">
+      <li>Stick the heater flat onto the aluminium plate using Kapton tape — aluminium side down, heater face up.</li>
+      <li>Loosely wrap the assembly in a piece of cut silicone mat. The silicone lets heat escape gently while protecting surrounding materials.</li>
+      <li>Secure with a small loop of Kapton tape. Do not over-wrap — you want heat to dissipate into the model space, not be trapped.</li>
+      <li>Mount inside the model in the bed area. Place on a non-flammable surface — not directly on wood or unfinished cardboard. A thin ceramic tile offcut works perfectly.</li>
+    </ul>
+  </div>
+
+  <div class="step" data-step="2">
+    <h3>Wire Heater 1 to the relay (NO and COM terminals)</h3>
+    <p>The relay on the HAT Mini will switch Heater 1. When the Pi activates the relay, power flows through the circuit and the heater turns on.</p>
+    <p>The relay terminals are on the HAT Mini's screw terminal strip. Use a small flat-head screwdriver to loosen each screw terminal, insert the wire, and retighten firmly.</p>
+    <ul style="margin: 0.5rem 0 0.7rem 1.5rem; font-size: 0.92rem; color: var(--ink-mid);">
+      <li>Connect a wire from your <strong>5V power distribution (+)</strong> to the relay's <strong>NO terminal</strong></li>
+      <li>Connect a wire from the relay's <strong>COM terminal</strong> to <strong>one wire of Heater 1</strong></li>
+      <li>Connect the <strong>other wire of Heater 1</strong> to your <strong>GND distribution (−)</strong></li>
+    </ul>
+
+    <!-- Relay Diagram -->
+    <div class="diagram-wrap">
+      <div class="diagram-tabs">
+        <div class="diagram-tab active" onclick="switchTab(this,'relay-clean')">Clean diagram</div>
+        <div class="diagram-tab" onclick="switchTab(this,'relay-sketch')">Hand-drawn</div>
+      </div>
+      <div class="diagram-pane active" id="relay-clean">
+        <svg viewBox="0 0 600 200" width="600" height="200" xmlns="http://www.w3.org/2000/svg" style="font-family:'Nunito',sans-serif;">
+          <!-- 5V supply -->
+          <rect x="20" y="70" width="80" height="60" rx="6" fill="#FDECEA" stroke="#CC3030" stroke-width="2"/>
+          <text x="60" y="96" text-anchor="middle" font-size="10" font-weight="700" fill="#CC3030">5V SUPPLY</text>
+          <text x="60" y="110" text-anchor="middle" font-size="9" fill="#888">(from dist. block)</text>
+          <!-- 5V line going right -->
+          <line x1="100" y1="88" x2="230" y2="88" stroke="#CC3030" stroke-width="2.5"/>
+          <!-- Relay box -->
+          <rect x="230" y="60" width="140" height="80" rx="6" fill="#EAF4EE" stroke="#1A5C3C" stroke-width="2"/>
+          <text x="300" y="78" text-anchor="middle" font-size="10" font-weight="700" fill="#1A5C3C">RELAY (HAT Mini)</text>
+          <!-- NO and COM labels -->
+          <text x="252" y="102" text-anchor="middle" font-size="9" fill="#1A5C3C" font-weight="700">NO</text>
+          <rect x="235" y="105" width="32" height="20" rx="3" fill="#1A5C3C"/>
+          <text x="251" y="119" text-anchor="middle" font-size="8" fill="white">NO</text>
+          <text x="320" y="102" text-anchor="middle" font-size="9" fill="#1A5C3C" font-weight="700">COM</text>
+          <rect x="304" y="105" width="36" height="20" rx="3" fill="#1A5C3C"/>
+          <text x="322" y="119" text-anchor="middle" font-size="8" fill="white">COM</text>
+          <!-- Internal relay switch line -->
+          <line x1="267" y1="115" x2="304" y2="110" stroke="#888" stroke-width="1.5" stroke-dasharray="3,3"/>
+          <!-- "Switch closes" label -->
+          <text x="285" y="135" text-anchor="middle" font-size="8" fill="#888">switch closes when Pi</text>
+          <text x="285" y="145" text-anchor="middle" font-size="8" fill="#888">activates GPIO 13</text>
+          <!-- 5V into NO -->
+          <line x1="230" y1="88" x2="251" y2="105" stroke="#CC3030" stroke-width="2.5"/>
+          <!-- COM out to heater -->
+          <line x1="340" y1="115" x2="420" y2="115" stroke="#EE8830" stroke-width="2.5"/>
+          <!-- Heater box -->
+          <rect x="420" y="90" width="100" height="50" rx="6" fill="#FFF8EC" stroke="#B8710F" stroke-width="2"/>
+          <text x="470" y="112" text-anchor="middle" font-size="10" font-weight="700" fill="#B8710F">HEATER 1</text>
+          <text x="470" y="126" text-anchor="middle" font-size="8.5" fill="#888">PTC FIT0844</text>
+          <!-- Heater to GND -->
+          <line x1="520" y1="115" x2="560" y2="115" stroke="#333" stroke-width="2.5"/>
+          <line x1="560" y1="115" x2="560" y2="160" stroke="#333" stroke-width="2.5"/>
+          <line x1="560" y1="160" x2="100" y2="160" stroke="#333" stroke-width="2.5"/>
+          <line x1="100" y1="160" x2="100" y2="112" stroke="#333" stroke-width="2.5"/>
+          <!-- GND label -->
+          <rect x="20" y="130" width="80" height="30" rx="6" fill="#F0F0F0" stroke="#2A2A2A" stroke-width="1.5"/>
+          <text x="60" y="150" text-anchor="middle" font-size="10" font-weight="700" fill="#2A2A2A">GND (−)</text>
+          <line x1="100" y1="145" x2="100" y2="160" stroke="#2A2A2A" stroke-width="1.5"/>
+          <!-- Arrow showing current direction -->
+          <text x="300" y="175" text-anchor="middle" font-size="9" fill="#1A5C3C" font-style="italic">Current flows: 5V → NO → COM → Heater → GND</text>
+        </svg>
+        <div class="diagram-title">Relay wiring — Heater 1</div>
+      </div>
+      <div class="diagram-pane" id="relay-sketch">
+        <svg viewBox="0 0 600 200" width="600" height="200" xmlns="http://www.w3.org/2000/svg" style="font-family:'Caveat',cursive;" filter="url(#sketchy)">
+          <line x1="40" y1="80" x2="200" y2="80" stroke="#CC3030" stroke-width="3" marker-end="url(#arr-sketch)"/>
+          <text x="20" y="70" font-size="14" fill="#CC3030" font-weight="700">+5V</text>
+          <rect x="200" y="60" width="130" height="60" rx="5" fill="none" stroke="#2E3040" stroke-width="2.5"/>
+          <text x="265" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#2E3040">Relay</text>
+          <text x="222" y="100" font-size="12" fill="#1A5C3C">NO</text>
+          <text x="280" y="100" font-size="12" fill="#1A5C3C">COM</text>
+          <line x1="232" y1="105" x2="285" y2="100" stroke="#888" stroke-width="1.5" stroke-dasharray="4,3"/>
+          <text x="260" y="112" text-anchor="middle" font-size="10" fill="#888">closes on GPIO 13</text>
+          <line x1="330" y1="90" x2="430" y2="90" stroke="#EE8830" stroke-width="3" marker-end="url(#arr-sketch)"/>
+          <rect x="430" y="70" width="100" height="40" rx="5" fill="none" stroke="#B8710F" stroke-width="2"/>
+          <text x="480" y="88" text-anchor="middle" font-size="14" font-weight="700" fill="#B8710F">Heater 1</text>
+          <text x="480" y="102" text-anchor="middle" font-size="10" fill="#888">PTC 5V 40°C</text>
+          <line x1="530" y1="90" x2="560" y2="90" stroke="#333" stroke-width="3"/>
+          <line x1="560" y1="90" x2="560" y2="155" stroke="#333" stroke-width="3"/>
+          <line x1="560" y1="155" x2="40" y2="155" stroke="#333" stroke-width="3"/>
+          <text x="300" y="175" text-anchor="middle" font-size="13" fill="#444">GND (negative) — completes the circuit</text>
+          <line x1="40" y1="155" x2="40" y2="80" stroke="#333" stroke-width="2" stroke-dasharray="4,3"/>
+          <text x="10" y="155" font-size="13" fill="#333">−</text>
+        </svg>
+        <div class="diagram-title">Relay wiring — hand-drawn view</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="step" data-step="3">
+    <h3>Build the MOSFET circuit for Heater 2</h3>
+    <p>Heater 2 is switched by an IRLZ44N MOSFET mounted on your perfboard. A MOSFET is a type of transistor — a semiconductor component that acts as an electronic switch. The Pi sends a small signal to the "Gate" pin (like pressing a switch button), and the MOSFET allows or blocks the heater's power supply through the "Drain" and "Source" pins.</p>
+    <p>The IRLZ44N has three legs (it looks like a small plastic tab with three metal prongs). Facing the flat side of the component, the pins from left to right are: <strong>Gate, Drain, Source</strong>.</p>
+
+    <!-- MOSFET Diagram -->
+    <div class="diagram-wrap">
+      <div class="diagram-tabs">
+        <div class="diagram-tab active" onclick="switchTab(this,'mosfet-clean')">Clean diagram</div>
+        <div class="diagram-tab" onclick="switchTab(this,'mosfet-sketch')">Hand-drawn</div>
+      </div>
+      <div class="diagram-pane active" id="mosfet-clean">
+        <svg viewBox="0 0 640 240" width="640" height="240" xmlns="http://www.w3.org/2000/svg" style="font-family:'Nunito',sans-serif;">
+          <!-- Pi GPIO -->
+          <rect x="20" y="90" width="90" height="60" rx="6" fill="#EAF4EE" stroke="#1A5C3C" stroke-width="2"/>
+          <text x="65" y="110" text-anchor="middle" font-size="10" font-weight="700" fill="#1A5C3C">Pi GPIO 17</text>
+          <text x="65" y="124" text-anchor="middle" font-size="9" fill="#5A7060">Pin 11</text>
+          <text x="65" y="138" text-anchor="middle" font-size="8.5" fill="#5A7060">3.3V signal</text>
+          <!-- 220R gate resistor -->
+          <line x1="110" y1="120" x2="155" y2="120" stroke="#2060C0" stroke-width="2.5"/>
+          <rect x="155" y="110" width="36" height="20" rx="4" fill="white" stroke="#888" stroke-width="1.5"/>
+          <text x="173" y="124" text-anchor="middle" font-size="9" fill="#555">220Ω</text>
+          <line x1="191" y1="120" x2="230" y2="120" stroke="#2060C0" stroke-width="2.5"/>
+          <!-- 10k pull-down -->
+          <line x1="210" y1="120" x2="210" y2="145" stroke="#444" stroke-width="1.5"/>
+          <rect x="196" y="145" width="28" height="30" rx="4" fill="white" stroke="#888" stroke-width="1.5"/>
+          <text x="210" y="156" text-anchor="middle" font-size="8" fill="#555">10k</text>
+          <text x="210" y="168" text-anchor="middle" font-size="7" fill="#888">pull-down</text>
+          <line x1="210" y1="175" x2="210" y2="195" stroke="#444" stroke-width="1.5"/>
+          <!-- MOSFET -->
+          <rect x="230" y="85" width="80" height="120" rx="6" fill="#F5F0FF" stroke="#8040C0" stroke-width="2"/>
+          <text x="270" y="108" text-anchor="middle" font-size="10" font-weight="700" fill="#8040C0">IRLZ44N</text>
+          <text x="270" y="122" text-anchor="middle" font-size="8.5" fill="#6030A0">MOSFET</text>
+          <text x="248" y="145" text-anchor="middle" font-size="8" fill="#8040C0" font-weight="700">Gate</text>
+          <text x="270" y="160" text-anchor="middle" font-size="8" fill="#8040C0" font-weight="700">Drain</text>
+          <text x="292" y="175" text-anchor="middle" font-size="8" fill="#8040C0" font-weight="700">Source</text>
+          <!-- Gate connection -->
+          <line x1="230" y1="120" x2="230" y2="140" stroke="#2060C0" stroke-width="2.5"/>
+          <!-- Drain to heater -->
+          <line x1="310" y1="140" x2="420" y2="140" stroke="#EE8830" stroke-width="2.5"/>
+          <!-- Source to GND -->
+          <line x1="310" y1="165" x2="340" y2="165" stroke="#333" stroke-width="2.5"/>
+          <line x1="340" y1="165" x2="340" y2="195" stroke="#333" stroke-width="2.5"/>
+          <line x1="340" y1="195" x2="210" y2="195" stroke="#333" stroke-width="2.5"/>
+          <!-- GND bus line -->
+          <line x1="210" y1="195" x2="20" y2="195" stroke="#333" stroke-width="2"/>
+          <text x="50" y="208" font-size="9" fill="#444" font-weight="700" text-anchor="middle">GND (shared)</text>
+
+          <!-- Heater 2 box -->
+          <rect x="420" y="115" width="100" height="50" rx="6" fill="#FFF8EC" stroke="#B8710F" stroke-width="2"/>
+          <text x="470" y="137" text-anchor="middle" font-size="10" font-weight="700" fill="#B8710F">HEATER 2</text>
+          <text x="470" y="151" text-anchor="middle" font-size="8.5" fill="#888">PTC FIT0844</text>
+          <!-- Heater to 5V -->
+          <line x1="520" y1="140" x2="580" y2="140" stroke="#CC3030" stroke-width="2.5"/>
+          <line x1="580" y1="140" x2="580" y2="50" stroke="#CC3030" stroke-width="2.5"/>
+          <line x1="580" y1="50" x2="20" y2="50" stroke="#CC3030" stroke-width="2.5"/>
+          <rect x="20" y="35" width="80" height="22" rx="4" fill="#FDECEA" stroke="#CC3030" stroke-width="1.5"/>
+          <text x="60" y="50" text-anchor="middle" font-size="9" font-weight="700" fill="#CC3030">+5V SUPPLY</text>
+          <!-- Arrow for current direction -->
+          <text x="400" y="222" text-anchor="middle" font-size="8.5" fill="#1A5C3C" font-style="italic">Current flows: +5V → Heater → MOSFET Drain → Source → GND</text>
+        </svg>
+        <div class="diagram-title">MOSFET switch circuit — Heater 2 (and Fan, same layout)</div>
+      </div>
+      <div class="diagram-pane" id="mosfet-sketch">
+        <svg viewBox="0 0 640 240" width="640" height="240" xmlns="http://www.w3.org/2000/svg" style="font-family:'Caveat',cursive;" filter="url(#sketchy)">
+          <text x="20" y="50" font-size="13" fill="#CC3030" font-weight="700">+5V</text>
+          <line x1="50" y1="45" x2="560" y2="45" stroke="#CC3030" stroke-width="2.5"/>
+          <line x1="560" y1="45" x2="560" y2="120" stroke="#CC3030" stroke-width="2.5"/>
+          <rect x="460" y="120" width="100" height="40" rx="5" fill="none" stroke="#B8710F" stroke-width="2.2"/>
+          <text x="510" y="138" text-anchor="middle" font-size="14" font-weight="700" fill="#B8710F">Heater 2</text>
+          <text x="510" y="153" text-anchor="middle" font-size="10" fill="#888">PTC 5V 40°C</text>
+          <line x1="460" y1="140" x2="360" y2="140" stroke="#EE8830" stroke-width="2.5" marker-end="url(#arr-sketch)"/>
+          <!-- MOSFET symbol -->
+          <rect x="290" y="115" width="70" height="60" rx="5" fill="none" stroke="#8040C0" stroke-width="2.2"/>
+          <text x="325" y="138" text-anchor="middle" font-size="14" font-weight="700" fill="#8040C0">MOS</text>
+          <text x="325" y="154" text-anchor="middle" font-size="12" fill="#8040C0">FET</text>
+          <text x="305" y="170" text-anchor="middle" font-size="10" fill="#8040C0">D→S</text>
+          <!-- Gate connection -->
+          <line x1="290" y1="130" x2="240" y2="130" stroke="#2060C0" stroke-width="2.5"/>
+          <rect x="195" y="120" width="45" height="20" rx="4" fill="none" stroke="#888" stroke-width="1.8"/>
+          <text x="218" y="134" text-anchor="middle" font-size="13" fill="#444">220Ω</text>
+          <line x1="195" y1="130" x2="140" y2="130" stroke="#2060C0" stroke-width="2.5"/>
+          <rect x="20" y="115" width="120" height="30" rx="5" fill="none" stroke="#1A5C3C" stroke-width="2"/>
+          <text x="80" y="128" text-anchor="middle" font-size="13" font-weight="700" fill="#1A5C3C">Pi GPIO 17</text>
+          <text x="80" y="140" text-anchor="middle" font-size="10" fill="#5A7060">(Pin 11)</text>
+          <!-- Pull-down -->
+          <line x1="218" y1="140" x2="218" y2="165" stroke="#444" stroke-width="1.8"/>
+          <rect x="200" y="165" width="36" height="22" rx="4" fill="none" stroke="#888" stroke-width="1.5"/>
+          <text x="218" y="180" text-anchor="middle" font-size="12" fill="#444">10kΩ</text>
+          <line x1="218" y1="187" x2="218" y2="205" stroke="#444" stroke-width="1.8"/>
+          <!-- GND line -->
+          <line x1="218" y1="205" x2="360" y2="205" stroke="#333" stroke-width="2.5"/>
+          <line x1="360" y1="205" x2="360" y2="175" stroke="#333" stroke-width="2.5" marker-end="url(#arr-sketch)"/>
+          <text x="20" y="205" font-size="13" fill="#333">GND</text>
+          <text x="300" y="228" text-anchor="middle" font-size="12" fill="#888">Gate is held LOW by 10kΩ when Pi is off → MOSFET stays OFF</text>
+        </svg>
+        <div class="diagram-title">MOSFET circuit — hand-drawn view</div>
+      </div>
+    </div>
+
+    <p>Solder the MOSFET and resistors onto your perfboard as follows:</p>
+    <ul style="margin: 0.5rem 0 0.7rem 1.5rem; font-size: 0.92rem; color: var(--ink-mid);">
+      <li>Insert the IRLZ44N into the perfboard, flat face pointing away from you. Note which leg is Gate, Drain, Source (left to right when facing the flat side).</li>
+      <li>Solder a <strong>220Ω resistor</strong> in series between a wire from GPIO 17 and the Gate pin.</li>
+      <li>Solder a <strong>10kΩ resistor</strong> between the Gate pin and the GND rail on your perfboard. This is the pull-down — it keeps the MOSFET safely OFF when the Pi starts up.</li>
+      <li>Connect a wire from the <strong>Drain pin</strong> to one lead of Heater 2.</li>
+      <li>Connect the other lead of Heater 2 to <strong>+5V</strong>.</li>
+      <li>Connect the <strong>Source pin</strong> to the <strong>GND rail</strong>.</li>
+    </ul>
+  </div>
+
+  <div class="chapter-complete">
+    <input type="checkbox" id="done-ch4">
+    <label for="done-ch4">Chapter 4 complete — both heaters are wired ✅</label>
+  </div>
+</div>
+</section>
+
+<!-- CHAPTER 5: FAN -->
+<section class="section" id="ch5">
+<div class="container">
+  <div class="chapter-header">
+    <div class="chapter-num">5</div>
+    <div class="chapter-title-group">
+      <h2>Wiring the AC unit fan</h2>
+      <p class="chapter-subtitle">Same MOSFET circuit as Heater 2, with one extra component</p>
+    </div>
+  </div>
+
+  <div class="callout info">
+    <div class="callout-icon">🌀</div>
+    <div class="callout-body"><h4>The fan needs one extra component</h4><p>Fans contain a small motor with a copper coil. When a motor is switched off quickly, the collapsing magnetic field generates a brief voltage spike in reverse direction — called back-EMF. This can damage the MOSFET. A single 1N5819 Schottky diode, wired across the fan, absorbs this spike harmlessly. The heaters do not need this because they are purely resistive (no coil).</p></div>
+  </div>
+
+  <div class="step" data-step="1">
+    <h3>Identify the fan wires</h3>
+    <p>Your model AC unit fan has two wires. Confirm which is positive (+) and which is negative (−) by checking its label or datasheet. For a standard 5V DC fan: <strong>red = positive (+5V), black = negative (GND)</strong>. If the fan uses white and black, white is typically positive — but verify before wiring.</p>
+  </div>
+
+  <div class="step" data-step="2">
+    <h3>Build the fan MOSFET circuit</h3>
+    <p>The circuit is identical to Heater 2, using <strong>GPIO 27 (physical pin 13)</strong> as the control pin. Build a second IRLZ44N circuit on your perfboard with the 220Ω gate resistor and 10kΩ pull-down, as described in Chapter 4 Step 3.</p>
+    <p>The one difference: add the <strong>1N5819 flyback diode</strong> across the fan motor terminals. The diode has a stripe on one end — that is the cathode (negative side). Wire it with the stripe toward +5V and the other end toward the Drain side. It sits in parallel with the fan.</p>
+    <ul style="margin: 0.5rem 0 0.7rem 1.5rem; font-size: 0.92rem; color: var(--ink-mid);">
+      <li>Fan positive (+) → connect to +5V</li>
+      <li>Fan negative (−) → connect to MOSFET Drain</li>
+      <li>MOSFET Source → GND</li>
+      <li>1N5819 diode: cathode (striped end) to +5V, anode to the fan negative / MOSFET Drain junction</li>
+      <li>MOSFET Gate: 220Ω from GPIO 27 (pin 13), 10kΩ pull-down to GND</li>
+    </ul>
+  </div>
+
+  <div class="step" data-step="3">
+    <h3>Connect the control wire from the stacking header</h3>
+    <p>Run a Dupont wire from <strong>physical pin 13</strong> (GPIO 27) on the stacking header down to the fan MOSFET gate resistor input on your perfboard.</p>
+  </div>
+
+  <div class="chapter-complete">
+    <input type="checkbox" id="done-ch5">
+    <label for="done-ch5">Chapter 5 complete — fan MOSFET circuit is wired ✅</label>
+  </div>
+</div>
+</section>
+
+<!-- CHAPTER 6: POWER -->
+<section class="section" id="ch6">
+<div class="container">
+  <div class="chapter-header">
+    <div class="chapter-num">6</div>
+    <div class="chapter-title-group">
+      <h2>Setting up the power supply</h2>
+      <p class="chapter-subtitle">Connect the 5V 6A supply, build the distribution block, and run the pre-power checklist</p>
+    </div>
+  </div>
+
+  <div class="callout danger">
+    <div class="callout-icon">🚫</div>
+    <div class="callout-body"><h4>Do not connect the power supply to the mains yet</h4><p>Complete all wiring connections in this chapter before plugging the supply into the wall socket. The pre-power checklist at the end of this chapter is mandatory before first power-on.</p></div>
+  </div>
+
+  <div class="step" data-step="1">
+    <h3>Understand the power budget</h3>
+    <p>All components in this project run from 5V DC. Here is what everything draws:</p>
+    <table style="width:100%; font-size:0.85rem; border-collapse:collapse; margin: 0.7rem 0;">
+      <thead><tr><th style="text-align:left; padding:6px 10px; background:var(--primary); color:white;">Component</th><th style="text-align:left; padding:6px 10px; background:var(--primary); color:white;">Steady current</th><th style="text-align:left; padding:6px 10px; background:var(--primary); color:white;">Peak / start-up</th></tr></thead>
+      <tbody>
+        <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px 10px;">Raspberry Pi 4B + HAT Mini</td><td style="padding:6px 10px;">~1.0A</td><td style="padding:6px 10px;">~1.5A</td></tr>
+        <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px 10px;">Heater 1 (PTC)</td><td style="padding:6px 10px;">~0.4A</td><td style="padding:6px 10px;">~0.6–1.0A (cold start)</td></tr>
+        <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px 10px;">Heater 2 (PTC)</td><td style="padding:6px 10px;">~0.4A</td><td style="padding:6px 10px;">~0.6–1.0A (cold start)</td></tr>
+        <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px 10px;">AC unit fan</td><td style="padding:6px 10px;">~0.25A</td><td style="padding:6px 10px;">~0.5A (stall)</td></tr>
+        <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px 10px;">3× DS18B20 sensors</td><td style="padding:6px 10px;">~0.005A</td><td style="padding:6px 10px;">Negligible</td></tr>
+        <tr style="font-weight:700;"><td style="padding:6px 10px;">Total</td><td style="padding:6px 10px;">~2.1A</td><td style="padding:6px 10px;">~4.5A worst-case</td></tr>
+      </tbody>
+    </table>
+    <p>The 5V 6A supply provides 6 amps — about 33% headroom above worst-case peak. This is why a 3A supply (e.g. the official Pi PSU alone) would not be sufficient for the whole system.</p>
+  </div>
+
+  <div class="step" data-step="2">
+    <h3>Build the power distribution block</h3>
+    <p>The power supply has screw terminal outputs labelled <strong>+V</strong> and <strong>−V</strong> (or <strong>+5V</strong> and <strong>GND</strong>). Connect these to your perfboard's 5V bus and GND bus. From there, run individual wires to each load:</p>
+    <ul style="margin: 0.5rem 0 0.7rem 1.5rem; font-size: 0.92rem; color: var(--ink-mid);">
+      <li><strong>+5V bus</strong> → Relay NO terminal, Heater 2 positive, Fan positive, and the Pi's 5V pin (GPIO pin 2 or 4) via a Dupont wire from the stacking header</li>
+      <li><strong>GND bus</strong> → Heater 1 negative (from relay COM), MOSFET sources for Heater 2 and Fan, Pi GND (GPIO pin 6 or 9)</li>
+    </ul>
+    <div class="callout warning">
+      <div class="callout-icon">⚠️</div>
+      <div class="callout-body"><h4>Pi power via GPIO pins bypasses the fuse</h4><p>Powering the Pi through its 5V GPIO pins (pins 2 or 4) rather than the USB-C port bypasses the Pi's built-in protection. For a fixed, enclosed project like this it is acceptable — but it means any wiring error could damage the Pi directly. Double-check polarity (red to 5V, black to GND) before proceeding. An alternative is to use a separate official Pi USB-C PSU connected to the USB-C port for the Pi, and use the main 6A supply only for the heaters and fan.</p></div>
+    </div>
+  </div>
+
+  <div class="step" data-step="3">
+    <h3>Connect the power supply to the mains — preparation</h3>
+    <p>The 5V 6A enclosed PSU connects to a standard mains socket via its input terminals (L = Live, N = Neutral, PE = Earth). <strong>If you are not comfortable with mains wiring, have a qualified electrician connect the input side.</strong> The output side (5V DC) is what you have been wiring throughout this guide and is completely safe.</p>
+    <p>Many enclosed PSUs come with a mains lead already attached. If yours does not, use a standard IEC C14 mains cable (the same type used by desktop PCs).</p>
+  </div>
+
+  <!-- Pre-power checklist -->
+  <div class="prepower">
+    <h3>⚡ Pre-power checklist — complete before first power-on</h3>
+    <p style="color:rgba(255,255,255,0.75); font-size:0.88rem; margin-bottom:1rem;">Go through every item below. Only connect the mains once all boxes are ticked.</p>
+    <ul class="prepower-list">
+      <li><input type="checkbox" class="prepower-check"> All three DS18B20 sensors are connected: red to 3.3V, black to GND, yellow to the data bus. The 4.7kΩ pull-up is in place between 3.3V and the data wire.</li>
+      <li><input type="checkbox" class="prepower-check"> The relay wiring for Heater 1: 5V supply → relay NO, relay COM → Heater 1 wire A, Heater 1 wire B → GND.</li>
+      <li><input type="checkbox" class="prepower-check"> The MOSFET circuit for Heater 2 is complete with 220Ω gate resistor, 10kΩ pull-down to GND, and heater connected Drain to +5V.</li>
+      <li><input type="checkbox" class="prepower-check"> The MOSFET circuit for the fan is complete with the 1N5819 flyback diode across the fan terminals (striped end toward +5V).</li>
+      <li><input type="checkbox" class="prepower-check"> GPIO 17 (pin 11) connects to the Heater 2 MOSFET gate (via 220Ω). GPIO 27 (pin 13) connects to the fan MOSFET gate (via 220Ω).</li>
+      <li><input type="checkbox" class="prepower-check"> GPIO 4 (pin 7) connects to the DS18B20 data bus. Pin 1 (3.3V) connects to the sensor VCC bus. Pin 9 (GND) connects to the sensor GND bus.</li>
+      <li><input type="checkbox" class="prepower-check"> The HAT Mini is firmly seated on the stacking header — all 40 pins are engaged.</li>
+      <li><input type="checkbox" class="prepower-check"> The microSD card is inserted in the Pi.</li>
+      <li><input type="checkbox" class="prepower-check"> No bare wire ends are touching each other or any metal part of the model house frame.</li>
+      <li><input type="checkbox" class="prepower-check"> The heaters are mounted on their aluminium plates on a non-flammable surface — not touching foam, cardboard, or raw wood.</li>
+      <li><input type="checkbox" class="prepower-check"> The 5V supply +V terminal connects to the +5V bus. The −V terminal connects to the GND bus. Polarity is not reversed.</li>
+    </ul>
+  </div>
+
+  <div class="chapter-complete">
+    <input type="checkbox" id="done-ch6">
+    <label for="done-ch6">Chapter 6 complete — power supply is wired and pre-power checklist is complete ✅</label>
+  </div>
+</div>
+</section>
+
+<!-- CHAPTER 7: SOFTWARE -->
+<section class="section" id="ch7">
+<div class="container">
+  <div class="chapter-header">
+    <div class="chapter-num">7</div>
+    <div class="chapter-title-group">
+      <h2>Installing the software</h2>
+      <p class="chapter-subtitle">Install Python libraries, confirm 1-Wire is working, and load the test script</p>
+    </div>
+  </div>
+
+  <div class="step" data-step="1">
+    <h3>Update the Pi's software</h3>
+    <p>Good practice before installing anything new. SSH into the Pi (or type into a directly connected terminal) and run:</p>
+    <span class="cmd-label">Update package list and upgrade installed packages</span>
+    <div class="cmd-block"><span class="prompt">$ </span>sudo apt update && sudo apt upgrade -y</div>
+    <p>This may take 3–5 minutes. Wait for it to complete before proceeding.</p>
+  </div>
+
+  <div class="step" data-step="2">
+    <h3>Install the Automation HAT Mini Python library</h3>
+    <p>Pimoroni provides a one-line installer that handles the library and any system dependencies:</p>
+    <span class="cmd-label">Pimoroni one-line installer (recommended)</span>
+    <div class="cmd-block"><span class="prompt">$ </span>curl https://get.pimoroni.com/automation | bash</div>
+    <p>When prompted, say <strong>Yes</strong> to all options. This takes around 5 minutes and will reboot the Pi at the end. Alternatively, install via pip:</p>
+    <span class="cmd-label">Alternative — install via pip</span>
+    <div class="cmd-block"><span class="prompt">$ </span>pip3 install automationhat</div>
+  </div>
+
+  <div class="step" data-step="3">
+    <h3>Verify the 1-Wire sensors are detected</h3>
+    <p>After the reboot, check that the Pi can see the temperature sensors. Load the 1-Wire kernel modules and list detected devices:</p>
+    <span class="cmd-label">Load the modules manually (first time only)</span>
+    <div class="cmd-block"><span class="prompt">$ </span>sudo modprobe w1-gpio && sudo modprobe w1-therm</div>
+    <span class="cmd-label">List detected 1-Wire devices</span>
+    <div class="cmd-block"><span class="prompt">$ </span>ls /sys/bus/w1/devices/</div>
+    <p>You should see three entries beginning with <code>28-</code> — one per sensor. If you see fewer than three, double-check the wiring for any missing sensors. Each <code>28-xxxxxxxx</code> directory is a unique sensor ID.</p>
+  </div>
+
+  <div class="step" data-step="4">
+    <h3>Create the test script</h3>
+    <p>Create a new file on the Pi called <code>test_hardware.py</code>:</p>
+    <span class="cmd-label">Create the test script</span>
+    <div class="cmd-block"><span class="prompt">$ </span>nano test_hardware.py</div>
+    <p>Type or paste the following code exactly:</p>
+    <div class="cmd-block"><span class="comment"># Hardware test script — Project Dusk model house</span>
+<span class="comment"># Tests: relay, both MOSFETs, and all three temperature sensors</span>
+import automationhat
+import RPi.GPIO as GPIO
+import glob, time
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(17, GPIO.OUT)  <span class="comment"># Heater 2 (MOSFET)</span>
+GPIO.setup(27, GPIO.OUT)  <span class="comment"># AC fan (MOSFET)</span>
+
+print("--- Testing Relay (Heater 1) ---")
+automationhat.relay.one.on()
+print("Relay ON — Heater 1 should activate")
+time.sleep(3)
+automationhat.relay.one.off()
+print("Relay OFF")
+
+print("\n--- Testing Heater 2 MOSFET ---")
+GPIO.output(17, GPIO.HIGH)
+print("Heater 2 ON")
+time.sleep(3)
+GPIO.output(17, GPIO.LOW)
+print("Heater 2 OFF")
+
+print("\n--- Testing Fan MOSFET ---")
+GPIO.output(27, GPIO.HIGH)
+print("Fan ON")
+time.sleep(3)
+GPIO.output(27, GPIO.LOW)
+print("Fan OFF")
+GPIO.cleanup()
+
+print("\n--- Reading Temperature Sensors ---")
+devices = glob.glob('/sys/bus/w1/devices/28*')
+if not devices:
+    print("ERROR: No sensors found. Check wiring and 1-Wire overlay.")
+else:
+    for i, d in enumerate(devices):
+        with open(d + '/temperature') as f:
+            temp = int(f.read().strip()) / 1000.0
+        print(f"Sensor {i+1} (ID: {d.split('/')[-1]}): {temp:.1f} degrees C")
+
+print("\nTest complete.")</div>
+    <p>Press <strong>Ctrl+X</strong>, then <strong>Y</strong>, then <strong>Enter</strong> to save.</p>
+  </div>
+
+  <div class="chapter-complete">
+    <input type="checkbox" id="done-ch7">
+    <label for="done-ch7">Chapter 7 complete — software installed and test script saved ✅</label>
+  </div>
+</div>
+</section>
+
+<!-- CHAPTER 8: FIRST TEST -->
+<section class="section" id="ch8">
+<div class="container">
+  <div class="chapter-header">
+    <div class="chapter-num">8</div>
+    <div class="chapter-title-group">
+      <h2>Your first test</h2>
+      <p class="chapter-subtitle">Power everything on for the first time and run the hardware test</p>
+    </div>
+  </div>
+
+  <div class="callout danger">
+    <div class="callout-icon">⚡</div>
+    <div class="callout-body"><h4>Confirm the pre-power checklist is complete</h4><p>Before proceeding, return to Chapter 6 and confirm every item on the pre-power checklist is ticked. This is not optional — it is your last check before live electricity enters the circuit.</p></div>
+  </div>
+
+  <div class="step" data-step="1">
+    <h3>First power-on</h3>
+    <p>With everything wired and the pre-power checklist complete, plug the 5V 6A power supply into the mains. Do not touch the wiring while power is connected.</p>
+    <p>Observe the following over the first 30 seconds:</p>
+    <ul style="margin: 0.5rem 0 0.7rem 1.5rem; font-size: 0.92rem; color: var(--ink-mid);">
+      <li>The Raspberry Pi's red power LED should illuminate — it stays steady red.</li>
+      <li>The Pi's green activity LED should flash during boot.</li>
+      <li>The HAT Mini's small display should light up after 20–30 seconds as the Pi boots.</li>
+      <li><strong>No smoke, sparks, or burning smell.</strong> If any of these occur: unplug the mains immediately and recheck all wiring.</li>
+    </ul>
+    <p>Allow the Pi 60–90 seconds to complete its boot sequence before trying to SSH in.</p>
+  </div>
+
+  <div class="step" data-step="2">
+    <h3>SSH in and run the test script</h3>
+    <p>Once booted, SSH into the Pi from your laptop:</p>
+    <span class="cmd-label">On your laptop</span>
+    <div class="cmd-block"><span class="prompt">$ </span>ssh pi@model-house.local</div>
+    <p>Then run the test script:</p>
+    <span class="cmd-label">On the Pi</span>
+    <div class="cmd-block"><span class="prompt">$ </span>python3 test_hardware.py</div>
+  </div>
+
+  <div class="step" data-step="3">
+    <h3>What success looks like</h3>
+    <p>A fully working system will produce output like this:</p>
+    <div class="cmd-block" style="color:#A8F0C0;">--- Testing Relay (Heater 1) ---
+Relay ON — Heater 1 should activate
+Relay OFF
+
+--- Testing Heater 2 MOSFET ---
+Heater 2 ON
+Heater 2 OFF
+
+--- Testing Fan MOSFET ---
+Fan ON
+Fan OFF
+
+--- Reading Temperature Sensors ---
+Sensor 1 (ID: 28-3ce1041c3fd6): 22.1 degrees C
+Sensor 2 (ID: 28-3ce1041c4a12): 21.9 degrees C
+Sensor 3 (ID: 28-3ce1041c5c88): 22.3 degrees C
+
+Test complete.</div>
+    <p>During the test, physically confirm each actuator responds: the heaters should become slightly warm to the touch within 10–15 seconds of activation, and the fan should spin during its 3-second test window.</p>
+  </div>
+
+  <div class="step" data-step="4">
+    <h3>Note down your sensor IDs</h3>
+    <p>The three <code>28-xxxxxxxxxxxxxxxx</code> IDs are unique to your sensors. Write them down and note which physical location each corresponds to (End 1, Middle, End 2). This allows your simulation software to know which temperature reading comes from where. Label each sensor probe with a small piece of Kapton tape and a permanent marker.</p>
+  </div>
+
+  <div class="callout success">
+    <div class="callout-icon">🎉</div>
+    <div class="callout-body"><h4>All tests passing? You're done with the hardware build!</h4><p>The model house electronics are fully functional. The system is ready for the simulation software integration — the control logic (turning heaters and the fan on and off in response to temperature readings) is handled in the Python control script, where your simulation code connects to the <code>decide()</code> function.</p></div>
+  </div>
+
+  <div class="chapter-complete">
+    <input type="checkbox" id="done-ch8">
+    <label for="done-ch8">Chapter 8 complete — hardware test passing, build complete ✅</label>
+  </div>
+</div>
+</section>
+
+<!-- TROUBLESHOOTING -->
+<section class="section" id="troubleshooting">
+<div class="container">
+  <h2>If something goes wrong</h2>
+  <p>Run through the table below if any test fails or something behaves unexpectedly.</p>
+  <table class="trouble-table">
+    <thead><tr><th>Symptom</th><th>Likely cause</th><th>Fix</th></tr></thead>
+    <tbody>
+      <tr><td>Pi does not power on</td><td>No power reaching the Pi, or polarity reversed</td><td>Check the 5V and GND wires at GPIO pins 2 and 9. Use a multimeter to confirm 5V between them (red probe on pin 2, black on pin 6).</td></tr>
+      <tr><td>HAT Mini display stays blank</td><td>HAT not fully seated on stacking header, or library not installed</td><td>Power off, reseat the HAT — check all 40 pins are engaged. Reinstall: <code>curl https://get.pimoroni.com/automation | bash</code></td></tr>
+      <tr><td>Sensor count is wrong (e.g. 1 of 3 detected)</td><td>Loose connection in the 1-Wire bus, or missing pull-up resistor</td><td>Power off. Check every red/yellow/black wire on the missing sensor. Confirm the 4.7kΩ pull-up is soldered between 3.3V and the DATA line.</td></tr>
+      <tr><td>Sensor readings look wrong or all identical</td><td>Two wires swapped (e.g. VCC and DATA)</td><td>Power off. Verify wire colours with a multimeter in continuity mode. Check sensor datasheet for correct pin assignment.</td></tr>
+      <tr><td>Heater 1 does not warm up</td><td>Relay not activating, or heater wire loose</td><td>Check the relay terminal screws are tight. Listen for a click when the relay activates. Measure voltage across the heater terminals when the relay is ON (should be ~5V).</td></tr>
+      <tr><td>Heater 2 or Fan does not turn on</td><td>MOSFET gate not receiving signal, pull-down shorting signal</td><td>Measure voltage at the Gate pin when the GPIO is HIGH — should be ~3V. If 0V, check the 220Ω gate resistor. If stuck LOW despite GPIO HIGH, the 10kΩ pull-down may be wired incorrectly (check it goes to GND, not to 5V).</td></tr>
+      <tr><td>Fan spins briefly at boot before software runs</td><td>No gate pull-down resistor installed</td><td>Power off. Confirm the 10kΩ resistor is wired between the Gate pin and GND. Without it, the gate floats HIGH at startup.</td></tr>
+      <tr><td>OSError when calling <code>automationhat.relay</code></td><td>Wrong relay method — calling <code>.relay.on()</code> instead of <code>.relay.one.on()</code></td><td>Always use <code>automationhat.relay.one.on()</code> and <code>automationhat.relay.one.off()</code> with the HAT Mini.</td></tr>
+      <tr><td>Smell of burning or visible smoke</td><td>Short circuit, wrong polarity, or overloaded wire</td><td>Unplug mains immediately. Do not reconnect until all wiring has been checked. Look for scorch marks or melted insulation as a clue to the fault location.</td></tr>
+    </tbody>
+  </table>
+</div>
+</section>
+
+<footer style="background:var(--primary); color:rgba(255,255,255,0.75); text-align:center; padding:1.5rem; font-size:0.82rem; margin-top:2rem;">
+  Project Dusk — Model House Electronics Build Guide &nbsp;|&nbsp; Flax &amp; Teal for Digital Catapult &nbsp;|&nbsp; All voltages 5V DC — safe low-voltage system
+</footer>
+
+<!-- Back to top -->
+<button id="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+// ===== CHECKBOX PERSISTENCE =====
+function saveChecks() {
+  const checks = document.querySelectorAll('input[type="checkbox"]');
+  const state = {};
+  checks.forEach((c, i) => { state['chk_'+i] = c.checked; });
+  try { localStorage.setItem('ft_internal_dusk_build_checks', JSON.stringify(state)); } catch(e){}
+}
+function loadChecks() {
+  try {
+    const state = JSON.parse(localStorage.getItem('ft_internal_dusk_build_checks') || '{}');
+    const checks = document.querySelectorAll('input[type="checkbox"]');
+    checks.forEach((c, i) => {
+      if (state['chk_'+i]) {
+        c.checked = true;
+        updateParentItem(c);
+      }
+    });
+  } catch(e){}
+}
+function updateParentItem(chk) {
+  const li = chk.closest('.check-item');
+  if (li) li.classList.toggle('done', chk.checked);
+}
+
+document.addEventListener('change', e => {
+  if (e.target.type === 'checkbox') {
+    updateParentItem(e.target);
+    saveChecks();
+    updateProgressBars();
+  }
+});
+
+// ===== PROGRESS BARS =====
+function updateProgressBars() {
+  const lists = ['core','extras','build','tools','heater'];
+  lists.forEach(listId => {
+    const items = document.querySelectorAll(`[data-list="${listId}"] input[type="checkbox"]`);
+    const done = Array.from(items).filter(c => c.checked).length;
+    const el = document.getElementById('prog-' + listId);
+    if (el) el.textContent = `${done} / ${items.length}`;
+  });
+}
+
+// ===== DIAGRAM TABS =====
+function switchTab(tabEl, paneId) {
+  const wrap = tabEl.closest('.diagram-wrap');
+  wrap.querySelectorAll('.diagram-tab').forEach(t => t.classList.remove('active'));
+  wrap.querySelectorAll('.diagram-pane').forEach(p => p.classList.remove('active'));
+  tabEl.classList.add('active');
+  document.getElementById(paneId).classList.add('active');
+}
+
+// ===== SCROLL PROGRESS BAR =====
+window.addEventListener('scroll', () => {
+  const h = document.documentElement;
+  const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+  document.getElementById('progress-bar').style.width = pct + '%';
+  document.getElementById('back-top').classList.toggle('visible', h.scrollTop > 400);
+  updateNavDots();
+});
+
+function updateNavDots() {
+  const chapters = ['safety','parts','ch1','ch2','ch3','ch4','ch5','ch6','ch7','ch8'];
+  const dots = document.querySelectorAll('.nav-dot');
+  let active = 0;
+  chapters.forEach((id, i) => {
+    const el = document.getElementById(id);
+    if (el && el.getBoundingClientRect().top <= 100) active = i;
+  });
+  dots.forEach((d, i) => d.classList.toggle('active', i === active));
+}
+
+// ===== GPIO PIN MAP =====
+const pinData = [
+  {p:1,n:'3.3V',cls:'p-power3'},{p:2,n:'5V',cls:'p-power5'},
+  {p:3,n:'SDA (HAT)',cls:'p-hat'},{p:4,n:'5V',cls:'p-power5'},
+  {p:5,n:'SCL (HAT)',cls:'p-hat'},{p:6,n:'GND',cls:'p-gnd'},
+  {p:7,n:'GPIO 4\n★ DS18B20 Data',cls:'p-sensor'},{p:8,n:'GPIO 14',cls:'p-free'},
+  {p:9,n:'GND',cls:'p-gnd'},{p:10,n:'GPIO 15',cls:'p-free'},
+  {p:11,n:'GPIO 17\n★ Heater 2',cls:'p-mosfet1'},{p:12,n:'GPIO 18',cls:'p-free'},
+  {p:13,n:'GPIO 27\n★ AC Fan',cls:'p-mosfet2'},{p:14,n:'GND',cls:'p-gnd'},
+  {p:15,n:'GPIO 22',cls:'p-free'},{p:16,n:'GPIO 23',cls:'p-free'},
+  {p:17,n:'3.3V',cls:'p-power3'},{p:18,n:'GPIO 24',cls:'p-free'},
+  {p:19,n:'MOSI (HAT)',cls:'p-hat'},{p:20,n:'GND',cls:'p-gnd'},
+  {p:21,n:'MISO (HAT)',cls:'p-hat'},{p:22,n:'GPIO 25 (HAT)',cls:'p-hat'},
+  {p:23,n:'SCLK (HAT)',cls:'p-hat'},{p:24,n:'CE0 (HAT)',cls:'p-hat'},
+  {p:25,n:'GND',cls:'p-gnd'},{p:26,n:'GPIO 7',cls:'p-free'},
+  {p:27,n:'ID_SD',cls:'p-eeprom'},{p:28,n:'ID_SC',cls:'p-eeprom'},
+  {p:29,n:'Out1 (HAT)',cls:'p-hat'},{p:30,n:'GND',cls:'p-gnd'},
+  {p:31,n:'Out3 (HAT)',cls:'p-hat'},{p:32,n:'Out2 (HAT)',cls:'p-hat'},
+  {p:33,n:'Relay (HAT)',cls:'p-hat'},{p:34,n:'GND',cls:'p-gnd'},
+  {p:35,n:'GPIO 19',cls:'p-free'},{p:36,n:'GPIO 16',cls:'p-free'},
+  {p:37,n:'In1 (HAT)',cls:'p-hat'},{p:38,n:'In2 (HAT)',cls:'p-hat'},
+  {p:39,n:'GND',cls:'p-gnd'},{p:40,n:'In3 (HAT)',cls:'p-hat'},
+];
+
+function buildPinMap() {
+  const grid = document.getElementById('pin-map-grid');
+  if (!grid) return;
+  for (let row = 0; row < 20; row++) {
+    const left = pinData[row * 2];
+    const right = pinData[row * 2 + 1];
+    const lName = left.n.replace('\n', ' ');
+    const rName = right.n.replace('\n', ' ');
+    const lStar = left.n.includes('★');
+    const rStar = right.n.includes('★');
+    grid.innerHTML += `
+      <div class="pin-left" style="${lStar?'font-weight:800;color:var(--ink);':''}">${lStar?'★ ':''}${lName}<div class="pin-num ${left.cls}">${left.p}</div></div>
+      <div class="pin-connector"><div class="pin-dot"></div></div>
+      <div class="pin-right" style="${rStar?'font-weight:800;color:var(--ink);':''}"><div class="pin-num ${right.cls}">${right.p}</div>${rStar?'★ ':''}${rName}</div>`;
+  }
+}
+
+// ===== INIT =====
+document.addEventListener('DOMContentLoaded', () => {
+  buildPinMap();
+  loadChecks();
+  updateProgressBars();
+});
+</script>
+</body>
+</html>
