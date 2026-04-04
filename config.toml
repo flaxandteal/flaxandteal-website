@@ -85,5 +85,5 @@ copyright = '© {year} Flax & Teal Limited.'
   [markup.goldmark.extensions.passthrough]
     enable = true
     [markup.goldmark.extensions.passthrough.delimiters]
-      block  = [['\$\$', '\$\$'], ['\\[', '\\]']]
-      inline = [['\$', '\$'],   ['\\(', '\\)']]
+      block  = [["$$", "$$"], ["\\[", "\\]"]]
+      inline = [["$", "$"],   ["\\(", "\\)"]]
