@@ -14,12 +14,15 @@ Grover's algorithm is an algorithm to perform search on an unordered list. Order
 The algorithm is an example of [amplitude amplification][amp].
 
 **Problem statement**
+
 Given an unordered list of values return the index (position) of the element of the list that satisfies a criterion (the function to test this criterion is called an oracle).
 
 **Algorithm Outline**
+
 The basic idea is that we prepare a state that is a superposition of every single potential index, and we apply an operation that amplifies the relative amplitude of the index until it dominates the output in a number of applications that is \(O(\sqrt{N})\).
 
 **Need for an efficient and useful Oracle**
+
 An Oracle is just a function that can identify the state we are interested in. In the derivation below used in all of the sources, the toy Oracle require knowledge of the result, but this is not needed, and the algorithm works with a useful [oracle][oracle]
 
 ## Algorithm Outline
