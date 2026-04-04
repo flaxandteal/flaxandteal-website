@@ -10,6 +10,7 @@
   
   {{$script := resources.Get "/js/main.js"}}
   <script defer src="{{$script.RelPermalink}}"></script>
+  {{ if .Param "math" }}{{ partial "math.html" . }}{{ end }}
 </head>
 <body style="display: block">
   {{ if not .IsPage}}
