@@ -7,7 +7,7 @@
   {{ if eq .type "blog-list" }}
   {{ partial $partial (dict "section" . "page" $) }}
   {{ else }}
-  {{ partial $partial . }}
+  {{ partial $partial (dict "ctx" . "content" $.Content) }}
   {{ end }}
   {{ end }}
 </main>
