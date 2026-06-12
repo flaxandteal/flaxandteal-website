@@ -1,5 +1,17 @@
 # Official Site Documentation 
 
+## Local development
+
+Requires [Docker](https://docs.docker.com/get-docker/).
+
+| Command | Description |
+|---|---|
+| `make serve` | Start a live-reload dev server at http://localhost:1313 |
+| `make build` | Build the site into `docs/` (matches CI output) |
+| `make clean` | Remove the `docs/` output directory |
+
+This uses Hugo **0.125.7 extended** in Docker — no local Hugo install needed. The version matches the version we use in our deployed version. 
+
 ## FORM CONFIGURATION
 
 - Create and account with [Form Spark](https://formspark.io). 
@@ -32,3 +44,5 @@ Flax & Teal staff can publish new blog posts through GitHub:
 3. Submit the form. The workflow will create a new Markdown file in `content/blog/`, commit it to `master`, and the existing deploy workflow will publish it to `/blog`.
 
 Only users with write access to the repository (F&T staff) can run the workflow, keeping the publishing portal private to the team.
+
+
