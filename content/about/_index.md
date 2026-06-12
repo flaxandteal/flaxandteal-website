@@ -42,6 +42,12 @@ sections:
         linkedin: 'https://www.linkedin.com/in/abhinavtk/'
         bg_color: '#8E8E8C'
         text: "Abhinav joins our team as a Data Engineer. He holds a Master’s degree in Industrial Mathematics and Scientific Computing from IIT Madras and has prior experience as a Business Analyst. He brings strong expertise in mathematical modeling and data science, along with a passion for FEniCS Project development and finite element research. He is proficient in Python, Git, Docker, and Machine Learning tools."
+      - name: 'Adam Thomas'
+        img: '/images/about/adam-thomas.webp'
+        role: 'Head of Product'
+        linkedin: 'https://www.linkedin.com/in/theadamthomas/'
+        bg_color: '#B39B52'
+        text: "Adam brings 15 years of product leadership to Flax & Teal, leading strategy and discovery across the company's heritage, scientific computing, and resilience engagements. Based in New York, he focuses on connecting product practice to delivery, with particular expertise in AI and product operations. He teaches AI at Columbia University and on MICA's Product Management & UX Graduate Programs."
       - name: 'Andrea Kyurchiev'
         img: '/images/about/andrea-kyurchiev.webp'
         role: 'Full-Stack Developer'
@@ -108,10 +114,4 @@ sections:
         linkedin: 'https://www.linkedin.com/in/stuartcmarshall/'
         bg_color: '#5A6D70'
         text: "Stuart joins our team as a Front-end Software Developer with an extensive background in 3D design, architecture and additive manufacturing. He has experience working in the front-end and backend, including; VR technologies such as Blender, CSS, JavaScript, HMTL, C# and .NET, with expertise in Vue and React. Stuart is a talented and focused web developer, with a focus on design interfaces."
-      - name: 'Adam Thomas'
-        img: '/images/about/adam-thomas.jpeg'
-        role: 'Head of Product'
-        linkedin: 'https://www.linkedin.com/in/theadamthomas/'
-        bg_color: '#B39B52'
-        text: "Adam brings 15 years of product leadership to Flax & Teal, leading strategy and discovery across the company's heritage, scientific computing, and resilience engagements. Based in New York, he focuses on connecting product practice to delivery, with particular expertise in AI and product operations. He teaches AI at Columbia University and on MICA's Product Management & UX Graduate Programs."
 ---
