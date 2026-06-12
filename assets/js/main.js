@@ -9,6 +9,17 @@ menuBtn.addEventListener('click', function(){
   menuMobile.classList.toggle('active')
 })
 
+// Mobile accordion dropdowns
+document.querySelectorAll('.menu-mobile .accordion-toggle').forEach(function(toggle) {
+  toggle.addEventListener('click', function() {
+    const dropdown = this.closest('.nav-dropdown')
+    const menu = dropdown.querySelector('.nav-dropdown-menu')
+    const isOpen = menu.classList.toggle('open')
+    this.classList.toggle('open', isOpen)
+    this.setAttribute('aria-expanded', isOpen)
+  })
+})
+
 
 // open for business
 const circleWrapper = document.querySelector('#circle-wrapper');
