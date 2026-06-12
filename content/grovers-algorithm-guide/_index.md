@@ -135,7 +135,7 @@ expand(ls[0])
 ```
 
 $$
-- \sqrt{\cos^{2}{\left(2 \theta \right)} - 1} + \cos{\left(2 \theta \right)}
+\sqrt{\cos^{2}{\left(2 \theta \right)} - 1} + \cos{\left(2 \theta \right)}
 $$
 
 ```python
