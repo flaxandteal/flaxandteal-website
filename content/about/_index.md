@@ -10,7 +10,6 @@ sections:
     bg_color: '#F6F4EB'
     heading: 'About us'
     text: '<strong>Flax and Teal has grown exponentially since its humble beginnings as a one-person operation in Belfast back in 2013.</strong> <br><br> What started as a solo endeavour has blossomed into a globally distributed team spanning four locations - Northern Ireland, Bulgaria, India, and California. Our 13-member strong workforce continues to expand, fuelled by a commitment to meeting the ever-evolving needs of our customers across the UK, Europe, North America, Asia and Oceania. <br><br> With expertise honed through technical competency groups led by seasoned veterans, we seamlessly bridge time zones and harness best practices to deliver efficient, cutting-edge solutions.'
-    bg_color: '#F6F4EB'
   - type: what-we-do_about
     heading: What we do
     text: 'In the sea of modern tech startups fixated on intellectual property and disruptive innovation, Flax & Teal stands apart. Our intentionally organic aesthetic, inspired by traditional industry, reflects our unconventional philosophy. We are not a typical tech company – we embrace the open source ethos, emphasising accountability, transparency, and collaborative creation over proprietary products and volatile disruption. <br><br>
@@ -21,8 +20,7 @@ sections:
     img_alt: 'an image of our app'
   - type: our-services_about
     heading: 'Our services'
-    text: 'We build innovative web platforms and solutions to tackle complex data and scientific challenges across diverse domains. Leveraging open source technologies, cloud infrastructure, and cutting-edge approaches like machine learning and scientific computing, we collaborate with clients to develop tailored solutions that drive progress and create value.<br><br> Despite our global reach, we believe in the power of seamless collaboration. Our distributed team leverages advanced communication technologies and agile methodologies to work together effectively across borders
-and time zones. Whether you’re in Sofia, San Francisco, or London, you can count on us to deliver responsive, reliable support whenever and wherever you need it.'
+    text: 'We build innovative web platforms and solutions to tackle complex data and scientific challenges across diverse domains. Leveraging open source technologies, cloud infrastructure, and cutting-edge approaches like machine learning and scientific computing, we collaborate with clients to develop tailored solutions that drive progress and create value.<br><br> Despite our global reach, we believe in the power of seamless collaboration. Our distributed team leverages advanced communication technologies and agile methodologies to work together effectively across borders and time zones. Whether you’re in Sofia, San Francisco, or London, you can count on us to deliver responsive, reliable support whenever and wherever you need it.'
     cta: 'Discover our services'
     cta_link: '/services/'
     img_src: '/images/about/tight-rope-climber-mountain.webp'
@@ -44,12 +42,6 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         linkedin: 'https://www.linkedin.com/in/abhinavtk/'
         bg_color: '#8E8E8C'
         text: "Abhinav joins our team as a Data Engineer. He holds a Master’s degree in Industrial Mathematics and Scientific Computing from IIT Madras and has prior experience as a Business Analyst. He brings strong expertise in mathematical modeling and data science, along with a passion for FEniCS Project development and finite element research. He is proficient in Python, Git, Docker, and Machine Learning tools."
-      - name: 'Alana Murphy'
-        img: '/images/about/alana-murphy.webp'
-        role: 'Operations Lead'
-        linkedin: 'https://www.linkedin.com/in/alana-murphy-4ab8891aa/'
-        bg_color: '#B39B52'
-        text: "Alana works as an operations analyst within Flax & Teal, alongside carrying out a lot of our day-to-day duties as a company. Alana has a BSc in social science with quantitative methods and empirical research from Queen’s University. Alana has worked with SPSS, Stata, HTML and Python toolings in data analysis. She co-ordinates our strategy across all our departments."
       - name: 'Andrea Kyurchiev'
         img: '/images/about/andrea-kyurchiev.webp'
         role: 'Full-Stack Developer'
@@ -62,12 +54,6 @@ and time zones. Whether you’re in Sofia, San Francisco, or London, you can cou
         linkedin: 'https://www.linkedin.com/in/dylan-cree-621345222/'
         bg_color: '#4B7A81'
         text: "Dylan joins our team as a Progressing Software Developer, currently completing his undergraduate in Software Engineering from Ulster University. He has strong experience as a front-end developer, and has worked with technologies such as; Java, React and NextJS. He also has experience working with Python and supporting data ingestion pipelines."
-      - name: 'Emma Mulholland'
-        img: '/images/about/emma.webp'
-        role: 'Product Lead'
-        linkedin: 'https://www.linkedin.com/in/emulholland/'
-        bg_color: '#5A6D70'
-        text: "As the Flax & Teal Product Lead, Emma helps organisations understand their big problems, and through user centred design practices and a product mindset, create innovative solutions.<br><br> She has over 18 years product and innovation experience across startups and large enterprises in eCommerce, insurance, retail and consultancy. This has included a number of digital transformation programmes, and the creation of an Innovation Lab. Most recently she was a coach on the Catalyst Co-Founders programme.<br><br> Outside Flax & Teal - she shares a passion for inclusive innovation through the setup and co-ordination of local meetups and conferences such as ProductTank Belfast, Lean Coffee Belfast, NIDC, and Product Camp Belfast; is an Instructor for Mind the Product, and coaches clients in Product Leadership."
       - name: 'Ellery Ames'
         img: '/images/about/ellery-ames.webp'
         role: 'Scientific Software Engineer'
