@@ -131,7 +131,7 @@ vs = [ev[2][0] for ev in eigs]  # pick one eigenvector per eigenvalue
 The radicals appear as complex conjugates but sympy refuses to simplify it so we choose the positive root for all cases
 
 ```python
-expand(ls[0])
+expand(ls[1])
 ```
 
 $$
