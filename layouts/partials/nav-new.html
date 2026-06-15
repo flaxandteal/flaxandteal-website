@@ -35,19 +35,22 @@
       {{ range site.Menus.main}}
       {{ if .HasChildren }}
       <li class="nav-dropdown">
-        <a class="text-dark" href="{{.URL}}">{{.Name}}</a>
+        <div class="nav-dropdown-header">
+          <a class="text-dark" href="{{.URL}}">{{.Name}}</a>
+          <button class="accordion-toggle" aria-expanded="false" aria-label="Toggle submenu">&#9660;</button>
+        </div>
         <ul class="nav-dropdown-menu">
           {{ range .Children }}
           <li><a class="text-dark" href="{{.URL}}">{{.Name}}</a></li>
           {{ end }}
         </ul>
       </li>
-      {{ else if in .URL "contact"}} 
+      {{ else if in .URL "contact"}}
       <li><a class="btn btn-primary text-light" href="{{.URL}}">{{.Name}}</a></li>
       {{ else }}
       <li><a class="text-dark" href="{{.URL}}">{{.Name}}</a></li>
       {{ end }}
-      {{ end }}  
+      {{ end }}
     </ul>
   </div>
 
