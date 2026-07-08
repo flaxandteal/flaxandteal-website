@@ -18,8 +18,6 @@ sections:
     heading: "Grant Application Support for Growing Businesses"
     text: |
       Business support grants can unlock real capital for growth, but competition is fierce, calls close quickly, and scoring criteria are unforgiving. We help businesses put forward applications that get funded.
-    
-      **[Download our grant support brochure](/images/dtff_support_packages.pdf)** | **[Book a free initial consultation](https://calendar.app.google/WhR8ushcrqHUMtyAA)**
     bg_color: "#394E51"
     color: "#FFFFFF"
 
@@ -85,10 +83,8 @@ One example of our grant application work: the Digital Transformation Flexible F
 
 **Getting started:**
 
-1. Book a free initial consultation to talk through your grant and where you need support.
+1. Get in touch to talk through your grant and where you need support.
 2. We recommend the right package for your situation and timeline.
 3. We get to work, from a compliance check through to full application delivery.
 
-**[Download the full grant support brochure](https://flaxandteal.co.uk/images/dtff_support_packages.pdf)**
-
-Contact us at [grants@flaxandteal.co.uk](mailto:grants@flaxandteal.co.uk) or [book a free initial consultation](https://calendar.app.google/WhR8ushcrqHUMtyAA).
+Contact us at [grants@flaxandteal.co.uk](mailto:grants@flaxandteal.co.uk).
