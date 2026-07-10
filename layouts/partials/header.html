@@ -3,6 +3,9 @@
   <head>
     <title>Flax &amp; Teal - Software Development | Data Science | Consultancy - Open Source in Business</title>
     <meta charset="UTF-8"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon-32.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ "images/favicon.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/favicon-180.png" | relURL }}">
     <link rel='stylesheet' href='/fonts/league-gothic/stylesheet.css' type='text/css' />
     <link rel='stylesheet' href='/fonts/league-spartan/stylesheet.css' type='text/css' />
     {{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
