@@ -60,7 +60,10 @@ copyright = '© {year} Flax & Teal Limited.'
   # footer
   footer_note = 'Flax & Teal Limited is a limited company registered in Northern Ireland with registration number NI617545, VAT number GB283711692, EORI number GB283711692000, and ICO registration ZA243895.'
   footer_image = '/images/index/flax-and-teal-field-image.webp'
-  footer_badges = ['/images/cyber-essentials-plus-logo.webp']
+  footer_badges = [
+    { src = '/images/cyber-essentials-plus-logo.webp', alt = 'Cyber Essentials Plus certification badge' },
+    { src = '/images/iso-27001-logo.webp', alt = 'ISO 27001 certification badge, verified by SGS', link = 'https://www.sgs.com/en/certified-clients-and-products/verify-certificate?id=8b3eda21-54fa-4abc-8d16-906d38975453' }
+  ]
   footer_badge_max_width = 100
   address = 'Farset Labs Weavers Court <br> Linfield Road <br> Belfast BT12 5GH'
   # contact form
