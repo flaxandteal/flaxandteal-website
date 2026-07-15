@@ -64,7 +64,7 @@ copyright = '© {year} Flax & Teal Limited.'
     { src = '/images/cyber-essentials-plus-logo.webp', alt = 'Cyber Essentials Plus certification badge' },
     { src = '/images/iso-27001-logo.webp', alt = 'ISO 27001 certification badge, verified by SGS', link = 'https://www.sgs.com/en/certified-clients-and-products/verify-certificate?id=8b3eda21-54fa-4abc-8d16-906d38975453' }
   ]
-  footer_badge_max_width = 100
+  footer_badge_height = 75
   address = 'Farset Labs Weavers Court <br> Linfield Road <br> Belfast BT12 5GH'
   # contact form
   form_submission_redirect = 'thank-you'
