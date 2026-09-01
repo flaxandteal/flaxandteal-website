@@ -53,13 +53,13 @@ Most teams find us when modelling has quietly turned from an advantage into a co
 * Internal R&D tooling that needs to become something the wider engineering team can rely on
 * Scaling problems you know are coming, and have not had time to learn
 
-If more than two of those are true at once, the problem is usually architectural rather than incremental, and no amount of additional hardware will fix it.
+If more than two of those are true at once, more hardware will not save you. The shape of the system is the problem.
 
 ---
 
 Simulation is not a data science problem, so data science tooling does not fit it. It is not a general IT problem either, so infrastructure teams tend to solve the wrong half.
 
-That is why this work so often lands nowhere. Your modellers do not own the infrastructure, and the people who own the infrastructure do not model.
+So the work lands nowhere. Your modellers do not own the infrastructure, and the people who own the infrastructure do not model.
 
 We do both. Our engineers have worked across oil and gas, semiconductor fabrication, household-name simulation software and government analysis. We are usually brought in after a team has already tried the other two routes, which means we spend very little of your budget rediscovering things you have already paid to learn.
 
@@ -69,7 +69,7 @@ Most of our engineering work is confidential, so here is what we can tell you.
 
 **Semiconductor optics simulation**
 
-Licensed, legacy simulation code refactored into modular, cloud-ready workflows, enabling high-volume bursty simulation across teams. Modularisation and optimisation were estimated to unlock savings upwards of €60m.
+We refactored licensed legacy simulation code into modular, cloud-ready workflows, so teams could run high-volume bursty simulation. Estimated saving: over €60m.
 
 **Sensor and telemetry systems**
 
@@ -91,11 +91,11 @@ Sectors we have delivered in: semiconductors, automotive, geophysics, energy, he
 
 **A feasibility assessment**
 
-Short and bounded: is this possible, what would it take, where are the risks. Deliberately low cost and low risk, and the output is yours whether or not you go further.
+Short and bounded. Is this possible? What would it take? Where are the risks? Deliberately low cost and low risk, and the output is yours whether or not you go further.
 
 **Analysis scale-up**
 
-Architecture, implementation and deployment for scalable analysis, built on design patterns we have already proven rather than ones you discover the hard way.
+Architecture, implementation and deployment for scalable analysis, built on design patterns we have already proven, so you are not discovering them at your own expense.
 
 **Team extension**
 
@@ -107,7 +107,7 @@ Open source drives your research, and formal support for it barely exists. We co
 
 ---
 
-This matters more than it tends to sound, so we will be explicit about it.
+This matters more than it sounds, so we will be explicit.
 
 * **Your code stays yours.** Client-owned code remains client-owned, with clear IP boundaries agreed at the start rather than argued about later.
 * **No lock-in.** We build systems you can search, inspect and eventually run without us. Not black boxes.

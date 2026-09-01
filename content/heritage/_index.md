@@ -47,7 +47,7 @@ sections:
 
 ---
 
-Then you probably want to know what we do around it rather than what it is. Data modelling, migration at scale, custom workflows, dashboards built around your actual business processes, integration with the systems either side, and hosting with a support channel that answers.
+Then you know what it is. What you probably want to know is what we do around it. Data modelling, migration at scale, custom workflows, dashboards built around your actual business processes, integration with the systems either side, and hosting with a support channel that answers.
 
 We are registered Arches providers, we work directly with the Arches core team, and we contribute our improvements back to the platform.
 
@@ -57,7 +57,7 @@ If you are still deciding whether Arches is right for you, keep reading. That is
 
 You already know your records. What tends to go wrong is underneath them.
 
-Getting the data model right, so that the way your organisation actually works is reflected rather than fought. Keeping provenance intact, so a record can still be traced back years later. Making sure something entered today is still findable and still trustworthy decades from now, by someone who never met the person who entered it.
+The data model has to fit how your organisation works, not fight it. Provenance has to hold, so a record can still be traced back years later. And something entered today has to be findable and trustworthy decades from now, by someone who never met the person who entered it.
 
 That is the work. The platform is how we do it, not what we are selling.
 
@@ -105,9 +105,9 @@ We also host the international Arches developer meetup, and have run community e
 
 It is a fair question, and one we would rather answer than dance around.
 
-The software is free. What is not free is moving twenty years of records into it without losing anything. Nor is the data model that has to reflect how your organisation actually works, the integrations, the hosting, or someone who answers in year three when the person who set it up has moved on.
+The software is free. What is not free is moving twenty years of records into it without losing anything. Neither is the data model that has to reflect how your organisation works. Nor are the integrations, the hosting, or someone who answers in year three when the person who set it up has moved on.
 
-That is what you are buying, along with the fact that we have done it before at both ends of the scale.
+That is what you are buying. And we have done it before at both ends of the scale.
 
 * **Registered Arches providers**, working directly with the Arches core team. We ran the workshops that built a roadmap for integrating Arches with modern DevOps practice, and we were the leading team doing so.
 * **We host the international Arches developer meetup.** If you want to judge how seriously we take this platform, that is a reasonable place to look.
@@ -118,7 +118,7 @@ That is what you are buying, along with the fact that we have done it before at 
 
 A fair thing to ask before you start, particularly if you have been locked into something before.
 
-Arches is open source. Your data stays yours, in an open standard, on a platform you could run yourself or hand to another supplier. The schema and integration work we do is published openly wherever it can be. Nothing we build requires our continued involvement in order to keep working.
+Arches is open source. Your data stays yours, in an open standard, on a platform you could run yourself or hand to another supplier. We publish the schema and integration work openly wherever we can. Nothing we build requires our continued involvement in order to keep working.
 
 We would rather you stayed because the work is good than because leaving is painful.
 
