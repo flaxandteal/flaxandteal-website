@@ -5,6 +5,13 @@ date: 2026-09-01T00:00:00Z
 draft: false
 url: "/heritage/"
 
+# Unlisted until the team signs off: kept out of sitemap and de-indexed.
+# Remove both of these to make the page publicly discoverable.
+noindex: true
+_build:
+  list: never
+  render: always
+
 sections:
   - type: hero_products
     heading: "Arches specialists for heritage data that has to last"
