@@ -15,7 +15,7 @@ _build:
 sections:
   - type: hero_products
     heading: "Scale your simulation without hiring an infrastructure team"
-    text: "*Not data engineering. Not IT. Engineers and scientists who have spent years on both sides of that gap, and who build so you can take the work back in-house whenever you want it.*"
+    text: "We are the conduit between simulation and cloud infrastructure. Not data engineering, not IT: engineers and scientists who have spent years on both sides of that gap, and who build so you can take the work back in-house whenever you want it. <br><br> Eleven years. 24 clients, all continuing or completed. Projects from £20,000 to over £1m, delivered from six countries."
   - type: product-text
     order: 1
     heading: "Does this sound familiar?"
@@ -38,7 +38,7 @@ sections:
     bg_color: "#334B4E"
   - type: contact-ctx
     heading: "Tell us what your simulation is limited by"
-    text: "A few sentences on where your analysis stops scaling is enough for us to tell you honestly whether this is something we can help with. If it is not, we will say so. <br><br> info@flaxandteal.co.uk"
+    text: "A few sentences on where your analysis stops scaling is enough for us to tell you honestly whether this is something we can help with. If it is not, we will say so. <br><br> [engineering@flaxandteal.co.uk](mailto:engineering@flaxandteal.co.uk?subject=Simulation%20scaling%20enquiry)"
 ---
 
 ---
@@ -84,8 +84,6 @@ Structural health monitoring and cloud modelling, running for more than four yea
 Including work for the Office for National Statistics.
 
 Sectors we have delivered in: semiconductors, automotive, geophysics, energy, health and life sciences, civil and structural engineering, government statistics.
-
-Across the last several years: 24 clients, all continuing or completed. Projects from £20,000 to over £1m. Eleven years, from a two-country startup to a specialist team across six countries.
 
 *Named references available on request.*
 

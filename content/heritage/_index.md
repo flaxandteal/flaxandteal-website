@@ -15,7 +15,7 @@ _build:
 sections:
   - type: hero_products
     heading: "Heritage records you can still trust years later"
-    text: "*Migration, data modelling, hosting and long-term support for organisations whose records cannot be recreated. We are registered Arches providers, and we contribute to the platform we deploy.*"
+    text: "Migration, data modelling, hosting and long-term support for organisations whose records cannot be recreated. We are registered Arches providers, and we contribute to the platform we deploy."
   - type: product-text
     order: 1
     heading: "Already using Arches?"
@@ -42,7 +42,7 @@ sections:
     bg_color: "#292929"
   - type: contact-ctx
     heading: "Start with what you already have"
-    text: "The most useful first conversation is usually about what you currently hold and what condition it is in. No commitment, and no assumption that Arches is the answer. <br><br> info@flaxandteal.co.uk"
+    text: "The most useful first conversation is usually about what you currently hold and what condition it is in. No commitment, and no assumption that Arches is the answer. <br><br> [heritage@flaxandteal.co.uk](mailto:heritage@flaxandteal.co.uk?subject=Heritage%20data%20enquiry)"
 ---
 
 ---
