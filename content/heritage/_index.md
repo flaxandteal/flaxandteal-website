@@ -1,6 +1,6 @@
 ---
 title: "Cultural Heritage Data"
-description: "Heritage records you can still trust years later. Migration, data modelling, hosting and long-term support for historic environment records, heritage agencies, museums and research consortia."
+description: "Heritage records you can still trust years later. Arches migration, data modelling, hosting and long-term support for historic environment records, heritage agencies, museums and research consortia."
 date: 2026-09-01T00:00:00Z
 draft: false
 url: "/heritage/"
@@ -15,7 +15,7 @@ _build:
 sections:
   - type: hero_products
     heading: "Heritage records you can still trust years later"
-    text: "Migration, data modelling, hosting and long-term support for organisations whose records cannot be recreated. We are registered Arches providers, and we contribute to the platform we deploy."
+    text: "Arches migration, data modelling, hosting and long-term support for organisations whose records cannot be recreated. We are registered Arches providers, and we contribute to the platform we deploy."
   - type: product-text
     order: 1
     heading: "Already using Arches?"
