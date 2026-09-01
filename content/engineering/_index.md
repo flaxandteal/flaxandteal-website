@@ -1,6 +1,6 @@
 ---
 title: "Scientific Software & Simulation"
-description: "Scientific software, simulation orchestration and cloud infrastructure for engineering and R&D teams. We sit between your simulation work and the infrastructure it needs to scale."
+description: "Scale your simulation without hiring an infrastructure team. Simulation orchestration, scientific software engineering and the cloud and HPC infrastructure underneath, treated as one problem."
 date: 2026-09-01T00:00:00Z
 draft: false
 url: "/engineering/"
@@ -14,99 +14,107 @@ _build:
 
 sections:
   - type: hero_products
-    heading: "Scientific software and simulation, built to scale"
-    text: "*What stops you simulating more? Usually not the physics. We sit between your simulation work and the infrastructure it needs to run: not data engineering, not IT, but engineers and scientists who have spent years on both sides of that gap.*"
+    heading: "Scale your simulation without hiring an infrastructure team"
+    text: "*Not data engineering. Not IT. Engineers and scientists who have spent years on both sides of that gap, and who build so you can take the work back in-house whenever you want it.*"
   - type: product-text
     order: 1
-    heading: "What we do"
+    heading: "Does this sound familiar?"
     bg_color: "#334B4E"
   - type: product-text
     order: 2
-    heading: "Where we typically help"
+    heading: "Why this is harder than it looks"
     bg_color: "#292929"
   - type: product-text
     order: 3
-    heading: "How you can work with us"
+    heading: "What we have done"
     bg_color: "#334B4E"
   - type: product-text
     order: 4
-    heading: "Selected work"
+    heading: "How to start"
     bg_color: "#292929"
   - type: product-text
     order: 5
-    heading: "Why us"
+    heading: "What you keep"
     bg_color: "#334B4E"
   - type: contact-ctx
-    heading: "Let’s work together"
-    text: "Tell us what your simulation work is currently limited by, and we’ll tell you honestly whether we can help. <br><br> For enquiries email info@flaxandteal.co.uk"
+    heading: "Tell us what your simulation is limited by"
+    text: "A few sentences on where your analysis stops scaling is enough for us to tell you honestly whether this is something we can help with. If it is not, we will say so. <br><br> info@flaxandteal.co.uk"
 ---
 
 ---
 
-We build the layer between scientific models and the compute they need. That means simulation orchestration, scientific software engineering, and the cloud and HPC infrastructure underneath, treated as one problem rather than three.
+Most teams find us when modelling has quietly turned from an advantage into a constraint. See how many you recognise:
 
-It is a specific gap, and it is one most teams fall into rather than plan for. Simulation is not a data science problem, so data science tooling does not fit it. It is not a general IT problem either, so infrastructure teams tend to solve the wrong half. Our engineers have worked on both sides of that line, in oil and gas, semiconductor fabrication, household-name simulation software, and government analysis, which is why we are usually brought in once someone has already tried the other two routes.
-
-We work in open technologies by conviction, and we build so that you can take the work back in-house when you are ready. Your code stays yours.
-
----
-
-Teams usually come to us when modelling capability has quietly turned into a constraint:
-
-* Analysis that no longer scales past individual machines, or past one person's laptop
-* Legacy solver code, in Python, C++, Fortran or a mix, that has become difficult to extend safely
-* Desktop or on-premise tools that now need secure cloud or HPC enablement
-* Parameter searches and bursty, high-volume runs that hardware cannot absorb
+* Your analysis no longer scales past individual machines, or past one person's laptop
+* Solver code, in Python, C++, Fortran or a mix of all three, that has become risky to extend
+* Desktop or on-premise tools that now need secure cloud or HPC access
+* Parameter searches and bursty, high-volume runs your hardware cannot absorb
 * Results nobody can find again, because runs are not searchable across the team
 * Internal R&D tooling that needs to become something the wider engineering team can rely on
-* Scaling risks the team knows are coming, but has not had time to learn
+* Scaling problems you know are coming, and have not had time to learn
 
-If more than two of those are true at once, the problem is usually architectural rather than incremental.
+If more than two of those are true at once, the problem is usually architectural rather than incremental, and no amount of additional hardware will fix it.
+
+---
+
+Simulation is not a data science problem, so data science tooling does not fit it. It is not a general IT problem either, so infrastructure teams tend to solve the wrong half.
+
+That is why this work so often lands nowhere. Your modellers do not own the infrastructure, and the people who own the infrastructure do not model.
+
+We do both. Our engineers have worked across oil and gas, semiconductor fabrication, household-name simulation software and government analysis. We are usually brought in after a team has already tried the other two routes, which means we spend very little of your budget rediscovering things you have already paid to learn.
 
 ---
 
-**Analysis scale-up**
-
-Getting simulation orchestration right the first time. Architecture, implementation and deployment for scalable analysis, built on proven design patterns rather than discovered the hard way. Typically starts with a short discovery or feasibility stage so you can see how we work before committing further.
-
-**Team extension**
-
-Our engineers embedding directly in your team, from sprint tickets to multi-year programmes. Collaborative, up to 30 hours per person per week, across UK, EU, US and India time zones, and in certain cases with pre-security-cleared staff for sensitive government or private work.
-
-**The missing SLA**
-
-Open source drives your research, but support for it is scarce. We cover that gap: time-boxed support for the open scientific tooling your work depends on, so your team stays focused on the science rather than the stack.
-
-Most engagements begin small and deliberately low-risk: a feasibility assessment, a proof of concept, or an architecture and roadmap review.
-
----
+Most of our engineering work is confidential, so here is what we can tell you.
 
 **Semiconductor optics simulation**
 
-Refactoring licensed, legacy simulation code into modular, cloud-ready workflows, enabling high-volume bursty simulation across teams. Modularisation and optimisation were estimated to unlock savings upwards of €60m.
+Licensed, legacy simulation code refactored into modular, cloud-ready workflows, enabling high-volume bursty simulation across teams. Modularisation and optimisation were estimated to unlock savings upwards of €60m.
 
 **Sensor and telemetry systems**
 
 Near-real-time ingestion and analysis of large-scale sensor data on secure, multi-tenant cloud infrastructure, with machine learning integrated into operational systems rather than bolted on beside them.
 
-**Scientific R&D collaboration**
-
-FEM-based electromagnetic modelling and HPC-enabled 3D simulation, developed as reproducible open pipelines alongside the domain experts who own the physics.
-
 **Structural and civil telemetry**
 
 Structural health monitoring and cloud modelling, running for more than four years.
 
-Across the last several years: 24 clients, all continuing or completed, on projects from £20,000 to over £1m, delivered by a team spanning six countries.
+**Government statistics and analysis**
+
+Including work for the Office for National Statistics.
+
+Sectors we have delivered in: semiconductors, automotive, geophysics, energy, health and life sciences, civil and structural engineering, government statistics.
+
+Across the last several years: 24 clients, all continuing or completed. Projects from £20,000 to over £1m. Eleven years, from a two-country startup to a specialist team across six countries.
+
+*Named references available on request.*
 
 ---
 
-We are a specialist team, not a general software house, and the specialism is narrow on purpose.
+**A feasibility assessment**
 
-* Simulation orchestration is not cloud plus data. Treating it that way, with static algorithms and black-box experiments, is the most common and most expensive mistake we are called in to undo.
-* We build non-black-box systems you can search, inspect and eventually run yourselves. No vendor lock-in, and knowledge transfer is part of delivery rather than an afterthought.
-* Clear IP boundaries. Client-owned code stays client-owned, and open source is used strategically, not ideologically.
-* Deep credentials where they matter: a PhD-level physics and mathematics bench, and certified Kubernetes architecture experience that is rare in this space.
-* ISO 27001 certified and Cyber Essentials Plus, with experience of government and highly sensitive commercial work.
+Short and bounded: is this possible, what would it take, where are the risks. Deliberately low cost and low risk, and the output is yours whether or not you go further.
+
+**Analysis scale-up**
+
+Architecture, implementation and deployment for scalable analysis, built on design patterns we have already proven rather than ones you discover the hard way.
+
+**Team extension**
+
+Our engineers embedded in your team, from sprint tickets to multi-year programmes. Up to 30 hours per person per week, across UK, EU, US and India time zones, with pre-security-cleared staff available for sensitive government or commercial work.
+
+**Support for the open tools you depend on**
+
+Open source drives your research, and formal support for it barely exists. We cover that gap on a time-boxed basis, so your team stays on the science rather than the stack.
+
+---
+
+This matters more than it tends to sound, so we will be explicit about it.
+
+* **Your code stays yours.** Client-owned code remains client-owned, with clear IP boundaries agreed at the start rather than argued about later.
+* **No lock-in.** We build systems you can search, inspect and eventually run without us. Not black boxes.
+* **Knowledge transfer is part of delivery**, not an afterthought and not an upsell.
+* **Open source used strategically, not ideologically.** Where a proprietary tool is the right answer, we will tell you so.
+* **ISO 27001 certified and Cyber Essentials Plus**, with experience of government and highly sensitive commercial work.
 
 ---
