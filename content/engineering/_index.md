@@ -69,7 +69,7 @@ Most of our engineering work is confidential, so here is what we can tell you.
 
 **Semiconductor optics simulation**
 
-We refactored licensed legacy simulation code into modular, cloud-ready workflows, so teams could run high-volume bursty simulation. Estimated saving: over €60m.
+We refactored licensed legacy simulation code into modular, cloud-ready workflows, so teams could run high-volume bursty simulation. The client put the saving at over €60m.
 
 **Sensor and telemetry systems**
 
