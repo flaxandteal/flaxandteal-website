@@ -1,6 +1,6 @@
 ---
 title: "Scientific Software & Simulation"
-description: "The gap between simulation and infrastructure. Simulation orchestration, scientific software engineering and the cloud and HPC infrastructure underneath, treated as one problem."
+description: "We plug the gap between simulation and infrastructure. Simulation orchestration, scientific software engineering and the cloud and HPC infrastructure underneath, treated as one problem."
 date: 2026-09-01T00:00:00Z
 draft: false
 url: "/engineering/"
@@ -14,7 +14,7 @@ _build:
 
 sections:
   - type: hero_products
-    heading: "The gap between simulation and infrastructure"
+    heading: "We plug the gap between simulation and infrastructure"
     text: "Nobody owns it. Your modellers do not, and your infrastructure team does not either. That is the part we build: the conduit between the two. Not data engineering, not IT. <br><br> Our engineers have worked in semiconductor fabrication, oil and gas and public sector analysis. Our team includes PhD level mathematicians and physicists. We build so you can take the work back in-house whenever you want it."
   - type: product-text
     order: 1
