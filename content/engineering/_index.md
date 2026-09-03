@@ -43,7 +43,7 @@ sections:
 
 ---
 
-Most teams find us when modelling has quietly turned from an advantage into a constraint. See how many you recognise:
+Most teams find us when modelling has quietly turned from an advantage into a constraint.
 
 * Your analysis no longer scales past individual machines, or past one person's laptop
 * Solver code, in C, Fortran, or any other older language, that has become risky to extend
