@@ -37,7 +37,7 @@ sections:
     heading: "What you keep"
     bg_color: "#334B4E"
   - type: contact-ctx
-    heading: "Tell us what your simulation is limited by"
+    heading: "What stops you simulating more?"
     text: "A few sentences on where your analysis stops scaling is enough for us to tell you honestly whether this is something we can help with. If it is not, we will say so. If it is, the usual first step is a short feasibility assessment, and the output is yours either way. <br><br> [engineering@flaxandteal.co.uk](mailto:engineering@flaxandteal.co.uk?subject=Where%20our%20simulation%20stops%20scaling)"
 ---
 
