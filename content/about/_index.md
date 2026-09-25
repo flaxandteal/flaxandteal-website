@@ -54,12 +54,6 @@ sections:
         linkedin: 'https://www.linkedin.com/in/andrea-kyurchiev-b2250a15b/'
         bg_color: '#4B7A81'
         text: "Andrea joined Flax & Teal as a free-lance consultant, before coming to work with us permanently as a full-stack developer. He is an experienced and talented developer, working with PHP, Laravel, JavaScript, C-Sharp, VueJS and more. He has experience with both front and back-end development, from initial build to full platform deployment, and is lead developer across our front-end web work."
-      - name: 'Dylan Cree'
-        img: '/images/about/dylan.webp'
-        role: 'Progressing Developer'
-        linkedin: 'https://www.linkedin.com/in/dylan-cree-621345222/'
-        bg_color: '#4B7A81'
-        text: "Dylan joins our team as a Progressing Software Developer, currently completing his undergraduate in Software Engineering from Ulster University. He has strong experience as a front-end developer, and has worked with technologies such as; Java, React and NextJS. He also has experience working with Python and supporting data ingestion pipelines."
       - name: 'Ellery Ames'
         img: '/images/about/ellery-ames.webp'
         role: 'Scientific Software Engineer'
