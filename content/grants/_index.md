@@ -1,7 +1,7 @@
 ---
 title: "Grant Application Support"
 description: "Specialist help for growing businesses applying for business support grants, from compliance checks to full application delivery."
-aliases: ["/dtff/"]
+aliases: ["/dtff/", "/services/dtff_application_support"]
 draft: false
 
 # Add this page to the main menu; adjust the weight to position it
