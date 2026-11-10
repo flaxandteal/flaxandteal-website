@@ -1,4 +1,10 @@
 <section class="hero_clients">
   <h1>{{.ctx.heading | markdownify}}</h1>
   <p>{{.ctx.text | markdownify}}</p>
+  {{with .ctx.cta}}
+  <p style="margin-top: 2rem;"><a class="btn btn-primary" href="{{$.ctx.cta_link}}">{{.}}</a></p>
+  {{end}}
+  {{with .ctx.cta_note}}
+  <p style="margin-top: 1rem; font-size: 16px;">{{. | markdownify | replaceRE "^<p>(.*)</p>$" "$1" | safeHTML}}</p>
+  {{end}}
 </section>
