@@ -106,6 +106,6 @@ Examples of schemes that run in Northern Ireland. Calls open and close through t
 
 **Not sure what applies to you?** Book an initial appointment. We will tell you what is open now and which package fits.
 
-<a class="btn btn-primary" href="https://calendar.app.google/se1cFsh3Q62xjNos8">Book an initial appointment</a>
+<a class="btn btn-primary" style="color: #fff;" href="https://calendar.app.google/se1cFsh3Q62xjNos8">Book an initial appointment</a>
 
 Prefer email? [grants@flaxandteal.co.uk](mailto:grants@flaxandteal.co.uk)
