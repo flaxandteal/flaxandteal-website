@@ -17,11 +17,14 @@ sections:
   - type: hero_clients
     heading: "Grant Application Support for Growing Businesses"
     text: |
-      Business support grants can unlock real capital for growth, but competition is fierce, calls close quickly, and scoring criteria are unforgiving. We help businesses put forward applications that get funded.
+      Funding calls open and close fast. We help you work out which grants fit your business, then put forward an application that scores.
+    cta: "Book an initial appointment"
+    cta_link: "https://calendar.app.google/se1cFsh3Q62xjNos8"
+    cta_note: "Prefer email? [grants@flaxandteal.co.uk](mailto:grants@flaxandteal.co.uk)"
     bg_color: "#394E51"
     color: "#FFFFFF"
 
-  # First left/right section: header
+  # First left/right section: the challenge and the packages
   - type: l_r
     order: 0
     heading: "Grant Application Support"
@@ -30,7 +33,7 @@ sections:
     color: "#9BCCC1"
     reverse: false
 
-  # Second left/right section: why work with us
+  # Second left/right section: how it works and our experience
   - type: l_r
     order: 1
     heading: "Why Work With Flax & Teal?"
@@ -39,7 +42,7 @@ sections:
     color: "#394E51"
     reverse: true
 
-  # Third left/right section: final call to action
+  # Third left/right section: funding examples and final call to action
   - type: l_r
     order: 2
     heading: "Start Your Grant Application Today"
@@ -49,42 +52,60 @@ sections:
     reverse: false
 ---
 
-#### Grant funding rounds are competitive by design. Funders receive far more applications than they can support, deadlines are fixed, and scoring panels mark strictly against published criteria. A strong business with a good idea can still lose out simply because the application doesn't communicate it in the way assessors are trained to score.
+#### Grant rounds are competitive by design. Funders get far more applications than they can support, deadlines are fixed, and panels mark strictly against published criteria. Most businesses applying are doing it for the first time, alongside running the business, with no way to know if the application is competitive until the result comes back.
 
-#### Most businesses applying for a grant are doing it for the first time, alongside running the business itself. Getting it right without support usually means late nights, uncertainty about what "good" looks like, and no way to know if the finished application is actually competitive until the result comes back.
+**Our packages**
+
+**Compliance Check**  
+You have a draft and want it checked against the scoring criteria.
+
+**Strengthening**  
+You have a draft that needs reworking to score higher.
+
+**Application Writing**  
+You want us to write it from your business information.
+
+**Full-Service**  
+You want us to run it end to end, including follow up steps.
+
+*Pricing depends on the scheme and the scope. We confirm it at your appointment.*
 
 <hr>
 
-#### ✔ **Multi-scheme expertise:** We've supported successful applications across a range of business support grants, not just one scheme, so we know how scoring panels think regardless of which fund is running.  
-#### ✔ **Proven track record:** Our clients have a strong record of successful outcomes.  
-#### ✔ **Flexible packages:** Support scaled to what you actually need, from a quick compliance check to full end-to-end delivery.  
-#### ✔ **Time savings:** We do the heavy lifting on writing and structuring, so you can stay focused on running your business.  
-#### ✔ **Confidence in meeting criteria:** Every package is built around the specific scoring criteria of the fund you're applying to, not generic grant-writing templates.
+**How it works**
+
+1. <a href="https://calendar.app.google/se1cFsh3Q62xjNos8" style="color: inherit; text-decoration: underline;">Book an initial appointment</a> to talk through your grant and where you need support.
+2. We recommend the right package and confirm the price for your scheme and timeline.
+3. We get to work, from a compliance check through to submission.
+
+**Why Flax & Teal**
+
+✔ **Built around the scoring criteria:** every package follows the specific criteria of the fund you are applying to, not generic grant writing templates.  
+✔ **Time back:** we do the heavy lifting on writing and structuring, so you can run your business.  
+✔ **A close view of Northern Ireland business support:** see below.
+
+**Where we have worked**
+
+**Digital Transformation Flexible Fund (DTFF):** it gave Northern Ireland SMEs £5,000 to £20,000 in capital to adopt advanced digital technologies. We supported applicants across all four packages, from compliance checks to full service delivery.
+
+**Go Succeed mentoring:** we have mentored Northern Ireland businesses under Go Succeed, the region's business support programme. It gives us a close view of what businesses need to get funded, and where they get stuck.
 
 <hr>
-#### 
-**Level 1: Compliance Check**  
-We review your draft application against the funder's scoring criteria and flag anything that risks losing marks or disqualifying the submission.  
-*From £375*
 
-**Level 2: Strengthening**  
-We review and rework your draft, with specific guidance on how to improve scoring against each assessment criterion.  
-*From £750*
+**The kind of funding we help with**
 
-**Level 3: Application Writing**  
-We draft your full application from the ground up, working from your business information to produce a submission-ready document.  
-*From £1,500*
+Examples of schemes that run in Northern Ireland. Calls open and close through the year, so ask us what is open when you book.
 
-**Level 4: Full-Service**  
-End-to-end support from your initial expression of interest through to submission, and any follow-up procurement or due diligence steps.  
-*From £3,000*
+1. **Growth and export:** Invest NI Ambition to Grow, Groundwork for Growth.
+2. **Innovation and R&D:** Invest NI Innovation Vouchers and Business Innovation Grant, Innovate UK Knowledge Transfer Partnerships.
+3. **Premises and capital:** council capital and internal improvement grants.
+4. **Skills:** council employee upskilling funds.
+5. **Digital and AI:** DTFF (now closed), and the Mid Ulster AI Business Programme.
 
-One example of our grant application work: the Digital Transformation Flexible Fund (DTFF), which provided Northern Ireland SMEs with between £5,000 and £20,000 in capital to adopt advanced digital technologies. We supported applicants across all four package tiers, from compliance checks through to full-service application delivery.
+*Examples only, not a current list. Eligibility and dates change, and some Invest NI schemes are for existing clients only.*
 
-**Getting started:**
+**Not sure what applies to you?** Book an initial appointment. We will tell you what is open now and which package fits.
 
-1. Get in touch to talk through your grant and where you need support.
-2. We recommend the right package for your situation and timeline.
-3. We get to work, from a compliance check through to full application delivery.
+<a class="btn btn-primary" href="https://calendar.app.google/se1cFsh3Q62xjNos8">Book an initial appointment</a>
 
-Contact us at [grants@flaxandteal.co.uk](mailto:grants@flaxandteal.co.uk).
+Prefer email? [grants@flaxandteal.co.uk](mailto:grants@flaxandteal.co.uk)
