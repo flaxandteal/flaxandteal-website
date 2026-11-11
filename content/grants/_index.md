@@ -29,6 +29,7 @@ sections:
     order: 0
     heading: "Grant Application Support"
     img: "/images/grants/grants-packages.webp"
+    img_alt: "Application pages marked up with pencil, pen and sticky notes, spread on a wooden table beside two mugs of tea"
     bg_color: "#292929"
     color: "#9BCCC1"
     reverse: false
@@ -38,6 +39,7 @@ sections:
     order: 1
     heading: "Why Work With Flax & Teal?"
     img: "/images/grants/grants-why-work.webp"
+    img_alt: "Two people seen from behind, sitting side by side at a wooden table and working through something together on a laptop"
     bg_color: "#9BCCC1"
     color: "#394E51"
     reverse: true
@@ -47,6 +49,7 @@ sections:
     order: 2
     heading: "Start Your Grant Application Today"
     img: "/images/grants/grants-start.webp"
+    img_alt: "A wooden table set for two with mugs of tea, biscuits and an open notebook, and a chair pulled out"
     bg_color: "#F6F4EB"
     color: "#000000"
     reverse: false
