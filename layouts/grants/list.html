@@ -1,1 +1,5 @@
 {{ .Render "context-list" }}
+{{ $address := dict "@type" "PostalAddress" "streetAddress" "Farset Labs, Weavers Court, Linfield Road" "addressLocality" "Belfast" "postalCode" "BT12 5GH" "addressCountry" "GB" }}
+{{ $provider := dict "@type" "Organization" "name" "Flax & Teal Limited" "url" "https://flaxandteal.co.uk/" "address" $address }}
+{{ $schema := dict "@context" "https://schema.org" "@type" "Service" "name" .Title "serviceType" "Grant application support" "description" .Params.description "url" .Permalink "areaServed" (dict "@type" "AdministrativeArea" "name" "Northern Ireland") "provider" $provider }}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>

@@ -1,6 +1,7 @@
 ---
 title: "Grant Application Support"
-description: "Specialist help for growing businesses applying for business support grants, from compliance checks to full application delivery."
+seo_title: "Grant Application Support in Northern Ireland | Flax & Teal"
+description: "Grant application support for Northern Ireland businesses: compliance checks, strengthening, writing or full service. Book an initial appointment."
 aliases: ["/dtff/", "/services/dtff_application_support"]
 draft: false
 
