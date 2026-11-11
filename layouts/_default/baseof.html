@@ -2,8 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Flax &amp; Teal - Software Development | Data Science | Consultancy - Open Source in Business</title>
+  <title>{{ with .Params.seo_title }}{{ . }}{{ else }}Flax &amp; Teal - Software Development | Data Science | Consultancy - Open Source in Business{{ end }}</title>
   <meta charset="UTF-8"/>
+  {{ with .Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ with .Params.seo_title }}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Flax &amp; Teal">
+  <meta property="og:title" content="{{ . }}">
+  <meta property="og:url" content="{{ $.Permalink }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ . }}">
+  {{ with $.Params.description }}
+  <meta property="og:description" content="{{ . }}">
+  <meta name="twitter:description" content="{{ . }}">
+  {{ end }}
+  {{ end }}
 
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon-32.png" | relURL }}">
   <link rel="icon" type="image/png" sizes="192x192" href="{{ "images/favicon.png" | relURL }}">
