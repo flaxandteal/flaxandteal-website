@@ -28,7 +28,7 @@ sections:
   - type: l_r
     order: 0
     heading: "Grant Application Support"
-    img: "/images/dtff/packages.png"
+    img: "/images/grants/grants-packages.webp"
     bg_color: "#292929"
     color: "#9BCCC1"
     reverse: false
@@ -37,7 +37,7 @@ sections:
   - type: l_r
     order: 1
     heading: "Why Work With Flax & Teal?"
-    img: "/images/dtff/why-work.png"
+    img: "/images/grants/grants-why-work.webp"
     bg_color: "#9BCCC1"
     color: "#394E51"
     reverse: true
@@ -46,7 +46,7 @@ sections:
   - type: l_r
     order: 2
     heading: "Start Your Grant Application Today"
-    img: "/images/dtff/get-started.png"
+    img: "/images/grants/grants-start.webp"
     bg_color: "#F6F4EB"
     color: "#000000"
     reverse: false
