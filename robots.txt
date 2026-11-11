@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://flaxandteal.co.uk/sitemap.xml
