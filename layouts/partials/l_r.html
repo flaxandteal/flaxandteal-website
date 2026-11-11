@@ -10,7 +10,7 @@
        </div>
       </div>
       <div class="right">
-        <img src="{{.ctx.img}}" alt="an image depicting {{ .ctx.heading | lower }}">
+        <img src="{{.ctx.img}}" alt="{{ .ctx.img_alt | default (printf "an image depicting %s" (.ctx.heading | lower)) }}">
       </div>
     </div>
   </div>
